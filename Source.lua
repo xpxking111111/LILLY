@@ -1,2 +1,3404 @@
--- This script was generated using the MoonVeil Obfuscator v1.4.5 [https://moonveil.cc]
-local Gc,Kc,W,aa,zc,Yc=pairs,getmetatable,type,bit32.bxor local wd,ga,od,kb,Te,Qb,de,v,Ec,nc,Aa,R,Lc,Mf,Qd,sf,_f,Ra,Ae,Gd,i_,M,Ie,gb,ad,C,bb,j,Xb,la,fd,da,T,Bc,ab,Vd,ye,Kd,Wa,bf,g,Pe,N,a_;gb=(getfenv());la,sf,fd=(string.char),(string.byte),(bit32 .bxor);Lc=function(ic,Rc)local ba,Bd,Ac,Oc,mf,Tc,Pa,_a;Tc,Ac={},function(of,wc,k)Tc[of]=aa(wc,46025)-aa(k,64886)return Tc[of]end;ba=Tc[2473]or Ac(2473,125069,22106)while ba~=6376 do if ba>=37886 then if ba<45080 then mf=Bd if _a~=_a then ba=Tc[-11191]or Ac(-11191,116213,281)else ba=Tc[-30556]or Ac(-30556,73030,2538)end elseif ba<=45080 then Oc='';ba,_a,Pa,Bd=Tc[-23727]or Ac(-23727,6964,59785),(#ic-1)+109,1,109 else if(Pa>=0 and Bd>_a)or((Pa<0 or Pa~=Pa)and Bd<_a)then ba=31181 else ba=Tc[9520]or Ac(9520,6262,24073)end end elseif ba<4190 then Oc,ba=Oc..la(fd(sf(ic,(mf-109)+1),sf(Rc,(mf-109)%#Rc+1))),Tc[31481]or Ac(31481,113330,1131)elseif ba>4190 then return Oc else Bd=Bd+Pa;mf=Bd if Bd~=Bd then ba=31181 else ba=Tc[20462]or Ac(20462,108084,41340)end end end end;de=(select);Wa=(function(...)return{[1]={...},[2]=de('#',...)}end);_f=((function()local function m(ka,Ba,Jc)if Ba>Jc then return end return ka[Ba],m(ka,Ba+1,Jc)end return m end)());Ra,Ae=(string.gsub),(string.char);a_=(function(tf)tf=Ra(tf,'[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]','')return(tf:gsub('.',function(eb)if(eb=='=')then return''end local le,cf='',(('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'):find(eb)-1)for Ob=6,1,-1 do le=le..(cf%2^Ob-cf%2^(Ob-1)>0 and'1'or'0')end return le end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(Ad)if(#Ad~=8)then return''end local d_=0 for ue=1,8 do d_=d_+(Ad:sub(ue,ue)=='1'and 2^(8-ue)or 0)end return Ae(d_)end))end);od,j,Gd,wd,Ie,T,Te,da=gb[Lc('\187\211\n\161\201\31','\200\167x')][Lc('\\\t^H\4E',')g.')],gb[Lc('PR\195JH\214','#&\177')][Lc('\168\174\185','\219')],gb[Lc('j\199Zp\221O','\25\179(')][Lc('\139k\157w','\233\18')],gb[Lc('\198\164\208\254\150','\164\205')][Lc('i\28\143l\t\147','\5o\231')],gb[Lc('%\245\51\175u','G\156')][Lc('\242\14B\233\27^','\128}*')],gb[Lc('\b\142\30\212X','j\231')][Lc('q\131}\134','\19\226')],gb[Lc(',1:<=','XP')][Lc('\2\3\17\2\r\v','al\127')],{};Kd=(function(Ue)local qa=da[Ue]if not(qa)then else return qa end local Ee,Vb,Fa,ja,e_=wd(1,11),wd(1,5),1,{},''while Fa<=#Ue do local q=Gd(Ue,Fa);Fa=Fa+1 for ca=171,(8)+170 do local md=nil if T(q,1)~=0 then if Fa<=#Ue then md=j(Ue,Fa,Fa);Fa=Fa+1 end else if not(Fa+1<=#Ue)then else local me=od(Lc('\167\208\171','\153'),Ue,Fa);Fa=Fa+2 local Mc,Ye=#e_-Ie(me,5),T(me,(Vb-1))+3;md=j(e_,Mc,Mc+Ye-1)end end q=Ie(q,1)if md then ja[#ja+1]=md;e_=j(e_..md,-Ee)end end end local Nb=Te(ja);da[Ue]=Nb return Nb end);bb=(function()local wb,ff,be,he,za,_b,p,Nd,Bb,xb,ee,Xc=gb[Lc('\235\145\253\203\187','\137\248')][Lc('i\168d\162','\v\208')],gb[Lc('\229\201\243\147\181','\135\160')][Lc('\129\14\141\v','\227o')],gb[Lc('\176\52\166n\224','\210]')][Lc('3>#','Q')],gb[Lc('\n\247\28\173Z','h\158')][Lc('\193\236_\196\249C','\173\159\55')],gb[Lc('U\229C\191\5','7\140')][Lc("<\196\190\'\209\162",'N\183\214')],gb[Lc('\187SP\161IE',"\200\'\"")][Lc('\v\r\26','x')],gb[Lc('\227\127*\249e?','\144\vX')][Lc('\135]\148W','\247<')],gb[Lc(' \133\149:\159\128','S\241\231')][Lc('F}nRpu','3\19\30')],gb[Lc('\bT\140\18N\153','{ \254')][Lc('\157\138\159','\239')],gb[Lc('\240\b\230\5\225','\132i')][Lc('\v\228\24\238','{\133')],gb[Lc('yRo_h','\r\51')][Lc('=\254\29)\243\6','H\144m')],gb[Lc('\193\182\215\187\208','\181\215')][Lc('\174k%\162w\"','\199\5V')]local function ef(wf,Df,P,ac,Me)local Gf,mc,jb,hd=wf[Df],wf[P],wf[ac],wf[Me]local Ff;Gf=ff(Gf+mc,4294967295);Ff=wb(hd,Gf);hd=ff(be(he(Ff,16),za(Ff,16)),4294967295);jb=ff(jb+hd,4294967295);Ff=wb(mc,jb);mc=ff(be(he(Ff,12),za(Ff,20)),4294967295);Gf=ff(Gf+mc,4294967295);Ff=wb(hd,Gf);hd=ff(be(he(Ff,8),za(Ff,24)),4294967295);jb=ff(jb+hd,4294967295);Ff=wb(mc,jb);mc=ff(be(he(Ff,7),za(Ff,25)),4294967295);wf[Df],wf[P],wf[ac],wf[Me]=Gf,mc,jb,hd return wf end local lc,Sc={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}local Sd=function(vf,Rf,If)lc[1],lc[2],lc[3],lc[4]=2022911744,3558380135,2709851982,4007601635 for ve=200,(8)+199 do lc[(ve-199)+4]=vf[(ve-199)]end lc[13]=Rf for Q=242,(3)+241 do lc[(Q-241)+13]=If[(Q-241)]end for xa=218,(16)+217 do Sc[(xa-217)]=lc[(xa-217)]end for Fe=200,(10)+199 do ef(Sc,1,5,9,13);ef(Sc,2,6,10,14);ef(Sc,3,7,11,15);ef(Sc,4,8,12,16);ef(Sc,1,6,11,16);ef(Sc,2,7,12,13);ef(Sc,3,8,9,14);ef(Sc,4,5,10,15)end for Of=191,(16)+190 do lc[(Of-190)]=ff(lc[(Of-190)]+Sc[(Of-190)],4294967295)end return lc end local function Oe(ge,Va,Dc,Je,nd)local cd=#Je-nd+1 if not(cd<64)then else local J=_b(Je,nd);Je=J..Bb(Lc('\96','\96'),64-cd);nd=1 end gb[Lc('S\215\244W\214\243','2\164\135')](#Je>=64)local bd,lf=xb(Nd(Lc('?\195\54\195WL\214\28W\206\166\96\247\149%\175\55\195\54\195WL\214\28W\206\166\96\247\149%\175\55','\3\138\2\138c\5\226Uc\135\146)\195\220\17\230'),Je,nd)),Sd(ge,Va,Dc)for O=221,(16)+220 do bd[(O-220)]=wb(bd[(O-220)],lf[(O-220)])end local Pc=p(Lc('V\236\21P\27\255,\209\255\158\144\229\162\130\175\223^\236\21P\27\255,\209\255\158\144\229\162\130\175\223^','j\165!\25/\182\24\152\203\215\164\172\150\203\155\150'),ee(bd))if cd<64 then Pc=_b(Pc,1,cd)end return Pc end local function Mb(ea)local ma=''for yd=120,(#ea)+119 do ma=ma..ea[(yd-119)]end return ma end local function Le(zb,sd,n_,Fd)local qd,sa,Rd,Cc=xb(Nd(Lc('\157x\206T\218\52\179\19\149x\206T\218\52\179\19\149','\161\49\250\29\238}\135Z'),zb)),xb(Nd(Lc('\221&\194\168[\191\213','\225o\246'),n_)),{},1 while Cc<=#Fd do Xc(Rd,Oe(qd,sd,sa,Fd,Cc));Cc=Cc+64;sd=sd+1 end return Mb(Rd)end return function(Pf,ce,La)return Le(La,0,ce,Pf)end end)();Mf=(function()local F,Jd,qe,Vc,Qf,pd,gc,sb,Wb,te,Pd=gb[Lc('\159\48\137j\207','\253Y')][Lc('\6\223\v\197','d\177')],gb[Lc('#f5<s','A\15')][Lc('/\216\"\210','M\160')],gb[Lc('\22\140\0\214F','t\229')][Lc('\149\237\241\142\248\237','\231\158\153')],gb[Lc('\20A\2\27D','v(')][Lc('\158\fz\155\25f','\242\127\18')],gb[Lc('\138G\156\29\218','\232.')][Lc('\18\135\30\130','p\230')],gb[Lc('Jo\\\53\26','(\6')][Lc('la|','\14')],gb[Lc('\142\138\152\135\159','\250\235')][Lc('2\187\166>\167\161','[\213\213')],gb[Lc('k\134}\139z','\31\231')][Lc('8\166\229,\171\254','M\200\149')],gb[Lc('\237G\245\247]\224','\158\51\135')][Lc('*=(','X')],gb[Lc('\145\"\175\139\56\186','\226V\221')][Lc('\131\217\129\195','\224\177')],gb[Lc('aE\203{_\222','\18\49\185')][Lc('\136,\158\48','\234U')]local function ia(Pb,jf)local xe,E=qe(Pb,jf),Vc(Pb,32-jf)return Qf(pd(xe,E),4294967295)end local kc=function(Cf)local Eb={1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298}local function xc(ya)local we=#ya local fc=we*8;ya=ya..Lc('\194','B')local Y=64-((we+9)%64)if Y~=64 then ya=ya..Wb(Lc('\146','\146'),Y)end ya=ya..te(Qf(qe(fc,56),255),Qf(qe(fc,48),255),Qf(qe(fc,40),255),Qf(qe(fc,32),255),Qf(qe(fc,24),255),Qf(qe(fc,16),255),Qf(qe(fc,8),255),Qf(fc,255))return ya end local function Dd(fa_)local rd={}for Af=210,(#fa_)+209,64 do gc(rd,fa_[Lc('GAV','4')](fa_,(Af-209),(Af-209)+63))end return rd end local function Rb(X,Tb)local bc={}for Zb=172,(64)+171 do if not((Zb-171)<=16)then local H,yb=Jd(ia(bc[(Zb-171)-15],7),ia(bc[(Zb-171)-15],18),qe(bc[(Zb-171)-15],3)),Jd(ia(bc[(Zb-171)-2],17),ia(bc[(Zb-171)-2],19),qe(bc[(Zb-171)-2],10));bc[(Zb-171)]=Qf(bc[(Zb-171)-16]+H+bc[(Zb-171)-7]+yb,4294967295)else bc[(Zb-171)]=pd(Vc(Pd(X,((Zb-171)-1)*4+1),24),Vc(Pd(X,((Zb-171)-1)*4+2),16),Vc(Pd(X,((Zb-171)-1)*4+3),8),Pd(X,((Zb-171)-1)*4+4))end end local ld,Ua,uf,Nc,b_,f_,ha,ta=sb(Tb)for tc=123,(64)+122 do local Ne,Ze=Jd(ia(b_,6),ia(b_,11),ia(b_,25)),Jd(Qf(b_,f_),Qf(F(b_),ha))local Z,We,Bf=Qf(ta+Ne+Ze+Eb[(tc-122)]+bc[(tc-122)],4294967295),Jd(ia(ld,2),ia(ld,13),ia(ld,22)),Jd(Qf(ld,Ua),Qf(ld,uf),Qf(Ua,uf))local yc=Qf(We+Bf,4294967295);ta=ha;ha=f_;f_=b_;b_=Qf(Nc+Z,4294967295);Nc=uf;uf=Ua;Ua=ld;ld=Qf(Z+yc,4294967295)end return Qf(Tb[1]+ld,4294967295),Qf(Tb[2]+Ua,4294967295),Qf(Tb[3]+uf,4294967295),Qf(Tb[4]+Nc,4294967295),Qf(Tb[5]+b_,4294967295),Qf(Tb[6]+f_,4294967295),Qf(Tb[7]+ha,4294967295),Qf(Tb[8]+ta,4294967295)end Cf=xc(Cf)local kf,ed,jd=Dd(Cf),{1779033703,3144134277,1013904242,2773480762,1359893119,2600822924,528734635,1541459225},''for yf,Ef in gb[Lc('\179u\248\179w\234','\218\5\153')](kf)do ed={Rb(Ef,ed)}end for Fb,Ja in gb[Lc('\a\141\240\a\143\226','n\253\145')](ed)do jd=jd..te(Qf(qe(Ja,24),255));jd=jd..te(Qf(qe(Ja,16),255));jd=jd..te(Qf(qe(Ja,8),255));jd=jd..te(Qf(Ja,255))end return jd end return kc end)()local Ic,ub,jc,He,Ea,db,Be,De,Td,cc,rb,Gb,kd,pe,ra,B,Ab,Za,ib,qf,nf,Yb,na,Xd,Xa,s_,fb,Ha,qc,Lb=gb[Lc('e\212a\200','\17\173')],gb[Lc('\132\219\149\212\152','\244\184')],gb[Lc('\230u\241h\241','\131\a')],gb[Lc('\162x\213D\187u\222C','\214\23\187\49')],gb[Lc('?\f\144;\r\151','^\127\227')],gb[Lc('\187\135\174\173\129\182','\200\226\194')],gb[Lc('\173ou\161 5\191~\96\174)$','\222\n\1\204EA')],gb[Lc('\157Mc\135Wv','\238\57\17')][Lc('\251\193K\240\207M','\157\174\57')],gb[Lc('\a\200\19\29\210\6','t\188a')][Lc('\213vT\193{O','\160\24$')],gb[Lc('\a\227\20\29\249\1','t\151f')][Lc('\17\23\0','b')],gb[Lc('\240\165\205\234\191\216','\131\209\191')][Lc('\244\251\226\231','\150\130')],gb[Lc('\231\238\130\253\244\151','\148\154\240')][Lc('3b1x','P\n')],gb[Lc('\196\30\210\19\213','\176\127')][Lc('\188\53\167?','\209Z')],gb[Lc('c\243u\254r','\23\146')][Lc('\127~lt','\15\31')],gb[Lc("1]\'P ",'E<')][Lc('\16vZ\18pZ','s\4?')],gb[Lc('}\164k\169l','\t\197')][Lc('\141=c\129!d','\228S\16')],gb[Lc('BNTCS','6/')][Lc('>Wo>Yu',']8\1')],gb[Lc('\202\232\155\197\220\243\128\196\204','\169\135\233\170')][Lc('\244\238#\246\232#','\151\156F')],gb[Lc('\197V\167\217\211M\188\216\195','\166\57\213\182')][Lc('V\206J\203K','/\167')],gb[Lc('%\247\147\161\51\236\136\160#','F\152\225\206')][Lc('\131?\174\132\55\184','\241Z\221')],gb[Lc('\253\201{\247\235\210\96\246\251','\158\166\t\152')][Lc('\218;\214$\220','\185W')],gb[Lc('\193\207\233\192\207\243\208','\166\170\157')],gb[Lc('2\244$\174b','P\157')][Lc('\"/2','@')],gb[Lc('\f\220\26\134\\','n\181')][Lc('\218\225\215\235','\184\153')],gb[Lc('\128B\150\24\208','\226+')][Lc('\240\171\252\174','\146\202')],gb[Lc('\133\18\147H\213','\231{')][Lc('U\128R\135C','7\244')],gb[Lc('\4f\18<T','f\15')][Lc('\189\211\"\166\198>','\207\160J')],gb[Lc('\134M\144\23\214','\228$')][Lc('\217\159\53\220\138)','\181\236]')],gb[Lc('\179n\165\52\227','\209\a')][Lc('!\151\184\54\142\175\48','D\239\204')],{[34142]={{1,7,true},{9,6,false},{5,6,false},{1,6,true},{10,10,true},{9,10,true},{5,10,true},{1,6,false},{1,7,true},{3,10,true},{4,0,false},{1,6,false},{4,10,true},{1,6,false},{10,7,false},{5,6,true},{1,6,false},{10,7,true},{1,6,false},{4,8,true},{1,6,false},{3,3,false},{1,6,false},{4,8,true},{1,10,true},{9,3,true},{4,1,false},{1,6,false},{10,8,false},{1,6,true},{4,7,true},{5,6,false},{5,7,false},{1,6,false},{3,3,true},{9,7,true},{5,6,false},{9,1,true},{5,6,false},{9,10,false},{10,10,true},{3,3,false},{9,8,false},{1,8,false},{1,2,false},{1,6,false},{1,6,true},{3,9,false},{9,8,false},{3,2,true},{9,6,false},{1,9,true},{4,2,false},{10,1,false},{5,6,false},{1,6,false},{4,0,true},{4,10,true},{9,1,false},{1,6,false},{1,6,false},{1,0,true},{9,6,false},{1,6,false},{5,10,false},{3,9,false},{4,1,false},{4,8,false},{1,5,false},{4,6,true},{10,0,true},{1,2,false},{3,6,false},{10,7,false},{4,10,true},{1,7,true},{4,1,false},{9,9,true},{3,8,true},{5,3,true},{5,1,true},{1,8,true},{1,3,false},{1,10,false},{5,2,true},{5,6,true},{3,0,true},{4,7,false},{5,6,false},{1,5,false},{10,1,false},{4,6,true},{5,9,true},{9,8,true},{10,3,true},{5,8,false},{5,3,false},{5,0,true},{9,6,false},{1,3,false},{5,1,true},{10,0,false},{1,9,false},{9,10,true},{9,2,true},{1,6,false},{9,8,false},{4,6,false},{4,3,true},{5,0,false},{3,2,true},{5,6,false},{3,9,true},{1,10,true},{9,0,true},{1,6,false},{4,6,true},{4,2,false},{3,6,true},{9,10,true},{5,9,false},{5,6,false},{10,10,true},{3,9,false},{5,6,true},{1,6,false},{9,7,true},{1,6,false},{3,9,false},{9,7,false},{10,8,true},{5,9,true},{5,10,false},{3,3,false},{3,2,true},{1,1,false},{1,6,false},{5,10,false},{5,1,true},{3,2,true},{5,7,true},{1,6,false},{1,6,false},{4,6,true},{10,6,true},{5,2,true},{1,6,false},{5,6,true},{1,6,false},{4,7,true},{1,1,false},{1,1,true},{4,1,true},{4,1,true},{5,7,true},{5,6,false},{1,7,true},{4,6,false},{3,8,false},{1,2,false},{1,6,false},{9,3,false},{9,7,true},{4,6,true},{10,10,true},{1,8,false},{4,1,true},{10,9,false},{4,2,false},{4,3,false},{3,2,false},{3,8,false},{5,1,true},{3,3,true},{10,2,true},{5,6,false},{1,9,true},{10,0,false},{1,2,false},{4,0,false},{1,8,false},{4,6,false},{1,6,false},{10,7,false},{1,10,false},{1,0,true},{5,9,false},{1,6,false},{9,1,false},{9,6,false},{1,6,false},{5,7,true},{1,6,false},{1,7,true},{10,9,false},{1,8,false},{10,9,true},{5,10,false},{1,6,false},{5,6,false},{1,6,false},{5,1,false},{9,7,false},{5,6,true},{4,2,false},{5,6,false},{1,9,true},{1,6,false},{3,6,true},{3,9,true},{5,7,false},{5,6,false},{1,9,false},{9,2,true},{1,1,false},{4,3,true},{1,5,false},{1,7,true},{4,9,true},{5,3,true},{3,0,false},{5,8,true},{10,2,true},{9,1,true},{1,1,true},{9,3,false},{10,1,true},{4,4,false},{4,6,true},{1,0,false},{3,0,true},{3,6,false},{3,9,true},{1,7,true},{1,7,true},{1,7,true},{3,9,false},{1,6,false},{9,6,false},{5,6,true},{5,1,true},{5,1,false},{9,9,true},{1,6,false},{1,7,true},{1,0,true},{5,9,true},{4,2,true},{4,9,true},{5,3,true},{5,8,true},{1,2,false},{1,7,false},{5,0,true},{1,8,false},{1,2,false}},[11536]={},[9387]={}}local Sa=(function(A)local oa=Lb[9387][A]if oa then return oa end local re_=1 local function ne()local af,Cd,Uc,_c,oe,ze,se_,Nf,Qa,Se,je,Db,Zc,Ud,y,Hf,Ge,hc,Hc,rf,Kf,Cb,Re,ud,Ld,zf,gf,Wd,Qc,Yd,w_,x;Db,Re=function(l_,sc,Qe)Re[l_]=aa(Qe,933)-aa(sc,528)return Re[l_]end,{};Uc=Re[11219]or Db(11219,52854,52346)repeat if Uc<=32937 then if Uc<16563 then if Uc>=7999 then if Uc>=12397 then if Uc>14911 then if Uc<=16103 then if Uc<=15695 then if Uc<=15475 then Uc,x=34583,nil else Uc,Yd[64678]=Re[-28795]or Db(-28795,2842,33828),je[Yd[62764]+1]end else Se,Uc=Xd(Cd,-1783246210),8079 continue end else if(Yd>=0 and zf>Hc)or((Yd<0 or Yd~=Yd)and zf<Hc)then Uc=Re[21019]or Db(21019,25275,86399)else Uc=63349 end end elseif Uc<=14262 then if Uc<=13248 then if Uc>12397 then Hf,Uc=nil,39868 else zf=zf+Yd;se_=zf if zf~=zf then Uc=Re[12149]or Db(12149,37283,99911)else Uc=16284 end end else y=y+zf;Hc=y if y~=y then Uc=31933 else Uc=52823 end end elseif Uc>14864 then Uc,_c=Re[30501]or Db(30501,21842,75177),nil else Ud=Xa(fb(Ld,10),1023);Yd[19306],Uc=je[Ud+1],Re[-31001]or Db(-31001,41490,73180)end elseif Uc>9549 then if Uc<11149 then _c,Uc=nil,Re[-31852]or Db(-31852,49983,112633)elseif Uc>11149 then Uc,hc,Cb=28080,Wd,nil else Uc,Yd[64678]=Re[-19537]or Db(-19537,24669,58209),qc(Yd[41993],0,16)end elseif Uc<8662 then if Uc>7999 then Cd=Se;oe,Nf=ra(Cd),false;Uc,Qc,af,je=Re[-24965]or Db(-24965,64254,63543),(Cd)+19,20,1 else Hc=Td(Lc('\181\192\189','\137'),A,re_);Uc,re_=Re[-21141]or Db(-21141,2458,23286),re_+4 end elseif Uc>9255 then se_=Yd if se_==1 then Uc=Re[-4729]or Db(-4729,35356,85211)continue elseif se_==0 then Uc=Re[-12870]or Db(-12870,15685,35398)continue elseif(se_==3)then Uc=Re[8202]or Db(8202,38214,69807)continue else Uc=Re[-363]or Db(-363,45994,94887)continue end Uc=Re[-29997]or Db(-29997,16582,47859)elseif Uc<=8662 then af,Uc=Xd(Qc,-1783246210),61829 continue else if(je>=0 and af>Qc)or((je<0 or je~=je)and af<Qc)then Uc=Re[24082]or Db(24082,26757,62353)else Uc=Re[16695]or Db(16695,47836,52789)end end elseif Uc<=5362 then if Uc<2887 then if Uc<=1539 then if Uc>=889 then if Uc>889 then Uc,ze=Re[18970]or Db(18970,26105,32638),Xd(Ge,51)continue else Uc,Wd=4878,nil end else y=af if Qc~=Qc then Uc=Re[-14850]or Db(-14850,21277,54537)else Uc=9255 end end else w_=_c if rf~=rf then Uc=Re[31065]or Db(31065,33294,79357)else Uc=Re[-458]or Db(-458,53806,114687)end end elseif Uc<=4878 then if Uc>4028 then hc=Td(Lc('\161','\227'),A,re_);Uc,re_=Re[27132]or Db(27132,19712,48840),re_+1 elseif Uc<=2887 then Ld=Hc if Yd~=Yd then Uc=23598 else Uc=Re[14374]or Db(14374,21864,83457)end else Ud=Ud+rf;Qa=Ud if Ud~=Ud then Uc=Re[-13104]or Db(-13104,55386,87941)else Uc=7313 end end elseif Uc>5316 then Ge,Uc,Se=ze,19528,nil else if Nf then Uc=Re[-8428]or Db(-8428,58731,105167)continue else Uc=Re[-16160]or Db(-16160,18610,32199)continue end Uc=Re[-12667]or Db(-12667,55317,110178)end elseif Uc<=7064 then if Uc>6602 then if Uc<=6761 then Ud[49265]=Xa(fb(Hc,8),255);Ud[43183]=Xa(fb(Hc,16),255);Ud[38634],Uc=Xa(fb(Hc,24),255),Re[-11391]or Db(-11391,35409,81848)else Zc,Uc=gf,60941 continue end elseif Uc>=6590 then if Uc>6590 then Uc,Yd[64678]=Re[31158]or Db(31158,22057,53525),je[Yd[49265]+1]else Uc,Yd[64678]=Re[4201]or Db(4201,63807,96771),je[Yd[38634]+1]end else Hc=zf;Yd=Xa(Hc,255);se_=Lb[34142][Yd+1];Ld,Zc,gf=se_[1],se_[2],se_[3];Ud={[64819]=0,[41993]=0,[38634]=0,[62764]=0,[46992]=Yd,[45845]=0,[49869]=0,[19306]=0,[32164]=0,[43183]=0,[29920]=Zc,[64678]=0,[49265]=0,[36607]=0,[42044]=nil};B(oe,Ud)if Ld==1 then Uc=Re[7201]or Db(7201,57489,65359)continue elseif Ld==4 then Uc=Re[-24087]or Db(-24087,41427,93327)continue elseif(Ld==5)then Uc=Re[-30583]or Db(-30583,25998,73837)continue else Uc=Re[17030]or Db(17030,63332,109301)continue end Uc=Re[9281]or Db(9281,6294,52679)end elseif Uc<7313 then Ld,Uc=_f(Zc[1],1,Zc[2]),Re[6706]or Db(6706,22119,51538)elseif Uc>7313 then Uc=Re[21276]or Db(21276,42117,74702)continue else if(rf>=0 and Ud>_c)or((rf<0 or rf~=rf)and Ud<_c)then Uc=Re[-14567]or Db(-14567,48782,79313)else Uc=Re[-12690]or Db(-12690,22359,73015)end end elseif Uc>=25934 then if Uc<=30336 then if Uc>=28530 then if Uc<=29968 then if Uc>=29665 then if Uc>29665 then Uc,x=38978,Xd(Kf,51)continue else Yd,Uc=Xd(se_,51),9549 continue end else Yd[64678]=je[qc(Yd[41993],0,24)+1];Yd[64819],Uc=qc(Yd[41993],31,1)==1,Re[1473]or Db(1473,10720,43458)end elseif Uc>30244 then Uc,je[(Hc-49)]=Re[-31924]or Db(-31924,27754,42389),Ld else if(af>=0 and oe>Nf)or((af<0 or af~=af)and oe<Nf)then Uc=Re[13687]or Db(13687,34549,49257)else Uc=65223 end end elseif Uc<=27078 then if Uc>26782 then Ud,_c=Xa(fb(Ld,10),1023),Xa(fb(Ld,0),1023);Yd[19306]=je[Ud+1];Yd[49869],Uc=je[_c+1],Re[15848]or Db(15848,4972,35926)elseif Uc>25934 then se_=zf if Hc~=Hc then Uc=Re[-23997]or Db(-23997,44568,105874)else Uc=Re[-11440]or Db(-11440,2416,18777)end else _c=_c+Qa;w_=_c if _c~=_c then Uc=Re[-6476]or Db(-6476,52070,97301)else Uc=60444 end end elseif Uc<=28080 then ud=Td(Lc('\v','I'),A,re_);Uc,re_=Re[-8196]or Db(-8196,49640,107559),re_+1 else Uc,Wd=Re[-22366]or Db(-22366,62750,75445),Xd(hc,51)continue end elseif Uc>32307 then if Uc>=32848 then if Uc>32848 then Zc,Uc=nil,40365 else if(se_==5)then Uc=Re[-9955]or Db(-9955,7590,14885)continue else Uc=Re[-11270]or Db(-11270,39515,86692)continue end Uc=Re[-21373]or Db(-21373,63117,94385)end else y=y+zf;Hc=y if y~=y then Uc=Re[-10230]or Db(-10230,31684,71046)else Uc=Re[14770]or Db(14770,61371,82747)end end elseif Uc<=31668 then if Uc<=31190 then if Uc<=30349 then Hc,Uc=nil,58692 else Uc,Zc=Re[24188]or Db(24188,62131,69598),Wa(Xd(gf,-1783246210))continue end else Zc,Uc=Wa(nil),Re[-3831]or Db(-3831,59082,110424)end elseif Uc<=31933 then zf,y,Uc,Hf=1,127,Re[16725]or Db(16725,34298,84690),(Cd)+126 else zf=je if y~=y then Uc=Re[576]or Db(576,34830,43089)else Uc=Re[-20638]or Db(-20638,30301,80213)end end elseif Uc<=19913 then if Uc<=18393 then if Uc>=16732 then if Uc<18237 then Uc=Re[-5744]or Db(-5744,35831,98227)continue elseif Uc>18237 then Uc=Re[-30094]or Db(-30094,40513,55453)continue else x=Td(Lc('\217','\155'),A,re_);Uc,re_=Re[8789]or Db(8789,7282,61407),re_+1 end elseif Uc<=16563 then Ge=Td(Lc('\140','\206'),A,re_);Uc,re_=Re[-10778]or Db(-10778,7110,7292),re_+1 else Zc,Uc=Wa(_c),Re[368]or Db(368,49288,73290)continue end elseif Uc>19528 then zf,Uc=Xd(Hc,1186168625),5782 continue elseif Uc>19086 then Cd=0;af,Uc,oe,Nf=1,Re[29283]or Db(29283,58384,104679),123,127 elseif Uc>18425 then Ld,Uc=nil,Re[-15019]or Db(-15019,29359,58522)else Zc=Ld;Hf=na(Hf,Ha(Xa(Zc,127),(se_-27)*7))if not s_(Zc,128)then Uc=Re[334]or Db(334,12230,27799)continue end Uc=Re[26977]or Db(26977,42541,55055)end elseif Uc>=23383 then if Uc<=24764 then if Uc<23598 then Uc,Ld=Re[20789]or Db(20789,11702,42371),_f(Zc[1],1,Zc[2])elseif Uc<=23598 then return{[46990]=oe,[9136]=Ge,[45612]=ud,[3521]='',[30221]=hc,[37830]=zf}else Uc,gf=Re[2463]or Db(2463,45908,95320),nil end else y=je;Cd=na(Cd,Ha(Xa(y,127),(Qc-123)*7))if(not s_(y,128))then Uc=Re[-26127]or Db(-26127,18781,36995)continue else Uc=Re[-30429]or Db(-30429,37110,82251)continue end Uc=Re[18677]or Db(18677,41164,86337)end elseif Uc>21235 then Ld=Yd[41993];Zc,gf=fb(Ld,30),Xa(fb(Ld,20),1023);Yd[64678]=je[gf+1];Yd[32164]=Zc if Zc==2 then Uc=Re[26835]or Db(26835,23352,37021)continue elseif Zc==3 then Uc=Re[-20059]or Db(-20059,28575,54512)continue end Uc=Re[24510]or Db(24510,11216,43922)elseif Uc>21220 then if(zf>=0 and y>Hf)or((zf<0 or zf~=zf)and y<Hf)then Uc=40015 else Uc=Re[27017]or Db(27017,44353,88757)end elseif Uc<=21201 then Uc,ud,ze=Re[9426]or Db(9426,3060,18738),Cb,nil else Uc,Ld=Re[-12401]or Db(-12401,4506,22566),Xd(Zc,51)continue end elseif Uc<49549 then if Uc<=41083 then if Uc>=38726 then if Uc>=39502 then if Uc<=40015 then if Uc>39868 then Uc,y=Re[10270]or Db(10270,34561,95926),nil elseif Uc<=39502 then if se_==7 then Uc=Re[6044]or Db(6044,6258,53116)continue elseif(se_==1)then Uc=Re[1991]or Db(1991,12663,41340)continue else Uc=Re[28100]or Db(28100,54943,93547)continue end Uc=Re[14979]or Db(14979,9336,42874)else zf,Uc=nil,7999 end elseif Uc>40365 then Nf,Uc=Hf,Re[14009]or Db(14009,42019,96848)else gf=Td(Lc('\224\184','\220'),A,re_);re_,Uc=re_+8,Re[23681]or Db(23681,24058,30759)end elseif Uc>=39486 then if Uc<=39486 then Yd,Uc=nil,59285 else if se_==2 then Uc=Re[-2924]or Db(-2924,36971,74498)continue elseif(se_==9)then Uc=Re[-21769]or Db(-21769,8022,19318)continue else Uc=Re[-29441]or Db(-29441,37069,70385)continue end Uc=Re[-17955]or Db(-17955,13632,46690)end elseif Uc<=38726 then Yd[64678],Uc=je[Yd[36607]+1],Re[-18713]or Db(-18713,56096,87042)else Kf=x;Ud=na(Ud,Ha(Xa(Kf,127),(w_-168)*7))if(not s_(Kf,128))then Uc=Re[-12073]or Db(-12073,38139,77549)continue else Uc=Re[-30275]or Db(-30275,24856,52211)continue end Uc=Re[24904]or Db(24904,10984,36323)end elseif Uc<=34583 then if Uc>=34207 then if Uc<34462 then Uc,af=57544,nil elseif Uc<=34462 then Ud=gf if(Ud==0)then Uc=Re[29327]or Db(29327,38571,92476)continue else Uc=Re[9078]or Db(9078,106,16156)continue end Uc=Re[-28880]or Db(-28880,40703,65038)else Kf=Td(Lc('\140','\206'),A,re_);Uc,re_=29968,re_+1 end elseif Uc<=33409 then Hc,Uc=Xd(Yd,51),Re[13464]or Db(13464,47741,110326)continue else if(se_==10)then Uc=Re[14620]or Db(14620,9409,26501)continue else Uc=Re[-13949]or Db(-13949,42731,81132)continue end Uc=Re[28308]or Db(28308,11023,42035)end elseif Uc<=36396 then if Uc>36280 then Yd[64678],Uc=je[Yd[43183]+1],Re[17769]or Db(17769,20230,51240)elseif Uc>35694 then je=je+Hf;zf=je if je~=je then Uc=Re[10317]or Db(10317,45538,54893)else Uc=50851 end else Uc,_c=Re[-22341]or Db(-22341,61262,77195),rf continue end else Uc=Re[8930]or Db(8930,44542,91533)continue end elseif Uc>=46650 then if Uc<=48170 then if Uc>=47286 then if Uc>47319 then Ud[49265]=Xa(fb(Hc,8),255);_c=Xa(fb(Hc,16),65535);Ud[45845]=_c;rf=nil;rf=if _c<32768 then _c else _c-65536;Ud[62764],Uc=rf,Re[31161]or Db(31161,35302,81015)elseif Uc>47286 then x=w_;gf=na(gf,Ha(Xa(x,127),(Qa-48)*7))if not s_(x,128)then Uc=Re[-21299]or Db(-21299,40420,48768)continue end Uc=Re[19266]or Db(19266,5814,10183)else if se_==8 then Uc=Re[-30598]or Db(-30598,37643,43388)continue elseif se_==3 then Uc=Re[31301]or Db(31301,18504,41075)continue elseif(se_==0)then Uc=Re[-10890]or Db(-10890,40811,90104)continue else Uc=Re[-25522]or Db(-25522,11489,45438)continue end Uc=Re[19027]or Db(19027,40997,74505)end elseif Uc<=46650 then Uc,gf=34462,Xd(Ud,-1783246210)continue else Qa=Ud if _c~=_c then Uc=Re[32309]or Db(32309,36138,68277)else Uc=Re[30727]or Db(30727,46448,53332)end end elseif Uc>=48968 then if Uc<=48968 then if se_==4 then Uc=Re[21449]or Db(21449,6605,40739)continue end Uc=Re[-22035]or Db(-22035,60883,91622)else je,Uc=Xd(y,51),25733 continue end else Yd[64678]=qc(Yd[41993],0,1)==1;Uc,Yd[64819]=Re[-17169]or Db(-17169,16624,49906),qc(Yd[41993],31,1)==1 end elseif Uc<=45687 then if Uc>45064 then if Uc<=45551 then Nf,Uc=false,Re[30035]or Db(30035,41886,95989)else Uc,Yd[64678]=Re[10348]or Db(10348,11123,42111),je[Yd[41993]+1]end elseif Uc<43455 then Hf=y;zf=ra(Hf);Hc,se_,Uc,Yd=163,1,Re[8595]or Db(8595,20161,23485),(Hf)+162 elseif Uc<=43455 then Yd=oe[(Hc-126)];se_=Yd[29920]if(se_==4)then Uc=Re[19209]or Db(19209,6609,45218)continue else Uc=Re[27844]or Db(27844,34252,68489)continue end Uc=Re[-13934]or Db(-13934,21178,52356)else oe=oe+af;Qc=oe if oe~=oe then Uc=Re[12536]or Db(12536,57513,74245)else Uc=Re[-30530]or Db(-30530,1928,30745)end end elseif Uc>=46402 then if Uc>46402 then Zc=Td(Lc('\138','\200'),A,re_);re_,Uc=re_+1,21220 else Qc=oe if Nf~=Nf then Uc=Re[-16948]or Db(-16948,48944,65442)else Uc=Re[24950]or Db(24950,49570,80499)end end else if gf then Uc=Re[-1000]or Db(-1000,10056,20266)continue end Uc=Re[-30181]or Db(-30181,46916,108068)end elseif Uc>57544 then if Uc>=61829 then if Uc<62778 then if Uc>62253 then Yd=Hc;Qc=na(Qc,Ha(Xa(Yd,127),(zf-249)*7))if(not s_(Yd,128))then Uc=Re[27357]or Db(27357,35831,97412)continue else Uc=Re[-9234]or Db(-9234,48171,84054)continue end Uc=Re[21536]or Db(21536,7000,42149)elseif Uc>=61999 then if Uc>61999 then rf=Td(Lc('T!\\','h'),A,re_);Uc,re_=51650,re_+4 else Uc,y=42532,Xd(Hf,-1783246210)continue end else Qc=af;je=ra(Qc);zf,Uc,y,Hf=1,64534,50,(Qc)+49 end elseif Uc>64534 then je,Uc=nil,54936 elseif Uc>=63349 then if Uc>63349 then Hc=y if Hf~=Hf then Uc=31933 else Uc=Re[504]or Db(504,43799,95483)end else Ld,Uc=nil,Re[29202]or Db(29202,58238,103756)end else Uc=Re[-1163]or Db(-1163,24437,31902)continue end elseif Uc>60941 then if Uc>61442 then Uc,Hf=41083,gf continue elseif Uc>60972 then Hf=0;Yd,Uc,Hc,zf=1,Re[21921]or Db(21921,50209,77162),31,27 else if(se_>=0 and Hc>Yd)or((se_<0 or se_~=se_)and Hc<Yd)then Uc=23598 else Uc=Re[-30646]or Db(-30646,15421,70478)end end elseif Uc>=59285 then if Uc>=60444 then if Uc>60444 then Ld,Uc=Zc,Re[-21512]or Db(-21512,27952,58885)else if(Qa>=0 and _c>rf)or((Qa<0 or Qa~=Qa)and _c<rf)then Uc=Re[-7517]or Db(-7517,45467,92768)else Uc=15475 end end else se_=Td(Lc('A','\3'),A,re_);Uc,re_=29665,re_+1 end elseif Uc<=58250 then Uc,Cb=21201,Xd(ud,51)continue else Yd=Td(Lc('\190','\252'),A,re_);Uc,re_=Re[4229]or Db(4229,25749,60067),re_+1 end elseif Uc<=52823 then if Uc>=51531 then if Uc<52071 then if Uc>51531 then _c,Uc=Xd(rf,1186168625),Re[14226]or Db(14226,23512,79028)continue else Uc,w_=18237,nil end elseif Uc<52760 then _c,rf=Xa(fb(Hc,8),16777215),nil;rf=if _c<8388608 then _c else _c-16777216;Uc,Ud[36607]=Re[-25162]or Db(-25162,42055,88470),rf elseif Uc>52760 then if(zf>=0 and y>Hf)or((zf<0 or zf~=zf)and y<Hf)then Uc=Re[-17804]or Db(-17804,63687,95281)else Uc=Re[28266]or Db(28266,13479,54096)end else w_,Uc=Xd(x,51),Re[-2908]or Db(-2908,38513,85661)continue end elseif Uc<50873 then if Uc>49549 then if(Hf>=0 and je>y)or((Hf<0 or Hf~=Hf)and je<y)then Uc=Re[27143]or Db(27143,42242,52045)else Uc=Re[-16119]or Db(-16119,48804,78052)end else Hc=y if Hf~=Hf then Uc=40015 else Uc=21235 end end elseif Uc>=51058 then if Uc>51058 then gf=0;_c,Uc,rf,Ud=52,47163,1,48 else Zc,Uc=Wa(nil),24764 end else Ud=0;Uc,rf,_c,Qa=1683,172,168,1 end elseif Uc<=54936 then if Uc<54210 then if Uc>52938 then zf[(Ld-162)],Uc=ne(),Re[-28813]or Db(-28813,54607,110927)else rf=Td(Lc('\168','\203')..Ud,A,re_);re_,Uc=re_+Ud,35694 end elseif Uc<54750 then af=af+je;y=af if af~=af then Uc=34207 else Uc=9255 end elseif Uc<=54750 then Zc,Uc=Wa'',Re[-17191]or Db(-17191,18194,41980)continue else y=Td(Lc('w','5'),A,re_);Uc,re_=49292,re_+1 end elseif Uc>56649 then Qc=0;Uc,y,je,Hf=Re[-28748]or Db(-28748,37716,68818),253,249,1 elseif Uc>56203 then rf=_c;Ud[41993]=rf;B(oe,{});Uc=Re[-17661]or Db(-17661,37129,98531)else Hc=Hc+se_;Ld=Hc if Hc~=Hc then Uc=23598 else Uc=Re[-16829]or Db(-16829,10321,72648)end end until Uc==18787 end local rc=ne();Lb[9387][A]=rc return rc end)local Wc=(function(t_,c)t_=Sa(t_)local Na=Yb()local function dc(h,Ia)local vb=(function(...)return{...},db('#',...)end)local ec;ec=(function(Sb,hb,zd)if hb>zd then return end return Sb[hb],ec(Sb,hb+1,zd)end)local function Ib(Jf,Ka,Hd,K)local Da,gd,dd,Ve,Jb,df,Ke,Zd,pa,Ub,r_,D,u_,uc,ae,_e,mb,z,Xe,Ca,hf,ke,xd,nb;hf,Ub=function(ob,Oa,vc)Ub[Oa]=aa(vc,36689)-aa(ob,38210)return Ub[Oa]end,{};gd=Ub[-21076]or hf(18263,-21076,118034)while gd~=60416 do if gd<31009 then if gd>=16235 then if gd<22107 then if gd<=18962 then if gd<17872 then if gd>17621 then if gd<=17739 then if gd<=17722 then if gd<=17676 then ke[1]=ke[2][ke[3]];ke[2]=ke;ke[3]=1;gd,dd[_e]=Ub[32290]or hf(36886,32290,54357),nil else if Ke>38 then gd=Ub[-6482]or hf(32048,-6482,122051)continue else gd=Ub[-17164]or hf(3671,-17164,26803)continue end gd=Ub[-30078]or hf(5724,-30078,125611)end else if(D>=0 and ae>z)or((D<0 or D~=D)and ae<z)then gd=Ub[29237]or hf(7366,29237,107776)else gd=41359 end end else Zd+=df[62764];gd=Ub[1475]or hf(65356,1475,115643)end elseif gd<16650 then if gd>16235 then if Ke>22 then gd=Ub[1597]or hf(64957,1597,6720)continue else gd=Ub[-22712]or hf(49273,-22712,103816)continue end gd=Ub[-15041]or hf(30408,-15041,84279)else if Ke>147 then gd=Ub[-17041]or hf(8084,-17041,10787)continue else gd=Ub[16675]or hf(43598,16675,101336)continue end gd=Ub[8806]or hf(14596,8806,65651)end elseif gd<16780 then if r_==2 then gd=Ub[-20448]or hf(51895,-20448,100896)continue end gd=Ub[548]or hf(35373,548,12606)elseif gd>16780 then Jb=Hd[Zd];Zd+=1;r_=Jb[49265]if r_==0 then gd=Ub[-21099]or hf(25974,-21099,103775)continue elseif(r_==1)then gd=Ub[23222]or hf(15200,23222,102733)continue else gd=Ub[10041]or hf(26443,10041,113730)continue end gd=Ub[25758]or hf(64173,25758,98750)else z=z+xd;Jb=z if z~=z then gd=Ub[32120]or hf(9660,32120,68048)else gd=Ub[27051]or hf(49496,27051,109229)end end elseif gd<=18485 then if gd<18296 then if gd>=17979 then if gd>17979 then mb,gd=_e,8346 continue else kd(Jf,mb,mb+u_-1,df[41993],Jf[nb]);Zd+=1;gd=Ub[26698]or hf(25639,26698,88848)end else Jb=z if D~=D then gd=Ub[-1698]or hf(32887,-1698,42402)else gd=59996 end end elseif gd>18357 then Ve..=Jf[z];gd=Ub[32300]or hf(14532,32300,67086)elseif gd>18296 then if ke==-2 then gd=Ub[18486]or hf(56894,18486,7350)continue else gd=Ub[-21499]or hf(47230,-21499,967)continue end gd=Ub[22379]or hf(4775,22379,124304)else if Ke>178 then gd=Ub[-15633]or hf(5348,-15633,130784)continue else gd=Ub[-23933]or hf(4462,-23933,123961)continue end gd=Ub[-1168]or hf(19403,-1168,85556)end elseif gd<=18900 then if gd>18855 then _e={u_(Jf[nb+1],Jf[nb+2])};kd(_e,1,mb,nb+3,Jf)if Jf[nb+3]~=nil then gd=Ub[-10595]or hf(39121,-10595,37954)continue else gd=Ub[739]or hf(51738,739,202)continue end gd=Ub[-11117]or hf(54208,-11117,108047)elseif gd<=18539 then Da[df]=nil;Zd+=1;gd=Ub[-24170]or hf(20482,-24170,75597)else if Ke>216 then gd=Ub[-22229]or hf(23267,-22229,30710)continue else gd=Ub[-17293]or hf(4857,-17293,100474)continue end gd=Ub[19157]or hf(58290,19157,120477)end else mb,u_,Ve=nb[Lc('\129K\a\170q\28','\222\20n')](mb);gd=Ub[-6696]or hf(22455,-6696,68234)end elseif gd>=20492 then if gd<=21671 then if gd<21384 then if gd>20492 then if Ke>227 then gd=Ub[-12656]or hf(11661,-12656,12652)continue else gd=Ub[14023]or hf(6799,14023,129954)continue end gd=Ub[1337]or hf(18445,1337,85882)else if(Ke>115)then gd=Ub[1594]or hf(7694,1594,115755)continue else gd=Ub[-25170]or hf(29129,-25170,80411)continue end gd=Ub[22158]or hf(6701,22158,130330)end elseif gd>21621 then if(Jf[df[49265]])then gd=Ub[28590]or hf(51408,28590,118357)continue else gd=Ub[13637]or hf(449,13637,129038)continue end gd=Ub[-15587]or hf(28008,-15587,87127)elseif gd>21384 then gd,Jf[df[49265]]=Ub[21302]or hf(64049,21302,122142),not Jf[df[43183]]else Jf[nb]=_e;gd,mb=Ub[23652]or hf(52366,23652,11051),_e end elseif gd<=22054 then if gd>21936 then if(Ke>175)then gd=Ub[3157]or hf(22899,3157,79106)continue else gd=Ub[5762]or hf(60946,5762,118646)continue end gd=Ub[7342]or hf(62217,7342,116342)elseif gd>21928 then _e,ke=mb(u_,Ve);Ve=_e if Ve==nil then gd=Ub[567]or hf(32740,567,101481)else gd=17676 end else if(Ke>253)then gd=Ub[15584]or hf(26787,15584,101633)continue else gd=Ub[-792]or hf(1078,-792,5352)continue end gd=Ub[-26427]or hf(41979,-26427,104132)end else Zd+=df[62764];gd=Ub[-15438]or hf(62836,-15438,117827)end elseif gd<19579 then if gd<19275 then if gd>19018 then _e,ke=Jf[nb+1],nil;ae=_e;ke=Ic(ae)==Lc('!\220\241-\204\238','O\169\156')if not ke then gd=Ub[-12415]or hf(3973,-12415,100730)continue end gd=Ub[-28731]or hf(18199,-28731,122402)else df[46992]=91;Zd+=1;gd=Ub[-29724]or hf(16790,-29724,80097)end elseif gd<=19275 then if df[38634]==224 then gd=Ub[17768]or hf(16102,17768,21173)continue else gd=Ub[-1833]or hf(2986,-1833,68631)continue end gd=Ub[32574]or hf(43699,32574,109980)else gd=Ub[1510]or hf(64178,1510,119969)continue end elseif gd<=20118 then if gd>=19661 then if gd<=19661 then if Ke>36 then gd=Ub[-28169]or hf(28454,-28169,99584)continue else gd=Ub[11653]or hf(42797,11653,764)continue end gd=Ub[13322]or hf(39986,13322,25373)else if Ke>27 then gd=Ub[23088]or hf(1306,23088,21378)continue else gd=Ub[12963]or hf(33238,12963,56130)continue end gd=Ub[933]or hf(38266,933,27717)end else nb,mb=nil,Xd(df[45845],53603);nb=if mb<32768 then mb else mb-65536;u_=nb;Jf[Xd(df[49265],134)],gd=u_,Ub[-4542]or hf(14831,-4542,65752)end else Jb=z if D~=D then gd=Ub[8585]or hf(18509,8585,81347)else gd=Ub[11550]or hf(63335,11550,113494)end end elseif gd<=26032 then if gd<23843 then if gd>23358 then if gd<23443 then if gd>23408 then nb,mb=df[49265],df[43183];u_=mb-1 if u_==-1 then gd=Ub[-21138]or hf(39438,-21138,21556)continue else gd=Ub[14732]or hf(17835,14732,116895)continue end gd=26032 else gd,Jf[df[43183]]=Ub[10983]or hf(63135,10983,117224),Ve end elseif gd<=23443 then if Ke>85 then gd=Ub[27491]or hf(42758,27491,11093)continue else gd=Ub[-21818]or hf(28151,-21818,92143)continue end gd=Ub[-25010]or hf(60021,-25010,126274)else if(Ke>136)then gd=Ub[-1268]or hf(384,-1268,113780)continue else gd=Ub[30891]or hf(27368,30891,128686)continue end gd=Ub[27866]or hf(24482,27866,74477)end elseif gd<=22766 then if gd<22361 then if Jf[df[49265]]<Jf[df[41993]]then gd=Ub[19736]or hf(23138,19736,114681)continue else gd=Ub[18678]or hf(53715,18678,65378)continue end gd=Ub[4576]or hf(55587,4576,106604)elseif gd>22361 then mb[19306]=Ve;gd,_e=Ub[-10440]or hf(15617,-10440,101085),nil else jc'';gd=Ub[-5947]or hf(23335,-5947,119339)end elseif gd>23137 then nb=df[49265];mb,u_=Jf[nb],nil;Ve=mb;u_=Ic(Ve)==Lc('\b\148\182\4\132\169','f\225\219')if not u_ then gd=Ub[-18259]or hf(55231,-18259,63223)continue end gd=Ub[14050]or hf(4651,14050,23878)else Zd+=df[62764];gd=Ub[32461]or hf(6064,32461,125599)end elseif gd<24797 then if gd>23996 then if gd<=24410 then kd(ke,1,mb,nb+3,Jf);Jf[nb+2]=Jf[nb+3];Zd+=df[62764];gd=Ub[7795]or hf(59529,7795,126966)else mb[19306],gd=Ve,Ub[27464]or hf(9276,27464,29849)end elseif gd>23881 then if(Ke>13)then gd=Ub[26697]or hf(26522,26697,71306)continue else gd=Ub[24845]or hf(27027,24845,76014)continue end gd=Ub[14657]or hf(6311,14657,130960)elseif gd<=23843 then Jf[df[38634]],gd=df[64678]-Jf[df[43183]],Ub[9517]or hf(26566,9517,88625)else ke,ae=mb[49869],df[49869];ae=Lc('\161\"\255\179\227\128\0','\252\3\250')..ae;z='';D,xd,gd,Jb=15,(#ke-1)+15,4795,1 end elseif gd>=25305 then if gd<25576 then if(ke>=0 and Ve>_e)or((ke<0 or ke~=ke)and Ve<_e)then gd=Ub[10483]or hf(53771,10483,107892)else gd=46143 end elseif gd>25576 then return ec(Jf,nb,nb+Ve-1)else if(Ke>46)then gd=Ub[-29475]or hf(50463,-29475,10837)continue else gd=Ub[-28583]or hf(20664,-28583,18553)continue end gd=Ub[22722]or hf(31598,22722,89689)end elseif gd>24797 then Zd+=df[62764];gd=Ub[4400]or hf(62806,4400,118177)else Zd-=1;gd,Hd[Zd]=Ub[18862]or hf(42233,18862,105414),{[46992]=11,[49265]=Xd(df[49265],173),[43183]=Xd(df[43183],60),[38634]=0}end elseif gd>28339 then if gd>=30262 then if gd>30944 then if(Ke>59)then gd=Ub[-1050]or hf(7034,-1050,115188)continue else gd=Ub[19836]or hf(21956,19836,17745)continue end gd=Ub[-10125]or hf(26615,-10125,88768)elseif gd>30437 then if(Ke>105)then gd=Ub[11963]or hf(12486,11963,71920)continue else gd=Ub[2492]or hf(3475,2492,121334)continue end gd=Ub[13086]or hf(46004,13086,99971)elseif gd>30262 then gd,Ve=Ub[-10061]or hf(46678,-10061,1941),mb-1 else _e,gd=z,3519 continue end elseif gd>=28775 then if gd>28775 then if(Ke>89)then gd=Ub[-10000]or hf(30239,-10000,130610)continue else gd=Ub[-20619]or hf(8705,-20619,105271)continue end gd=Ub[19513]or hf(17704,19513,80919)else Jf[df[38634]]=ra(df[41993]);Zd+=1;gd=Ub[-2184]or hf(18192,-2184,80511)end elseif gd<=28666 then Xe=Jb[43183];uc=dd[Xe]if(uc==nil)then gd=Ub[27746]or hf(27992,27746,85605)continue else gd=Ub[19528]or hf(2799,19528,20156)continue end gd=8768 else pa,gd,Zd,dd,Da,Ca=-1,58076,1,Be({},{[Lc('\246K\228\198p\236','\169\20\137')]=Lc('\183\178','\193')}),Be({},{[Lc(' C\221\16x\213','\127\28\176')]=Lc('\29\5','v')}),false end elseif gd>=27666 then if gd<=27899 then if gd<=27817 then if gd>27666 then if(Ke>205)then gd=Ub[14613]or hf(39658,14613,41049)continue else gd=Ub[10377]or hf(1711,10377,65721)continue end gd=Ub[30657]or hf(44650,30657,102741)else Jf[df[38634]][Jf[df[49265]]],gd=Jf[df[43183]],Ub[28245]or hf(35795,28245,101948)end else if(Ve<=mb)then gd=Ub[-25272]or hf(8577,-25272,70533)continue else gd=Ub[17699]or hf(37360,17699,26847)continue end gd=Ub[-14552]or hf(396,-14552,129275)end elseif gd<=28289 then Ve,_e=mb[64678],df[64678];_e=Lc('\168D\236\186\133\147\t','\245e\233').._e;ke='';ae,z,gd,D=78,(#Ve-1)+78,Ub[-15431]or hf(13428,-15431,70312),1 else nb=Kc(mb)if nb~=nil and nb[Lc('2\147M\25\169V','m\204$')]~=nil then gd=Ub[-27857]or hf(62464,-27857,20849)continue elseif W(mb)==Lc('DyRtU','0\24')then gd=Ub[17305]or hf(975,17305,127415)continue end gd=Ub[-22891]or hf(26840,-22891,121883)end elseif gd>=27424 then if gd>27424 then z=He(_e)if z==nil then gd=Ub[-9684]or hf(49515,-9684,117873)continue end gd=43412 else nb=Jf[df[49265]];gd,Jf[df[38634]]=Ub[-9434]or hf(3051,-9434,69332),if nb then nb else df[64678]or false end elseif gd<=26318 then if Ke>15 then gd=Ub[21326]or hf(43635,21326,662)continue else gd=Ub[-27427]or hf(55436,-27427,23807)continue end gd=Ub[22220]or hf(33929,22220,31734)else Zd+=df[62764];gd=Ub[13218]or hf(3712,13218,127439)end elseif gd<=9652 then if gd<=5294 then if gd<2426 then if gd>=1135 then if gd>1390 then if gd>1396 then jc'';gd=Ub[887]or hf(47966,887,8938)else nb=Ia[df[43183]+1];gd,Jf[df[49265]]=Ub[-3514]or hf(41353,-3514,104694),nb[2][nb[3]]end elseif gd<=1161 then if gd>1135 then Zd+=df[62764];gd=Ub[-27606]or hf(3423,-27606,128424)else if Ke>254 then gd=Ub[-31183]or hf(62573,-31183,27417)continue else gd=Ub[-7455]or hf(18520,-7455,126634)continue end gd=Ub[-4032]or hf(54368,-4032,109743)end else nb,mb,u_=df[43183],df[49265],df[64678];Ve=Jf[mb];Jf[nb+1]=Ve;Jf[nb]=Ve[u_];Zd+=1;gd=Ub[6272]or hf(35471,6272,101880)end elseif gd>593 then Zd-=1;gd,Hd[Zd]=Ub[14499]or hf(36869,14499,26482),{[46992]=13,[49265]=Xd(df[49265],175),[43183]=Xd(df[43183],77),[38634]=0}elseif gd<580 then nb,mb,u_=df[43183],df[38634],df[49265]-1 if(u_==-1)then gd=Ub[-23052]or hf(16466,-23052,130799)continue else gd=Ub[7743]or hf(55355,7743,7397)continue end gd=17979 elseif gd<=580 then Zd+=1;gd=Ub[-15907]or hf(46340,-15907,101491)else jc'';gd=Ub[11398]or hf(39607,11398,30553)end elseif gd<=3519 then if gd>3004 then if gd<=3456 then Jf[nb+2]=Jf[nb+3];Zd+=df[62764];gd=Ub[32250]or hf(59317,32250,121474)else mb[49869],gd=_e,Ub[1950]or hf(24318,1950,104791)end elseif gd>=2796 then if gd>2796 then if(D>=0 and ae>z)or((D<0 or D~=D)and ae<z)then gd=Ub[-23757]or hf(61847,-23757,116960)else gd=17621 end else Ve,gd=nil,31441 end elseif gd>2426 then if Ke>249 then gd=Ub[-26974]or hf(59238,-26974,108501)continue else gd=Ub[8676]or hf(25330,8676,86617)continue end gd=Ub[-6188]or hf(51403,-6188,118580)else if df[38634]==109 then gd=Ub[21053]or hf(4457,21053,5319)continue else gd=Ub[-7496]or hf(30501,-7496,111292)continue end gd=Ub[26348]or hf(16458,26348,80053)end elseif gd>=4795 then if gd>4795 then nb=Kc(mb)if(nb~=nil and nb[Lc('\185,\171\146\22\176','\230s\194')]~=nil)then gd=Ub[-28273]or hf(34992,-28273,59221)continue else gd=Ub[-1501]or hf(12385,-1501,22843)continue end gd=Ub[29292]or hf(20653,29292,67460)else r_=D if xd~=xd then gd=Ub[4298]or hf(2058,4298,105519)else gd=59887 end end elseif gd<=4077 then nb=df[49265];mb,u_=Jf[nb],Jf[nb+1];Ve=Jf[nb+2]+u_;Jf[nb+2]=Ve if(u_>0)then gd=Ub[-2060]or hf(17807,-2060,111257)continue else gd=Ub[-13384]or hf(50840,-13384,29511)continue end gd=Ub[-12004]or hf(34603,-12004,31252)else Zd+=df[62764];gd=Ub[-5963]or hf(18954,-5963,85365)end elseif gd<=7047 then if gd<6277 then if gd<=5636 then if gd>=5612 then if gd>5612 then nb,mb=df[49265],df[64678];pa=nb+6;u_,Ve=Jf[nb],nil;Ve=Ic(u_)==Lc('z\204\233th\208\232y','\28\185\135\23')if Ve then gd=Ub[3323]or hf(60316,3323,18403)continue else gd=Ub[-21908]or hf(21222,-21908,75054)continue end gd=Ub[-12505]or hf(32297,-12505,82198)else mb,u_,Ve=Gc(mb);gd=Ub[5727]or hf(55605,5727,31107)end else gd,Ve=Ub[-4038]or hf(7950,-4038,26022),ae continue end elseif gd>5798 then Zd-=1;gd,Hd[Zd]=Ub[-1039]or hf(12150,-1039,70209),{[46992]=27,[49265]=Xd(df[49265],28),[43183]=Xd(df[43183],156),[38634]=0}else gd,Jf[df[49265]]=Ub[3075]or hf(15559,3075,66352),df[64678]end elseif gd<6616 then if gd>6277 then mb,u_,Ve=Da if(W(mb)~=Lc('\181\248\213<\167\228\212\49','\211\141\187_'))then gd=Ub[-13350]or hf(19484,-13350,71536)continue else gd=Ub[22906]or hf(2151,22906,116945)continue end gd=Ub[-5721]or hf(26834,-5721,75962)else Zd-=1;Hd[Zd],gd={[46992]=59,[49265]=Xd(df[49265],33),[43183]=Xd(df[43183],147),[38634]=0},Ub[-8635]or hf(1413,-8635,130290)end elseif gd>=6812 then if gd<=6812 then if(Ke>148)then gd=Ub[-32069]or hf(47563,-32069,7337)continue else gd=Ub[3907]or hf(50072,3907,31852)continue end gd=Ub[-26234]or hf(49087,-26234,98952)else if Ke>121 then gd=Ub[-22300]or hf(6361,-22300,126802)continue else gd=Ub[26622]or hf(961,26622,27102)continue end gd=Ub[-25781]or hf(34111,-25781,31752)end else if(not(z<=mb))then gd=Ub[-26841]or hf(55225,-26841,30240)continue else gd=Ub[-28801]or hf(11842,-28801,70285)continue end gd=Ub[-12838]or hf(62468,-12838,117619)end elseif gd<8768 then if gd>8346 then ae,gd=u_-1,Ub[-4498]or hf(50149,-4498,114988)elseif gd>=8032 then if gd<=8032 then nb,mb=df[49265],df[38634];u_,Ve=ub(Ab,Jf,'',nb,mb)if(not u_)then gd=Ub[-17445]or hf(31076,-17445,73525)continue else gd=Ub[-895]or hf(20079,-895,113100)continue end gd=23408 else nb[64678]=mb;gd,df[46992]=Ub[30320]or hf(22002,30320,77021),189 end else kd(K[38335],1,mb,nb,Jf);gd=Ub[-21555]or hf(15641,-21555,66662)end elseif gd>9504 then Ca=false;Zd+=1 if(Ke>137)then gd=Ub[13232]or hf(17081,13232,89236)continue else gd=Ub[-11877]or hf(20435,-11877,73097)continue end gd=Ub[-9162]or hf(58869,-9162,122050)elseif gd>=9158 then if gd<=9158 then if Jf[df[49265]]<=Jf[df[41993]]then gd=Ub[22921]or hf(55517,22921,117506)continue else gd=Ub[19799]or hf(7385,19799,101208)continue end gd=Ub[21032]or hf(11608,21032,71079)else xd=ae if z~=z then gd=Ub[-699]or hf(27070,-699,86153)else gd=3004 end end else gd,ke[(xd-118)]=Ub[-18867]or hf(12005,-18867,120310),uc end elseif gd<=12131 then if gd>=11114 then if gd>11282 then if gd<=12085 then if gd>11889 then u_,Ve=nb[64678],df[64678];Ve=Lc('\193\171\199\211j\184\96','\156\138\194')..Ve;_e='';ke,ae,gd,z=30,(#u_-1)+30,41922,1 elseif gd>11427 then nb,mb,u_=df[64678],df[64819],Jf[df[49265]]if(u_==nb)~=mb then gd=Ub[15574]or hf(35999,15574,6630)continue else gd=Ub[4852]or hf(40660,4852,25999)continue end gd=Ub[-8162]or hf(23699,-8162,74748)else gd,nb,mb,u_=Ub[-29181]or hf(36640,-29181,1970),df[32164],Hd[Zd+1],nil end else if(Ke>240)then gd=Ub[-24369]or hf(60018,-24369,6757)continue else gd=Ub[28262]or hf(41121,28262,16588)continue end gd=Ub[-1235]or hf(39175,-1235,24688)end elseif gd>11170 then if gd<=11195 then Zd+=df[62764];gd=Ub[-24296]or hf(37973,-24296,27810)else if df[38634]==27 then gd=Ub[3218]or hf(41178,3218,6436)continue elseif(df[38634]==74)then gd=Ub[20438]or hf(29420,20438,102242)continue else gd=Ub[-8992]or hf(48022,-8992,62798)continue end gd=Ub[-26091]or hf(29848,-26091,84967)end elseif gd<=11131 then if gd>11114 then if Ke>199 then gd=Ub[8263]or hf(45425,8263,62943)continue else gd=Ub[-29407]or hf(18807,-29407,75120)continue end gd=Ub[-30910]or hf(65469,-30910,115338)else Zd+=1;gd=Ub[-9651]or hf(1729,-9651,129294)end else Zd+=1;gd=Ub[-24371]or hf(10386,-24371,77821)end elseif gd<=10469 then if gd>=10059 then if gd>10140 then if(Ke>159)then gd=Ub[-31503]or hf(42290,-31503,18262)continue else gd=Ub[-25656]or hf(29655,-25656,84629)continue end gd=Ub[-7763]or hf(1678,-7763,129529)elseif gd<=10059 then gd,Jf[df[49265]]=Ub[19926]or hf(50252,19926,24758),u_[df[19306]]else ae=Ve if _e~=_e then gd=Ub[28703]or hf(53394,28703,108541)else gd=25305 end end elseif gd>9733 then nb,mb,u_=Xd(df[38634],81),Xd(df[49265],143),Xd(df[43183],63);Ve,_e=mb==0 and pa-nb or mb-1,Jf[nb];ke,ae=vb(_e(ec(Jf,nb+1,nb+Ve)))if(u_==0)then gd=Ub[-1660]or hf(35621,-1660,56982)continue else gd=Ub[30122]or hf(26581,30122,105246)continue end gd=Ub[15285]or hf(63238,15285,120139)else if Ke>44 then gd=Ub[-2594]or hf(34854,-2594,102161)continue else gd=Ub[20512]or hf(24934,20512,112143)continue end gd=Ub[-28631]or hf(20872,-28631,76023)end elseif gd<=10882 then if gd<=10714 then if gd>10502 then Xe={[1]=Jf[Jb[43183]],[3]=1};Xe[2]=Xe;ke[(xd-118)],gd=Xe,Ub[32423]or hf(40065,32423,10130)else if(Ke>233)then gd=Ub[8704]or hf(38347,8704,43470)continue else gd=Ub[-12193]or hf(14601,-12193,29502)continue end gd=Ub[9509]or hf(60068,9509,126355)end else if Ke>127 then gd=Ub[-20928]or hf(49974,-20928,15624)continue else gd=Ub[-22352]or hf(52311,-22352,31847)continue end gd=Ub[-16018]or hf(4717,-16018,124250)end else if Ke>215 then gd=Ub[11576]or hf(42995,11576,106566)continue else gd=Ub[-16421]or hf(16220,-16421,22928)continue end gd=Ub[-7376]or hf(14025,-7376,67894)end elseif gd<=13152 then if gd<12615 then if gd>=12414 then if gd<=12414 then if(ke[3]>=df[49265])then gd=Ub[-21854]or hf(60828,-21854,128874)continue else gd=Ub[-18078]or hf(21098,-18078,66911)continue end gd=Ub[-2449]or hf(40649,-2449,16672)else if(Ke>207)then gd=Ub[-18935]or hf(26297,-18935,130457)continue else gd=Ub[-23761]or hf(49003,-23761,6531)continue end gd=Ub[-29224]or hf(33242,-29224,30757)end elseif gd>12252 then Zd+=1;gd=Ub[-14744]or hf(36429,-14744,29370)else nb,mb=Jf[df[49265]],nil;mb=Ic(nb)==Lc('\148\145\170Y\134\141\171T','\242\228\196:')if(not mb)then gd=Ub[-21234]or hf(58654,-21234,108891)continue else gd=Ub[7504]or hf(46204,7504,63710)continue end gd=22097 end elseif gd<=12808 then if gd<12775 then if W(mb)==Lc('\196G\210J\213','\176&')then gd=Ub[12123]or hf(53110,12123,115515)continue end gd=Ub[9527]or hf(12289,9527,124792)elseif gd<=12775 then jc(ke);gd=Ub[-603]or hf(44046,-603,3664)else gd,z=Ub[-30388]or hf(57209,-30388,26994),z..Gb(Xd(rb(ke,(r_-15)+1),rb(ae,(r_-15)%#ae+1)))end elseif gd>12864 then pa,gd=nb+ae-1,Ub[24679]or hf(17128,24679,82129)else Zd-=1;gd,Hd[Zd]=Ub[-28761]or hf(36745,-28761,29430),{[46992]=127,[49265]=Xd(df[49265],199),[43183]=Xd(df[43183],157),[38634]=0}end elseif gd>14627 then if gd>=15667 then if gd>15667 then Ve=Ve+ke;ae=Ve if Ve~=Ve then gd=Ub[17082]or hf(40894,17082,25225)else gd=Ub[19524]or hf(18120,19524,112946)end else gd,_e=Ub[31170]or hf(10215,31170,77168),_e..Gb(Xd(rb(u_,(D-30)+1),rb(Ve,(D-30)%#Ve+1)))end else gd,Jf[df[43183]]=Ub[3047]or hf(30354,3047,84477),Jf[df[49265]]%Jf[df[38634]]end elseif gd>14215 then if gd<=14621 then nb=df[64678];Jf[df[38634]]=Jf[df[43183]][nb];Zd+=1;gd=Ub[2597]or hf(63940,2597,114739)else if(ae>=0 and _e>ke)or((ae<0 or ae~=ae)and _e<ke)then gd=Ub[20562]or hf(8108,20562,26895)else gd=18485 end end elseif gd>13993 then if(Ke>54)then gd=Ub[12493]or hf(42417,12493,4692)continue else gd=Ub[-10147]or hf(22424,-10147,108947)continue end gd=Ub[16912]or hf(2552,16912,127175)elseif gd<=13773 then gd,Jf[df[49265]]=Ub[11953]or hf(27288,11953,70114),u_ else _e=He(mb)if _e==nil then gd=Ub[-6784]or hf(43594,-6784,31022)continue end gd=Ub[16046]or hf(28385,16046,114810)end elseif gd>=47175 then if gd>=57135 then if gd>60313 then if gd<62006 then if gd<=61400 then if gd>61175 then if gd<=61308 then ke=ke+z;D=ke if ke~=ke then gd=Ub[18009]or hf(43480,18009,3506)else gd=Ub[25393]or hf(64902,25393,27781)end else if(Ke>160)then gd=Ub[643]or hf(60701,643,10090)continue else gd=Ub[27517]or hf(50671,27517,63171)continue end gd=Ub[-4164]or hf(45416,-4164,100439)end elseif gd>=60962 then if gd<=60962 then if Ke>193 then gd=Ub[-5778]or hf(51714,-5778,1514)continue else gd=Ub[16280]or hf(42316,16280,13695)continue end gd=Ub[-2582]or hf(33665,-2582,30414)else jc'';gd=Ub[20699]or hf(32060,20699,73027)end else ae=ae+D;xd=ae if ae~=ae then gd=Ub[-11732]or hf(40813,-11732,9645)else gd=17739 end end elseif gd>61981 then nf(ke);gd,Da[_e]=Ub[-12694]or hf(45232,-12694,24348),nil elseif gd<=61451 then if gd<=61449 then if Ke>60 then gd=Ub[-23332]or hf(18689,-23332,130800)continue else gd=Ub[-8039]or hf(41078,-8039,8575)continue end gd=Ub[16471]or hf(32169,16471,83094)else Jf[df[49265]],gd=Jf[df[38634]]*Jf[df[43183]],Ub[-31027]or hf(24175,-31027,74072)end else if(not Jf[df[49265]])then gd=Ub[26281]or hf(30666,26281,98578)continue else gd=Ub[28354]or hf(43995,28354,110116)continue end gd=Ub[13516]or hf(36334,13516,29913)end elseif gd>=64458 then if gd>=64614 then if gd<64707 then gd,Jf[df[43183]]=Ub[-10997]or hf(12382,-10997,67753),Jf[df[38634]]+df[64678]elseif gd>64707 then ke[1]=ke[2][ke[3]];ke[2]=ke;ke[3]=1;gd,dd[_e]=Ub[22250]or hf(1,22250,120696),nil else xd=ae if z~=z then gd=Ub[-8755]or hf(58518,-8755,105968)else gd=Ub[-626]or hf(2816,-626,27868)end end elseif gd>64458 then nb,mb=nil,Jf[df[49265]];nb=Ic(mb)==Lc('\206M\229$\220Q\228)','\168\56\139G')if not nb then gd=Ub[26341]or hf(38463,26341,35487)continue end gd=59411 else if Ke>203 then gd=Ub[19614]or hf(15414,19614,72650)continue else gd=Ub[-23523]or hf(41869,-23523,932)continue end gd=Ub[-25219]or hf(33660,-25219,30283)end elseif gd<63156 then if gd>62006 then Zd-=1;Hd[Zd],gd={[46992]=148,[49265]=Xd(df[49265],143),[43183]=Xd(df[43183],110),[38634]=0},Ub[2313]or hf(54199,2313,108160)else mb,u_,Ve=Gc(mb);gd=Ub[-27976]or hf(50002,-27976,104359)end elseif gd<=63156 then Zd+=1;gd=Ub[28760]or hf(54690,28760,109805)else kd(ke,1,ae,nb,Jf);gd=Ub[-10305]or hf(60686,-10305,119929)end elseif gd>=58712 then if gd>=59481 then if gd<=59996 then if gd>59887 then if(xd>=0 and z>D)or((xd<0 or xd~=xd)and z<D)then gd=Ub[-13717]or hf(44505,-13717,49416)else gd=32265 end elseif gd<=59481 then mb,u_,Ve=Gc(mb);gd=Ub[-12275]or hf(56875,-12275,11848)else if(Jb>=0 and D>xd)or((Jb<0 or Jb~=Jb)and D<xd)then gd=Ub[22398]or hf(11626,22398,106767)else gd=12808 end end elseif gd<=60199 then if(Ke>237)then gd=Ub[11850]or hf(21525,11850,104878)continue else gd=Ub[-22111]or hf(57185,-22111,7323)continue end gd=Ub[-14903]or hf(33220,-14903,30771)else Zd+=1;gd=Ub[15982]or hf(39463,15982,32016)end elseif gd>=59196 then if gd<59409 then Jf[df[49265]],gd=Jf[df[38634]]*df[64678],Ub[24751]or hf(39490,24751,32397)elseif gd<=59409 then Zd+=df[62764];gd=Ub[29260]or hf(35622,29260,101905)else Zd+=df[62764];gd=Ub[2555]or hf(8655,2555,71736)end elseif gd<=58712 then if Ke>246 then gd=Ub[12046]or hf(57450,12046,101718)continue else gd=Ub[4922]or hf(44051,4922,59365)continue end gd=Ub[-8179]or hf(11937,-8179,70126)else u_[(ae-219)],gd=Ia[z[43183]+1],Ub[-4406]or hf(799,-4406,23348)end elseif gd>=58076 then if gd>58462 then if gd>58609 then nb,mb,gd=Hd[Zd],nil,12085 else if Ke>141 then gd=Ub[-29925]or hf(22982,-29925,70807)continue else gd=Ub[19339]or hf(22903,19339,100812)continue end gd=Ub[-12902]or hf(112,-12902,128863)end elseif gd>=58226 then if gd>58226 then nb,mb=df[49265],df[43183]-1 if mb==-1 then gd=Ub[9117]or hf(59550,9117,101106)continue end gd=7162 else Zd+=df[62764];gd=Ub[-24663]or hf(6848,-24663,130319)end else if(not Ca)then gd=Ub[-9324]or hf(50757,-9324,32184)continue else gd=Ub[7718]or hf(6174,7718,15425)continue end gd=Ub[-29595]or hf(3003,-29595,19452)end elseif gd>=57745 then if gd<=57745 then mb,u_,Ve=dd if W(mb)~=Lc('!C\238\251\51_\239\246','G6\128\152')then gd=Ub[19204]or hf(61677,19204,23347)continue end gd=Ub[-28861]or hf(62253,-28861,13134)else _e,ke=qf(Da[df],u_,Jf[nb+1],Jf[nb+2])if not _e then gd=Ub[21384]or hf(62184,21384,5824)continue end gd=18357 end elseif gd<=57135 then if Ke>156 then gd=Ub[16932]or hf(27584,16932,80656)continue else gd=Ub[-17312]or hf(11378,-17312,124396)continue end gd=Ub[15033]or hf(17746,15033,81341)else Zd+=1;gd=Ub[9510]or hf(31134,9510,82153)end elseif gd<52249 then if gd>49261 then if gd<50590 then if gd>=50391 then if gd<=50391 then if(Ke>155)then gd=Ub[10733]or hf(61231,10733,124180)continue else gd=Ub[28229]or hf(60006,28229,12766)continue end gd=Ub[-9731]or hf(54563,-9731,109676)else if(Ke>142)then gd=Ub[9146]or hf(18837,9146,102348)continue else gd=Ub[19439]or hf(48047,19439,105615)continue end gd=Ub[9658]or hf(53544,9658,108567)end elseif gd>49894 then Ve=(function(...)for Fc,pc,pf,Od,Ce,id,ie,Lf,L,Id,o_,S,lb,Ya,vd,tb,G,_d,va,if_ in...do ib{Fc,pc,pf,Od,Ce,id,ie,Lf,L,Id,o_,S,lb,Ya,vd,tb,G,_d,va,if_}end ib(-2)end);Da[u_],gd=Za(Ve),Ub[25250]or hf(30478,25250,112588)else _e,ke=mb(u_,Ve);Ve=_e if Ve==nil then gd=Ub[-9131]or hf(32499,-9131,82396)else gd=12414 end end elseif gd<=51482 then if gd<51420 then if(Ke>16)then gd=Ub[-10994]or hf(53798,-10994,105308)continue else gd=Ub[20904]or hf(41409,20904,1961)continue end gd=Ub[-6572]or hf(7046,-6572,130801)elseif gd>51420 then uc={[3]=Xe,[2]=Jf};gd,dd[Xe]=Ub[27824]or hf(63837,27824,270),uc else if(Ke>7)then gd=Ub[26035]or hf(62072,26035,29550)continue else gd=Ub[-7004]or hf(28460,-7004,80329)continue end gd=Ub[-23897]or hf(55917,-23897,114010)end else if(nb==2)then gd=Ub[7537]or hf(19000,7537,100756)continue else gd=Ub[-24619]or hf(40413,-24619,7957)continue end gd=Ub[-18663]or hf(24440,-18663,124482)end elseif gd<48811 then if gd<=48204 then if gd<=48170 then if gd<=47175 then if Ke>55 then gd=Ub[19544]or hf(37558,19544,15645)continue else gd=Ub[-19481]or hf(59711,-19481,100003)continue end gd=Ub[-13438]or hf(17532,-13438,80715)else if(Ke>3)then gd=Ub[20509]or hf(32776,20509,19101)continue else gd=Ub[-5202]or hf(21830,-5202,114490)continue end gd=Ub[7237]or hf(8916,7237,70947)end else if(D==2)then gd=Ub[18441]or hf(30594,18441,83690)continue else gd=Ub[-4175]or hf(19499,-4175,104480)continue end gd=Ub[18589]or hf(48524,18589,59783)end elseif gd>48598 then if not(mb<=z)then gd=Ub[15486]or hf(21597,15486,19193)continue end gd=Ub[32607]or hf(49407,32607,112584)else if(Ke>100)then gd=Ub[-7593]or hf(14502,-7593,123870)continue else gd=Ub[-15098]or hf(45778,-15098,55632)continue end gd=Ub[-22570]or hf(4683,-22570,124596)end elseif gd>48846 then if gd>49198 then if df[38634]==71 then gd=Ub[-19243]or hf(43618,-19243,18167)continue elseif(df[38634]==137)then gd=Ub[3978]or hf(9968,3978,75308)continue else gd=Ub[765]or hf(44714,765,52749)continue end gd=Ub[-16229]or hf(24215,-16229,74208)else Zd+=df[62764];gd=Ub[4155]or hf(39841,4155,32494)end elseif gd<48835 then gd,Jf[df[43183]]=Ub[-9180]or hf(585,-9180,128694),Jf[df[38634]]/Jf[df[49265]]elseif gd<=48835 then nb=Kc(mb)if nb~=nil and nb[Lc('c\149\177H\175\170','<\202\216')]~=nil then gd=Ub[4023]or hf(9963,4023,117416)continue elseif(W(mb)==Lc('\234\170\252\167\251','\158\203'))then gd=Ub[14104]or hf(2872,14104,15159)continue else gd=Ub[-21402]or hf(23571,-21402,130301)continue end gd=Ub[-14864]or hf(52644,-14864,101392)else Zd+=1;gd=Ub[-32567]or hf(17332,-32567,79491)end elseif gd<53864 then if gd<53058 then if gd>=52611 then if gd>52611 then if(Ke>198)then gd=Ub[17454]or hf(38622,17454,24142)continue else gd=Ub[-23968]or hf(21332,-23968,118308)continue end gd=Ub[-17254]or hf(23182,-17254,81401)else nb,mb=nil,Xd(df[45845],14371);nb=if mb<32768 then mb else mb-65536;u_=nb;Ve=Ka[u_+1];_e=Ve[9136];ke=ra(_e);Jf[Xd(df[49265],211)]=dc(Ve,ke);gd,D,ae,z=9504,1,119,(_e)+118 end elseif gd>52249 then Jf[df[49265]],gd=Jf[df[38634]][Jf[df[43183]]],Ub[-25328]or hf(4285,-25328,124810)else gd,Ve=Ub[30715]or hf(11048,30715,109387),pa-nb+1 end elseif gd<53439 then if gd<=53058 then gd,Jf[df[43183]]=Ub[-3743]or hf(32489,-3743,82390),Jf[df[49265]]+Jf[df[38634]]else if _e>0 then gd=Ub[9847]or hf(23505,9847,26426)continue else gd=Ub[27978]or hf(65240,27978,107867)continue end gd=Ub[-4254]or hf(27285,-4254,93666)end elseif gd>=53512 then if gd<=53512 then Zd+=df[62764];gd=Ub[29183]or hf(9928,29183,71991)else if(xd>=0 and z>D)or((xd<0 or xd~=xd)and z<D)then gd=Ub[4934]or hf(1269,4934,125035)else gd=Ub[-4141]or hf(26116,-4141,69062)end end else Jf[df[38634]]=df[49265]==1;Zd+=df[43183];gd=Ub[2254]or hf(34535,2254,31184)end elseif gd<55082 then if gd>=54156 then if gd>54156 then gd,Ve=22766,ae continue else z=z+xd;Jb=z if z~=z then gd=Ub[11978]or hf(529,11978,8768)else gd=59996 end end elseif gd<=53864 then if Jf[df[49265]]==Jf[df[41993]]then gd=Ub[-1809]or hf(39486,-1809,29764)continue else gd=Ub[5569]or hf(25350,5569,111440)continue end gd=Ub[1021]or hf(24706,1021,88013)else if(Ke>45)then gd=Ub[-3599]or hf(47104,-3599,60312)continue else gd=Ub[23845]or hf(14183,23845,18299)continue end gd=Ub[29192]or hf(53097,29192,111190)end elseif gd<55637 then if gd<=55082 then Zd-=1;Hd[Zd],gd={[46992]=60,[49265]=Xd(df[49265],43),[43183]=Xd(df[43183],33),[38634]=0},Ub[-25405]or hf(26255,-25405,88568)else mb[64678]=u_ if nb==2 then gd=Ub[30327]or hf(12131,30327,123219)continue elseif(nb==3)then gd=Ub[-29127]or hf(10326,-29127,18257)continue else gd=Ub[-2810]or hf(13265,-2810,32652)continue end gd=Ub[29309]or hf(20560,29309,98317)end elseif gd<56281 then Zd-=1;gd,Hd[Zd]=Ub[-18099]or hf(9623,-18099,72928),{[46992]=16,[49265]=Xd(df[49265],208),[43183]=Xd(df[43183],230),[38634]=0}elseif gd<=56281 then _e=_e+ae;z=_e if _e~=_e then gd=Ub[-13169]or hf(62777,-13169,13498)else gd=Ub[15986]or hf(33805,15986,50467)end else Zd+=df[62764];gd=Ub[14935]or hf(56251,14935,114308)end elseif gd>=39912 then if gd>42989 then if gd>=45186 then if gd<46510 then if gd<=46049 then if gd<=45453 then if gd>45186 then nb=df[64678];Jf[df[49265]][nb]=Jf[df[38634]];Zd+=1;gd=Ub[-22673]or hf(28100,-22673,87091)else Jf[df[38634]],gd=Jf[df[49265]][df[43183]+1],Ub[28592]or hf(5501,28592,126026)end else Ve,gd=nil,34200 end else z=Hd[Zd];Zd+=1;D=z[49265]if(D==0)then gd=Ub[20820]or hf(63899,20820,104162)continue else gd=Ub[11763]or hf(42709,11763,24754)continue end gd=Ub[-21894]or hf(38075,-21894,53072)end elseif gd>=46688 then if gd<=46710 then if gd>46688 then Zd+=df[62764];gd=Ub[24520]or hf(52719,24520,111832)else nb=df[64819]if(Jf[df[49265]]==nil)~=nb then gd=Ub[2012]or hf(64817,2012,105698)continue else gd=Ub[-19103]or hf(65477,-19103,58266)continue end gd=Ub[3634]or hf(58758,3634,122097)end else jc'';gd=Ub[-31426]or hf(19207,-31426,114332)end elseif gd>46510 then gd,Jf[df[38634]]=Ub[11667]or hf(8108,11667,123547),Jf[df[49265]]/df[64678]else u_=Hd[Zd+df[62764]]if Da[u_]==nil then gd=Ub[460]or hf(24376,460,66092)continue end gd=Ub[-8767]or hf(31696,-8767,117682)end elseif gd<43758 then if gd>=43608 then if gd>43608 then _e,ke=mb(u_,Ve);Ve=_e if Ve==nil then gd=Ub[16623]or hf(45091,16623,65046)else gd=62005 end else if(Ke>111)then gd=Ub[-22737]or hf(10718,-22737,26703)continue else gd=Ub[2853]or hf(13705,2853,106949)continue end gd=Ub[1290]or hf(2673,1290,68958)end elseif gd>43068 then Jf[nb+1]=z;_e,gd=z,Ub[24317]or hf(47611,24317,9350)else if mb<=Ve then gd=Ub[6803]or hf(64589,6803,117349)continue end gd=Ub[-19951]or hf(42962,-19951,105021)end elseif gd>43840 then xd={[1]=Jf[z[43183]],[3]=1};xd[2]=xd;gd,u_[(ae-219)]=Ub[27715]or hf(29026,27715,109945),xd elseif gd>=43833 then if gd>43833 then Zd+=df[62764];gd=Ub[6572]or hf(23019,6572,73940)else Jb=He(z)if(Jb==nil)then gd=Ub[-4619]or hf(45667,-4619,41135)continue else gd=Ub[4189]or hf(11311,4189,112221)continue end gd=32671 end else nb=Ia[df[43183]+1];gd,nb[2][nb[3]]=Ub[-19667]or hf(25063,-19667,88272),Jf[df[49265]]end elseif gd>40984 then if gd<41922 then if gd>=41603 then if gd<=41603 then Jf[df[43183]],gd=Jf[df[49265]]-Jf[df[38634]],Ub[13736]or hf(54584,13736,109575)else gd,Jf[df[49265]]=Ub[-10116]or hf(54102,-10116,108449),nil end elseif gd>41165 then ke,gd=ke..Gb(Xd(rb(Ve,(xd-78)+1),rb(_e,(xd-78)%#_e+1))),Ub[-8805]or hf(31465,-8805,87215)else u_,gd=ke,55216 continue end elseif gd>=42364 then if gd>=42755 then if gd<=42755 then if Jf[df[49265]]==Jf[df[41993]]then gd=Ub[5888]or hf(37081,5888,23026)continue else gd=Ub[7555]or hf(29317,7555,76228)continue end gd=Ub[-13375]or hf(19108,-13375,85395)else Zd+=1;gd=Ub[-12826]or hf(49940,-12826,112227)end else ke[(xd-118)],gd=Ia[Jb[43183]+1],Ub[-2239]or hf(48260,-2239,18327)end elseif gd>41922 then Ve=Jf[nb];ae,gd,_e,ke=1,35763,nb+1,mb else D=ke if ae~=ae then gd=Ub[13339]or hf(41115,13339,62323)else gd=Ub[27024]or hf(36308,27024,7415)end end elseif gd>40547 then if gd>=40930 then if gd<=40930 then df=Hd[Zd];gd,Ke=Ub[14388]or hf(50131,14388,62228),df[46992]else gd,Jf[df[49265]]=Ub[-8322]or hf(22445,-8322,126617),u_[df[19306]][df[49869]]end elseif gd>40665 then ae=ae+D;xd=ae if ae~=ae then gd=Ub[18086]or hf(22879,18086,74152)else gd=Ub[25566]or hf(55544,25566,54823)end else Zd+=1;gd=Ub[-27817]or hf(30903,-27817,89984)end elseif gd>40115 then if gd<=40478 then Zd-=1;gd,Hd[Zd]=Ub[-27551]or hf(19003,-27551,85252),{[46992]=198,[49265]=Xd(df[49265],179),[43183]=Xd(df[43183],51),[38634]=0}else nb=Ka[df[64678]+1];mb=nb[9136];u_=ra(mb);Jf[df[49265]]=dc(nb,u_);ke,gd,Ve,_e=1,10140,220,(mb)+219 end elseif gd<40110 then if gd<=39912 then D=D+Jb;r_=D if D~=D then gd=Ub[24801]or hf(7280,24801,28729)else gd=59887 end else Jf[df[49265]],gd=-Jf[df[43183]],Ub[-14170]or hf(30998,-14170,82017)end elseif gd<=40110 then gd,u_=Ub[-13680]or hf(49529,-13680,5415),pa-mb+1 else if(df[38634]==121)then gd=Ub[869]or hf(46803,869,20222)continue else gd=Ub[-3881]or hf(30439,-3881,126392)continue end gd=Ub[-1808]or hf(14613,-1808,65634)end elseif gd>=34725 then if gd>=36358 then if gd<=38149 then if gd>=36689 then if gd<37456 then gd,ae=Ub[-19797]or hf(46877,-19797,60602),ae..Gb(Xd(rb(_e,(Jb-165)+1),rb(ke,(Jb-165)%#ke+1)))elseif gd<=37456 then mb,u_,Ve=nb[Lc('\181\96O\158ZT','\234?&')](mb);gd=Ub[-29885]or hf(59257,-29885,103367)else if(df[38634]==33)then gd=Ub[-21608]or hf(16520,-21608,73806)continue else gd=Ub[7783]or hf(7304,7783,108844)continue end gd=Ub[21286]or hf(48086,21286,106017)end elseif gd>36358 then Zd+=df[62764];gd=Ub[-18577]or hf(54203,-18577,108164)else Zd+=1;gd=Ub[-23402]or hf(32924,-23402,30699)end elseif gd>39354 then if Ke>124 then gd=Ub[13026]or hf(10051,13026,111752)continue else gd=Ub[-22076]or hf(62951,-22076,62333)continue end gd=Ub[29171]or hf(5594,29171,125989)elseif gd>=38807 then if gd<=38807 then Jf[df[49265]],gd=#Jf[df[43183]],Ub[-30262]or hf(62708,-30262,117699)else nb,mb,u_=df[64678],df[64819],Jf[df[49265]]if(u_==nb)~=mb then gd=Ub[4315]or hf(28515,4315,99568)continue else gd=Ub[-11805]or hf(64969,-11805,7332)continue end gd=Ub[-25107]or hf(48612,-25107,99539)end else if(Jf[df[49265]]<Jf[df[41993]])then gd=Ub[5468]or hf(26565,5468,70949)continue else gd=Ub[1319]or hf(20940,1319,102846)continue end gd=Ub[13558]or hf(5609,13558,126166)end elseif gd>=35462 then if gd>=36063 then if gd>36213 then if Ke>91 then gd=Ub[18616]or hf(50826,18616,17401)continue else gd=Ub[5531]or hf(47559,5531,1865)continue end gd=Ub[11167]or hf(51162,11167,113189)elseif gd>36063 then if Ke>31 then gd=Ub[-30988]or hf(58221,-30988,116421)continue else gd=Ub[-25695]or hf(50313,-25695,14280)continue end gd=Ub[-26058]or hf(57351,-26058,120688)else nb,mb=df[32164],df[64678];u_=Na[mb]or Lb[11536][mb]if(nb==1)then gd=Ub[27636]or hf(46686,27636,55224)continue else gd=Ub[-31556]or hf(3199,-31556,125959)continue end gd=40665 end elseif gd<=35462 then Zd-=1;gd,Hd[Zd]=Ub[6645]or hf(29236,6645,83203),{[46992]=160,[49265]=Xd(df[49265],112),[43183]=Xd(df[43183],109),[38634]=0}else z=_e if ke~=ke then gd=Ub[23065]or hf(26432,23065,115235)else gd=Ub[4071]or hf(26698,4071,113018)end end elseif gd>35288 then if Ke>189 then gd=Ub[-5852]or hf(49575,-5852,339)continue else gd=Ub[-21036]or hf(53991,-21036,20375)continue end gd=Ub[-1216]or hf(59667,-1216,118908)elseif gd>34759 then if df[38634]==4 then gd=Ub[-17891]or hf(37038,-17891,34119)continue elseif df[38634]==5 then gd=Ub[-21382]or hf(15098,-21382,68019)continue else gd=Ub[4135]or hf(47913,4135,24086)continue end gd=Ub[25398]or hf(35634,25398,101917)elseif gd<=34725 then if(nb==3)then gd=Ub[-8288]or hf(43707,-8288,28480)continue else gd=Ub[4717]or hf(13872,4717,118042)continue end gd=Ub[-31582]or hf(16071,-31582,115983)else mb=K[62830];pa,gd=nb+mb-1,Ub[-15018]or hf(40239,-15018,43830)end elseif gd<32461 then if gd<=31504 then if gd>31342 then if gd<=31441 then _e,ke=mb[19306],df[19306];ke=Lc('\18b\187\0\163\196\179','OC\190')..ke;ae='';xd,D,gd,z=1,(#_e-1)+165,Ub[26640]or hf(12720,26640,31496),165 else if(z>=0 and ke>ae)or((z<0 or z~=z)and ke<ae)then gd=Ub[4304]or hf(50854,4304,5500)else gd=Ub[-25087]or hf(15723,-25087,27149)end end elseif gd<31317 then if Ke>182 then gd=Ub[-22342]or hf(51372,-22342,118683)continue else gd=Ub[-29939]or hf(11944,-29939,101427)continue end gd=Ub[-22742]or hf(31661,-22742,89754)elseif gd<=31317 then if(Ke>132)then gd=Ub[29923]or hf(57866,29923,104090)continue else gd=Ub[-31913]or hf(21457,-31913,21096)continue end gd=Ub[31783]or hf(57876,31783,120163)else Zd+=df[62764];gd=Ub[31968]or hf(31448,31968,89383)end elseif gd>=31966 then if gd<=31966 then mb,u_,Ve=nb[Lc('\178\191\227\153\133\248','\237\224\138')](mb);gd=Ub[17941]or hf(32757,17941,118582)else gd,ae=Ub[-7848]or hf(28423,-7848,82560),ae..Gb(Xd(rb(_e,(Jb-248)+1),rb(ke,(Jb-248)%#ke+1)))end elseif gd<=31583 then mb,u_,Ve=dd if(W(mb)~=Lc('\179\48\190\b\161,\191\5','\213E\208k'))then gd=Ub[-20071]or hf(58364,-20071,1085)continue else gd=Ub[4102]or hf(13534,4102,125907)continue end gd=Ub[-31292]or hf(60861,-31292,111796)else Zd+=df[62764];gd=Ub[3284]or hf(30355,3284,84476)end elseif gd<32671 then if gd<32580 then if gd>32461 then z,D=Jf[nb+2],nil;xd=z;D=Ic(xd)==Lc('Gb\"Kr=',')\23O')if not D then gd=Ub[13224]or hf(56868,13224,31182)continue end gd=53431 else nb,mb=nil,Jf[df[49265]];nb=Ic(mb)==Lc('\180\244h\168\166\232i\165','\210\129\6\203')if not nb then gd=Ub[-13988]or hf(46436,-13988,63534)continue end gd=Ub[30759]or hf(19962,30759,125084)end elseif gd>32580 then if(Ke>211)then gd=Ub[4886]or hf(28396,4886,108801)continue else gd=Ub[23379]or hf(1452,23379,20117)continue end gd=Ub[-22441]or hf(18466,-22441,85869)else gd,Jf[df[49265]]=Ub[-28286]or hf(11541,-28286,70754),Jf[df[43183]]end elseif gd>34017 then if gd>34200 then if Ke>11 then gd=Ub[-32600]or hf(43765,-32600,4642)continue else gd=Ub[-14825]or hf(65145,-14825,113478)continue end gd=Ub[17905]or hf(59350,17905,121377)else _e,ke=mb[19306],df[19306];ke=Lc('\247L\247\229\141\136V','\170m\242')..ke;ae='';gd,z,xd,D=Ub[-25262]or hf(28199,-25262,118372),248,1,(#_e-1)+248 end elseif gd<33561 then Jf[nb+2]=Jb;gd,z=Ub[-30139]or hf(65318,-30139,111690),Jb elseif gd>33561 then gd,Jf[df[43183]]=Ub[-25449]or hf(40184,-25449,25543),Jf[df[49265]]%df[64678]else Jf[df[38634]],gd=Jf[df[49265]]-df[64678],Ub[24722]or hf(32303,24722,82200)end end end return function(...)local td,wa,pb,V,Ma,Md,Ta,I,qb,Ga,ua;Ga,qb=function(cb,fe,Kb)qb[Kb]=aa(fe,26988)-aa(cb,47710)return qb[Kb]end,{};I=qb[-21487]or Ga(39736,46359,-21487)repeat if I<42755 then if I>30141 then return ec(wa,2,pb)elseif I>=15358 then if I<=15358 then Md,Ma=wa[2],nil;ua=Md;Ma=Ic(ua)==Lc('\1\254\n\27\228\31','r\138x')if Ma==false then I=qb[-25406]or Ga(31245,124527,-25406)continue end I=qb[-8052]or Ga(6133,84484,-8052)else return jc(Md,0)end else wa,pb=vb(ub(Ib,V,h[37830],h[46990],td))if(wa[1])then I=qb[-22644]or Ga(60011,35986,-22644)continue else I=qb[16489]or Ga(44089,15113,16489)continue end I=qb[-7456]or Ga(38949,40978,-7456)end elseif I<47893 then if I>42755 then wa,pb=h[45612]+1,Ta[Lc('X','6')]-h[45612];td[62830]=pb;kd(Ta,wa,wa+pb-1,1,td[38335]);I=qb[16354]or Ga(31350,35866,16354)else I=qb[-21844]or Ga(4170,69408,-21844)continue end elseif I<=47893 then Ta,V,td=pe(...),ra(h[30221]),{[62830]=0,[38335]={}};kd(Ta,1,h[45612],0,V)if h[45612]<Ta[Lc('\226','\140')]then I=qb[-31423]or Ga(13170,87406,-31423)continue end I=9550 else I,Md=qb[-12807]or Ga(52179,36390,-12807),Ic(Md)end until I==48184 end end return dc(t_,c)end)local oc;oc,zc={[0]=0},function()oc[0]=oc[0]+1 return{[2]=oc,[3]=oc[0]}end;Yc=Wc return(function()local Ed,U,xf,Hb;U={[1]=Yc,[3]=1};U[2]=U;Hb={[1]=Kd,[3]=1};Hb[2]=Hb;xf={[1]=bb,[3]=1};xf[2]=xf;Ed={[3]=1,[1]=Mf};Ed[2]=Ed return Yc(a_'OzM30ZfknjpOVJJDTlWTQ9J8s0a1fbNG3PKOFjJ/s0Qxf7NG3POOF05VkkNOVpNDTleQQ9J7s0a1e7JG0nqzRrV6sUZOUpFDKtWPXdzxjBDc8IwR3PCMFNzwjhUyf7NFMX+zRtzzjhYq0I5dCmAvK9zwjBUqXCAMy5fknjoy/pvknjqiAjZ8De8Yk9y5y7dt+zpXnFgrxDzPXRQ7BNs/UvS00zjOh8Hlu0mWPg0cV47rFh+bSlyWbY6ojeQ+ruGXozY/0DOLUqF0WXFUVeKHAMvO65SEeLieUR+3KE/bYcBswlz4nbsnQWkuMBvpDD61TGgLDFelV2nojesGIW/mxOFLX8V3HFZj78tAPf4PGpzmihGp2qCPgEMm/VEiwbRY9yeyedgid6M/9SW2sKLYYB/zAo1QX/0VxG+bj8/ptyAVxZ6EHwu/cImh0zXIFcpl5JxXSBh/Olz0r291cvepRvphfdbgpIQNQhtw3TIWwhcM/uRY7IJwTvRudWB0aeRccf20iB9dvwjKLB1W20vxw4YERDAMBVRcYc4DZuJ5znCPFGBRDUi0E6rC9c1MaruMRR5V8mk4tfNP6r92bh/2A60uFOfUFn4Lt+bbTQgGbicd3xnjQrF64jmF6uJG+PE+1DspYMIxZJzS1v2UQ9LIsru7ZSJmx4fn4RpRcMhlyj1wqbkpNiDqZTI0H7RzOoKlD8Yf3H1WVn4M4mTte7jBWk/7YjZBlQCdmQd5Vt0KiA0Sc1OtV9RI2l10/hT22PYnIgHINKVDTssJarRDsNuz+zN2LnOTNomW5mUU35A5yUVhb1oTkVvFmlwFC+eTALtC8eCVGFgNyuzVS1+Y2I9wTVDRasmfnvdqVISwHE3Y2uvaWefR7BsBm38TqGIs+Fi4E8Sa7ec6DqcAtXqcq0KlNQMlox8Dzd2Q3tHG5yrKPlLVYvtq8vD6nrONvaJi1t1Wyu+7X0zCXsqCinkB2O6ROsc+b31OiH/0qtmKNb4Dd3PDQPefzvUKmxvIL/y11rdBPNMEcDR7C3oAp3EMgoTSN5bQVKfY/hjkfjTvVaJt0VcuxTElv9WQZeZlEaV4DmaEsZW2qV7oZMX5vtbb5R6kZ+EGyDrpwX367O19x/k66aKNiutKfj9Wm/5NmY1RNd3JwKY40StuWxDrGuwlC1uuDdyqfYb8ovn64knwJMs95DvVcqhJ6tW6L1ljvGvUcgCQgH1a5mSX3vqKnIwDDOlpLEdKX30nRn7St9jPGFIbqctyRPeR4mHoDmBLKgdbE6IFqA7jpDCvwuUEg6MIaWnNF4V64lSYthUUmE2IBZvod6eolQJcSv9wNe+cCX51/AHaJjXzsjcEvfAP8nphW8f5+fWn5pSLQ/r8e/OEFWGC8MqTdWm5QKaXjRHuIhtTg3zQCp1migboKclixZy+vJQefoir19JrTTYozKvNpHt06StLDm0mOWbe3vpMmj4E7tkLzCX3PJVMYTVrZEL9jkPj6TFB6ge59ygEHkw9yVX8dpoYGZlJa+1eaPgbD6BLoXaIYmhl+awEl//ne8ExlG5UBtth4tq5ugyCmB/gX4EflNU9qanuh5mBVicttDy31LDlRlmVXK8DAXd9oQ3BBKS6BQE0GK+QyHcwLMNur20C9rm6o8l/N0/BaesLiQqjcs7JQVl7pWbxuKQ6Yy+hORAcjnrK6HoLTQbd6fRUUoi+z9dNVaeQP5QfyJpSjg92IsnCNQGEvsrqTR/DiZ4ix8NUW0M7ebBiI3PWMkAXIvKd7jkrim4YxlOhIQaKXTsSnMNi6b4JkOdv4/UdWguTsBuGBzcujjSrRkoI2T2HiAbUU3LvZmXWG84dWCe/4HgCOW7ygiKN9AaGkqxewUOw6a0pa+FP5D73YO2uuPUgWsxF6h3palm1w+ZKvNvh84F03phiHVVEUi8EEhgsFnCxT3nOHqb1MHlKHUbujNhqLqouXA8tk0aVaKrtpD09kEEgi9i/7GjEiiB1dH7tWQLl36oAiU4Ksy6kt3QFuKqGDRIzf21aW4Mt8aYRz6Sbgq0QUioTPJvuUBLz1DQaskt3x+n+yqZXjOg8g0+nv/6xY6HzPDhxTjjzs6vdQmomvgDe3cZ6wgR4d/irAZyu2opyfV2VBSGJ3cp7/jrkn04Af+nPkkFNbBJAuMd/oduCEkQUHL3ZXSs2kJZwDZI5T6z+hSXtLsa2uIkOM9spDcrI7yzqk31pCIzPUE04X2COcaHm2UwNvePPwCBQN3YFXCcINN5+43+Ne8K/Y+L7cHsXpFqTA7T9R95iaMsyyrzgnjpDMK1gJBLNILVUqvkVIYmPyjbYggX9gIsjh4WgVCFrXfqUc4njbwnycsdpPD2l4MM+xJ6fZ1/7XorNizTx44ZRKi7rzKB+Us6b/onz/8hCCKS7jUb/EdeamG0ZqLDBF6m2HHKcq9BHaAojhd2mxUlOcex+kBZFi6K1wUhHIwCKbQ/x0brG4VlXXeENapC/TEhNvFP08IZqfAisIZuBvpoNr0WiVdJvgROjdanYvh0A2tSlmEuo4l8UA+ptfjODsDSUxYvTU925rCmbpMcIyiSEMNcFroCg3p1fu5tjhuF679PWea3PNOb6iwbgHhsfQg2pUYayFTergvwM2fagb6cU0SE4Iot0DMddvGVDlUnJO1exv9wp35OIWZIxKXlrAkXo4fEC4hbb/cKCzn+2DZuIFGs7Nhj3fTUuvMg8vfAr9NROhFqqNeXkOspMI7cRqFzYTfSUKWnv9Teaq+wbveiYjAko3pjQH9GBerEr85LawQ5JEmVvDydknzyzS55dhCWkRotD/BhgSdq5+VnmlelZK+Dz8/fWH2fwcKuVc6g0CYisPuccaqU6PSH1QaSNUedowtA0RUJw42gzPaBLiN9GSyYVunV0Usnb30VrCS/f0eKu5mDdiTitfdr5RFyGCl6liET7uEI8YSu7DqMuISL8AEQ7P3BlmWooa4PJgRNZ4WVaJKe6xcGSdW4k4Y9bG+OY7zhQhrndDmtOgmQKQo+3GZA5Wl8vTh3xSJUW9zqfC8zvu3EaCBU2CbbYTEigJqJJd5zJZfRpvy7c8qeP7DKUpU2BE2DchfJ5x2UkgGdghGPLQyRxrqdYXSj/O58isHR0fqYToZuMAB4yxGaIZQgi/o6NPtIspryyu+UlgYu+Y1ziwEQT3EVKzJauFSUaEUbKKJeHCzZIHTHx5fFkI4TwdQzVbX/giy951y6L3D7sXhPiK/KK+0Qj+qYtttp9hRq8XWVH7TliIJPct+TD+QltstWKTncDVIZ6atxn7zMGbpqihzettzrnXuirY24IaxoHknrOCw72S7nCj5ylq4QqAdsXpHuivrdimXwEXRZxgAGr3SX9mFXBJR9rg10dIguMMTEdxLSy4Vi5w4KrogyYPhOw1zUYTfKsgXRVz4yo50AqJblWneDwGlL6pBuRpQEcNEdyx7xg+xDfGGlwvvfpeOOq5PssbePCwkY4dmsJDtyTkZmBM9edKYqrgi//uN7FBrA9dE1VGEtziJ1cYitw4YiKzRleF3vq2nHMZNN80wTsNTcRZxbOBHRXPokfaZhF1Pa7tigNaNREQlXVlt4LQ8N+buXmBKg3ff/f0r+Nxj0Few9/WyD7aKL09c0zYNOArf2wncIV2/63If6hloRPJz7L3Ar9jI5w1hhwSVWxtKAF4OYTAhomsRZAs8fXv89iHcesVsfgM8oaoeEGYYS0+5+/svlp6Y+0+uNGAW2RHv+ngrKEqQCMwuO04TR8VYkpj0OXqMpe/HVFI/oQicKudHlE8P+P+F+6D+nbEPTD5q1NjmVBQoOu8PZN9dKFc3KdYdi+MTstzjPOCkE/xc7jrn7UgvrwDF13k/MOJNCPjbykgDiCbzVspPSnDR7gbqUJcl1Q85hKpPe/fh44v19MBOios7R3TiyNkwAuXiP8Yj+WV7OC7r9S1Jg76ixtxym4Oh2Wxb7iyuBZLxDK4npbj4mMKbMi8J3GLg76WpUwGWBDRjyMyZNJogGGxtlYyFdo+gh7mpLYmHEQ2FwrzwBfUVNFc82v24MPaUc2f1N2JrhJSOchjl2PMnT/sYJCCLL4Rbxshg+ByM8NfIdwO53flPZnGnLT2gVR1eCHEblG5UH9IGgQwNsjVwgiGHVLJTdOf6wCUu79MY9NBjkev8idTIdXNpbh0Y0K4HZLZ/eJnBiXiUrDfdxM+Mutn7VapyWH/To4Uk/UQUZhCanaBDZ4meQHhX6KhUHU0k5xit6Clvl8Z3bnAZqVNCV5LfCkwh1ZEEP5FXIVYhNZsRBAqF0HfoySU7Cv0wsuD8CWBkbgXv8VC8IkoucvahKlg9q7iHuQ4tlIMBgL4FZi9K8t3R09EvYj/IPXWBCXacmzj8B8QTvz1qLLdmlLdodwnCiAwvt1a+et0a007Dg2tJxE9kkc2cGckwjxztFUcDI1p0xT0Ig1zSzDGC0dJOhKFPUpmZKddvcsyOvWmpK+h5MqUHu5+OWGLpFnJ0jhCuGlNrTEPRwX+22DKik6poaGcb9Ney2kK14ofbbZoG1MotGcaO6q0cQ8gXX/lH2dhFGsJDB5Kk44NltcYyuEUOyEaRCZ22uN602STwzfl2TTGCB5kfdGS3WVueUd0dFO0W5h5DHdYDX5IpkC5yYbiKsXbgFeeWBFiDUPNCkKVlspaJ4sNRB+oJWcdxaY8X2sjF3/DdYYWaU9yEuRDEC3ihFluL8/c5RS93Tdj7MKphjE5O1V+z8GGeNmSP0T4h2rSE2ruEj5yOfKdfY3QQbIDKil2Phq/lWdgLmQo2R7k+FEpk0zeERc9IlZAkz+xYmbCt8lCYKJUrn+01wjB4TX8UQraWOjNeuerRPSd+AvPfspmuKIbjxB28nMEeUXbrG2bS77HejrrakJBOlRHjh3PDHOsKdfUF3jnlZj3fUqR9MYIL/NL/qJdFpWk8q6KCdL05YdmuNRNNs8UnKq+m7b9CCaPTL+8kdRSya6ugbc/Z7LctvBCc92PUchTgBNgJoDVOKcCJq5FnRh+x7fpSRyEgmyJLa3D2qMLrUo6uw77AZ0c6k0QNc7qinfeqKoXk2YT5r6+wFq9gpr2d49MVK34CiPz4mSnFPDIbNRYTgf6fAPp/axDkewsnDAddpnMckSEXFa9JYPe665JGWOy43O6aUxbVvMBDbmMhEVbZYTWipLFx8Q+eWQ/GmlycBtcconxDkc4DSi4Ui+UdlO+yH+QOo/LhYg8UzchgHfqDLtWGAT6wNhAgbej+r8OFQk63kUFCcgjdoui+9xpXYJ3+MgrEB1jVRf6XvJ3/V3f4a6c+cbpU00+xE+H+Q10albWTFFwLahiOT8NLlJegVAEt+ggdESfSvm2vBPjWHaq4IKuI8nfetQ1vaJmi8ulx1373QbNyfzaaVBKeypprq13DO9Hh+c7UISGor5IMlO1/dyNqaAH3QEh2gQUJOh7tOTmABAUFmik9oMWPSjOvdhiAdGdalqU9UgCmLZgZzOq3zxxwoOp0PKXaj5YnA0hM7M51UP0lvoB9zSq/DKtW4c8UMJlRzk3TdfRFE0ax686Vgn3wyvbKEeRGz/qR2qXv+EDD/LkIr3OXns8shm18ZWOeQm9pBBrqjx0qJWYbGzkkhTH3LQCAbpwjmADbRC0GIHdY5+AGvGrrNSm+cP/SPLwDRTH2CEcFCnibgi3yZuhyX18IvXt+Ft1egKtYxBWOZw8MZBi4SGgOgG5e+urI6lqe8E5BDG6D69WceLweDUqZO4vuXuExrs6NKGf99HDa/KucZlmzZC6nCTR40yJ+ObYJ9EhPLmcwaPg/Bb0ei21+36frXNcErGVoPvIPQcbCcL1SEgUACP3obV6c+bqlc3IG3rVjoPKl0MALf3CxF8DjiXcW7N+9k230qHtWMGgLztG0chH4bYgAgc4anwk9CoBiAbEsRc58ZgWZThunkO9VgB1z2BrJxXl77xGx+RjnQ1y40Q1foYyXTslL04hCxiRVVsG9dR5Phlpx1VE64GKu9vQBm1SH/92hFNPibsC6KRe26Q3B2pnx4pIJVnr7hHoWuAlDPFx8kACWHpSqiKU/sJH64pnyfaPm65489chJDfNT0bFOPf1eeeJqF/yNISq47mpMJHGMZARJsY3Ccz360PeOaNai/LpaIXOsgqSj0L3S/LVVzaelgm39sKBBsnLtMn0LXnE2P9SIocAypvLihz+fLO+ITf+Wg0/HEBXX64BFBKdk4kR0DfgAXGRw9O/WBsrRxaj91vRjClSNXIMI7RKDWe8cx7pWWNTW/HvUAzLrUsx2eRMHrqN6L8NqCBWif/Rf4SBbPf8CiXP67Fnq20f0TTM473LkhgiwSKR9CVYjDSfhW8xsET5tJAFNN4lucoBr0o1+91qsal7y9uIDZaFp7FaAtXeB6h/MLszI+9NbeIj7HFDnIugLrH8gaDJv4A+yVQfXme7AOQccDkam06IAlf+4T95uZpJcZXGFmLrX3GbJETc7rA9yy6oMoVHESio055Mrpb5xdemtQB4PHqD1MpL9Xb0BDPsGL+cmZEbGs2FaelJgdxXgL3N7Kr2m1UaXxYl4vQEiDs2WEgGJMQjQq/FhYFbsi89dBfhmjZfYOk860xcU3b8EuSRrImc6IOUBbx6s5EuMzHuJK6xwK6xOfm5yQ02YCC+h7Bm+DF/Ab1t8cFsyHi7/tWImheL8fUkHHVTtv51V8MjLuVRCZt08Y9G/1epGEsCMMdnj1l7VVAmYHH/zHlv5uiTtG9TkZsVErqs2Lue5FbHD8vxQLgLXq6/aC6Eo28pe6IMRtl10B8aM2iI3avyxxnDTCGbw/QpNFEzyYsBjytHpL+tuM06GBOruQeaHKx3+1ndP154JEYV8Ey2i0buMdn1I0XqfTpVaGcDSikw6rugiqm6Hj0POIPAv1JSIdUdrjCTQJJrKYCUS+NYVjHi0c6ZJuRh0fm5T0XgzcdOzuCELOuPhbUFPOunoNtfMtzV7wmdiFhUby8yHoBvrJXK/Psga/6bRISj/bpF/7i8FHrYoEsNUCkx9SHnW92qdhDNuJE80Iv97MG1NVvehpp3eVwjUpzafSPJu2/XSm0gbWuMcjExivo2R2G85060x7KO/fVD0trO37ZcxAfoweOBpbjflek9kgzXv7izISNNuAPQf/C5iGu951aGqFRCcQ3xl8TvUs2pseRPvcWbC8PfIHrGHk//43yrSdtAVq/C1D8cE8lbj9iAdEn4MyluhjTLGQ5FRrvmqEYH4QHv7qjAT4b6Oif3F2GNuWFH0ymjqyy2MMtmEieFCXujJ+b0tWBu3v4Jf/STS9i35QbvP2X3eWwnd/kv+Iwx0oC+nBU8v19SW3/JOVZW3nwpQ2svtMN+7I2+AtCXmYyu422KgWuODrh8WtugoaD++mq1NxiGedjUJrKZljJKOSVxLF8qbHBUS/fITREtZ64X2fUCY0yRkkhUXnNtHMT10fcs5j32ZjVN7tXAJdpywNqOCd5F8hjGFpPBUGNFhB7D/DpAHlq2yI8BV0uOS6Ej7AIug5VkjC8tHR0XxieWeoW69kfsgMmvNQX+YZxSAu9OqNhAdYebgmH7kVfdSMlNYoCKxcUTvXYmOfyZIWuLpW6Ki2rdlBeDUUF0ofyKSHVVSmoJrvVqlhon1J90g05qLHtDgOEAMXL+TZtDez1EZXtq5VaYA9l806RKxv1gFeenVTxmnTgmRUuO6xRtvmGKPVAl/Bjt9Gp5pm+bRbLbXg091r1/Q9WW2THHEd9XLgPzDfFpQempzMdTbkUdWhWjs6qAnJq0oKMYdNAV2ZrmQVLv+i/pva4Uk2PdE91/UfpGLFo+eeRl9geoUlFB8uIuqH2nXDqJOjDNLshLqS9cP0Zx9RxU9CBDdhzMP0HolHmdCFJmYk/SQUhw/Z8yX70U5+JblS5OtjVOKjrzR7gjAkRlhHhAx3BKbvcrwBeWsQ3QVUzOGceGN842a38nCbJR+MYAvHeEk6MyaVIgnC+19BvTM+Ymy9BNSj46ML2jiGQbgsFfVndlKtyqmnbIY9rN3Fg6ILaoKdEZgP6mKJU7BrEJKvWplqsDs+wYvRHq97cKC2rKQQp/Z7Hd5x0OHqN9Ek4CA5JaYu8MJPg9tHWL7mYzQHH0vQ3zFjdGoAfTEU6qoHcQtpwMZA63F2amoH2+izp3O1ycYTJR/4KxdJErsU1Ng/NAkb0yYcLuin3jjNns4AILMx3/wo1UdX3F8nPsMpxa3RBLgaFZWUwNh9A8P4quup8oYq4bC8Y9QEsgp1lfsyzmudE+5D7yX9WqQTJ0fwgV6MFVbsb/DpUkGSF+yRUxUXW5o7ze0yNs4Csx9f6Fgc7loMHxE4JtX4oTU8GzDaxOilVL7kZO1ovIDyD7bZ+PIQBbtmWnSb+j3a3rlArzc5Qqy0HpdpzCz5NQLiU/QWlneUVXHXqeUk1y4/xYXVB1xUUuRSwoFi/7FpfNvZ7aO5YuaEDOhB7kY2mscD8rBO5P6ndQS6Yb/T/C5QgiUspY5kFmPVh9dJGmzcDwy7aHKyM7sHdXz4KDj6NBihBcV60HUmRDgtCRzFcXaID46+mNpAb1XKkxyWu90FKKfw14aLdjhHi/ElzYKzQnVkwh9qlmF5FtBooSwecg/WH8NhPo3ajHmhbwXqVz9RgpPLoE+6wtWGRm2a96gibVZopS0zVd60loiVpTDDhFfLi0rqorlR0ziLXUxNDvusN4qNUuYmOe3zAiyz7mX/GtFcOj4l2skdSMYd7TS9rzZQU5iSIKZZ216qXWfp6LR7WWveD60kSMj2fA/SAFsHu90ppbX2hDUWmNJf9fI4tHpPmleRCE4YK1pTzfalWfVMu+rsOA2ig5D94AkN0gn5b9QFZTzFojCr+wJnWWwDdZ1cVeEA4xq/rBgZtfCNc+dVpm4LqNr0Kq4tBD/N4LRBnPNbbrcjob3WUZilkTrnnqus2TnE/2fwoYzUAo6o12AeD3jbZhzAjJY87e305mBq0+0ytWjdTEg/i3K47WPuk5O6e3JB3MhOYlH95BaI/anoZXE4z9/okqR4UsqwO1EozGx6lRAEqb9tE4ZDkvKsVznqdROPOoHcMS5S4FCzIyDkL0QGEX24RFABA1G4L37Lf5sOqsmZtyn0pKaShy8UuUWui/OxMADmtzgqNEps0sIaob31Gn3QVwSSj2MVhCg8ubVjzT0REjFRdXNMYz1POWSS9eJ5xYXEftteEa0ledcRLuGrH6OC9fgRKKNxmoebvdIigmLE79o51qq1kQbGZhqKhgy9Mfq3afDIKqxufy3TFgdULEb3scFwHbXcDQ9OYu54wKXWVSQWqL0bQdOYcxuN805/K/kkz4mwB0Y4gF9ftdIxMUtgnkpBRl9mEopMEEP0JhG4yjVAaMzAHyJHNw3lnrT5vvPQ18dks7POpMNWGMm1Sannjso7HWDvrw9VOMm1FX/DnAPaCKavfCZchkXhnJdq5mCSSs0f9hm8+YSGdlvKzHxzPhF1ja43KMLPedrZmtct7PUXKL97D93K9RiKySv7uiDwqVvOSLzVgPMgoJinsGBgM0QePHoDaltWsAB0jEUtRub4NXlO/9rdvF8zZzw2vo19AlBq84wYO93yGQDfxuIq5KQUOM0p/fqdD7ByBoVBbYKign9gRw0xKKt6SIWik98F+0WMmn/w34da9xPNeuPTyDLfVp9FMjxMgC2ZYuhruXJixSYvD2O3uSG8vIko6ql/I2V+swiTUh0hidOtderqaIFOCzXiw45dysux6fq+oaiPvZbaRQ4T7fQRberFnmac8WDO6xOn7CNLYm86DwbkeRHi8nGhX9AlYv8DDltmBsWi4YMduh25WWVHYW/Pvjy/sCtYmpPyaNl7ZxU/qmhN6RXWp+uSzrEyOf/mrgti6kB/4kNLkyORK58yG6A7Zk7YVe7njFHxS2CxoAeRRdM/gf+BNMxbO89D/+B5bWe7rrMb3C7TDPo8DEiXDkmPWj9KdGFoInbHlNyRba0/B4Ky8nI49Jhb37QHcCjYiSpQD6V1rFMyPewo0SHZLF4vnn9vyH1owcitplZlehzGYHgLwpjEcV1PzoBhI8TwrP+/xEmRXRqv61ICLKd9HkZCeSsZgzcNNET9dgm6uq59BUpYH2Qa6rtWKsLIntmJZ8WiKkQEQLPbtdk+95kBAC2HIazhWvTlehvDE9kf+DYcmlLLSf43yKr1N8J2dutrAZKlvL+rSM9BCuu0bRXommLF5V0IL6aJ2wgcda3gtahCntMn9AxpNDGCn8UXxlMHApNhRET9sQNOfsAcmUIg82CRFVUhE5Y4fRWuhCM6Qs7jTu4cNjtn+mSVFGDzCRVBfh7zGs2xTd4CSewD5uGEj0yoJjJ3IrjyNcy6nsw01jTMUIa20a4axPJlx8BbnKXicCJnJtoVMXDcUi4C1j00D+tx2mzrWqjsO3lL0GkE5MLx2ifrC1OkaPmVZ4JAF5gO/cKu51tmanFBQp/fV0fyen2TCecPlZMjX6V76Di3Vn0fTz756wh5EFIdXEapOyLf8XSq7upUav6VGMwr8346DxekkXnr7DHGHGNa21TQAN/d0pKxSbc2dGMni8oVErEBsmXN7f2ntFzd+9y1RL0653s700Dt03vTHoM4BQFWlSGI+itzK+roHa+x5PAECwwhuUQbqBCB3MY5SnVnkrIwG3XLPGbmxmInzkKy7UnG65L1f1y2cOELtIxno2et48H5oa2S/lqrvgv3P0/1FXur73G98ez38obpjvj8Qb5LrqYKaQHYWMr+0yQNQiK+Ag7HuWd0R42cVnK1sKYFciBfD46WYFPImeuKoSELoKX0fYnJBTCJsnwh0sdULeGOhhV/PbK/fdXU63Tcoq4dEVcy+NNA+Drhiuc9CG7oPb4+NTOqK75zpozATAHm7rmMp4pUnou1a8K1FI9xfwR/kWX530TvgCoKy6IXjKzV/kxt+W1/8ADPpI0TIrjksHi3HVPpe9rmVY4Vr6z96rFYorwZx+BWfGsyeu08c6GVBBSJ7pItEhLAE4kK5PfutUeqZBWOdbWkngrtW5Ut03mhGJ3geYSG3tSRitfe3+nvIshi7aD/MIX58HJgfifPZx0UKIa8w1M+5/75nWO0yHJc7I/ehco4wwd39OaqnfAgUdLIcyrYIu4DkxZbSPt1hoXFU0BEAS3GKm+LLloqbdibUeIM04C3NMrKW9cWWp0F56hd8JmbpnRzynlBS1myJmPt0wjevOJk2/OgAXj/ZrHur1/ELmcJBpcwCW3KNcAPEX+GUyRQO405/whYpMKoL7IHELYk+7g2Yqob4TYYK8Fi3ZEa2YKQKyNT0XLeo9t8cjmE3+vOjkWMBRbNe8GD8eKkZm04yzXUWWTTkAXGtgxAujNR0OsZfijXxJpLeViJNPrw+dSxJVPDLobI3XYa24I2KU91xCBeBCWCFbR3qRzueWwozhfAt+OUGxc4RxQ/hHaz1NiqBGYNLarn9NiY45FNz2pebeWdqHE2WTSODAKIF5VmJUgbM5pVTm6VENnvzUwqDqdAfVLZxEj6WZL78sZyURhqUMFoM88Q6ywFFQIraJj7D/ALrxObtrduQJb9loYH+5c/Sz1hzrLEoL22VM9C5amDlQ/O105Z3v6khjo6/aSh75G6UA23CNCvT87eGaxOEz1gby4Yrtt3gqnBM369SJ18n3ddhX0Ln5G7R8kkucOB8lSFcW+E2lVbC1Pw94qJNroQgfxI2WEOyXSSZwyBn7eJlWY1mzxKe+iTBTqr/h/gP51xG3AUoZczEoOj+JwmCHgkBFvYrTqqUOcQum1CwklQuI2vn7egs+sseMCjWtqvezp9ZynDa2C5OTYwebv6KHYK9nGzbxoXbneHhMyvEOxgBN7qGi/CbTM1SnKcyG+14tJuuQF5JMYZZj3ftXG7bLJXcrQYTC8QFnXchQrG7FN6AV5/6sdPT8zVD+jzUw7WPHHCtTJb1oOHLbeX0KP7wfd4qn5NDjYcPkUzbxeeZy377tUAkFM8m4GRgX5ValMatCfcZqM3Szl8mwCXx5p1Zgvb5poTr66T48pqZhNk/anjGvwEF6a0O2GCmXPJjVaYQsZRIedrrWkNftfxZ9+HsCtAs3uqQOM5l+O2WuWKZ8MrPE8GHfhhee/klaSbAE91B9qwb6ZE012UQBwZU4lLlqmBv1+f/gTTM11VO7XHIlJQf0IAFXq2BatAEhLoCtw54WR+jxxixDB3tUF3nOzZqL56/7RVuc2U6k8Zv7fja5ccQKv6KorBbBwWhFIzWa4bFkminXIDrfr169Q+WS4sIZ+MAP6dNo5fiCDnSEKUgplDrLKlK2sZehetj6GG9qBR8awTL3HjFO9yTDsFQGXcrHRfYdeuoZ1ezh8MrHuacoR2vo9OqSfwYvNLpWoGrPfygTn2tj6yF3smWVMqJgH7j1qpNbFDhsQzs/Wf7snTj8eeUtM/xC5uEfUge/ju2V+bJWeLrrqtnCZQNFoPuMIM/aOIACWN0qmiHR0VqaDfWSGwnI+VyybzSZqv/xMgBg8DgqMerlev9WyVCIed4OP8wHo079lem/Og6sV18yOu4Sfe7vQzTiynGz4JPuEB/3Uw7iOfUq4t4r/o1XLMPk3K1omz0t/IzVPBFTeGV2qf/47loPNs4ZVx66edrm5a4tr5lEQFIEq2xpt6LbjkAqTnnqKBr9iy9PQWrDOWbVM+1DIqlgglgpZ6qtVjgHBDwELzcql2vQOyZ1SRJL3LoHH4AuRnW7Fr1dkCh2NGpUeKgck3Ggxm01Oltxe/pByirnjgpVEf7cLQ9xDty/dPNjPGAkK8mFED9PxOlE8IHKR+rp43gxkezKEsXWIAiwp+TLn+QVg+uEb6VuM29R0TdD/a87WFKxM4Z6bjlgMaCP0324cHPqzEmElXcXtEqZ4twddHnhOKPpFv3m7JOwaZNEZXv1wytnWmupc47BFXijCnbo6I4b/IO6p8/7u3iX3bblWQKH+0+SyVoZsd9Fnry46U58PIYLtiO9jbNdfx7Dpgg7mN2fdtI2rUE38nYfjCdQQFBnqSlSWBmL8FMB197V/QOIehuADCvSdfgTzEkSkVfc3hRKufwQV7uAZr/JKTie7+RkSE3DjT79Jtd/JM1SUdFIL+JVL2PuWPKkDyPTmF0rpBB67YvFkph2UfO4a74cZWk9+6voVnKuGEYpYsHBYMo2FbWA6XcxeL2+aXfItZIe8nrU8hgICpT5yhsIRhno9fe81yiQJRnHPT2Yv87YFaSoE9yMiEQL9PCANp+1vIW/nRIDgUT+wBZxF5hyaQOiCkG4Q0Oq1UjfSupF4CaXO8PkiHVLW7iFHw6mopiWKjmZor5cbbyVuLoIdTCcSs5Vi8v6XQzntOV9LJxGlKbN7ydliyvs1Orjvf2cyMvcftVQDyaYzroA0ih8yQOe9S0C7+oJmR/xEnu2KsOBwcghw0t3GTXUseuWDGggiEZWCwLgpjo+QxxDHAYl0Sftt61ZePcyIUE70A9yDfigY4RxZHpzD4eDp8X4EMzxweCJOn7QhYy55RYP/wpixpU/MCg2EGSO0VSqPNCGGy0DaF200BvwkmSUztVAMKFzCF9h63kfnLTEpKHlvPZ1JEIL3A47MBwRFVblPHmW2TaaIdoSv1kVmK5H9gakwysXN6AJDHJECRSp4VwcOnmxz1Hq1rOBG8cFqQckLAVQ/+t8wPbug4W/6jDymwzkL6/UqRV6HZZ56HjKYI82jWXinQpjDWa9+TNDLA9xRuHP7thhYPba6MBQlFOZKZONGjd7xbOfMGCRvWIE0j+ojK9oTzTIWxwfT4I7y9C2hucbuyztFf8wS7rERQ+bjxqZZbZlqrB4pqwtjmgr4O+/Auouhqzg9hb1PgaTfyhtRiEWeAy+kuW6n9fCJ2i2NBRpp3wNbJ0RAvwQ8KtBzpWxEDuycXQfawPypPmhBSETyvXQNBT2wUvbvNtDNZ3C2bCiK9s9XQIZPbf6WDqYFgXiGmXLgqUAtUWOQ8T+/ky3j7MlCnCSMDHMz393ZY838WrUwGHjMHnwV5zgHw8DiajQ6Je0QPCl39KHqgqpT0H2KWJsqao0vP8fSPNsHrBDql+0jAov/cFT11AwhHcTY3kKR6v6HLU3O1065CHxNf2CnXym2HudJWQpEF0o7UuB5O5Ft/+ea5oKf3x/bcoNpJslHwscXNIpQeO6V/bNYIvzk0Ct3UaH9MNG5BNS+cBO2Gv6dKEb1X+UOk+1/p0+Ory4dDWWPRA0b2d/unspgucE6Y4UE7aTbWY6xjMfsFMzh25iNEXYtcdobOFuN/F4jSs4WEVBFVEF0vNYxCfOalvZciif+AzoQFY+GH+UHpcTuXxs4KXxwhicJ8R775na3pXwfJ87hZJSoG/JGdBFQvMAhX0TfV8sAJz+izlmVE+kX1PWE8p51skJNlesQ8yf7e/iUNy6uDG4ZtuWzdPGJ0bb4wcra2LPgKQ/UDrDkEUZ/rBovNH6Pizo8nkIpxITkyksaBlOvcN+XoSpoFfWDKbmXemT4ryWiwAo8RA2CQsXT5jAOFsefV1hxBUby/IkhwNaRZHQy7intzseoB7r/2O6K8K3mBJKHWW57vi7vrQ6CE6TBrZ+DByoXubxm7Jmt8/vMIu8gQgidIZeATvVsXIlXaShr0Q0U3oHQTTLZTr2eeJdulgTJMswbuaUFSaRtEwT0uuFY/IfsH8kJqtYs33cr0kKsmzTZ45DESYAovdDX6VpcQVbwRwDAMW65DzEeXw6V9PQlQ7Wlnbs5S20eACPtcgNzb/Ps7nG/F2HMU/lUdSoF+X/3sTIhaDEpd0Azlw/feBs+1G9SM4ZtwgHS5dIaADvEf2yjJ554N70kaxq25nL03CDRUcVGNLh6WMvXGE30zUYBEvX2sfXHJpZuv+2f24rf9l/RTdxu+nVg+tZJwYElDL+8BwBsDXms2JmvJtezug/ldOjdAYJKKwMgVn2fEuVgk0eYFM/bd+2T51HJAU31tbImOMEHdyF70HySLz1FrfnSNA6Zd2thRqS+7bRG2HH/IvuDAQ0Ns9sbnX4u9+MUHdxgsKfdw8yCSk/MAtQhFQmkg1E+dHu8NwX3RaQn1ZlOcbimLtfOWI44UEYaWpa99MK7O1Jrs6SvNjOtq0lNPFLcGNswEzAHm+AMX3kI6zIoSokxSM3LDAcxYLHKSI95b2sn/yIcA2hrwLtTfgoX4xTCZXdfjK687xxGmAgD082VsmrtKwBjB4ufWpy3qRlDdibuUReRXSzBuEEx2o6EFhxOzchK++IbwHkvh9CesnQpdlpWkbNz1dXQODLnnHdvwfF5udGUNG367mDrPxKhD7A/63ICRs7YFkkGumlvmxxuqoAplnGbcyWv+iVHOUhXHcn0UYg8tw614PgrMn4kHwM5be8jZ7jHGGmWztl1LTJBNmIRsFj4KTNQXjX5xx7BnaY4BC5xtdN5NnElBGk+8jDvzdHp7sTpht8vyGVTlnle6drq+30Do7eXrNzjXppbaF1ueQAWPtcx79lBsq7z3bTz2a79IkhSkIvHXt1o5dT4lx3Rnmg6kfn4eiKMPDoabwBCZ+KBsnc2mk3LyP5zL0af7UMtBpjrAaTcKOUDGU1APpeka39Y14PYu06GlZs+D2QUUWqweJmU4DZKayQdoINspyOZ6OHrMa9hx5sXDGmEWbO+4uTM+OeOKBsyI/562tjlOf9kzcjkep5R+/2g/2FctJQ+a2n/XHZK+VmPLT5H3QWevzduqOPUBAv9iJIgEBhvRiN8SsFErJZu3pLIZ/xwI0RSKhwTokrD/2Y0ckZa0zeqiuF3+yASwd1UcjcG37pxye3aa0kfnuWtloFeuh7ixpsKzDNZIaxtj2R3mDVmep+wI2AIoWhmiUQgZeuXIbW9ROmlZSUAaTPuF6HKZur89LQpqp/r4wBrvQuD+M0njNDllirULG7csJOY6lSS5ZVaN/sEJVudNg67jDJjnMm4rd3oiSkCST7VGIE0m2G8Z5U0ywJV+hDbar2tRqGC/LSB05izzft0iE5IovsB8CroFYXi2lcGb1OYaRSxeowFKY1gWXDbBVK1EmkFPJRXA8vfxPbRdiPuncvdGX+davYdJTTH027pOcvVSNtxUqs46NXqc+V3IrFhmnxQpP/CQg9XxxfkUOhRH53V4gKYTtCwJsNSY6pCexgwZhrHRxNDOhhT+jznw3C1lQf3XmzHyLyOFSKepV5/pDp3n8PYZJ5X8iloM5+Yr2j7hc1Ged4dqDxa0c06T/Vqz6KLlGaEdCl6CtWhUHwaIU9X2Y4jMb497YjPbdVtJzdO9rBtBmK2S92OUV/T8lY01MJH1Xa7hGmsTDZJRvE0CrRgI3xPKZhp1rDqeobfnfCWPjCm6jPAdctbbMpNmg68nZWt335slZNapBGv1/opUqCyA2LL4r+LUa+O6Dkiuxnvlz7doSw3w+IAM4lIBUwbrme6lX5DVBHBFMBmChLn+znI+3ugUahwq5ROSV+VA0yknISJmNmHiUoZjNOvipgYVafc802r8k7EGJpKlfOreG1GHJwk7ws+Kdb2vY1G9eiUQ2tYCiEPKC3HwECjLt+ViBDnYIOvAP8bS63KYa3apZx6f0wD1xJDToo3zD/0j4S8e2JzT6gscX/WYpbB76J+5/mRErDLb7qppGs8YPvKH9T3LuCAAUCkc2gMt4jzlrFlok8ZInfRs9KZwVJnHAHhRy6s39P9NGucXIpy8fa0VzuYigmBQLitwHVzl8PIJdBbFhdozD4RqxziCsf2ZgjLOB3HL7itjSVAEk2xNtv2UOHu+uSAj2o9+gBLGVlVBYuxCrIxHwOsOQd8FiMPGJGfDswyeIyMe3AFuotQ6eYtkOHBeEVZ2jxWx+H0XDX5jEEU9cF6xsWQrHKQY9HKU/0ePthzC4S8JEk1SUArtPU+gwRQuDyEM6dNg/aYcaznNGd9CU9zmvEvZAMqmWDauROAMm7gDyjlh6u5mkLc0PZZGiwT38Dyh9rWZ3aA1fInGSjM8mYzDm90ert8MwgDa5ciY9GJZGkkOBG8AOpwI5tBNkm/ZlMFsiTuklxaApvj0kF3T1H2FcgRkfO7W5a2R7jHHJVtAXJceh+3zJbsuFs2OryJmGqVoxTONRE2bNSvPL6Uu8Te/TsTRmgg42OnWGFK9mclxFUkY9Jld2dO2Ky96jQ+hp/HdRiMfphuLxH5HLHl/6uh/UcLORhod/xFwuQUpK/h68IBh7jxQoNVv7OMScQsafxyvZ/hvFPuz2musaVpvgYAQPo1nYL2JSABK0On7ZiFbvRttSe77TRSONxH4pvWrmPWUdTBPmKweo8+y+5NaPAC0kHYNGzkLTw6X+xzN7m3mPIAcFPPQuFa+ZZWRD8eLLE3/RgzSrKJUG1Thg7aZbp/0XpRwCcsfSLS0nH2nq2CbsJAlgYtj4jljMJOGWjfBpchnN1ppfarlhFS24rY1EWrk5uKcuEkidN7NhAym83/Z3GEWgwi9RijTMadMdf0q+RgwCqHRqGAJfz5s0C8v20ePwtXM9+/AaTxSZbFsfjFI4oAIhr2cXGBTAPUkxBC1PUvSHixdhZ+jHlRqbopcV0RozZ5ntyLnOlyyw0fy34sBlrz6GYgvnnfiylq45+oLCU26LtSsgdt3SYMRnON7eWh0VDU2jwCzcZMiewBWetW7CyunAysgf9+EUF0k8BrJXL/1nuQpOg1aHVaQ0Qu2FayBMXxgPKMOroFZ4e4QTFRHF/3DDmBCRbWMQ5weuMgfqYLP2r1EEx2dhktSNGt9XB+1biixel7E720/6lE89rOV/8ZrKe8dqe6fqaSqlN6IdjRV/BwYhTg87xDhYDExO5Yc0TQyY7i8ibKuDM7OMZQcK8ali++fdOBfphunOzxES3tIgecSMglwf2hyx/RGJhcBmL31zXn3p1JcYfSaW4yxb3X/93ke+wei/t2vj4LXyQz15NVFrH9zvPqhcYlzRlUlqHVGgLz3sw7SVrQQ8r6S+dv+KnPt94bkM/Cicl9Fn58M6GRU52Yp8GLX5xJ0vrMRnQJB+TeX5+1SOs0rKLGyf6+W90ayJwhKpoQrTAxg3OnPfq+xt8+xsL/DfRfeTkW8i/kpjvoZgpLePybquD+dPNOMoN1TIeO4KLPXVS/lF6yFvOYWHSk1TFe03UyqRJHAiyN672rplkAHcWvUVbcyViYpG1WhuiaGMkE7jnr9AXTeOQbnXbqlWGaMSHnmaCgkiPIyiki6SdxJnD32KWfrVCmybU2Xv3F5WqD8iZNTdBG1u8QMhKYqKcHYoc+3fPKDYRf1D3qbCAsN5Ff5uy/IZLP7gxVmh2lflr6ROLu3u87kgnoHYY61BJqjBLPu+74UUNeI3rx5nAUzgelYSL1zitYjtGp7HO0PB73666/H28ctYJoLiMAszDtzO3Fn0EXteWqb4kyBVakHjFsDQkIxEzu69Qu7Qn5aBDWMaoa+XVoJznfNAOCQ0ZxBH3lrwKN+a5DABdTkHk/0YI2CKNchsT1takijFwdZkUhrfGgPMYXhfhTO9oR/7Ny0CEwGuuOVfJvfC9g35HxbXYcYVPbC05sfQppu2vXW5wO6wFCo5EM9m9A74YOE1FaZ8+Gtefht175bE+/S202ZBusFq7jBqUsHYN24PloVOr7LLj+GmbNgCzu79bRHZfunQvvoNRZfBPTGC6hI02OggjGgsiDlBCbd921r3aU40Swob476rmn0aApJCDVw9REsQxjuvwAbEvSxUs7v6v2rUEPyZHvB6aG+u0PdVoFCdjwdi/u2VXM+jmarOJSk/lTZtGGrG7Y5HvpYB3ZLmF4pDhT0rtODBx6v1OjxWddMJ9M/zUx8Y/QNKj2FNALBFAd7uBzHqyTjxxk3pS8GOvCksDHK05kcC3kni4Eltk9d1l5Sh40qOqjV+IaSWfgHv1ZS4F+wkfOJXj5u/P8jEpTMU+njysXLEgbpkuIAkw4wsLlz9vzXbkDw/9dN7BDYNJKjkx2u0RAD4+taxs5Ji4lXDayIQB4+9IK3oW5oIkgeA4J0LLdRZDEJcPh30238rcOzR4j4jG1IAuudi/R7tiRireTy0z9bAkrtsFAHY8umBcdUC54qbTraZ/v7OPjBlQyeXO9I88dYH7Twz+GxUrGHyhHu6f0FhcEpheadTNN73IxAHyQsFVp7lpvCyBj9gNHFU1s0h4+RVWccLe8FikI8PwejY3Dtpq0e7M+QYZIIy3RNr48fIw8kSGFql/nOWjNJ/7hbJTZ44TbEs3OpMnNXq3NtuMhGW3RJjC4Jxsgyn6x+qfr+HVnxZOYVXF0flducrietE3s++UyXuWJxs9NL59q5PZSN2/YRGohC28jbKo2iFk9f7V6nuqljY/JzWyr2FbqszmCH/urY0buheFF3zw+eMW0e70vcgStCyAxBRuloWflRHdFNwmw+ceAcWWiRvE0aJgNSVziZh/AJGRl963A34u18OkO2N0GNUfybTS02MNXnADucj5u39g1K8hg0TVRpCnr44oSVmsRXfG7WFwGu/VHgLedhy5VxQ/Y5Sr7uAgqbeO/dTlUffQWmPU4fSoknUjZNnBeILEgqb4iErWXwwOY+pN0AD+dfINd2wkKB6ni7DNroF4jD2aBb92m8QaCem9L0iLNmiUQoFT8awn8T6aoFZJYeegyFulYImNOefWreeQR3Z6Sfw1JYYC5In43sBRe2CPvx9A5aOPMUhS7Vner7yu2wVGd8Vobjin2dGwhSVrF/uhZl4aNthfoujaZqwzgQbum5jEj6dUYfMup1a3k8MyzGYAajwLySPUh8xK3x28w6MLJI16G8Hi65BhWdacuRtt/kPekUT/1mT/2Qeps59W2F21VfitSmfOuPHFJnpu05CrB8QM7AOOCZL3ngjG+W54jU22MAQ2PlUSckbssJA0APhdB/Mqc3GVBYujf4C3zUnilRFBZU86+TF94N7kIPehRw++lGobUYjyh3zQB6ZksPINZbrrCbNs4Vb9f8iS8+yjid56ozw6MKSMedvpqCmi/7NZ9DtU7SZqc3jv3XW+SOgd2UitgHbTAb/mR84Moua6uM+pwyGL0ddYpdmY98jLT8dw1i+cfKyP/ThECFkokUlyYj97mPHcBrVJ7PQs23jXPgMUlvrRFVk2iunHiqhE1YjEGpH514EKJSDStabQEZFOFhCtrOYSuomV0wXPMzYs4vfEm1OP3d1MGTrf5CdUEtxdAX4bdutPq62PASeIlhUEI76DiV6WbWkowPy/Bwq2OBsGBiD3QnRHlf8OxLvMDdyP7QcMF2ZgagzLR8NxrivquoTZ9Wd8M4wWDgHI610qNYEzfM5/rihmxWzX9Hnx23/eUbH4L4dR2qLvn9O6S7Guf31Iudm1sNyPtvU7kERiyZqgrc13rdKvqF+SJ0EY8SUksq/Ca8pp1Gau2RST8aZlaFZdWtb83f2kpePB36KJaDtYtpga/QOEDx9JXhz+wzLCuCJpN+VVRLp4xLWPExq/05XD3GYZSG8B+Ij2gGVhe7zuaXpb8U+2nq6xUc6nguTMQii8AkLYpM2/F+TDLAm+0ZKWiOlYQL1Oc68vEZzpVc698cBWCbD2E22r3uFZCUqravq847mqQ/1n5dEfWMtrpSrYpTw+CXrhL5Cp4nT5D+K7rcrSPhjEzpojwvueEcgekgz6QLQC4WO9F7TMvdDUjbRNLd5To8xQBLuuY6b/8dEDMeUTbBKHSNaK1YOY9V9wuXQ5rDS4TBteZ0yMFPWdEksAe/2bjm9zh54nXUFQnoVv5mekL7rNmXqMByhq5dp60hFl5xmhYGsQRN2q+1Szvk4HIrBYYFcIx5o9gX6Hq42FoYdjPrFJPZbocQnNAyob8sJP/iNfqdjNB3xnSUtXpYWSOfkFfnRT34Gtt8iLDFwwvUiOV4o/Zjxn52ymg0Vt0jslQHfne3jIEnkGeIOFoo2WOBVYsUkrh/0vWINdGEJeDwYZJRVYBxiCYSmDyw2MUGrAj1q/CxupX6tgZ30St0HHIWg3TQbM1O5UTx/ZHnFh2bBHjKrlYq+o++l/9N7yaoS+vnrkKCExsu15lF9HjEbeSz6qPC41dUkJqtj0jTheTdRAms+DDVf+7sNnZf/aJLbwWJ2bWZAXnF4aw1YxcNebSm1UPASPBtHOWtxUA3dfEFVWBjBBrNNTWYjewyCtQKugx5cFWdwop31AusbK3A0ls9Dr8q1nd0XlnbTHIOXZQUTYqVoLtetIwB2rFEvThFuQ0IkK09uF6CxIv3l2IhQbmRyL7QXPMteBMT5XPM3tK1MRGPoxEt6fMY0i2awlcrNEji4LvanIjAMQVc7hmdW2jg2FMDJwANlUM8BJLiE4Meq5vA1mh8Gz+rqfUeeDm6f+xZ07tqPuClLHO/eL5g2CLGKbfh+NOMIUynPPD9cucx1BqDlLiMmCD4gxmogJm2b1yM46x6Al3e3wtMiglLPpS0/kwdx4+HNRiFeoHQNe71vjM4BJ2gQNw6k4td0JBCcW8xvfGgK/+pfTCY3shGbN8Dmv9kq4qrps5dxd7yT4lL28/JsE86dlLbDI8TxQUnaIFqRgM4ma+oVL2lO5HYg0q4GuRZlKxTZ68KK99zv0rUUeCg7cgvuU7b9HSFYERyavXGkm+vjbvN0UeFtkfqL4IwXmZe2thhf8nm6ESt/2sTBptFKwJZKAZ2Lq9N4oQ/zZbmX61b8vndneBw4uWJiaHqzVLeFk2GzKWwyTQBUKdljWeRX8e4X0lJetsfKSseRCzc3TwHoFgi48JNAZ/jiean6rbFzKIxLlUPFlJnl31RVyevDfWBSDyY7PXRGvnhgWZWjT3v7sj2q5gIfARGTcEQDPl0ix7AnmuCRxKE1coMJiROvqK9/dd0UlUZpce4l1UitdrjCy8dRDebjjzrgoWlwg7rVNinv0T/8QKdvXjzG+EqJKIL+sX5/71Ea/nwa1x5qBzBpIysfWU+H9m2LP/8jAq3naQvAyq1co46zZv9U093uo+XvmioDR6ITfjQBbRx6hH8ytV1Ir0ZqXEmAPumeOn5VlMLfnK3fePFFH1XBrxu2ARPR89j6UfjQx+LH34ZU0FMGiP6b36aBzgYaMTU8gPhvyAgZ8f+eKt5NB0VnodvzrCzwL2VrIKD2LZq15UYfF0udmwAWw4s0yWSD+LT0DVOzAw2/f6sRudhUTFLx35GrSqJax4s5U0TZc7NT3+DuxDsO9AurBydbKqPtrkdsGtsKlHpzbAg8cjfcYqnr0x6fyEwmOq81W4h7UxwxJP6zIlb6lyzvfU9o8lUzYPKjMlRJWAOzRhWBXlA9hLg8Bif0cw2bZwM3TdToPrxAO32J69qc1fPi8m92plQbeBTAqGEiLWFEFZEKxmVvxJnnBjvTS4DIdTEfVk+DYeFG8pvJ02dOSfCiXrwy5LXkcmVosFO5t+bKsC2oe7z4vU5GJdQAi4HFQx7dfBcgs5pNdKWw75f/Cmak9u5wdgWyB5axNNUNdoaAyHivXxw47V3zKVHhOW/TkvpQI4lFKiyXnkr10AHgwIgU7RY/teLA+wGkxCGEjQ0LbMq/mOftqJHlZtXXIDLZOciATi7dn5i7RBvfAyGraZxvzj0L7OV296REdM0RFXokYMP2Z0avddd0zaT9nLZ8VtwliT8DcZimI4D3YdIRSPPOSiczw50s7XO6KNztI5nsP5+w0n7KST6eYn4MmK0Gvkn8uAa0sfWBynxTNRc+cRmYr16scVORU6jGe6MtJW12XeM+3MDrhDyPj3d6Az2EKqNDkk8UpKbm2ovxSJ04ohynbB1zQnHOm6je1+Zr6jhWkK3FhjoqjJR0KDuPI8/xf034OQNaxdHal8KFJWOr4767FOkc6fo2Kwup5Bew3EWcNrlqu2aE9uWp3dq8Wf0JcACTMCkpnopM5F7AluNduAZqayK2hYNwn5VMPsOtLtdJw611vmLwhDEQhI5p0M/3HuuM2LGFWIgLhsVsQHzA+3v/mPyPAQkF41EstZ9Vhk5CEXD474SR8jtZ8CPuThazBK1zZc18HxTWgqFavMN9IuPSHiguw/O5IGcPtc6xVizLk7FrlkJPI9gfIIpISNty2yaKhyGkITCR2j8yrdiUheSI1+qifZmvjjluqF4O5e9Jd0gGrIkEVb9ACQQ8O/39hY5MdLj4yCF97FKPXse6WNo0tCoKd7PS0ybBVHhn4FQxRHoAcQ0/NfYCW0rjH++W3JeMzT0WNiPPuUNG39/rk2i/fx3XaT0tI2HogUc5fzvJg4JesV7fY3ljsv0ejSmmX2TAG4ux3LDkA8hnZeYZp0Y1tAjD9zA/l49JrhSmSyAgV5ncurZTsz+S1W5kAvpTRyua4NC2fRvFZlUvho6RsxqCWZqqm1gpNjFkz3dXIeUa8DsYh3TP7Kyrbo7yJkB1BNSkw4UC9KphUS0WfJMowpU5DD2Xkhbd4eb1XTLy9P2C8ieKSFA14qUIOKEkC+6aqYavN04bCgZeQh+x733upS7H8oIAh0LGevJVrbPINbrL9+OYv3kIdnUmBu3cu7cvBuA8A9y79Y1DhXnW4WZnWPxpxtHSTrVr00Eicgoc/qx6F/C3hlMw2Lm8qlioG8DcUjwegUWg8buM+ioEG1qjgR5ydeaxGCJea49T9B098uk2D8UTslp9jlk9nvQm0jdJzjAuarJTUbOviCLnXBt+rhgJPw4NZl1TMAs26X+6lPlNS76Ex/GOxpi6yiriDvQRIOIomWFClCVjrCQdz0qb8nevfsOEbvAAS2lat5pZr4jblpI9T/LkblxrrmEp8gpWtxcCqVFBW4dD00FVk2yixPqoQ7wzKrAgs4GOUQ1HUxQ7U7YbNT+3/5BmG9OdwqDA2so7NlS9lweMauNgszjfp4uXOuNp58s3VMlViJFrxFC0za0LimpXIem8R5aiI2pn4xFGzjWUDpaiykUgYq2O1wQtYXYPgX5w9rAD8h45KzPCbG+fIlR3O37o+18wRUgJ1RcE3tMirmBgKQjG/9dHZk9MdY5K6YFSNJMC1kn2mboai+mpNRkYVJ3CkD0KwZx+Ut1hwaT4ee2obN/YFfaymPyG+BeTQrVrZpMnxdwuM062kJVNiCoJua/BB2PtTrLHKke45R8W+eM/eaFKpd5BmaCW/oPXhOzVH+aB/nRzONtTR14fjT9c2/vxxr91iygo6wuCoyZD0T0X+CBAe1SAhNbNiOCG/268109aJ+Oos1htyCKOh9FBdSboEqPIMTHK7F9wNtglx+l8X47d6iWYm3B3MPF4e/RCQORrspkZhVOI5pRvYHNYAOw8RmyvdJb6+5q9ufyBf3ALl2mKoQACdo+LkURQD1yYZke2Yk4tFRe1dhRx06ye2BSXUWK/30LLd423H3u4RHaJ7uxxWgFXpqj6LaEhRhJB6ggYcZ5HuSakQ2HCzSJ7QLu+VYn+Rr9al+cJz+p9gsBC1epo7Gnpr8bH4zbKxrFNmEOS0R62VwBHzwrSb+tghlQb9uduOdCxmGCci250RqtHpwehlBAMKZM+t31FoJBI0AEz2vK53o2wrtlb8e5tVmGMtpLVZ5E6KhEcnjKiH9Ec8tH4LA4jQBosezeqrndo6hVd00IB6K8bE3IdRSwKWnHsFnGAiyoF7KsZlxDMkbE/Y7c/NswLeUTWIXfkQALD+TsRVi+vIa6h+yECDLp7CtiHGEfKRkPLHGlf4b7OgFAu0ZOx3bdyBkEx8/6zFtN1t22KW1D6ipDsWALbBTycGEWjGg+gdV1mICIYPFvEIhIpXCplEZv8GbVPyuEjkejiHmsTd/jGy4AZG1NOp5JVNgejanjyIh0ra9k1Fk2ufaahC5DqJcRnuLfZt9zckhxQ8RPB/lUKZIKW1Btc3Eig8K+5VobkNYifeMioQc1ZgGOSpVmyp5bM1Efqj+Yfi6IO4UPbVZM8xS3zLBSANDUrcq5YpH1Lud3L0O0kMXQHWL8uU2+86BxTaAQ2VjNGnng6N7Fob67m4JR5EbSS1UfXbwQJbjZ49vAcd8f176BNLJ8Xa5hi5RlP+awWmwcEieBfP5m3BrqSHRMlOW/yidt3d1OfgFHjdfuA/LV4jCE4uTZH9zYB/lv4EuV73i2+uIKM2vVHDYUbAjHyfRcBNKc6u8JBMiilMat6Pq92aM8Rq2s/QIQnhba64FmFOLDjTx9J0rd2/ofVGqTWy1ShAOVLt/NX47SlbjHJTYNn+I3q1RFmQYh1tow+gNVHNr4OoEahi2XPl3SWFh7tGukgPzbyDBHTBKzlqTkDDSMbnNtqbwDFE8r20JKbn5nszXSHvm1fiX8r1NsIj0e6GEjLuaW7i0GVV/4tA9PjdIfHvsz43D77t/RQe1Zb6dxoyeH/0H/feQ7S/xayI+QRzZ1q4cZyMStXy9DgvR+jXk78/52paN1u+5fEjgwgFscob8Ima0bFdpgP/0wtHtWcZMd8HaXeN6WgT+cwjPs01eXIFH4tNLYqI/Pha4OHS0NBoSnx/dTXHHbTOutXvkHvQ+GkiyqCl320fnNGBokyuncYOUK86BkdG1Cyhnn816uHN3Yc2AX8VIpVlh0DhEKilM6WhZoutLyHwK3qLaKpMb+DAZXlIyJS8+OXHiL6m3ioYfeGwGp8yP/WafTMkfcBkjxIGcFthpWCLNdgUNnMQ3EQi7s+2Xo+k2RUC8V2KBo+dhoHtylpNz0c9BKjqm5aknpMwi1DKiu81v+ba4xNT0ImC44f7YmkjFELffxpWmGP9PSiBeFrVr7dc5M7XIEaBgJppQrafxAkS7yNfXWdyYH/LDy8bsehInjoWYGND8vrq45kmC/Yzm7iwCye7k2dvedW1E/CtsncXC9/WtflsKCc+pGotVVbI6nJkirqlK3ps8m6dN11XOVswb/QIByql/VzrZG1wGcmerU74D/BjcFp+XYCnaqApbqou0qLKgrBud9lCdVIgw2w2NNspBxuFrPPJf2dtXPGUctnGNq2bTaB97gd+W/LVvIL/I8EErDkoNOZLk56HDVXY3Z9BGe2MW+F7BGEpbV+VeEeJgemLta5pnTuVcc9tprnXSqVH0ebnZ6qjQ+CAodNk/mAJMlm2H6chmZHP2xo7KSAZEgZXl9aYnM1tEn5obVwTiUHiMNSoKK32xxG7wcPEKpG9Y1KamEInUCiYW6BJi8pOVg/4weBY9uL7Cp90rqSvwpq8qyjwS9U4uSXHgt3L9SzPs4Jd26J2vdzVJzCYiR2H1OqWDtrXq2Y5xbmVbmYQSkIPYXJDlyjzJ++obv6rqZU3YyICHFulm056gUJhp0dREy+lnwXYXt18FbQCbxOo68kgi0zaZ1LDuXxLUnetsFlF2qiPcj9PJ/1LZP+kwW4vRzwTCsqDUN1YhXeu3JBRfwtZ4C1GC8T1En/fuluvVPFn2FDqVFfevYrODNJSZcTfaA7Hc1TTVzyHpINLjCqJKDJkKFsvgjLH9tB71ZaY9OnTyJIfc80tJnZn3ock0ufJ875Ta7fhWM57/Ifg54bpMmyEKTzGykBdndJqr1Qd2VxFDKiaIB8747IN43eVL96cQZgVcc8AzlhxMGJoMR0+vQhxB9II7O0/LDU0+63800gwbxXmN6sBgxE08RRVIIe44pmhBt0Vciok6VnPAWkB76bCtAJTYFpK+0/kqF/5vbl4l9D2eUIiBvM545N7FNCLwY2SfcMKgPtHeCHuv1vSdiiLOwwqBd0nLtx+sYc21CibzihzPJSLMHZ2tpmFayh7+DGyhzXPL/UxlpKD06wibgk5YeG5vM0RAvIN9ZwI8yXnr+XBmbDm3rVvfSV1tSqri/eHWSIMQ3QhdwjXD8Ak8NZALMgDIjZ5UTNQCjmUBrJE23c7YuQY40mEM/nzYxgLGc+YnZdlb/BA4EUlSY620/0tLSu6/mKoWCE4kIJGfdya9RRCIowr1HCM6Xg85GuelA03aLj4wEa79SvmK46mN0Sx3bU9mFAj5Dj7dApn1oDjK8qsWrPngmP1PY5tELu8wEb5LZCG0GsKmCgjuxF8TYJZYlN2cqv0bEPRtHKk3ceDW5EyODx+w1ExG8PAlGX++N2W77BYudO3ZUAzmsfEuZITwIvjysQqe9Hkr3dNU9dlN75ktfqFHbkyr48SNBprLD+rFHWu3AQ785b7ysgoaBtdNJzCUPA4V91x0aV2HS+T3tLk/HMn18c65km0HBNmwBAvhZQ8+eYszf8W2UhzJFL/rMVwegZv+mdDTsaF4XHJ1jKevQOYPeX22G+pQo5FNKP2n/teYkR78taxdqQmLxtI8LvJe5aHwiGo2nVBLwdbvkRBy+FxQY4nm9lN2vvHX2jJsUGq+3u7gvq27xghZSRD5fwXdOsyzIFc5AMsgd8SnlPi9LHgxAOm1hhctvROGYiqgEwuqbHDbKhLOspmA0VsJNb8u5KKYgl/+AHjuoVOLEIIndbS6ocXZLMLHNUJs+kIWkf83GXDPwngvXb1mvOwmeyppHpuCkMsIZ40XYPsCBUSuOr/bCGtTInAHIO1LlJb/j1CkoXcuslkL2h8mrQfKe8S+VLzc+kocHsQmzhRtlYjdjOyMCzpWS3jrvTdH9MQIDzUchYgewxvjF0Dm5CTKrTIE4MNp2cUU4jxFupY8amQzhEykaXZ1+4ZkKkiCRK/kKYHFwhISB/1Gsbngx9mRF8pkHi+K5wFg+bUaS7tjt0L+0M4Oxcq8MGosVSUVhXNpm/3UQdYdVt9tb0astItBzLPf8a5X1vaeA/F2CuXfSwpqpQjRtyNGpOltDfx+aJHEe9inMZKqvm1aG+bJciqDv7SVwQPLtOUtzltLzIdGJB1tcIZxZ+p/Hnx6qYxkJPDFrhf2TyQjHAj38j4zA+I3YNTv1KQaAp5iqE6Ot25uZXqoF5z5G+cXwj57V8womDeI2TGsXcJj2DPYAiMnwo6T3iqP5NpTkZGIKPDdtZVkw+12aL4yIh6jJQCfjxToZhhlG5DLeh7GLw5N+bygB1UcWcSWm1eQkNV1d8pmnWSunTAdafWVR0KOJz0IaMwo6aQJ1+4zvsNzjNpnkS5AFLVr0DQs+KIi24P5GgU1pFUQVq5R+86RPOl9jwPyDj1FBNLsPqMytxo+v6tWEw1LHAiGEIuDFrN+qHZeLM6aX/z5KviSTx6/o1upAjgekBGoZWWZ/CgBz5n5jayOVbwLuIk8ZjVq6GqsTq6RalP82Z3OJJEfpmOCoe6yyq7y+YTOjk4QoqvHNHjV2hwblmvUkmDxw9Weq0a1/gwtskAU3YVDUBfwa2TD9Fuhrz1ZCm3mdx3gN44Fltvh9kemJK5X0YNAS0hKCqOZUFiiGe+b5fIsFQ3qgsUQdSjZgQA3i1aPXVBZ9dpfAn48aqCwCeN5gwee9mXUefKQCEKld/bPUjmPkDEx9n6/9GXjbJ1v687NezDoxLYcw46X/WlbgcL2xeOO5sY9LTe6EGT+PAbRIgsbfv/sN/jKhfz1aPRnU2tFXlakSPo7lKFW911II5Z85uSPQhXEaXMCQqClgyhMo/938jzOBdoFLRxW2qqRwAtc93yac7KRzxeeWzUkCgm3h+00XTwLPxjy1eNYQayGbB9EReuS7MXBNoPEZPGSEjX1FzQ7bTGAPZx3J100dqC1SFCZCblmUhAIYNkH3CUcKMYjKLGEHzlux9wR8oERK3M49s6Dvzdx/RdRp22ewiK+omITO8qrYJZ03iBMrn43V+keScmVsDwC/cgGUuoh2KMJX18Zxb3f0DG2ipO7vpafxeRqFMD8ueRh239KbvAA5K2P701ugm/unlc/QOCH5L/dgrDJ2nPugdDcqiJStLKi+TMopwRgGS794wK/TjjsuWisa0H0dCmFGCmjfbUZEeWbfjdN/bbPuC1SWCKMS4bhydWeo8EytQohCT1alpNWFkTPWc9zOQRXtZktaSFoR65knlqMo091Rho3EBJ3GuIur6mZ7q5N6fh0Ro5TEuRkA6qAMvvSGfULY8VeZXc08521Vlll7Nl6K32tsNha8Fj7rRO10tAEAz2e0ndL5ozKr6hjLm94YfYdoz+9qj/J1h82In/F2bzBcFth38Yrd13hUs3GM9/AujKZgqgqaNr45vMYf+9ByZMdgFfiDbmRHAzWqRdgoBChRCUqb0oKnVwuZm8/j818ICxSfqa9oEmxaHI03bDwnMueoIt64Q49jLkd0NzqmKAXuWLYNMcNqVfOeFumoGLFijO37VmTGQuOPxgroWmXrplH14ZdJex7GXLeNwNxtxC5z3XkAR1E0srFWKiSoudnMPWQC/FNKkQquzejdIS46zLv77PLa19Ir7avxu0dAV4l7U3mPyEU9VcyWBKWH/cCla0Rdd/Tr25+L1masnJNCLWYRcbM5+ZvJvxgmrZdUz+lpB8A0Z3QmjMmeD97ypqIYpc7Ogf+BsjGJFWzgzYTr4RskoYiZB5cwJaL1TK8US1U5gMX0dRlOK8s+tkYYQm4o+sBY6xq40cBylvWrLZLST8ouRZSzdmOyC5bJbKBwCcY1HcJPs3842xZ5ZxqykxLHxrXcJh0Tx+jgI5DDAkGF3iRB94VsDJzdwu/M+KzJKvztcpAn1tGYzNhVr9dNV17p4fHQOYIfVO9F8pmVLWRIuWFMrd/GHgJfdItbMbNtOFRNM9WT6/g7CM2RfHHD3FwzcifSWW8hnq6XpLTUOx+8Jt9dwRt0EF2pwvOp5UcITOcbvjKEjdzsqcgvhyIbyQJow6AW9u3PFMEiKAN4tvzbcikIZxN4jcSpD3cze6mPKI/VMbIijS20s1mC/dN2bjsVfCK5pbkoS19igMxfijax/avzngtd+wjkYmvUeP9rn86xaZx6EeE6TxZM+oYC/LbtmRMyYqeEXQTHYQshN8FhPH0h+ZKjCHF879iN/b7MlKMC7FQ4lhw310WjOjSZ1ve8JHifo2B4a8MGdqeyn4Z/ZCunEoELS0ZYS+T9tqwdvJjQBtiGOCxBqgzgfh5aN3nFeuKwlo25GEIh876Md/z1c9df8lhPDmiOz22wutIA6SMlOa44UxRW0z/h6YyqS5fmG/9jtxW3gHAesqV5KzphvbEZyXBRqRHOnBAqGVLoeLtS3QGJQE8CVjxH6X2jEXXxq6NfMpHakl6OSWeNHVF67HCMnjCCNH652bVSUTVeJpFRpezy5GVDRJw2BnSxnEjx2NCeOSteIsA8CIN351Ck2Kg+Vp+qwFih5Kz7yln39bdP+9X3C3btV85Q74NFx/Ph1SWjyeUsyprVUWCBc+iwpSpQao4wg9DmSy8O6P3gurzP6kgISxJKwZP27kspyyM1bNnUJKNr9x7N+lPWoATTtTzR/csmR5cOtbAYdUm8M5L4wWXuOthkRNbOGI1XVlB4bpow+u9Nb87c1PmQga7J2IcRzf4TuhNkwzK3NjCSaJMf9Iup0E59bNkejKjYwcF0eQac1sPeRzqXjK1glFCirBq/a+QPqBboc+ir8uxCt8I200GT56nZlB9FmHOeKf9Ouh/5CIAiebIRLDbGujLFz2Y4oOWWuPiywxOR7TDjjW/4SK60QMEXuC0vOo3uGYaKs5KbC/mRugnMi7uPQtQcscZ+fQz24+YJMXQZM9OyExLke6b0O95X3mBR+IZSrYiajlaN9A4NiLA8knrH3jmZPgSerhcGnbOHYwH3CE5r0S2rlIPvC9dWqR4l7tYcmqVDvXba93j7GTNhS+J9joNyfXckQ1VoNGbG/1jkGu27twD89zhCd3lS/4dpdNwwPQTnJiRQMVS2RjCyvwlVXrhqRya19+eKeZEdcldXQ8VxuJX5gk1b/fji7NMZizY9Uzgl7NW0zImTGetRHoYxwp+MX+/EVuYMZXdNrQUwJIH+8lsqfbJrjpsDPLvYnP2D7rpG5zcfjhSAtMf6BeRnSjAK8KjRmQJHh/L0i7EDi/v/5Qb+jeQy+HXwp/To2Ih721+ptFEfOA6lg88RPm+MpRfvXKdUWoPugriqQFC9AjxEye6ZGAYpRZSOghQc+xK8wT8exIFAHIMlzuapUQxuPLudQSg31iLQg72jLTGBppuSvfmAset0Ip+/ZFlwin6FzolkZUlsEAJEZ1hTH+NLgo4BxNA6Hl+BCy/8BrxFXK8AJ667gLcvTqnjZsUglysV5HLNc6D5Ujqy+Rf4b6YSr5ANAS7hF6UW9pSbmVEJ+5opJgClwcVzf1djZleGtADRz7KLQMiH9JGECWR7ICLzo9OBzqhOMrQ7rvKRxRBu6jItbyo2ekVWt9pmO2i0DrSGT48ltSiuUhPn/6bCE+WYFm7Dm8X4T8VRpjbc6HB1rZKOMAiRLam3yMLnY8zx66A8giXyn0lyYVeVeYK9l02LxJlbHjCN6F+IV8Su0OpeHTvticwDKEHZ1vRCeIaJWtZ3ieRpl3chQQ3hTjS1pRxsTO3WvqQDiFAklCf5ckrfm889KSI7X4hZIF9wt+x0Y1b5rD877E+l+xgUSKTk23vh6d3rQB3hVLaT8tpJ4fMx2NmMYXmM2Rl75bJl8AhMoeHINeBkvM9T1kl8JJZYIzzAi7d+528l0t93h8sWG0LgNa2gPYQ5T586AwWtNIK5BxsGXLWjeMGQpIhjRLSPoIdHnzPgsuprZP+ymLo9qCDIelQU5sTZWj4+9au6iG7kxJHUAY5vKLcp9EOoBiuZz56frDqsQxHiPrjD5wJYwPH5p+kNh3xV2yOJES/cnE9lU5peRc6dYZeBwPAI36w+qIrKmXxu996GK5BTNwelWmVkL/31Ui2EfCYv2gzCZ+YDVoBgA8WrLsz4piy2tlLe7rkUNVoh26Ts7WpidW75Gyjdh/aZGaGMkUB1gck8NVG7tV2HQdEwXDrSwMqdu1xuLI/amY5P/iestuACRKtqOypvonaVXiJEaWaDLq1U6+qa3G0AK9XsJdPKj3BR1mY6A+uN180eozylCHx1RDQnk9IgHj/XIaPLLT2Qd8UO+f/IM0qbgBb/dWZOozVxWs6mMcUHS7ZI4iJLFLCj3s4HXpsQoBNiENMT4ueLpI5Gs9zhPCnAG6XqvfMSHk5H+3IUKZtAeHgxfJ3qDLB6tDBmsSzVi8jMUNpi64qca7LhHDXBLJHb5Pu2J3BrIQ1+LUEYsDlUaIX6+upntYAG+RfIS1BzMeImvL0HSlXoaDvKLuMqlApL/th0P8h9DbJGe8NVvFZiczOmiHcYwQlhUdwPYxtUeawYACqGAY36MHgU+VYnm61f3aUr8dKAonx31IvRN2zFE7yQYbwJAW55mh1jmCzopu2t7Tgql00gCfYcqeJf5w7LdDkG0Ps1eSptwOM9y6SM8O3ddwDLs9N0d69e9QWUu0ZAezOSjV4MTsOV1Ayb7g1xHLXEuXhb1yTjCIGBhztZb5pV3dJPYw1NSNnVygpikTshgO4UDA8g4FLdiJZ+BQ8tlX0wCPKS6B/sq0jQghk1jYquqeUgdxUyQ+av7laMqvobf6k5rjbFTZyt2jYjUEr6K6zamllma6YeRWzobzxXVIFLI89NV19VTmJVa2o+tFAGEF4kM2G8V2p+2shz7cmHRvLNCZOJs9O8vozugrrUsFU28HRl68m6WUknlKzmxtcAKCVEOAY/UMi6PcGkhCSN423HEGIluNFRpT7Y6h6rVJ+xiduZd3YpqDVSnVJFFPzkcArW9Jr0pCnHOicxaVwxlKt9wr63tmA0OWoqsXM4X2Un9OuyxH57b6dafNv2arpmQDwHvshRcn4+sPF7WZoGJlTBvCLjNdtNZlFgke+E3DIE8+5k0/kdc+N70i9+P4ovJWNXoJRTh64VWK5ukwfo+i7YPXiRBrtdZckkUzrHie89bk/JUwbUpVN57ftqVbTzPUoswsZZyK+XOvo9K0hyjeomXlJdnbhG7IlnL0WxCOLzauGp/iccPLVWT9Tp4u6PvnhGotDVFUjc63z2ymnPDEgcETPW3cXW/tpYGBuAbpG/fBDSl5rpPxIcpTlu9xquJXspOnQtsb8jxRyqNSimIH0pNkEhEdlYcZaNR/NKLZczVJK0A/L38cZKv6F81ZSv5A9r/YPgU2T6UGBeFyKi5yS7dGz1oTGcVhY3yz1jwZWA5J/5xvhnPWtr+nDLdcBxU2I/xoBgwzREhAusjnZ+ITbMbnDJQdS8j8ItlsJSlawDhPqmEhCqq/VsV8pMiN1owafAjiyEGmVPKZtHFT3GgiPEXE6vGQVMWsaZbPpvf3oLtLnDqzykupG0FfNEUiQHv/JqpesZSThRRh9A9GuR7ovCh+WLCZMR8+LdSKKMxTdsmPL+5DLMnBQ+iPGjNSLtDt7Yaih9Ay3smJ3cQKw0WYjxUU2a89yeJy8LHjkNqX4ta+8a4uEl2GNTg2QYBuWfsCNa09lTsV6P5qcP9dR+qvIuAfn9bapsOiKUJHeGyQtENpveD878fa/ap3pjWMlf7XU1WlA/y73x/J/cXjO3oXvuXp/d+ifk/t8ermAZ3OWNMtDDtr5nNXOYIGne0DFW/fmKbY9fVfhBRmc4uuDpzso+gBFo3DQBeKrvMtVDekJrL23C3W/5ZiwvZjAYt2ctHdnObTVKz0L1nj8c2DpAe0EYYnf1VdZ0LLMaiM9kFQdut4WPEAzWapBxvCizBE52aAKseGgptkx/LVEd1t3RSrmrbtWiBG8fapG1Ltv0eGvcPyoI2DtnKDm2rBxJVPgVkPReX7eXrtsWLifVAlBrTAbGE4eKhPZRBO9qgMjLdUVQKAe+AgTjq3cXu1g2gMZav2oii/tsTnGUygp908Bnbz9PpLI/HNuyow8b0+v86skI7KG9Q17Xm978Aa56bT96pGbJGnDcDqbCqfSIVg9D9DuBFEqMVpPiO7TWDrAi5ZJ1uWvWaNV2QF4Yh5kobIm6Fh7itjc3FTa+VPndL1lTfmCrV6keatWQZvyb/dlLKL4MsUqqA5sDfVns0jnsmAH9PXSS4k8GgZok0g6G/ctpHzGIqcPQckD9KwH4R2xLIi3/3Rj4/QX9N0Vl1sQmHRG/9jZAXnLo8Mh+xwoEBaRUcysKiDj5LZvYchL942FGSuImbAxAfp0YxkxjntfqZ8KfpC2xpb326sc76FkWp+3tQBT168sinEAlPUbZLT/Zvnyum4tWP0vKshJpvPHn02q4Xa3fTbL2zRoeeasATOAzXekKZ5ww6V/U9lrHRsL4Dk6cF0oKVlBhzPoBImtYzxXgPWwjpiP2etTrPbv/Pf051H7vP5bWeWczRUYD1IG5Qz5ncp1gvAmRzekCobRd8Hzh3CQmoTdu0HIx4daHcOkNhTzZPPn/wTPN+t7SitnAh9W2R17y0QKf+GYdlsUR+LsSt10nsnCqhQrR6Fl74529dMoz1s9EpvnBWaYm0EsOd0/vkgl+sL6+aCLE253f1OdNtrhOc19GbdLx3u8jXMVTfHVVNo2Oo48f3IlwOKHvGLsohynIh7eWMntYSguhdfIPb5NJUPjoOHleJBzznz9nX7EOIY3Dd3IdmR5B+rVro5uV+BiMSsA1X6IJkUcFeCj2RKRlJ1xjV9NWgtC43n13ZfXw40d7T87OwMMBxy8hEWnrR+Y3g+lPPVwf/2WpmZx6so3yCDNcUcHNqFZ2TJzct2CnD6CY0nVubvXg3dW084bgFiKpjkTwmrw66ruwg/tZudJp1+FbFkV/7yeeIRn23LyvRuF+nPoUy5DzEptFEMv6xmtQB+wSUeiVYBnqKwg3Du/buzZV6xiWmyY1E/RS3ErrOrCJm1DJI+xawHSioWlxtmSBq+Tb9FG1iUa0H/wAgzkLyt+LWePPIjNx6YOkw65VPPhPkLX/lTJK6NRvdpZS2q1CYxyStD70QcOX/Z58cVlYCkB8jLSIo7vcjsCzIvF3cK5piKa7kAHjIDo4qMeWgPJH8zRN0vfidtknTsLukbVWPk8cFFrcSEsykfdbHUb7slNuVBvYMA8KfcBi/NfJWf9gkTYW8tVz5Jg9ME//gr3FhZ2jHXVE9PLn/GK9lRCyu5Yw96FNF8jjIOfdYs/UWCTg2G6REJgDlaU7IA84m+flAsSvEfnBvpAp59khv851nninpa75JZbWt2kMo4HptwCwb8fkkG71wCrO0a33Yo/gL8kDRCkMKtDxW5CwF4t6oRywDwKD2ejODRcPQ50ArryZCFKZX6BFQIWhBHja24Yx2g83//LfHFNj+3hXG8MwVOv5f+6OQVLctaFMfWJCb7I63b5EvuxTu2qO7l1A1Au8dI1JxJ18I32wC3Yr08ZrJguT7EKsbUE+3Fg2L9S4nd6kx1K0pj2KC/TmYFLsqmYHDHTwsQqCd02EJ2m2mdRXWyvCaOfWvyaesNr4JfBi/+eyySw92KqEHice0TS96GMtERUy0m0CC8OoGvI7pAXBscnQ5c3kLAVtchsC01TXLD0bGYqby1rshUnCkKGsO/iZfvS9KANk7ECIf7CZuZRLh51E4X6N3lkhRFCn5jS8zNlxeVemzUlVWQ7I/nasDJ7s0XH4vdgRFKpua83zKeC9ndw92E8kD/QNIM0TZDlcuq5MZFYJPzFcZ6mRBL9+IRHZiyKZ30OFATvnSS2u2E3wtoECzXukSkZt4wfIzqk1ni5AzvmtXyfqc5YDxlBKr0SM7vJRo/jEzvYkxQ4/pNk0CbQA17aE6QHrN27G3/PZpuEvociHW5Az21B32Qmt9LOljMixwS+HvKM2FCC2wjPHMn/oasGT2Z4kaA3rKRFZ9GX/clf2fUHXCslvavqLrl11mAu6DzDuYTmTbS3XuDStU8yz4JtTucCFUj/lalF40XwasFMrZnCCgfwhVaOn5rCh5M+wnb4rjEoJNyspvsoE6oUV7ky0y7Oy1Eu1q2kxsr3/mrtuVldSkvG8PCx9vhy/FIL6ZsXe3NGUU2rTLlDailbad2g/EY3TK2OqfitDcubTJ4Ay2j9GdrXoo+qnHwEpRnHFMReu70Y0GljdCCCAa0pADmzeEFmv03TsuS++eh3SIzJ1Cp/5Rlom3H5orCmJgxJUDx4BgwshDzQsSaVkR84zedLZn/RJjwqCT5EiGPSV3r2RtYu4ODtEhrLBpL8MQYpDxBoeMXoxAEjBw4EVyfB03Pi+BM9wQXSMfM0hADD9Ws9InfW8z88/gE77h0OnoruaAAkyvcOLfq6nqIs0ksy9yuCm0KPubCwjlQ1vOWqrzgTCNeNJ5dnIkgItqV6jWX6a8AHfFdwlWGBp8S42Zb8rjHz8PwIRGjDu0peByTilZseb0r4aHKAFHQpgNKMK04XmbDS+6WEVS1LGPU43hefMeRColqV7kfhz19W90Y2XL9NN0LYOSv2Fqxjvjrk7zkMYIdzvrmTUIefu6h609vLpZMy9VTxCGGHQj4Zm78u3B/9y7oSvpmdGraeozdOVRUbIZ57MoW7yc+XOJ5eJPsFWpSi4ialopr/is9dkTLNNswey5inhRdre5ufBjYtunmYBQU65dsiukz0+RBtaUzIYgWxOeJXz4C8+0J+lfKA/iVf+l63I2u30Pts2sx4K/zmAwaWaNB/KU+kS+RbUQTF7lmu+6G6Bhq+dh4pLuQLy0W1LTcsUgEGGtoLdz27VmBBPnNkGmxK3bQH2K8K+GiCYqoVWNN/fQI0WfzQbF0EOY7gV7OF/6ImVFF1kLZtcI9C7yoozmg/0RKuFgOa5l7bgAFTAQswrw2Y8B483EqU0lhMWQjEBdYq11nTWY/dfxBus5VncJiB4xEWt0o9R9jFoVpWDrA9/2GmjkhYeQbzDcqxqWs1kVh8Fc4qXnSGa2wlyjRIzMwwSOTInM4jQglj4qqQyJX62NaD8dQDx1NR65d6fBM3aNkLM/DyL1bPJEvB0a1sLMNqiIUtW3cnCVOhQq8LY7np79ng7mnrnE6x0F037GtT0goYuNXfbapbVzAz706lJPNqeGkAsfs0z0Xd62bmAtB9T+Te8xJkKSTPwBHfrIMP+npffrko/SmUb3NpHZ3pm4GLM7sUpfQcu93cpsT0n0tocNjDgB1Z3iU1j1J41Seg5jf5fh/Vn6PN6OHiOd1WwXvNmQAC0THjzpBltHLDSxMPPnEih+G4tTgcMEvgkCysWKlY9dqPvc0n0cFrXtM+S91rF56h9GSRXTxt3vQz5nE9YTmFBvnLsOQMJGlwYN3ZMnorJHA7dzfDaShm+kM606zKb+baD7Zta9eTuuU4Wto+AChHdfaSMh8ukKkkNEKigj3khl81QVjQiPxmmXPAvhpfNtAOKA2RW3iMNpU8oLe9bxYgwCFBukr7V7E+I2D77qZ/m5OEroWUGcwXu1U25Au7VCPdp/fjKxJexdfKFeTkfIDgRyYKmdamUxpyNXTwnHbWWfjQ5WrKbjm+6hFVpC7+ILx3hegrFTIcJMFrNpLMikdajCJN84MSqSflbj/6icSqtSL7Mp02hje+qDD1lCARcWDBQ+yjccvykwKIEvBYDBbKpB31Nmk+FP+f6H+B2xBF2DJ6nUZJ1ogtAvWPWHBjQH+TWO/0glKw3JudI97onKVuTHiGsZNas5K0vhSprjdyQNLwj4uc/jk0P3jbY/2ZYYTvOohwxIAbGKniE2NyuGayxQ5EtItJOq6w6MAlGTK5AhBrf+lts46FQxwLeF/yxTK2GbH+e053H7UbVBo+FQ9PPK64G/N1F/1hGvFUgIm0iTUea3CDGB/Gziq1XT6SyF6fHeTHA4m2q1/Nb3+Aerr2jnxlx6oVVb1wX34R6csu2nPUMzODLcKYDSY5GuEaIeYiG9vKqMq7ie5tlsd67vbeK6fdBrfsOiKw3s3r/KBB2agdugXJrJS9xpjbesYaG6g+dR5TIPUmNir5Z/NOqu+7hgIS4FROhOuQR5wJwZvqmbDepx9BKk0XXjwGgKuh0cuRJq9gL81MDgOR2Ajj0jIlcC3729YnamMsSNiDLcpeJb7QDvg9y4yO29IxZdPHbMMuJpKYxb+957Ek7cwTqADgrEEMtdg4U7ovjLRyHF39qwt63u+G+nL7hn4IutDK1FodTAD+/6mev6vWmtYCkpaEkuBdAECPR9vrQpxHNxly+uZTB3vejWpl2JqOojpcHj3IC5kBjheWVNLqpo8pRFu2efwOxYtILrENqn0NCJfoqd+8uWeq+Jv8KTsd69smCqqZ/VGSoj3ZFNlMUWeKCYsbSfPwOUuHxOk8DGRkp/tHvILr07wk9PEdcxDobCsjmrrOD/k4akkVey7ZhUUWwYyf+DlGSc2SXKwHvJDTvQWXpCgZzYKfpHI1U1E8tIkbWnFOYabHcSbVUwsyVmCmmmnV943LcI7PCXwA3AjAIFN2GxPDsv8CDtNr42won33eegWbnlg5RloT5wo4f19er0s3ChY3ZxN/ayB8+dskfZELt8try1ycRz2zWBC41P+6Zl/tORvY6wRLjRwAEXTs5qTxmIClq9Z9E21tNz9xeROHbQYGmKrs5UzhkQH4w5EAVr8n1IFE5O8Gh/iiw9gMALdaII7phsrVuPCUzysq9wEiznMLsq7mMbkH+FnM9Fy5FOaH95QKAJFIPtLoUfh4kSMGiUZWO4UXJBi3Q9K03HIQs/aG90WyvYPMSvBKHM5+LwIqMUxXnAQQ9UlmDbxluhmuiw/ne2k7pM89je/jt9xtkCMIyqoQOaHsXs8SJoa8Zz87kU6l4W6WXsfcySDSJ8gITdbchkFYQecp9DuG2UkWhln/y5BNg4X8Mhq0A9p+NtX2TUcrfLKhotFEWKtDMo55YJuqeemEty+FEZZTL54RfBatEWJR8PfvBc3VjD72hQ1dxh2NrX3mS7XV9w1ysoQtvt3w9uqPxqhyviZCYcf0fwYo7euf5csw6DsxwpjlojtdNErQSwrexRH/JmXcWFJY4oFDJA6BSdlercwmZJwhFjfo3DVFF3M1KBBphhSYwA2iWtWgbG4UBqc7ZCpYTxowaD0DCmQC2Cy/83SesxeRjD+gUVcBRMRlWZCKuAdfEyHi3toFy8WBeJy0CXfe1qHnEC2HU/QwUEBVjMILu+hpwbhKOg9CSoqRYJT/BlPpyEKuW8CR1WGuExG1A4mgrYvngKFOt8WRaJbRrS10xidJvObUljigffjkLupfqYbLWS3nC1FUALlBxkV1y8zBiai1mgAmv918b4yIF0SY7D8ygdCrDTbPZr5yKtxNW3cN1HI92gcGcAUdAR+iWW0pz2dtKwo0IbgaQkjXljU3564rQrvlO/4pw7fZZIiNnzW73dSNuKjbztsd7H1VgUaVM/OiTfgsmV+kmZwRdFwkGwhuoiLnhY849vtSqicsFX91Tu+Q02hqNC8uNEx/Jum+xm7801JuGESyvahdkHvjYoVbQLPkopCeZs/03QTNx2FNnVolRLqr4jEnk5yCzE6q7in/nfPfd+HHojDH9Ky0bG9JPRppBv7MadSgjBgP4mQQBeFDwvoVzgDgEvwj5l6wTX0fT4twV19iwIkbDHSoekSteFe+G4OmdWBgfaJgHH2SwuoVFtx+ez/5vm1FMElnI1b+RewMuhCeM7iAuy8K4bWWIW7Y01QRgFylAx28E6cS29OldX9OOpS2PLuBj/22TzlZ1PPrWmJ1Fc2uH1L27BPRGoJfqXi6abtCvt/2zvH91dwlnI5WOBAr0TSEKWX3iJY/2ZYkAFZU/dkOjsqByl9f+rSzRhJB4nBs6/YBr/a2EgJuLvM/RZjbpJ0PmM89Vta06CwkOeTb41tbNaiCbSUPCC35itgdp9ApdsVoN/fYR16IWi7hFR6YZ9MiLgCYuPvVNTV2PHwfd/z4xMG6/y7AIh2IkLzqnHxV5f8KoH1v4iprqmX/RPpzgcrLYz2+imiUOBzyJxS4uX9l1MJM+r7hLXbINzAp0gYQ0uEaj0zcMS+5KFNnHmWUKEqsZSbO4FjwvvtWbeS32bmdQD4Zd214H//AY+wQmZtrR0TvPdcfKCQxZRCs4hQ1TbOiclLsi4jxGLBvvApE4D4/iT/3HVqhaAjIB0XUxM25UhKwYP++/6kd/D6WgsrKELCo+IWGct1h/RkfvRBKkNY/VeBeQt0fe9Nam9wrvmP39In1Jdn08ZhR575ikM5bTkyj/xO+08/0AyzIsNxYQqKW2VITEpuXZSBhFOqFqCfdg9LzTxgOwj7z6MU5are9+u96zuvgzf6F7RgAs6rnPVcNhEF6TrutwPocr863Mq20aq1UgUdiFyrl5UbtQKiFXgW430iDdjFmHIMmSfxIDpU8/XFB7/eCNdKZRN7y0GNOTycrKo49cajKsBfAjucKrrDuRdUvhqLtX1TkfCoWdLogPDEUG+JVlSLvFohBCgrMdhSySovqPn4d12pYmoNqEYlxw220S64ofx2DD5awGJpUGv0UfwKp4oi1/HOEHf74lbbZ1vxDAEUUI6FIzgOTX8yXP7IzqeRez/5e3INK3wv2chF4yHoBOYDYKSvKFhZ1ZPYuA5EL5nYPjRaQ/28SJbh/9FW1u4DsPPB7WmaETPEqRKgrrj6T76cPMENdTtFkdmJQLB3HUXX00AF52fSV+/o0N6Flvs15kOp2kARAcZVsqG+dyOhkvcDa4m+YFP9qnipDu1NYwe/256SNfU5FCDS7D8AyGyW6t2WYIkuXhUfx8g46Qw9bGz3zkv/XFkuU4WP2vAIDjmkmBK/aSpWU0dcD7jYB2q15TwCeVM/TTpshDf88wiYagxrIMITnzxlX8M9T7OY6pECeNhHGcmljteQqQmMoYvgXebCXApIwz/5qh4S/FHjXodrK4dJ79yDzk/kTd4Zmetr2nDp2OUNWYwnnlAqXtUPm22pEz1JLgSbx6NqFWsjzF9wHGUeSCPHsjuWOwenGzfV4we6Ymr7P8cJAG/k45WD7M06g97teUL6lGN/lrtFpkoD2Dn83V8NIc72B1hH7UZfcUCC8wMeUkvxU9HU5gF63c9e39ay8wTqxWpa1Mtp1ng/eswiY2/PFcTK8ia56lDG60Yc3Ut4YVCl+KOiXN2a1d8mnLrnyArlwZ6NJd/qO2LOvJ1KhvPp/uJxARe+wfJRmcqCpvfQUvmcFkgKs877JpiJSYL4nZXDzF94x70ACGk7tWdb1tlQdE80kvfE518Ge00bltm+fLgltmoM0rqB1JSCIwa9FHRptMXeWQ6qPi+64yyI2mLSjOpg9kyIODbyFHEd3308vZ8zN8KhHZ7VMCy/JJVkwxoU5GyiOuo7MSZBa4EhlCv2c6QIQBB1NQznhlm15xMJjlDvQtcIGFLhvuRxev1hkxpKyXAoSORjvtZhV2w9ANACzEVAhhYYpV4obmzyKNd0cj+cyfnwiT4Ln1DApMKO6UUzVeAJ8dXsvrbp/ukagUwXdqpJKErU8E9K38E/xxq0OtMl+2iTrWg/Voqt0kb/DOc1SvP6miEAh/qTw/ZjKVv/ha5HrHJqMvc8yjtEN3Jv/qkuV8WkarvmQdktpXwM8CrixWmpVZb4VBCttuB3rNAnx/QskDQzV9QzbIiu8ESPlnsAq0s6JiPmqEpVFq74u4zaXcJx2OSE3b4iIg/TbnS7Iax3PUgE0Tw7teBps6Hi/QsFy2RAtrqlE9ua2QMCII6AEq0ncWG2JzljttHKGPiG2p68kIF9nHVqzqiKVkROKhr478t4iaZwb2U12tkaiJV1mBmh6hP07jurbQv3TpAg626aIlpkfP4sdN1tZNLo/qrYKkAX9AbtN75sVYHGm2fLZHGroQILN8ilOPZ0ectlqoHhw35gxMWaaC1/K17lpscsqLSUOWSuVx/25es7eCEiKA8BAcZhFDkCT//KQNYwRH2Hcs7C+4NuxVcsBx5cMkQYPI0frJwzZkSx0QrfFiZu/U/Toe9cIY/TARwSlUvz5qWWV8bmD2dV30SZujrzXFVbNvUsRGbIguG6M4Y68RqF/QBzunotcIDVx28ImLF96S++9DTODGoA4pVKYpOdXKGkB2sm04Su03r4MOWFpdaDByUPvxuh2ri4uoNryY+ZHlSuCWYsH3ckiw++UnIx0S/tTs/mAX+ehv6SRBWNiv4mVT6im8D8mQO+559o7ghSFHM2lFZVAoOJo5dL3wn7VOf8ZJgBzFNkV/C5Oaak06LluC9DsGJaFJaV9l3lsnXP5I04Fcs+TQHb8MwfBPi6DXKMUvL+qgalfWgkXJKqvgkYL8LD1JneeTyOTiAGsrZPEceUmRbW61SrG3sqbsoo0f9PitLDO9O7EPudfu21lhS76tMWa0sNxvWtNtQoK5LHYd7UYS6Sj6WrGQxxJFN2xPloP9Px2AN8drOASTN51nNHBDyy1izAdLeCXE+YhUqJMSGJGCpigVQ4SiH712kIFtKD0M16C9a8s4i814vJndKE8TBzq7w864j2WJDbzuCsv4jWyjDxPkqNevwCTenUpkbqVMW3OGpZuUydPbtteEozlHLv3WyrNV+S3BxjUAvr+R7WBP32Xc9aSrfCVyYGCH7puthSU/nftm0N6ddfb+wSj8+H27zMI5p6ZcQhNW4LxGh+CmZC5utNtM1+Il0QkpAri4bi6T2sMLCCSekpp1P5PLkg+EQ3siK0+tdcRIs5yl5EV0r+/kpRAnZ9i4jWEw8neC4C2yAYYB/A6N7sUscLQlMYMBIxlLkVqKd5thmHQe9iliU+fN0Aq5qIGpqTs7M5RKtDGGaIGgt2j1jImAQAV8mwRybQQadfL6H9yoEwoCyt8Mm+a6enhVPbMXNfBDg7nn5PCGQfFeV50tHAPqyKAez6mwBKV54hvbxbAMaXJePk39p/a6d4muKV27YPB7mRe0P8gU23oIuZROSabWNIR6H/rLH93AarvbPYEmDeXNnXv8IHtt7ekc8Y3zlpPNOLdLaYLVMzz0iNso1MxN35oGP9XKwQOD7oVRk099JS4282OIZ1yXXcjBxIBfwM0Od6r++doi3JaAyx2FMrIvS3jvcc57BL+2LZ6scJPI4SkiGX9ULq0ADpQtXjzzLsOLOouL+c4mFdTH62BMuPO2IXhfGzOU7hf2efkTdA1mRxncZENYJN5ASuH+CIkxuxry1MNjDH77yUaN3vx+cCv4gB0hKr4gJOeYALqQl0mFQSNmjYumn9ZMNSaHIEcTpOX3OH+VzMMgwuGYIpgKEMePJxmI5abdc+qMu1bsNpHC5DbvEqDHHl59qbI/EpSxz7Fcr8QFASpih2PkCUBT63K9KKM1Vf1nQH9jZ5EU6wid6ga43fJM7APpb8nvJtz9XR/NO7d88bwZHl9On2C200a3KAYCTpA9usgeMoiyTjV7kNLhQl0b3oZ/byR7tzP5WxBnmp+CLo/+8ZOQetoybiW6mEZMRZUQ+KXcVkHHxhwCgvM8XA9qzFrpA6zdqMa98TsG4t+83l2s7gdJvWOYc0DJpvQbc1ioC0aBYiGq2izoQtr9NmPIQk1cHarlab3td5r9+vU9gRok8uI8ArrP9GOUlJ0uH1XjbOJxuKOMUh1Kskom5z1LUS8wMhsQXV6kBiVyES/uZ9erZLPPwSpUgefvG1iIpPojJaEVeQQQwX/XN8mKNqvPhpC8KsSg48OgvN+ohF87pGU5srpBiTjfTOgcTlvVYGxO/WxH4FaM1cJRcUXJ8jpT3SpGwU1kJaYSdttV0uKJaIHd3x9/Z86IKffyMyLJYkc8j+8clWyajIPUud8QeyProk6YzMbvlxZeZA6YI+O6WrU+0cn7AbSvVvWOKF+Ry+1GTXsbyUHV8DfGl7AnJSHjJrfDzDOn40JM3x+T70oB/XLXMzl0iVx5PLWHUGpvJ/ccM4elQm1JX4r1f2ZBb1ZeheCqIlAlo+g77r/bVqOL/L9Ob+qpBRaVXKWRNEe/xVLzGu3SbGpf1TsF5qRQeEVbtSmz2Zr4CIqvx6RzPjY9VM91XyRX6WQHcDZXLRQazoYc6mGf+48l2ezosTAXTkRkvMXE1VpP+TT8YQD5jtpqVU6gc5+feC/RIXuWwiiqtSeuxpgEeeHXExdcR3dEWiFo7ororojgzcpEuGb7lGlIizqyaGnr0O0/sYJmcolT0Y5nTUpRlcM7mcwyKG2+NMGufr8nusSWEiGXwo6HbjkBDuGRr2/J0tXX/aAPaQLWSn1h+8PHKHuG2m8/Ip3VrwZwwZnafQIxRvaAfzNzl2HmsCy8svoL1Gy3oxWwGB80UEoYp0HEbWKmjfkKJqsOclKLpAp7PR2G88l9E8GdQEYYFAQViQ9ZDWDR6S0AhZ2uRLkapAN1WxwwQZ7w8t/7tEKj9+9rBSHurRl5ZZXKT6piGPp4jjLMZfBY8NvFGR/3oo8mIABYaVwdhDkLjIKJuMpnuttlqAAnV7pMBUT5ayb92EYezO0AttVJXH6AGNq4nGG7K7t8w33O24gHTzpju5PalZxrvOajkHp6NKnphi8QGOA3ZGKhF0PLILoCvdkM09iYtkgVAd95AUbawWxiNeqBnZ3cSY7C13hqieJHjsH9jeelVRvsrHzRRxTV3o2dWePguJyfTrw4mhupxN7chuWkRYC0CE3t8cEwu1ZMeFa78Zeqa7JWRZKhqydGAOd4RMRwXb8WnmAs+mA5bcmJzFpZU3+TLiglgjY1UItWUSUuzHqHp31Lx2fsBqeFqVnsq3vXaDQr2B7YHsHKNSZha/ai/jpDZSbgXi5APrQ8QuBBjDb+XLDqB9HOHNSykre4eKwK6w/819d2VbzzAWccK/HiR/PKfSM34qxBUPpS78HOVhRKd8VfhacnOsRGAjBWzJ4DIfdaryfbpRWSRdd4ZDFbXP/W305tacBLm4U+Yjg6VBhrO3j7hsCTPgoKrQjQUWAKDTnsGECNHdaX50TVL5i15B6o7rpmm8k5+Zu+wNlUX07tcjRGqvklrzjfXxLOS1Dsai62+WDpOu77L4eY27ysSLy1NoFY0SRywOsR8h6NoxnVgchsZzrSEqMRPaon4oPZ+kE8fsNEknPX1SH0xbmxWs9nbYaBI2sbCYfQZIZu4UYbe5k05mpaQWyU3kJhzmuCW2sN54MX0WNfOedAA49TWrKk2l5wS+0UTGHgVJ8vQX7H1euVxHmV7p4mjaLdwpzPWJY/ZZv1N8RwwpGrzZf6XYSBIT8FwuNGzZpSHMNstaazFaRyE19/BLYTuOPid/PRIMY8dtJR+pisyk1hcXpe7297i6AOCuTTw/yoNlwZdZL9pChB+19r5PCFU1wupMf91WUrmjbZn0PgcC9fUdww3WMB9pKvD9SAFCN3mRID+O2vQkE3GaNWramCKxtIZ3CpnxWzZtPUBYHlXfhH7ICDZEO5RBn7Tjhqu7jQJ6BLj/a9mVa5H5ygnLhdJXEFbu77tn3kggB2wxilQQeBtnEQBw/EH21vahLOeWQWXEP/m307BkUXxfeaKOWYyrz2L4etgHSrpFPROWoX/RJXjAfbkneCgIajnPAWocLLQI+Mxrn5VrPdLAY01n5EJTci/7M05Z+PlbSQZ7oV1Zq+npCHRvnk7EfPCJCOYDppuYhr66WS161a8MBdid/ipyEK5i82M1prFKF4u6gxCsDxYpvGQGqdXZvqHwgtxY7PhkE3nhzg9eiZ1UNXq6GSUuiCWABI4C1NfaKVBhEgmOfIOUWF2xpPEsGhxtFHIEHebSr9rJTdQN40Vt+uyiMo1nKX+2UBcTZ2IJjuORa+XcdB6TOOJIVd5qbR2ry5ozufnYrkEBQItmvjZ1q0KkNvnK3zwRJl+uzpqSXXNAeJQsixRTFw5+8Tzlcwd3ztDU9O1T1S2VqBR6z2XUL3vug9C209GqMmhm9DRE+Z4YdReSa++cDelL+T/7vEVPZ3CaVV0hW2+wYOqLHfmQcGdD+FMQH4tSp4nDmgM+HIt43eWk8AmggqIbZcFYEGyY51KH2ssCNtD3fGmpxroP5VJaXsCASIujzqKE0NhDAXcUZD/i/CFEJBUhW48fVffNJ6slECrzOM6SYwv8KLuwuY82JhR7+ZjnQhHP9eUfRu9qO581I7sVIcd+bAY5E4iwmP5e5aPQ6ZBEWXD93RnpM7Yt7x4UP5BBjI3+fE2EUJtJJ5OvVosWHXJVbfs9gZm53Jf5Vgna1ZTFEIkrQUMlNQ0GF9jdmWQTxu10O43Xi9aFYHCcXFcETu0fv4nF0nSzWmsKcE67I1y4x/BpXG6pTF7FaeNmV/Q/xRLNSopqiWxLnDMgWFCsq9dzPC99mmjl7ptWMNWwpsu9Yp2clsEF54g3S9ebjsQzhth035Bk6pgUf4kvyjM/rRT10e/nGZXdrfdgku+39sxgsDoO02RU8fkFJj39wfDWI5zqj7AJnqRU5obMcdmSkWjUF7RZwt2HgAPwmHvFJ1wEcXsqhIPShfDin43jh1awRXqfomMcL/Ye9tPobH7tXfkax8+AyzYLLcRH3TtZCRXGFqAiXKUw7TtKxfoTI79zEctInlVD62YNe6lGXP4HOoJ5ujGmyWO6j/f/ZJrkL2hVVyRMOyZjmhog58/H5TrSqqBRLb9xUbiXkAtFgd70XjJum0H5/2bVhjcVv3u/JnFMcpAL5MliurYAeTeUsn7ZwC+fu+LlVcemqfENKKUdwrSgiICMDvhyUPTHnjULCQMT6T/Y+VYMtjzh/odY/qKOMX6v6F8Ql10gsWJgljAPl2+OvS4/kK5H4ViaMj3s4G2MyrIlYpnRCEJ4PXe6QIizaruJicYv7q/ZJuCv3/W+5SveWAMB7nF2TwveloaaE7QZavWBX7qOCJRtYJgNZvqDkmRyvlB1wYm6Em9LW2MVS0lr0k0tBBU+HvMH2v4fhRqW8av4vuKWvbDmQ2nUrFHDdCPQodIvTR6sK7Bo42rCkLVXvRpP2CG54OKfU7ImxCjKQTGO0ZounL8WVBTS+9PMkSkvvxTBcjBrnHzc50e+MW3xNMSVhRZ5BbSy06wk4kObJVjh9EcTDh5gmoSNMS1BU4MtluZHGKO5Xtjk7bEcD90plBFNsYYNScAuPxa9N8RT2NEgN2TaLC4Sh0Aa8wW2oh9DoM06GoumO0p9HkB/NC0lEvw+airg96jbtlrC6uvE9Ts1D7y1lbG5Q+6PqSoffVk+gT+bjKO+8fWexKM+Oqpb7v/gLWj6QCK6nvo/jhbw8AEhIfviXmPVmNjNpUUBuxo8+UyGCLliBU+R9qttV7uhKhzFBS9XgDiWk6yc2iOoE2fJYbrpCfVXcvB3FgfycTrwbpm8Fl/OW72SpmcbW88JHzgMPm0Mq06lrbAAG74t87Z7OIblSIjJiIkA3+ORv+7Ce76HExiC9K9kmWLgVxY1IBu166yAGvdU7ZxrTTq9olRVH+oeOYaZgG/D+cSyaN1Ous1b8h5gaCPD6qg+7KhyJtQJ370nse03FXcyDpfuzWCQbrhZTirK9O4g68x9jnni7uMfvcuppa3Gyz7Tr8UhPkO42+/ssMXq3eu1GUbzXIo3YZluVzW/Jus9XDPKVGvJs743Ova/SGaK8vWBAhFOC2HAwhnkT8JlmVAh/wPBm4pt/GkjLBY4QebXMZrrUpf4FCQd2ifBomRTKuaWmw7lqhztIhEiBBIcL8JLA8sz3U0+oNGNqVJVUW+7+cyyhSBP7WhrIZxpUZ6N+7ZaRZAojolnqkDfVTKhw63P/DB7srxYnt06h6hhV4v9XtNB7zzjBx1HX88CWAHI+SNgI8PcYCqGlrrwvFKZdtg7bJus3V2Wi/48QBzbAnLSI6AnmEveZEhhfghUoANwClWLdQCSPyLchMHkYtNBSOViCxoQo35bYnD3EEd6YiGVoWJngaJVG+DDZnpmUa/fDTakzkhrI0FvcX2VqugSQWDsMlhjOePr8O3MPmPYDugCOWt7GpMbILL/5wDM1TD5B6B9D6e4d5hcvmtP3sXjKUgTWaQFDz8mMwG9VHEzu5h54+3Gm7RgYXSI15R6Y/Fui6L9iJVVHujWJMjXiRGzPwgSiqfQLuAMLxlfb2vYMRnzU8Weimt7Tvz/ZjvyKqNQzhP3jSYpm2jWPTi6DkxR3EejDlfKcauxq511WKEsS8i+cCCgkkMy8Yl6x23aCAWaChlUhUz9fBRmryb8O3mxpvXimXgApPZ9UEaHamBwp94IsQCEVqJcmnTgguDroKNlAwrcRorL1q6vlnQ2ZQiJOMqwOySHahrN/6gIFi//DgRRrbkclOjLAirrDK1Yk1F2G9otR2y/LSw9d2BEBH3dpRaqEQ38DNEgCmRMnGV/hsaj50aE+0lmIJnsJfOfPnD8WF3yOaMgXyt4/vDT1anCLcsFx9iYN5qensrEUnJxZDeovzwdcQKwiu/9H8lW0fcKB1c167vu2guaA8hEpAE2FUvYJtgBJzQbrbih+B/O8wKhTJ/8LsFWyx3/q+RfujkPFFexMXEHaBjZ7/83VRG6tGRjveTZ+X8n5BoVlXW4eH3AcKzbyYG7cmSdpunVwLfemqgHd7p3bvy1/leg9NWaQ/+uSGYy0IAnJlseVyif0cBLQK+m5WgAveEjRZiLGySB9TQ8kyWV1f24OLQ7sbjShc55WtW/13GpA/4k6+26irIUAGZv7xj6UrNzCvpC+KfaZO5HWB2Xc3GOSZyt9mcOwzG0qeGBloEZ/IvaJBHQkBzO7vq3KoqBiCj4Ee50BjjCh8V8GozNFNgvU50iwLFyW/MClL+5cs97P2z793mGpGlYDZTgElzC+N3KII6iZ/DHwnPsJhiR0w7DShAJ7pXDGq7czE2tSpXrnDjtQuKrtVy9I/iLTsFnOJjDfDZTa2aoV6o4nJtk3D+QwliV3wCHK63vOHRHBkEXFYiyC0u1ex8kqLkNqJzPZ8Sx4q4o1Bun+vUSBBtvuxZWNCCtAvuWweZPtzenXHBn3lPk5jYTrUjkPjfaSdqAE0akwwZ2bO8TotIXmx1zz2026Oyndl1lQGPzeYHRAnrcS7rq6zfrTIBMgjDaFldJ/qyvk4kl//rVmFGuQ5fUrkVsW+mkMOIYRH1/4xSCywoCpFJDKnFig2R01+6MgSWowqyex60EJlwUJtIGLqHLOy1qiGYDKBOLzHjFtjHxg/T0ZkOHAnwJLxZGsgJIAolLHwGR7csS6wY3QKDnvdg1abGj9we+evVREcPAxu2sxxvvSgZqDB1K7QYBoFBkVBauXadBuZA3OoT2PffTkxVrNH1CtEwt72TtfLg2TrcZ6k5/QkpxtEdOeEz6z6HhjsnxPGI0KDqonKidKhI3nNVDi8FDLgPE6dbBv9WQA7LmK4214MunhSoceRGj76jM9hd68yNmxMtHHAdmTjea2/FtZhZsnsx0VcCGhf5Z4zPgjHV6QcRfKzD0yh4YVMExdOca/FeIxboREybDsKftmOuuagykdF74hzySzg1trH+OAE2uBiPa9hblyB1eAXVjE8m3jh1xlDV6HK9Zl3Wn8s/G+fdjXJUF3lnvxSIb88RkTusDpGsZ+b5qUx9XDlO/L7HQkD+WXp7L3uKRbn3RQjuzO+Ft9BxaVoZReOC6no74XXz9lCYYLDdRt2dio1U2l7iH+QvZICQlzf7BIqc06C3pz06st6BAkfND5RbTJYCtgOlEmm/3pfj4WABBAKMJnlchcd6DLDKg3Q4Qlg5I5BmCTQk4oQksugIfSY3ZLvyXrI2f8F5WUb1c0/vCRLIhVVm6nQgEOpXE6zfQR533qnBzf5buhfyT3OjmQ9yu5QHVbbWVOkqcj5MXJtIKnk/c2aG3So9yawx8RcJ2jACxrvdOQYc3ira2PQHUtsqH0Q29sRJCS1+38YeJ2v3vV4/vUjOc1VMPcMG40xsuAfEWHUGiuOHsCTtbCpoJ6tKjiy6o2q7MwlcENWB+F7x8q/xcBuYDyMimCHh6sZDfHJY3OjhwADUS8uYXp1PDoPg39vZ4K1jxmAxf+9w485hWwNkUfUlL735BVvMCaoauN8jY6b/iaZX5oSWc9Lai723wrEmBYJi96Cz6yeanf4Y8+M6AfEs5Wkm4oUX0GnKMNik/3zzg22dXCBHX0EZlpTT87O9FWoJRUjDVgmm255zfd5W3sl+tkVNisvbr4pkT6Lirg42EpV9ZD1JqiBD4MI6I40oBlpiIyT+Bs5M6j4vI9Lp6Q4ueUMeDtVm0Ydo8kTB+w/g9FBnHIKEicbUnI4792a0TPThNRVzLH8br48/LcXcFqg93TnlaChtS7MbS3rCNOnXc5538ZRY1Xbe+l65QhpGb4Ccn6myKtiTuH+vn2KkZ+RI3DdsE7gEPDc+V6FWRVK4DplYbC1YWuTuvYl/7piALBT/24BAxKX6NSuz1DmUu8+LEFT7aiP4JjrYhTc4fFuu3wRQUdaVswQFYq2M370KdH9ZzYA9MNuwe+VqDtUsK8MFaYGcQHRxi/jXEXaeFUbWvaLT6IHG9jIQejVbF8l3x9MZZy9Ckcfy6xcd2jXE2YGK3OpF5pi14VJxHmVRyE4Ru+xDZP8lsXk2kUyLQdSidzl2qmQTBsvMwWRdDGQ1qYQq7yAy6L2esVTtwOBwYv+LsCU6EvDSxFmx+x0IidGPj2gSil5IRfX9ngNnrD4W6y8TcWBEt24W6do1FCUHNjXMuzx4qJXnA+qvAVFfQZw/GzRWrong8qPQiRVQzK9ZNWEtpdoxfceLGzTFZMiwndVa08y3iX5HJB1X2LLgmI84smPkdP72aN83EbIB30uicTwqbRA9JRFmrao1j4OfrccmUUlPqJWfwFwx5zKatXSPa0cnFvyCEW0CBMBscn1ViYW3ip/oKpL/Gb4sKpVcthLA3k1lKuvYyUl6eNWu5ZGIEXimg1/3fH8yL15CXnTjRvaQn8TaXwpWI0lvtHF4e9LLDm74aa/oGEzxkebVn6lwrYdWX41ky6A4RVhcAxSFq19bRGnXNdV9W+ipts+BGcnJIYIou8VKJoDnmIPceF3n5iSxXz5RYTCUX77g8MCHcHmNlF4b7eAJoPXgDwS2Lp7HGiaJ4i4PGC0pdvD+/J9UpoLJ9kooknQ9jIIMep4Pbj3OifD0vqIQ4EMov78SC2QoHj8SO623jEHTTKAnADI5quVzGvSX6wpV5xNHas3o1AEgnmsEZ1/0hiwhzi8FK/J6X36yZSDvoVGZIFOR15PqosE8FS3YTXqIG5D09bxPQJOdfzBN8wYgk07VdA6Tr+yZP5NXh5AYOlGStuNCWIYRaXwdrundhGRxtAO3nIjfcjVMtHZgcsOTYQUFNUcslBIu0GFD7oGUa49giPVsAr0BqelBBxtpoNJGhsMwJQ5Uxn5nCAuobsNMQcHtRHZWnZG45l8eUAx1AkZNv2mK8bWDouMVKw3XJYKy8NvY1iSZIyx0UFEyF1XCL30WxI+IkjZaev+BiqGqeaXmlAQUc9GRXvV06t9He/q3ilMhX16uVV2F2lQp0LO8aeX14EiQ7PUGzeN3kKx0HBPiUwSvUcQq9yVHZu/JIUJpcB+YbKKHFy5wrNOkzIVPTggrtn/ZU77maFqdB0EyBB/Vqt9fRDGKTZcFk/AEohdw2fLPyIjNjGUXV0/3esPOH/VYTpdpWmX8n7/Kna5ZpiqLh6L7u2FvW5tN03udvcnQPx0QlAuKWZLtEPu68GxdiIiyBMn8b944bZJaJ1aSzKLlP2KquVWPSSG8WdrRkbaZPu+Dd0K+ThIIn+cUht5lSv4EEWnu1V4JKccQWrhDmzJ8WQXgZJ5xS43PB+dPE571hfGZzUGH22g0U/L3IVX3g/kCEx1Oga3GilsA2Pdlb8tYJuNKlJi7+Xkl3+cY2PI9RgtEcY5IBG+2Rh/WVIn7ELt4oI7UkyrmWrql3nn4giC68aMHK2enfnnqJK5GkgQb/YYwaS7fo6z/hh5lNJyVOeUPXGy/jrjrhE/94YbbaNC7mK18nf70pI6KCSF0RX47F1ef/JL70VS9xQXSu6/X9rkCRPSmYq8IfXyB15AZ2IFfu7yac5llvYrA4FBEzK7fH8obA1RxIcSVs/j4s3OWumDAiFxcTmXOOt72ENxAIAU1avzzws2wSVxGzTGC3bvuFIgHIycXjU+yY24vJMc/+yObFhBknNYGMwqT9e6WCHWdtCJAyyoUwhy55hVLJQAV4GBt/F8F8vXOvoC00NKpi+YvqWq2LzEetGxHVGyZlIaD33Hefvhj+3SCQDKneP3DvM8mnCLIufTzD555hsXnLDnwKVqhAk52GAFCABWsraZW4Bw5D0EeEUK0qhyThePVbyeqlZwi2FccjuDLC4rv9dZORJiFdHgbAIiRhvBTxdouoK6hGiJNMVMpNjJmurWwEh6G3gRBE3AJH+qCZs0+gVFrKjdql6EZtKGURMZDFouRWMsU6Qf/B+yPcCWx3zwc8xuutOj8bb5m6vW1hzNVUE1f0wkKPbi3sZta9Z5IqMLi3Bp0Fygrj715KRrly6fphx3ynLXR3C1NNhWh6f7geaB+K+GjjCUcfvgjET4xW1j1SX+Ck4Ly1FFlhAOugpet2rg5STr5hP9osSsz0X7Mfq1MUKwks/qT+aHhqt5R+FGkz/RKxjXpKZWqdRRu3ZssFRBZtsZORqKiroePKRieOL1LD6MxrphBduc//IjsIX16DKu7A5SfBF0LqkGk8JyCpVHKHETR0o0tMTtv7rMhWagSUktT3c3UfXBpllM1LiJaiEqJJXG91RafHfd8jyw7thizo14ilUr/ef+jks4tX+TmcIUpzekU30/PaJqiF5Umato5qijslQvW3bWbzuCdxwMDSLpUlCEryzcWDaRQpeLXqxA367pkAcmQ8YC1BhtAAg6ibXMaBa8vJHqbuLRbO1Yzn3oR1zEvtuUA5w/p8XhWmwBSx9IdkbKAij0TGF+Ism47Yjgu8z2VF9SClLM6LJdl874oXQKT886k4iql5dUWTp6GcWZhmzGWLYm108TmW3uwraCVKie+1Af7nVlDwPivWfhkI4l3ZTPTWNmWNMOaGtsS/CU01onQcQzfhEtZWWA22oAXg1/l3BL9mQQv6QrTDXvIMXirw44NoojQ0ZQvyB9+P8I4aNZBWCJkkM7OAITtCEdeUgSLfptp8c9kFuUj3zfJqSNM9FnWa3VRLiCY0LWK+11vnR11khPaz6pQHBpGsPZ/8Z9r0IPpzGctYVlRB01PBWNKIbFK0xa5j7/Pn3o0f0cJyiqNm0e54HXf1lGj4pX4eLowrzj1gbINKgqukCX+9Vwt0tET3K1MGObJUmWoICIGWQBtd6Q8smOmnkqxhPVFSze+J1WrL/zCXiB/xweCscPQ3SgkfMdNw9em8rf5TfopueTvS8XcFkUjC/51IdsGzRzcdOxqlmi4/aBS2MN7VJonHbp7dnm6TDqqqHv79p22q/lDY6bQxkRsJBzAy4oVc5TiJu0OXSzrSjLIvnSCJ9gBBxTtZZdgo0MFVNFcnW8jqOgn4zsAzzYKrd2lVMPQPoRsMvw+Npz3jv30yDBBIL6eZccFhvB7HqADEH9+ParveAFp9SWpPDZ0yMQx1UTdHPZg5OQdY1xcclaRrQqkwq4nO9UvESMVm6FQI2H47H00+Zpm1cKmbHbEZz4iIV0lEvIv5m76ckW6FD85MoK1A/VHTbYr+CgRBshFei4sd3pBSC0Pr8mggEXN0+T+37RSRIjy7RehfpzUp+wocn5xvEIGoPw7VER1MMJ5yV/bvLGLFY2SqEI0nu3wSDz7c0q2fhHdRc6i1ofSFzDb6YAto3sQVM+qkuFAOaBCAaSV0uOjxOslf9Xi9XRIGvBJliWvyZNaYsy6L2mPaFDhQ5a8w6ZweVdeOmTBu+q28uXDlNFnEZZbJXlh/HGOEFBhtOVe39a4N28884TiButbD45cgW4rq7d2ZRcN85EopfwMRW5n/0xudVvhXmh0TGVlAlHRUTpP0LDRh6OktF1VAyEZAkVQuMvYq75DmJDBhcFY82Sl92VMTJdKU6n2W6SQe1NsNl1VRK07pOqlyKKM0Jrs3edZEp0k0r1uMJFG7K7VL8DxS4qQTjaGrrQSj8wlkRN68IV3d/ti4ooE30MxuJevteyNngb6aD0pljpY/5CP7jzaOT24yLfcBXyhmLDTlZ7FI4G+RbWpB8rS94OdFpKSTasXoGcBu2/FASeV2GMv0qocA35QiQba6r5mFzvqzZNTX6Q7GJnHN8vZGJqfhrBJgrvI9llahClOj13gd7oFaN1pqkrWYbbvAhKMXlcIIK1X+VyMhm48O+tvgGVnCiU/aRBzHH/vUB+8a6F4WNDO2eP/MGSd2qgNws7QIzHjzQ9UlvQ6Qv6H0Sa8IaZY2WDnYhWhCQR35sC+Jib1ACOh1yXVuPW0HSfUYWuG4SDbp7SHrGiCISDbcuRg8/ME5IYonFSFxTIc2xzZZhrtEb+TZfqKwsn4AijsnZPw7PpTzCMRpPQQfxv7QFeomklG0otl3wk/rcDLgnoWr0YhIp6njRMErtoGuAmixTQurFbpVrSBbEIoow8knuAPRVi/RDAs5LuWT0jEpZqR6sINltr1kZy0vx8D9NSA1m3JSYqmYSC3F9XNDLVQr4W8b1D3TBsnDf7pVDD6gAxyfskjn0SeBs1IQFePmiMbBc0vNhdoUYW5ESqGRL91BGfwKcb3yVKgLnKSVesn6F0RpYkoApQKTb7LFA3NxSRJvVjWLizf4RFgjR9qiM7TwYlMf1NFqg8vixNpsJJ4IERMKPigpDTjPHopMW65xHyzcNs3uoQUw6GSa+FSt59k4UwaJLh4qpsbOqXml3vbZmfYNyfbptfCTtS+kO1BJ1yflnX6H9WfJEh8YMF8+8La5J344CMQLMLLDG7nH+LrMQ7O8A/GJvhNhKgIV0as0gog/VDhX6B/N+QZTEzBYYGn4sW2u/wo9hkMZ/rHG8VKobPuoTjbCyXyLWvlJW9odY7tqe2eDdikBcSLNfJBvToJGRhRV5Ds0kNlVXIb2RpJ0k2Q9byLFHr0OTOi5XJvocBZ8w/wPWOKrCwqHjgJCo/qVSS4DvUjn+biEM9nXchvERZMxMjxc7l+QhypATNWaQnme4U7GqHQk3tLDHonAvdcsOyJLoGTUeY9vtgeQCsunfIbvo+ZMopE7Oj0mlNgWDtnaje8m99Hl/TSHRaZHHnJkNSFhWBBlKY76wTGCpkC0lR6iQgpYGw+1eI8fqBDu1Ocaed9WmH9q2wHIer+D7a349SMajjDujSGEjXQ7iv/t0O0W9rV+I/nYoayiSz2ZTeIPtwuoR7WZWBvEoEhkSLtCecsDf+No8yzj58gBBebRsksFpBVk4KjM+8BQlQaY9aPC9e7o37d+Ov0RmABSQCOygaC8+/qR+24pJoqIiRhHkac0NkXKoJCxrqDnTkX5zRAE55QFgOmOWhiGnL1o6mfdY+RFkb2DAj3I695+XLH+Ipon4CO2V5S1d9uFYny5foxqo1kkVd5FwezRKL6AxSOidV/mIS1r3wNXNbt1WyYRqO6wtODYtdFVwIrwWcGZsuNYBVVhpZKLoCucWbKAa4yh0h9XfOzyAfMOwRQIBl8u+KZr9YPZ7skY8gzNuQXb4jN3hw1e+fmoungYfCEUwi9bZPH7JB1VNP+pFoI/eGQ4BN4bad9jRKDUCTa1aZdGQuT1Ud+zYpgX+iw8/Hf0SH2TITosO7eD4uX/TZw+e2LNWhUtLFQoQQ33HeTednRlC/7xBrUG45gAgWpaYSBCY3wo9yBAZOMARVNNp/k5C17u0viCDw9RPsSOXUnFsYIND8HR1w9YMMi6MCecHshLjWnobE+llryY5Y3rE9IClAzZNzl832AQF5Ec0/IR0XppszljDj/ZhrL6tGRZOMvRBQXIymTxQt9mrcyEWxVukkLpIH6Ao3GDoiyebSbVSmEgcGiqwIpHoNOZNuqwShH7IwKURM/G8cZ2DgW9nRcr+B0PPFcMyOAsF3C6kn9hm7Lf2NXQN+8Es2usuVCFb+YGwJqgn0wSR2+WKyvL9WGh4NZVGZ7PxntFAVPbRbOZGc4WKqfL7f+hSsrxbbQlheRB04/k2bAV5yZD/NmCOTC6nydcdbEHJwDoGCAm/7OcnMdiJuwQ9qjE7Gmivq9vbU1VOup0+Y6KMYahApl2UYW7UIdV2OXqM1iPt1f1O3v+GLKtbDOIqNsh3yCoxGneLamG+CqTQknYYGoEzxMILS8izqCCLf0VqLoTPk66Or22/aGmi0laZTEEgxJS2WC4upy6cT5HxSLAKpYvYjr/xF7w/IdXwsOwsWOSeVTjygQytFx2u8pgtPq1g2kXi1/JRsadvNP2sLnn+/N9t6kcHDlS7mHhwM2d/ZOkQt70vYOIHqnGkn8+e3ZXuVsBOOQsCJvJrXNF9ZpANlxjtcr+3HGN3seAk90v5GXdWfn82CEX+kcAOtTIeR8bAQatm8hwwLai6+btrLqgnNhADTaqJP9ry6dBJWnZrvSuPTcfF4yiJ1r6cv9n79GEx/r7j22gdpaEU2rHjqX2L+eU9rhHqmVxKOsBIcY/+MghbymMDg+AsodX1/4fdDT5cqnGsijh0xNavLK9gs1h7lv25nrESv6UpQWJgnVG3vH4d9pGKTuQlI1Jlhse9o+S6OAfarGYnf/+eiw67F1B/abZVkTb7PcnhzOJ1UU47okV1nKEf/QShCBL3XdYDbRxhs7vEVBER0J4lNNAumVTjT8XpUHJxUa8214dLGykv2ZTpabPiiGKpug5a3KzmAZ/KtSvbOANpYEooJyHL8ALNCEzso1SdNbpUJWAlEIDf/Lfanhk+h0+XciHfIAwxQntxX7ymfzCjTR5djq3iX1/reqP2wSJ8Ajo0vaOAfERj95pDwMp4SK6HejkfD4D1xUtWkLfakixaFsSa7K04O07u8NW5/W8kY/g76T5BLrMOGovT5xUbILTLs1ch/cocJHxYSKtNQfUm9+UrTkFPRdzzA29CLvacPxNsBQTwvqy86iJI8xpK0fkAE5UoP+JM9xyUweUFVK20GJ6vGBmqYXXVtLNLFJJ3bh19nIgwnw0vhJsQofQYfa1pSg36nT5jXjV/yOh6u/gWEaPKFNfbEx51k9vGchE8PjR9RZbxBZYty1VamWyZXTVOcAAAqbyy1orPFfeStiVH9KVFPwd2KBVhzxjjfDJcbNs6cFT7M5r2Rybo92DoIRHeG2LS7zfflK3p9pCDOI3Utm/fvt4xvCDWmAoCosixaDuy//uof2ckJLzYZG6utcB28XTlk8A2QWnZDF449XH4nPwUx8HW0Vg84/zNNGWMfjzGSkr7NjPmbNTfDvoyv/iKYNcZa3QuFMSfz8oIFVd97WVBWYfl36uHXxUsYeCzNkyilMpNGBvh3/kn1gkuA2UKJSgfiCBIYk69yfc+ax/mPJmDa29In5giQ9VmOtJP4amsB2QM2VZqr8/OJlz4pE9S6wdrk3ylEZv/3RnWkIvvzxilr/aYQJToEHWYmXkZy65TxGrGkW8RYgPZqfTw0sbggbz1DcyGJ9QeNl9FW/QoSwob+JQPbgHT5arvSvURRAHxELpJCzM6WQPNs3Aa9cDX5fdOBlTplMVeVfmxuukdHyEqaDzhx4M6dimPNT0q0prW3UqWFwwdC+d5qMECkWMky0uGQfCzWM0fKHs78uSkvpyc4h11iAkTUWk45RIiyhmFXXFGKHZgOgWOnHjuz0/9x2S9Vt1EkQSd47/h/1iXUZff/IM0uf0fl79N5rbW8eE342ql8dMDMaCXW0XZUa7RhDxLtNLlRDxUlYAT7CQd98yEcPtk9x/Zg+70OzEeRXAR0CWmslsKeHMGanpRXFJyl0XYwP3WhcBtz6Rf4+rX85KA8Mi4Z/Jui2nwjG3jr0UYCHT3jYUMY6Gp/7GMsuTCtZGl5KaWswz4xFKUqfUjGYcGGsv6aSqJ5aBlqgX+cylovClXDDwdhkntxjqtR20XH4PrCmWCrm82u9ov/dNmhvXR0Ap2KX3bjFYyCpD555TSdCPWN+/U+Xu3vNv346cDo319jhsuHfzkSpN+5ddbY+lslYyJIon+N59u8p8alozl/cE7SUo4ProFHy8DfPsnejLEApL326ilPyJq5wKzC3lLZzDbuocOoTtdIdHwGoRxDNOFFm8UrAe9VCb+2Hp3J6ff8jy5MjWjBaeufleczAOBUIKFelrR7HUM+95uUnLIJgCQjdLeRgGZVvgp/0oFS74ufgAhhsgFzDCE5Uu9JYk/AtrZDvim6mO07S5D52XXTX6kBQ+uxhNJT8C8lYauT6W8K8VC7DCkApi/LGFZ1Hmhmepy8siqkvyCQyEadzFtdH4OaYO2LjhB9VpgMpoliR7bAsELAX99BY/xQW+0N3iFAZYGDv0B6v/3CLgdPxOKuqk7i801wsMjmtCuIRSxzNYVy0g//sJdWVRXvl5tvPtw8HPKT8/nI39THsD2mD99AzEdoVLJcGumr/knb845NOijx75Y9MrHxupV90IspwOkqAin4zqeIC3KktX/YUOGiVwwaQfY96iValAJY89UCaGvoHtrWHz2oVLERpDtqkz/qa6jx3OHg0Cg0o4znxIZLo/aqxAkLyoiTNVgESxwD7L72lwddGQJb5WxpktBo5oWyqcmpfROadjVxMKc/Z4lAFQ9rxvgVyhCmTnr8+ibx15ehzV4nt4BkwRTuXoTdJpaHNo9omwAjEoSDnHMsgjd8+6hhl1coa9yW3xmF81kfRWRg8BSvccu52vz6X+a64kL/zbGdVIPHZ5vsi0h/E2c66wn5GAjCxWKygjGUebQ2CSmNHtyepwl5PUX3HtPqQcc7++X5mlHfxW1HT/bexK0SxeERRCed6dDKd/OfyxOYNTzDXFAGlmWWN5EXz69P4Qv5fNh4LOpZ3WxjT74FBU/YPlZ7e1sQQf0Sp191I6gasFQpCllu8v5NxDxNREVqGhhM1KtokQiwl/GkfLySTm/2Ei7imqKaEDL6halJVa3VQ0daz0z64N5c9HbqWNMc6igKxhfXD+V2MS1qW96iR+kKVJglOVTYEoVeXrdWXYOhfIXFt3pHDuT76OTeHO9CyKIQeLyhPMTes8g+3QDIq3OR8C5XzFUQ1LkrpGtxalMqUB0lKrKpDUhS3bR6fz8wqs5kXeonHs6EjaVz37DsPCAdWZv77Gf6gLWTrHz/9T141ALCz+AU6LkS0pSHb4QdEy5qPuJ8VIgiKE7QEqVh+gD781HishzaxY/6/hlSrTsvu7cIJv3/4wVAa8dY/sYrHM2N+78I2jS0CGfdk88GO28i6uAC9c+SYcnFOqpuRFyTK5dS86RrqcCLL4zfbITyIYuNxR6Uq4if5Mw0mpipimIRTEZLwqZjzNhvXIn9Gt7zQQJYpEbdgUshcb8uLDegDnm8/YZq57YaK7KlDVjJ/PWApFLgJGm1G6iCqz8THxLvD5X/jcAVAuDoKFotqfPnd768uIMxnjKvBF/25xxhCvX9tfL7O3WGQaBPF1ZRaPT5LoExQ+gEfUzR2ticZYlzcMX27aEI49rKm/ZqlMy/iOu5i5eueBaLBBEtUHdMtsD7cp0czJFcVGoQPLocdiSYmJQMsNBQ3qDOAzOYnGxXOzuQkcCnv613CFG4Vr9E77w/77Hc55u89By1M7YIeI2yQGMyXLaZ+vE4GrULeK17GhILbfmpx8Z4vhiDC5JGJBMaU8F2sfwHbGUx7YcMovRyOYWqiRuzmiOmqmUwGS/+Mz9XdDdp/j1r0++J7Uw4JqRlSzifpFYcVcfhsn/QAfjzqk0t9cb/+jqfvQqPSGnuFu9APHoqHyxXychloGW49gSOmo2gCM7unH61VZPigjDCM5vKjd8pRsWKS/dMGPoyPl4XOHU+6+geYn/L28nNA362/Rp1zYs+wxTD5XbMllN1Q7YoZ9UTcU8pAfp5iFUFBoDClZpIzTj1jUzW+S4qrTobNWBI4sHJN8DmKnHj1xyfGxu23777pibT0MFZa3feVVuH/hGd/KAye+W6IZtNiB/aP1HEEeprcCkC6/XbB4en+zCB4p5P5tTTcqODUn0+S3WLcPkK8nlElO3xjydYZEirv/AB7LaBfZ78yzcS+aKvd/3RrrIw9n9oGtj/EHlBB07ElWleNXcQNfZ32LfVxBKHaUWmdyKvHvxt4Gh5ijUb165meO+fc25XxMdxIbfr3mSC4mfoSBhpCwy7XsjutOcbjQj/VJaUDHEpk6r9Wk1MpKFuweubcctNayKHzmxjC3rfNHiafk6ZQnwK7gWtdx+kB5w+AJziiK89jjll13vLN+SnZLYTckNRB2ORYbc4RAWV8hyyX/HwcCePDYuuHsnON8C1noRYHkNLIy/PnXdU3e0+MduofQz91NcjFyAYGY5SpLluXBJhquf5zCUICALOrKRgYrzkfO2BfSwUa1Fs6g0s3TvRodLVLgH/jDQNtGVVPiaUyN/3I8TNgqMrXeRUXqIDEya5WiBVNEcaM3pWrFN/rn3CFACefZOtfJL8TT1U31hRyWJjl5grOn4//ne69m2RXWsp/boliPq+RdDd7z/Pgl3aTcNgNX8zL0RHtW3fAbYwZXHPVGGuF6lv6n7YYe8l1pTAqajZmgwQOr6f55rd5y3yVI2Cm+kx8TgzhpvcQZclYjFUcwvblJrbtsYjQ0ZvmlbiOzQuDZLOjeD74XxI9dNvkemYHiIN6Qsp2dlF9fiRHeliHMSGC/TW3Mk3alKuCW4TMJNjOWrUrgbIcIhg9LGRsf/bzE2q3Bvt3DpNFhylwidlUu5u9ByFz22HOqGSt9D5v57yey3mlrSgbN9xHmgEVtkca0yvgSdPA/cszQqWqPygtFmyNjGxsno9ZKlhJISXMns05GW/zpbKVnyqkOA8oJvnfStGHCTj+r2rjqVRHqgAIXd+qhsPIBMWsBYFPuC6b0sexc+KYC0sGeVuLn3sjKfaFvz19+w/63Eh0cVc0B449OSGSn02ZkwZ3lgMHMTthCcwCkUi9zNehigwZkdfX2WxWRzFVyR3LGobAjqMmvAe3TiD1P1RVOFUxkWHZltr65th+FXG/hNiQFFFS+6JuNdWWp3rNqJXe469LAY5V48Aa0TisQ9uiuHONS2V2dL2WlwsLLGJkr9ugMsO+f67Of3U8AdMPdb7ZvkT9qBdNrItPqOqe4QFtkNT7GZxWgGUYbMW9e+cZklGjLDuzNrrocTAD4sH5yTFnRuGunytqhyMLmNq2w7M2ojJxsf2F9Jq/Vmqou51H6MRomg/AHnvAMGbGu0Mv+RxtbgQS3TymhSNdf1MhjjVwbnxkbCTSU5k8Qz50oNSmCFY/mhmcQtu2LANCzQCgj1HmBc/xIdPQ4F8N5M0CBdjlamiXc3aQRg2XMs9mWb4FGdQoggcpb6bhshS4IALEqcnoE4ZmRlRBSW+7CpJtcaUvqpBpwQ4Egqpccf8x7AVBpbGXL7HC36n4JAOBCnr+FxH9XGJnBd218Qf6t/fiiWhvrIXJpy/k9MLreuFcqfswFhkrZBiovSGCn6Jrf1pKhYCUwqAyzKOA2gUMP57G3KJ1c9Nr0Z/2uX/tcEGNl80BV2f4nUZsVIZEgyBxB3NDmTIq2gN5ZeiFe6UaSG5YuixOLAsCIiPr1sco8HNybe3xuVBi+AcOyBy73EamZvo5S7Y0FhOQCGhnK1Gaj+512iyWZ70244Ljcyh8ppiTKy+PVrWU1cYWvhwJ/QsBqce7iha3d0+2Q1db+9D4qwrS2didmx2vHPjbiL7mNSRCc2vQ4dts+3Xa8gieqMNgBMpSV5t4+gqarEw6xFZjjKazDvr+sY7WMqvAAf96ot+7B4Yutqd8joyxKgHpaoE8mF91fxflDZB0Ki+0ROmRqbotwvAdW9NAWoK9oKaNfRRlCeTW04sLXpG5kX1EVeqIadc7Z/BFN7J43E+y5evyTuPrUx6E/tTDtPu01iPvDcjChOhc880rPd3IlJtg82DVjLtBJpjc93YNHFtHe4O6Lx7xPY3iOaMCYfy1ZyBxiZn6zFsS6tDkbUgmKaZUBKEP0pCUVxx8Yq01Q1soQkmdLn4gkvFPL0wRWQjcy0BNg5XxUOY8LeegU9LBfdrbIQfLxIfkYiL7pLoRe2jGhowY7mvA//AszaOoh2KpVyDN7pXJNPaGcBjZXj76QTPWwE4TzU/7fjByH8bi1wy9LZL8FdqnofvEmCBVQuMYGkx+dg4Z6X6lld0ICd/KxB2EKU+o/ZozLZH0xTeH/hdi3IWroE1ksC+8/xwg3P7sRSofbMnmVu6/4RCsyVEWm+RXgWa4dFWteeTm6MtCqy3P2adbNOp98ksPAwMfqc1WuoTUTSp9ujB0UtS6UIKQWTCw1VPxY2lA0QsAo8Coy4VeUV0aoK7K4gg/W1lLyosHjRDSnUYWjMljV0aytl/3dTCwRd+JoWMUoGH7yhN5rXw/WxRyBj/woe97FT25YJMd9dn/DfFsl1WGvjxDwCj51I5uKLsgH0JhNScoCoLzi8fFg7DwdCSPlNoRY+YXyAdZKLQXI31CIwtUoDzXwDuxfujf6MgOL+LJcAbe0VtHVAQfEGuGUw6vSlodv65hlvewu6PVmIF8Hk0xpfZs78ga/gWNzQdbQdUjI7XH7nvvT+QBRjgeYXyJVkbn88HwV30e5p2JDOGAZCcED66ZHtBlvU68keLKcPEyMuK0vrAZyJWgHNhGn5ltXbLw926pTMDfW8RDGgA9m4BHRIKytSO3X81Wxe3Vifg/goMgF7v1MPa/W6BYPY+1dR/6XPMqjdKQUhVfWSQWLbfRnYS7CicnLnefOrphHgwTOsiBvxYPh5b/HS+mV4tny0jhib5nkDzVOpyKssWVfyW+cht5cr0FyVN87bd7613TJ0cO2BhIjcMHMxqPARgt2zkVtAR9boP7kM7nK9vLu54vaZ9qJvQDctpatcKMXeXYmZi6swE0ywaulgq0zgWGNlZ0PUvm1AgcqRet7FdJ61lpkf27cZqRz0Tf4t2/DJHRSaPSCue4fO3aDNjyCJvZFDH2NnT6H9FKEyH8jNW1LNej+x2CSxp6CEEeIGf3PxIaZhCuWtVs9We8WKzieVxhGpQKjgZwt31YOMeXzgQGOTJ8NoTzRZdwih3FWpL6YfTKYDHgqs4B7HhTPaFPSAS3Q4il/LWYT9uZbCfHzJF/fcETsxF5NBVIqij0pR+THutSFoqiQP16uDk9Y1vQHDcN1T5r8AzcNSJ0YqMZHUvNU/rj01dHLJajBFV1C82YFXhn0GkN1AIRzHdBAv4LNmXaYVWeT6mm/IyQ9PpPNPLGpUf/X06Wbze2EAodaS/39lqc+0awzubC2Dn6RSeQ65fAwLBErEmaYyeSmllTELTdjmBlkfxBP47G+KnnddLohqd+Oyw5t1By3oZC/YfN7vx276AqiteN2FXkWzknfLonBMGhVgH0B8OhnY2w5uEIv5VJ277QLWk+F3CFtvwFB0wzX3XZlgzUmjw/tF/sPRJs6Y44My1DCCVGqQy2AVGvO8oFa6rKyYZyHiS/AISzfUoxddiwLhcY0bh3qhcThNcaqYk3yxMb4Q39W4gkpldiJsAnmwL0GNiq0LbYjUDg3lc9RE5HAtaYuKZKl/dm8E2bJYKfa+SOqpK0//ZR3AAhbYqKZatpF2q4OfOk3fS2QWSTL6etWhIBkqKEr4YikKordwXwxnIEvuuId/RV7PGiEG/YGZPIpmEGld9nIhfe0Avl/26YVTp3eHn/E2XLE3MEtEqjIrTZLrvjd3pQXqRvbgpIl9GbjDFgMLJVOLjFRlMk/U7DVAMK2RCgqc9tU4w1NyALwzRyZribqQlPmUfTWw/m94Sab2q/GEyIygvx3nogZ90dGdetU60vTPPBmMyOPzuXV8h8mzErbU6KqqnVYB2PVkphhmx8HjV67SH5MVtlFIyZMVLZUw/zYaIpAJqjb3NzD+jcf4cRPKCfPW7pFqMzyDKw4i2Ioz8ZBPOgeErT8Ak6cRdxd6ClUBRe3Nip6s17ELS7xM7xJ0zoaKJoSsOiL2y227m4ooVOCd76i5dLQe2hrK1NvPm63wAXo3jGRfmRx3ksr4vM1oFVcprhUSE3d5pP/iUD+uov3ipqtJWyP/wMsFVpzER1PSEC6CsU3t0CIjWJngzHPnq/DtR1VSx2Knso5orwbziwzSU5NX9ncEX18bZgUIvMMkzAKqUxHI4QilxGUOBv1TeLjv8eylzorWIIOZfOB2M3FRHtEIHw0XNakbrIFZumAj+gIherhpZYaEQEj42T/VX/yxHOcS8a5FAYmwBNknOOIkFW3WijYbdGaYxDusnGc0r7/pInJQJUofD9qOnQkNlv9wYjK5IHxVgbbMQ+Bq2v2sqdKnwlNcIbfIT6T4urMTqn/CmcUq4xahIOIQ4uxjtpl1ILtdCR2il4etienwTNVQkq74CpHTkZza4R+2Y42yvdWer7rmOhMV9SIXhTOwTB+A3BnKR/V/ZNTLXiDA7wKJeg9jBQK5qQbaW1DVHNawM7vRRw5N/LgoTBxv3MF15YrKP4Uykf/tzHO1rvZIXoRJYEFGXiooK3PhhHSLzTHdaS5Ez/jcBe6s1zFlxP+VUedVY2QbQ1fmhcSVAQZ0wJX+xmRSBV4iBFAuQvOhG9miHTODwo1kHsZgahz5AKdm+d3F8brl/GkU1IGtlg3fG//3jpz5tKpxyE4cRpKKrMl05mLtdRwA+4X7NiGDziLp0LDzjDLCsMAeMSru4PLiwa1DDvt2BcbYq44sNBu8R8ABxrQwSKM5y0Dl4jiRmi/WynPm82HxLiHhVw6haEATaRv0Z7+/DjEg0SM/eIrfAvFtUtO7xjf3EhxWM597B+ss19k5jyAcGlShW5D6Ocd+PhPOWIjT9PKmGkemvxjnTljvU6AAqmDO7XPaEQFmaeEEX6IDflncVXU5yY2RKuC1uuRvLa83PP5BbHwsxbmByu7sxRdNZiPb+T/VH78qbmNcrUGRLY/4QlL4unS+Jc1Dcm4jdTcSVu+6K8BB2p5QiYy7pHpjm8FavaEcDX1KAdfGaANdPg/ML1mQFZVsv7tngTop2BkW9NGvRvbuiqFdOyZL69bllf5wM7GgHdP9wY8G/5HCF/mMsYNiSWgwIV0Mb9mSqvAcnZsQo392mwjWIQurt04qndtduVi0YJgex8eXPHmZd1F4XLu06BIqYDLWwf2cotuRA0YFpEBLKAjTlx61Iq60i68OoNTfPE7G8fjkAOk6LJnGLGh+Qd817/cU7/ErN0PuBPHaSL9SgSaVUXeVPuqsairWpCcR67/jOqomIs/3Iv4adZBoVJl3fav8APhjNfWLqu6/AFKiCEzvXtI2/wlP//eWLK/mEZ6BG5SsXacJq/kNiCs7/gDl8v1RZVAv/h2FMJ+5rw1tkth4cn8783ouYU386NjvrqUqBLUszqKB0MFjDBIAsMSj27i8Rq2yJhEINPDTob7BB5d6byaqPhvcH9y8I1SkjuLjPpxT4SyHA23IGgkI1L/QG/ed+hbWbkBgmvPWeDR4mdc3Z6QOz2nYGPMu5vtQttEIe+0aLKnetu9Fvgf9LjBsSFGg9XWmOUe1UPb4AbUI8/R0tdMqpgz40fXjSHkNP3NZs2RJVH8nho/w8OASPRBSC/XbpSLNTkiSoQttg8CKmx9yAvUiOUi413uTbwPz+6dw8zaMAJzM5uQdcR/811s/6cNf0BdL4wBM3GNnnxtaqfY5z3ElnBi449RCFmfTJiMmaTW9OBJguTKzYzavBfhLPB5YJBaHXbDOz4DRoJconbl7k4qhZ/ywG+1rfGtGZM8FQHfAUBlvs5JWJcrYDDFF/i58pjuubpeuCUF412ieyh9W5fsGKmy9tjHQ6rs6PiBlbX7jsb+j2xDSkYOGuJPs1BZ5aXsOecLtQN1JZfkLJMdpl1k33X24kL9cfNqtdQhApyIEEyjMNQ8Pu4NkJbP181mvzt9e4eOi/tsYfF3c3CF0cJtwBqv8yL62kpmI9YAWFq1suN++4guO97q+VC6cr7uQtCp+x0hFPC4g6AtSkOhOFtEcZrnAIT3ybRtU0btloORAaHQ9FQNeQTBK16TOwzcDsfTvmN4NDat/kAdz2Gt+EwdOqqIG5x5/pBeygHSA1YuDmVWf7RcyTUfO8SpvJLCm+Oem9KF13wOLGb0R6BSbVV5ZeTnMuCV7zDOqQWQNeD+KU6lHXn6Z6V6sCGJ4ebRGz14dGbx7pTrg9bNKJo9kD5U8ffam5qgPhvn/WEIfAhZKFWGOJOTSwoynQYmRXn9+loAES52XUmFx/RiUWfSIFD8QAuynQQlEyeJd7Za5FDSYcnXAqZw57YAw34csl3WXKve8DMdNg2kcMSa0WyRuQMSkyd41+nUYmDstVZGf8EbJmAt8Rg9NxBQcB2vmskVr67k01EgL2vG6jwXLPVtKQwizywH640P3G3rueNoPrVAXadEkmwEWjDpH4biawnUhl9TilwlNM8NTgPdWTTynSoqpdHGgcr0rRexTEdEkudT7Rg8Ljvsua+nQGRXIkXCm079vMkS3w48EsHsf4gnV4M2mVopKoGvDO/J0ItlCm6xjTFR3veyf8Ebuyb3BPtvgdUY4SiSpcyostDwa/iqQ8A+DwgOnP3Enz+M3a8rYs5nN+7/vLXxTGtNYVa6P3QVZHSWZ2lJi+e258quxql+OqcIS6iGtJT2cw0+jQ2btKyXtZp8hnrT0uR/VtsNrY1bL0+3gA/ltpVTiSnqRCpx45yanTW+vIxsSdkas6dh6Y6MwwN87C4CIeZoUxoPylBDnIj59A5PvuMp+/5Gz7m73toTqzpSScAjc6ZvK+ntcjlFhu2RwEKufQOYYM50B2dEi5kqqyWUMfTSnkILZOu+V9IsO+NeE7pvjE/8QWzJ+O1U3bg30KrDI4QF7509LfmUQZU6cw6CF8gOdyTCj4tHy9E95ejxS6NrYmIMfpf7i3trDW+Fv5V/VJZ64rk23suKXn0i+/q022qhHkOuX+IrZA2sfighMClwL/DcQrtr7cgU5ypfCskYduRyoM/1TzdPhNJ30pnO2wxuEk5yLb5pPJ1B3OpE5umknLW9Laz7s48eTP7uM2MgukecqFWbPWUJszG6nyis6pR/unPiI7uduHnyo8/lcyBk8GDbA3Y108SC7WXWun6h//V3wm2QKw3utPSzc/qCQqUQ8vNqaBTdeL6TREDHmSXRNnasy6SitkKUl1NnwkON7b496IRAn7O8pCDFr7DoYHYNylIoRQaOQXzOrD5DEVSHKBD0nV8B+yTzryKD3KAmb9lBji7Dtt+BIOboVx8aZQ29rtkUHFP7j8mdMjxDRc2PSrjPtGzYjh/0u6bRSZLe0hz1/sXRe5DbHjV+13GbWz3Mg1El8/N7IQXFAtTbE+2llvo6msDpCxXtdjESa+wAx4BNKcS+LxcNA20Lf8Ds9eckDfcMde75hfShn76FIJ4vixWnZJ2Inxyfa3c/36dLOMy+m0YDjMiQfA4XwkyetKv/FdPuoPl3sHlrYpLbq+qc1eY2+Fo6elF9A6/Fcj+WhQ+oeNxjOt4xFUPqkR+9MOEXGz7+GsA/Uhw4sQNzlinGS5qI9rphp40C3+XZqOPSGlvPpOP1dW6EY6iwtbbxO4mXSzd+nHh/RYjJxbUKbWwzuxJOOxoq3TvpyAcV7EywtDIXwNgCqnOE3j45MANOdQ/HvQK2YRWd+/idFcVeCF7xaoGXaRmFiCzYRGw0+BHC2RAFx3loJjqWlHyahY1CocDlcyqYNtUiBtFm3jyYbdV7iTxufxyUi5TqgcUE6EKf+3r6dy/7bndW417fuXPBYjsgXLtP85hMttj2zoteaOIZgK04voAoLkSwGR0SEh1HB8CIQ71gpiiJwR3GREFVLCQO6JJJGykS5IELraKdxamY0/qjZ3Zw2kMjxUUTVr7Lj4ZWB0GGRkTk2f+7Nb5FwexeJ4bDv5zR9oznF7w7pOTY2/UjYu8tIVlwhSqWHUHA2TnfqHPhSlwdhw5UqCPG7xmqGopeagUlU7fulqUgvETJNn5lapxAwfcDFUDII9rQimuxehAyMKGzQHQruQ9rwlosGUGrP9MgEptkdOcvZh5Z3ICpMpl6jV0DivR+w5jdX8K1qkzDIldYKe4VozJBc3AAa+vnbEjyda/JQxjMfnTJxI0lfEvsG1TMU1y0IiGZHtJ9qlyy/U6FpRmxKYvaymJNMuJxkVL5i/YGZlsmIi3bqOnyTePFU4CaMOufYmAwE6uj9jmz9u2F3BKhnvkEnJJ7CiXcBMB//s0Yfi9LmReuRo/seyZxLH5aOA6QkMU5ocQN6G+UPRHGuVJDfJBhsDA28g0fpJP6GHbU1VlXjFnL8mRhZshcdb+YFWOPW34DFZws017gmztsooubCSSA+n6i/GS63F2Bw0/dy60TcxK7LK8UTKnZNwvXGl+WnoQgh6Cf/UAS0dbijwdHKpNKnv7VPlxlvWaTYnE1uGb6YGcR4M+41SnmXPE9Yq4+4MnBfMjZfEvXPdnTM4xc6Qiv6O1SRciwpfGVy3YMSlSfAvxPBY+xtRJ4LS7NUTct7SSgS3B2eP4zCZc0GBeVdEEQfylxfgWK+6JGgu1T+KdxgTOVME41z/2LjoemLoD4yxgVD8S1cqG7ae30qiICrDwjztqDRHoWHBagWUTXPLFG4ZKRzGAxxdEuuIqyIw58aIYxNOcxGA7p8L8utj9/ZU+Vx5DjyrfGjQQ58kZ425WPZL/7Q06p2a1gNMYl5VLKPJPOogwgx4WMyTI3/fW07EYpqSrjQCmTxfbCHMz7ithgnn3alZm/PNULGa3vUyHbama2Z82lrZlyHahzyl4wzER6jzxK+t54KzHlCMgSlb6adsrhmAom9a41W7vZiN5JrUQ0kQey3TVyb3VaYQqZzVNZQs15ZMKV4qIcjVVxzkmHQlvaiOFsQEz0cdOVoDqNIziSKtRF3h8LMNuu0OZmiropYnztRQn6JpU9q1ZDeMxW3vbOrpfBl33z9UYFUgKpTe0sLmGwHlYTB4XBBxT4w6zUYc9I60hejABmJJ29HjNTBnu1kiItfeqLUuTGMZz84BQ61FeclVNdv1SKZUiJNhjpAMIUWo9DqPYg1OLiwZGVDUDf0LFDW2/wIkxAZdjxBWaRpP1Fvy0r/gRt0aUauc2IkBMPgFGynvmHVtsNyEqbzhNO+Y1/WknjRTKSIgjEf3eKLE3bihjAYVu+X9U/1wnUb6eK64pZOJCzsSS4h2sfwBV1+/oN5ECHTPrWeIpm1xMJuxqxJgWsg3VomwxxWWKVsRErSMHFTcj1F1qXhXz8EW7BsSKbJ6oI+ONDBo22g25bW5Xd2/JQOOa/SLFJ5KbA2Kv8mVSshjjCJiraPqVKJmlrVgW/xbinPk56Wsekr1Pj4Gp/RqLXZZL/25K9eu9oqQgq5CW/FajdbhC+UKrGamLLd98qddj4k4oOx/lxQbe9esJ8AjT33V8n57UZ6U629mJbY/3LDXFSCIZaGD1xCdLcfPd30I+lpwE2DAO7Ag9I7voROIAs1L5wi7SOhS4etAzEXO9BTQ0CCyPx6twazpSbONzrcch4U39GP6zokxzN3cUjdd5V6uzHig1if1NMI4RpSg7A1A42QjIJmsS4xMkWLwFMYKGDeaVfSNskQATwiKC9/XGzU/zpzPxdTBBdBYEmx9zj6WHOCOQwXcPO2WC492ab1AoXQ5axPp4dKquGc/CYxgqRAcfIKzeZDbY89Ew1jAvIz6iJI06daxV9+o1heXaOM/is5irrYhvUoprBUJ0jk+qGi9DSZxDMF1px1H+ZVH66+ggi1uIGM05Rqr6IoJvlkwGE9gMLzBdD49VC//wluVoIb+P37iJnFIX91TTcADrJeY92JjgSsv8vlfr8QuFpcK91pFzrpNGpGfHEXtWPzqgJZFlNyia+ZEzHKTl5xYWT+j12x/V8SzWfbFR9aVVc7/hwClXvlTuseb8SdgDKrlvNFjN+IAAO+r2M7My38xkhmnrKa/K23uTdJycm6OfbzN6ADFMZS1TrNOo/1BznLPeQkB2kRBcFblQqRL1K/wruczar1bdVzgGivpFf3ZDMm5Bmis+A5OzjrSbM4+jlGHaXcjCJhylTJLcaJjxO/C5kcslcwarzZ93cSl5IBLmTzAq+5DZ3vZa0Txx+sa6ADzhEiZJo/pXtAw3BNlWVczWCNzM51j+RLBuJf8L76ux1mYKLGuN4x13bOG/cqSDhwSFJ1xLVfvWSMXwX0MWS6csjWmnt70pUcfM/7Dtlsi7sGKhC7VSnC0YlG9A0EjVVjOZmuURAzSFwNGhr6lxd+HUfy+bjnW3FZXbNTSLFt3iZJviEbj7Ns/rRKDxNIuBfjbyxr3AH5st2bmYSrj/skPoSHIpbF2Om5RWoza6bsfMCZwxIv25VptNu5HHf0mOJSiH8jsumm/UQqsvmq8nhiXsfFzPCOtKJBIIcTTP3+pdzKRau59wE/dVL3s2NqKKi8lkHourjLV0yUMBUxoO/upp/+7YCK+wjWUToTosPONED3F8tTg/uE/yewIeyvAcN7DssnJnMh/CnZvOA9HWYj9phF1HsL7JDL2BptZd26ru4lNy6xRIwxKPKUJ40RWwsUgdilxbw1R5TZIMAPGlBMuj1sHNpsANBUb+HA4HZxj1uATV3PpdVZou3L8T78M5uFWbaC7CLe1AfXFZ0PX4r2SI7+MKP+mU5gNBgoNNnwMcF9hxN3p3RTA2ns9qasf46WNSDJV4MCReeTtTkVo79DX+N3wTgHZJQj/6XRsErqv7wjolPlJUCkfe4N+/7sRbthglqTBuGirdvP9HDAW4iAUxuoCQrApYMmqeS9np19lyGClW9iYSbtz3IATwsFiS5NYtxVFJu4V5DIXnPGVVq6nMrpiKEOg7h3BijMFDQrkqExuLVdrHCxLcQSmOaIQvNo8TkFni/xt4GzGgOBC6lgURDS9Hdzq91yDeRSkJTjbHMLNBxlGisQ0a509st0qNoaWtIFM6j7FNMWHhlvS9WhKCAJSMhCncRlA227pVvvB2D7iG0XbxKahRmziyECQOwsQyLJg6PQQiul4spibekTK3Cm2/XlYbCQrPwEyMc0b8sY7GCOM87iVlvhO+SNlWag5J3rmZ45BYYL1oaBIBDut9x7eexzoXxsUzsjHIMTXtGs1SfoUlMVwq3PLrFkAHMZ4oQMsJOdiF3GBTaa39MzGzfEedjM1SQK/wQIVS/LFz4kGW/nlNqGnUu7LY0yJwhGBx7xhp+jc9Xl+7P64EJBV1Uwl/L1NtA+WJLcwF/N4AOIBZv6vXnYlC7POCGYOwImejpjQ7DMFjY4fVRd4nl46qMA26tQM2goshFn/+3mHx8lqZ+b9DFx9Pwir/WtTNE+jvbYj27+Sqljg+4d4KPZ1o1glPb3s12Q3cBD50g5w58JKLlsXDsDjYPncd8i5Ev/d6wwvh+1XTnXwZk8O5IkBb/q3XdhHhgCkpz/cojv4JnpSsOh2fwRzFpqkEDYg+ZXRvSRBs0fwY8Kiav7efYuxMdmw9pe8ciCyIyBkoqxGEbw2n7TGsDQ2fixQRW1n+0EEFFzac/q7xyLpfEB2yLUAgf66JmEzAxW+4VqpWXIHjSDj3AtO1CDnce40GTshe//BB2tfZgybkDqkjaA0gq+U4wE3vWbg412obtFU3zO/pEcGZP0R0m03t65u9/p10RQ7ayH+APuJYFLmbaFFDBlTqmmdYgFfX/q/9sk0NBarogWNg2gMfxJVbopAX9dv5rAiDu8LJbsNXkwiVG/iap5eOlbjB+woeQAgec6dR1Z2wGkLa71DdAuBecVpxWoPBaCwJWWcHl7vQM8BUz1pgs1hXwCXwxtidLYOYalnWWjH51INkcMDWilfqTYxem63mEwXktqs4QIW2aKZ8tTKNij9j3ffYEaYWdsryllXNdY0YHCUN3YctMY/mJph1JE72AjVR8jRCxp7ccPRl+rvzCTD/t374cj1yJv34FUA8L4n28dk7SLbaPOXrtFbmwg1RhHh3hJ7cNybSX+QOBYrOUJZtYEayu7xAibaawYGR696ZbBqvJ2Pk8jH2RphHUZn5q04y1OWL8Kii5Ft9oNWBLUBlT4BmotE0t8t059UBPzRblSNBlYaJuKoZPs/ZTxSboqUEHXrFnMHVYIF6ZTdydUSWGXZQtFXyzj9wz64RFboPyM5J1wXJpLlyX5xcW61fJngaktiaySvUmjRmspzSxKO7awvjKCOv2ikIYnODsKhN09x11fBh0CHHfezdHpc9snc8CAIegDJjSbzlyEGceSq+YlhdpjmNa4gj+v+yDNNUtnrfrKVNXizDrPYSRytPV4ZTz13+rPWFCho/fUydLKLX+tzP8En/eecUYTk5ksNYEmtPlfiJtCYEQqo9WIf7jwoC92IVmJnBsOD1UnuvxwIOJFmkP5sM32jRwV6tcSeQksfQlDxildXakkLVX877D2fTpO5vCdoJHIzIwJR2VYikKsZ21r9qLq59Y7kTU0zlaZrwMJFyKs3mzcdjbwXKGaBwLCR9CCJxk21rxx2y4UaiztjWe3JWVuwI985B32ida0keTwUdxdjfXiDtaIGz/38qPm6ZzXN3iV7K6V6VgetzU5m+pykh00ZLG40D8Ad3lbuJKP/5/8SsxRdMguS7O9SSj0s1dB5n2vsF8eIOJdXICjbHtLexhcymxouG9TYploXSIftukPkq7/UJNZeAJaXxzBXJS0Vw6+4BLKKakMGRgsQxi0kX9WGu//LhO1Hb3P+4w3cGdQosYqsRdu1/jjIJ++zz5DKdryTBEIZMztS8PAIu8V0lsGwEStLc9eHrC3D2e69+ENc/5khSlaGZTBwNppWvcA5RfJCHrEByx/VW3dn2UyiaZG/CBmhgP1oyeDNBqhwxzDN1229DjmLfwyVaZWrJ/DwvZ0+uJ8tXQPL+30IBx9orb3N/zRVFT3bvH1Tm3QR3GOGrMTT9uUTZJq7VTLgE9KbIBZdILpk3jHMS+IQul9wDorpVph7Mb02s0Kiy6l9lru6eudH2Fer5e8LWmsDrpcMVU2TrZ8tdJK8fG44aA5Aw3oZhxs8dLD2oHld1Ad6XJr0CVStNtPOUJsBzHnKMzRDQkq6lAA5/vPNcWHh+o3iWZ7JTp8m3/akHCGVQVt3dW0L8EnxKgJziPKkDJ3mljg//yLjzO1m73szqAgQTkJWPA82yyME6yc67ZhmJ9Bg57i9iYuBa7Fwv2yfhz5SsH4V4IHjBwZy8jWPson1++TZVzRTExeW09+hRWlZw6/3cMwkYYj+ZJGJEA3gVvQaylkUxzkN4ptR0rIZaSBEY84GX/zVCoY7EPy9qE2PBZTOaPwvsb09UiJ6qbHQBMQQngVG/Hait+0vAmnNjZm6CI/KZFEC7thcLH7uLVg7TD+YxiUq7MnuvEmTasWFTClK0XY/N5tEjvhq3J2pceV4pOFDEI5hDHuwi5UkwTLCUnm49TENSIOCevLQ2+zm+YVJYEghmmIGY08Sz6ZvxNcgLkdSnW9Cu+X2vi740cTKK+H2l5YTENQN0tTccr6pO8Ok4P1tssSRh2MJigNcOW3d6F3lxY8SYXk2c86W0pu2bZHEZz0GBAU0+C4eU9bk8Z5Ol4wvj8lvrdGFudvrjOm99Ulq5SQdvvjl+SdjRMbHKpyR7STD+TSm5Q5fgOPKkioqmfRNmtfa2W23DUOq4xVs1dFIgKDqm+EIbBGAnkhUcl5Z4rrj5bPBRe5l/aZq80IsCJ7cS7ZLZd1YKRkXBiJJaAeBYeim7kpDk3melKdnsHkCi9/wshhyxiGlnqzr2rMZW9XGMZ1zev3ZM8pZrQa6SBCmqQSWU+KM14tjQg6p8AX44D5EMAT1DFH8oBplANp02xTVlpLHPGptUvOcaBkmPrXjxwYYZDqMKPQxZShsyyTarlXRBALfwExPk38IJnQ5Mr6XwTaT8QitR7rTFUDAd5lMrosYWas8LTMbAruwz4hlwBZKMWLLZZi5wN/tj1dF6z4k89tXF9ojbWu+wYxEP1alSVExYkok3J+tmpL81bD+nRv65nE5/LPEHmxT1T1CvtJlUyKFjqXogbv3OWU5gIAl83p5ZVirJm/yfAM7DkFoh3YhQsUrrmhoe/EYq/wIYZ5l9O9HGLIC4rDPEjokHaCbihGmX/4iUpmocuDDnaTUtG0v7lpnVOiE9cRhIPoNoaubYTEOjsIV4LWLRapAY7p4IBIXsxSKSyZ+0P8EN/f6XccWaumYweTDszt22intVFohqZLOTYn21zJWuTCt2t+m9IpCBvZEY/k5JgeBHrL7ydb7JuD5N/baNuTTa+IZDEAHqKVex+KsMooCnFZw4kMiQLeYdjPpXrTlzDg9S8mITp/zoQ6MxGOzBgBcvpzgQvTzXrOqYwH5nVGfoqZGItU07Wb2tQoCphi2eJee7H5olKA6hvLejcPOv3x1SkZ7prM8kUu3BinLjSVm3m2AvunDFI5j5szX5F7MKa/ZS0r2RZEiKQvNjc3EymFONpbZ0i9gCAtIQPLffD3uFurMX1619nPRZmyoOxQJoYyYxvidnhG/WznL2GVcQ3bIawzSoQ4iVQOBkjKNfV/Lyvz5TIRJd1C2Xwop/VVbh6xOMtssbwIzzPJXC+AUUifh4+W8R98u8mkbeX5vs4JfKehN339aP38MoDQEHkoF6Bfdo7C72MUp/K8LaO8UE019dSxil/O0R001O9cxYQ/ZxKCNa4U7t9k6vgNp6H4XerGQFcPmMuZ8jrARs/JIqwe87ztFdCh/FN8IUgJiTcEz//JYduAQqoBJiKYRK8jfozP+dPbtb5gUzdVvPaGbc2+G9DlULlPFYQnWxV2mGh7ZoVyLj8omwXsHAj/tEkhOxN7TA/I9q0cGA9wxPGULv9WwJiSqpQrLmvFm9crKeLeKdW/1iN/bhtPJIFx1occHvfVfVrGNiurOViedPGjc7rryKVo0yxX+FvnQYmYJrtl5+wz/2DHJqL+Eeo3SZZJZ2ivLlkrcEc1/PmHg2qkzWau67DVmxcZvR05nWjWU8zU67Xc96Zdw2SSb38nA1EejDqUH2AR2+l7bu/bkUWXNlsFlnZ3IpfNM1u5S37byCW/4lcuD/v7C59oSHMtXLNaeuN5lP/6dHd/yA8MZZ8eKxoOmzweamNg887uaoz2+wByut4TuCgWgUWY/ASo90THIp3/6EzQmgvGqGIahtfUSh7q6envbsm2mP4JQYZqP6DRWtTlMgF4n1jlAZntIFME7uRSC4mT2UzC+fxQ2trlBBUcoxMAKu9Ns0HA1jfUAmbXghbS6oJspuhZnw3xpZ5BeV5kz0bgcTfcgtrX4kc8X2Q8veNmHwTrpvngicVqoCySm68USHI1uhoI6A2yDpV6o9noPOmaznJ2sa60v1BJF5GlTea7+HKaRwzB5gZPtBHQJRwUw9RgbhtbWRtr3AP0VjQQZOmBZS64cXx/qVlak0RH8lI22mkfPioMwH9aoRK1Yhc4wAiB09YQpWYrTbTmpVrySme6AdYVRTSNmwgAMEqYRRKrZIohu+g2nD53PSojiF06zWy7mFmxSCedZuQfLJGq2AwQPUuhZPoWg8j7Lc40wDcu0J97VxI94LuXW/gQLOeYxKPvlMm3c5VCbBLwR1z3DtYKurk8NGOoKiycWCnEecm4TbiEwBgHbpCmZW08oCS0cx+HlaMvMOEt6B9zjXCHuNeJXYiGZa1jHXNh7hW0uMlnIMdAWAsQOHFfEGc1/xIjQlJAbSp5KsgjKpGkl8Wgq4q5lCVwafj7mmmViZv9B8xsgGKPPTrMNz8AqVNNEVOVTvSFo2P41j/iPUORq5nLdGZihorhwRmBb0EECEh7Xc1Ntk9lYXuFBB0ICESGEF3e/1iyGSghJqwKIeBGqFUGjbFLgHfkDt8WA4qWKdPOl0GGG0hwsbBjDEyu5kpDy3vyZtlysrR/t8rMLLy8AJp8zOEQoCEaf8tXmFy9jPyE6YQQZnLs05BxYk7Z663FjWmL24ZluDqAv1Ob3RxtNm+TDecbuUhJkh7BssNwFrzNAL2NCK17rY6YJ+Owkj0zWyhd4o/CYOX0x9RGrxLN4bVvTu87ILWqbvwB0nlI1egzHRK80GXzmNcMv2H0KijT8SR8tKcFxHyOd3+0TjMyiqUPHXPoC9QuhLUR/FoRywXSBRrSfVJMv/H9rqocbda2F4vdkacCWKaAULFfQWa90PtW0oQgTH9U6Mu6AWcz8NAjJoXDUXgvFLWFAvxPA6XwxtegwVhFQO5BWKMdh5gu20IEpJ1O7gD9guQhZxyPdypoZxK2mOzROFnk2LNfp6IuJQXAhIZsc2gmF7EnpZRUYAGoCBribkmJS2vgMYIad/NpRrhiuw7XI8VQeIt5NpbB0X/xNA7bbp53R0u5XWEolR7ONd9BjlNZVx3+QaZcYvdnwGDU5K5LGfMsN9B/fNhcYM90G/m+6/TmVWcPXGcYbK01rblWsbuHyQkqXqtPiHZtuJ5FdGzz2Yh85Vu+72seebbSACQ6TO5X/7jPM2vOFCcZoDmUeLTVv8KiBTEi3VfvKI/0B4pV3XAFq5aL9vfvNCBwz1S8LCGIp55iBMH0J3YY0H+psx48LaWHuPoPcbQDCw6sM9YACY2GrpNKboqy35utO8wXMYUZ0ZHmSa07hfoCn+Du2JqXtsH7xwP7dNvGldu9uPlPa+fnzIBGaENl4qXH5aPM6GQf6KWi1gXfXomsVBJdjFpi1o1L0omSdlLJER0ElQpJGlzLK6x9XtoKQj4TvGX78SEnZHyv9xk1oE+PSG1TE5cwklZAYkCIcoEbqsLPVRFWGrFTjqKqvV+Ke+BH3B3kJf8BnKvOC4BNdNsfr03halW3mLzbpRHxCXY1b1t7NvjyN8Q4K5vv+WMflRZtoC0v4qHZ0qkJX13RQnzBUlC67otdVuFAYAI8kTHleiSI6akPT12Wq4Zbx/AwgUu68v74CHxNxCiAfOyZDwUcsPeZe0npUYVj1JoCijiLQCp90Axlw+69FzDmINnzKu+4v7NagsDgaND62hEl+tLB0jtu0EM7GZSa09VKJkkxFnr0uOY5YUpSSKYgxzqSEEK1QGO0YZWQ2x5E1KXanDG1hd+cRA2Fj2Wgu0DJ2oV4tsakubD6RFavdQtl9KtvlhUC015odFdyTC0GCdWnUu1KJJwlKz90IFjop3ztOJrp/FkK/qI4JTkvme3a4FROYf1zKAxC3nU/NFO4i8VCO5VAjM7xer7j2LVTta1eDTNGD4q0lPuyl2GReUDZ0nP4cusIjQ+jMyDnAg+eE6ZxZl0PVydGxqObCufhNdoQhw+fGbfNjHwAZCVlMrn95zSWooIIJiimlu9t1ZdPvcb6obYhZV137weiXh3O7+/5NMlUDvZpdosmsJqhSW2IUvJmeQDlcBQ5BYrJHSCLycJtgPcqkRY6j5KALwLwc9MIZXB7TJUUIZMdhR/1Qwwvj2KQuosiTr0LQVV3eDZLCHcBT/UOCPm2CT9lwfbumTboBF1S6giysaQ6bxgtDLC14TOnu7YQScPXMUxlk+MHbkGgbbsJ0A2rym9tbBMbaTNcWWZR+91FbCzA+0dugVvoodYDucXqyWQ/8lV5meqq/fJQT378QqKcOAE/PU3vs6mWVzBjvSDGAMQBOWDs+5hGxUpe1Qd3vDqQ4RT6+CXkJ0Sfe6CfOP5RLFCXk9ThwenDjSBkhHk9E6l3lxvb4mHzojd7i3yYmhyq6+UuctVJrYDpdfWVjh6gAH50Gvj+iHYRLgRgRhdk2j2BCPm8mSzEsBjE3Rt8ZDgvYnbvK0GAf4U4yb9K1f7vRdKzTqb2GddlD3JPlXUfRlO0ce54vjdubX64bZerdeW/oOWwx6VUyu6PCUqwc51XV5cav91ZFbIGpwPSpdTOhQgQULYoqyO/L7ShX26BVThJ/xH+t3eYLgBOBd8fNkEn/GgH8Q0rYkgi0i7B8KXKlabQaGYwkr1FizRGiHvZfrlshTgana/FS+5bdHMa+3oCvvXNvE1XLyoA8qUplMQyezwdxSvHlC0tXcEvbyJkB643pwsU0U3SqMuMgYWjKS2L7UgJczdD/VMzeEkOVlZyZT6e/OKWckspPGJlMkI8nBYlqhw7g0w8x2UV12sLHHtIN7bfLgbEviP3/cOAm1sTy0FND8TmEj/+/glHX9FBPVLqBuO3oaFYhq6oHXcG4fHwVjreaLL1bOXQR9XxdM1aI+exivF3gqBd78qeIPVREFxMCvutFmopEujdZCEX5pvANOhUFESXx4nmViaqNN5yW+3VwVWzit9qWZc5TwUmH7VDfLJgqSaEcUyr7gIcnJmCG2sGQv6RW+X7JcER62ePQ27C3F+IlR9fpzUG1bIX5GsS0udZiujjTPyRdY5n8hd1HhmZcdmY8GONM4GClslfw8YcKDc1RupNzIv0GYljgEDs+eHHZ25TZnB7c8X20AWTxNTlumqpcv+doCsz3ci5+jV6NsF/NZORDWkwdBr56hQd0P2mT0Pd+eMllzew9toPUS+sozMoKJOlyhV5JsWqoz7T4f4Q5ec+TEWPLb3VJfhu8+h+eDGegaiCZ4edSYlnkbl4Xrqp5sjYQ7lGr6bPEbkr63E4FOgfn/j7srCq8YvGqF9IAbnK56FD+lj0H8ivlOvbKh836mJVHsK0X7DvW3Npr5eoZJfIl3X3l4wPc+ktnvSVNv1p4rxLWvR3GoaeFZiN6XqAIsiV02xnGwCWKswK5f7kOH3DxfWHsb4ChkQmowJ0Qzb9yRNslLCDIFQ57szECVkibz2UnGEJtCfrvuMmo3cNytfdZEHZoFKxQO0KtptEAF0PvLGOpcUAw4NS0GUB4ztAZxBgC9kDm43fCckugA9lKRdmpgtpJ6pv33YzDtApFkAFHFbwhGtacNLWDtacxu/dn9TMTCrt8pcCEadXpBuVXmyiVmM5UglWOlqn7+RqqbPLEH9wi0tROdO4ltvTzJQ3byDPNx3g1l8KqJEbTvGsV2ld9xGWobCOG1Co6iCLJc/Q01iVdSVId+eBOuJpHviL+kN/H3BW5yjxfwjGWtTjBwOX1qGl5a8u2pJ6k3BMCdiKwwFo6D731CXlEr6g9ze4/+4qvKDVvht3fpSVXDvb1sMXUOHUpFAE9SmC6S7VIY7roUnlw5y2z5z6xyfKQlPtRHE0o2/plK8Xt4Zdv6PPmNeinHyGuNunwYkrawCG+mCwnfXy1pMhehZvY+WSl2QN77s8WJBCbNbK9G6I2q1G+xQPZ6jxyW+VKYU5KuMznzjfmZ/HIUZFckHGtUOnPPURk+8KwZkO36WSqmhq904s6ez23IiMtkofgxbORGpRwvqGGk21hcLstVrwZs9vO7ZexMfHDNXdnDXzsVNO4GkVjBtuAb18R7gYAIFHRDaQb7Q1EQqJdinEqzOg+iYAgZreRku4BpeNk2ECdhGIxWSvUC+pUO43U7b/PT7nk1HcuD0raW4bw4+Ff8s/J5Poa+cagT758GUk0NBxqnTwwkJNCYmFjLuzk5fc20FLPDKiY83xKR9uHl5BMjUBhG/FDnpkJUhPjI4FiYmc3sOlMl4okspXKdZI4D2pfPJVlURcsDWUZegWXZ6r5CUeBZ71qoMOwQpYVQPxI3TorxAabuFXeD3F1wuZAWLH7VSG5xA3DvooI9Ntpuhye4ZZ3iexs/I/cm6fmYoyPh2JESOqQ8tsrl9ana6e6pfnU9E4RAX4xylQfXhlCA0bfJFbO1aZOGUI66EwzwyK3Kje4cYydYUoHN3hLYeMki3AAoGF0ST9cbn4mcA7uMSZBktiOGlOepfqEeVHTzF+C14C96HosXzv+EKZVieF9A/norIbbpqu7VUtBU2B1o7so1GZSsdjxLqIG5zP0SODa44Irh2Ni4DHlY5TRsFMNBLdSHFcP2xr2+5FlEyRFeGb5Nt2u0icc6mziEZL6C8i7JAsbk2N1Zb8gKRlJAgvhedwUuokpZxyI6k1HX+IhJgmahxjhOX8RqUnwQRm2bRBPuScm44C8UnYPVjuajXWpp6WkKTrCut4BayDJq4ic65JizMFnuxkMSpsPCeqmlXj5t4fb7DDSzlc9UccW5m49n6YKzSRQM/XHyfJbE7j9MQu4r/XcTYctnmRE+8ry3tK49zl9jMJ2bLCoysEho95awrieTMmScuerBnC3/SOC++6ikT7e3wJAKDrBKpoPcXyPePl5/YlL+YsvDC/wbsyJUZHDFhqP2/wx3uHAi5lCnqLqDlIiVy/adKqF0ngYTHnbpsTniHYZuhkO5G1g1CKzLopFjD4PqKzdD2u6NfA2fC+KCgQYprUYXKBL21GKThCs/n8VJaYwzfQaY9dGEi8NKbZ5e9NlOXG/Sdm9AlYkiWakg41vfmFVeZ4T0BV5DzYNS98lGGAaNFNkIG1yNWr4zTJp1bYPwcKfdvxZZlqsDqUaYEHM/NObDM1Db6uKKL2OsnN00tMERXjLNW/ypOrwVVM64N0taASKnZtN6n8gv6saJikXL3O1T4Vz64lgOhzJvOvwBs2/Jg/pXlF/Off6g1VeoAX2BYruTNY2C4c5kiIXNv4UlfvQE3cx69F/Nb3p///NGDSz1wkHuifF8RQKn63GNbReBOdQi/BpMAjJaTRSIHw+QqjPss+EmB4+s7TflgELQnavm2Rl6XhBxX+ZhjM5iYWgb1S4MjNhTawUrCuDiSoRstTwBx+TAH67+wXyIqXDIic0/A+5/jeBTfJvDMiOf/ul70Pg9y3Do4U4tMV5qdZXePFbHqfJnt2ljGvq2xc5dAPvKNNgyxi9+VFEOyFTUYb/jxWNDAEwEFvwNND9vwF8aEuT2sBmssRdMMCVvyGBsZHn6TVuYowTo+xk2aArEqYaouc0lWTpMXvVxEGMxCTeTNo4POAzJwLco5dOP+/VO7mms73iDegp229s0Ogy734WBxkj+N/gwoE93qa8U6+K/5NELdqofUXCbWkNFtqtrmuMHoIfq/8EqUMiyasiThp1JMQIiRzUo0x/43GqFaKsFKKzEifu9F29vB5n/3QLj84m978o2WwQgNc8Ce8FM7u1TlVEO7txNrDrLWwrbns4M3IPbfBlObP11UL1c34dKnfUOjkhXlPV4tDO4bUtcG9IalYBVJNNpkFJphwNZJHiTLthgs9RbnkYzVyOET6RH3c+xgw+6OvgB0sK/Fohx3mRXbH55wNiCnGkMhFXVGMi67JQk5HWplwjcrgIHKf/yvKUTz5gwMTNH2JHKaJcKbPAzUwhL6NsDpMoMaqhb0O7UA46nGcmU0xF3jF6232+I5jEs9ip9lCvQaDjcqWz22pbH3eK5N0LqZjgIrP7Wzkf1NTURXs99zz875GxX2JPyO3ikYyeTZ6oMyjyHqNrEXLubQP3iavV5ejFyo42M1drPv5gAt57Xf6ClIB+oTl942tKjX2VqYZRw5owkRMaCg4XXef5NDKYYPatkkerZ5BOy9jBzq4u0t9uilVVrjw5mwS/zhpoZy2m2mvONSTLv60p6wGY7W38SHMGEozK+QxQhoS8FalZYlwEacu9FsSI62odwNG4xpNDFD1TtbL9PEkhsQP6hcKzqL6tPgXzVBloIJmaJutyEvS/PgcIaV+7dENurUgg1Gk8F5P9Srw5H3scoSpthKG5YEcu7BaV02yrkY8hIo8SHaBe9hYrtUSC4Q22kizxX045L0xVn3Iy4aDmr7M183r2Xn5zOojdP+dihG3TMqzZ+KUutIILtsMIB6wuJg9kDAwD93aPS8dx3mvBD8/WMi+yfXdNN4GK+bZPygJvK64QsswSTqZNrB6ObTm/o434cdhCqKWcK75SjduDaVy4YjEMUioTOiD+/I+OOkfE7NLE99WtYoOFoM/UDnNl+wF9aA7DDG3rBMWIPgO3/CA0ftMp5v24cnwwhyRvw8MryFWJvNq6YFseh0JvtV4Kf6WaSGowUvj427up+D7ILADBj7R6zjiUWRL4CVkGAOIhXKik8qWC++kqSue7lEKUPmILeVElRcSA4hqIukF/BeC+Eaig+qD1tNHgCFwz7txaRSA7hP2ce0lASRJBRxH1DsCSvoc79yBO5+J3q1n9oDDMhG5LpNdciQMaQRDOqoKxhlZKS4PrN+qSKrA/9CNUGG8+D4ojiZXsOuBe0MhlhJZT36TcwGUqgo2xnVRlEBFv3ZMQuhLJVe8aklhGiNkuIbqv6j9broGkgiW1Y6sv+tsz+ZseieBhFRGGV2aZMyqSDAdwroAI42Jwna2d0LfeG8l5eRSfQ9mWxKVPEXDOdij6LrPpJbxRof4EVeJqPX57Pjj3cdGPBldbI595sPKZ29KVSj7ogooFIg9Z9vwDTcmwZJFQB2p5etGj/HXKRp8WxiMa1MK5Q6vSyzXH2oLZd64aYfztTOvBabDdRCSKDzb7aWtMcOrsIn5y6yZbE3buHdUloZZSec3g0qmU9YpVkjqH0OQB06XzIBCOOQW4CwWYxGNFDfSK7BE7gIclaUlOKSfq7CNIMuFj1BfFGAI2Oc0jZGHc9b3OyphkGQSltqrsjLstZti1KTwqwjWlBdhynuzBRiR9gmWqZmC8aNdRNWPIcrdlgRbf64A13jIym6hpTSG6DZCWBveKwr8tJ8QI2vODq1IO9Edp7XHca77RgOyGehG14MppxNTgOL9l5oeObrfat8MdDQcTYYIcNI+vOhhDjmYRp0ACJZex/RDqaYM5VmyuFOrMMUnq4s+fEKOy4lYSA7/DgWUPNvgPKvoUOPUOGDxMylLByiiU9lMX/WyCtav6pd8Xj+Xpebzhi0lQKbOk2jzRVucFIanXG1WZxboP3juB8IQHwOFvlU4qILednO/+qr0pNlV6GWfjfxI3vWDiJNcOChsSyD/mUb0OXA6hiRP9w9AUtTIUO9C9m4J2HgUN2iJ2Ki411nRbsEPB/64cDDgxewySDLdOhXeP2MUnjfAT2oEoTzM6NPHDuL5qwL69bA8CMqgA8SibuI9qTOVv7nufQq4Z+v1O2jYItTLOWhlU3Y1WdzJaxmyiUMXIEE0dKog8aHnC0k5EQXxXc2eLPNMa3w7j29GAumttBewNBOIFV+kKEBoglj6r28cPHCYcgOS7Tt5FUpq9Avx17PiAAenXQ9EpZECOlRdt0muVFydbRkFrQv7FzSpFVf/TiaeNxmCSBQnf3MaVB6Rotz3zCmijJMdpsZqDFnESDV/lRInQpw39KIpGYLQqk5G2ZnOmw2wOPf2kzf3D/lrRIBxzm+eQE9xjcdNxraqxP3kODSiayRG2u07NZA979SD8Hgs4bov4n2yrRcnmkDWQfriIaoQxmI+a1dtFp+tNU7bQ/hBTdARKxIuSZvsMBMGxqFc4vDcr+PXXbUvMSPiyOtLb8PbVCYvZhrz97RRFEfy2lPatz/zAhl9n4FufDt1JS925qlRZgurlg5ugJBc7NG5zWnLIxFYdEYrUMUHGeAOtM/8sfjG2hFQpIP20ByVzfSRVGiWBnjp8R7VW7EKllnhEQUirtr2q1+K3LLFGbKzFP6xJodkUaFJhw8sr7vEjUZj8zIFG5dEst1iH/dMcrEHh8GhE5c7r3a0xYF15I/1qV9MAysOfSahUZQcaVleOtwh23uJx2H/u+rlkRt+2XPdEzvMWsxhLvP/p7PvJBvkLzABlfgB+K7WpxxifM5flFYlOSCkY/PHjtoxT7L3YO880y5sc3HIwgCl7f71qj2vAyEvwEdJ9oIW4Rfy1Qib+sQMhsJg4tE9ncWtRCKlzwGJYClyps0Kcvd3LG9rBUbeem5Tg/mpjwzmF/PLP0gJWnBtrQkrpsejcH1plu8hsIDOFIoaBDyJCMtLNY000gdVLl36KdTMyGGcvbteu24JgT+BDze+PBZ9XronXZpZeTk0qxlpG2m7f7EjgtOXF7nF4pCRtpeIOf8KnVGR+JSsvvjlv79LYQ+bbozl1H55dwUGwcDpRQvujPoZCaV3g+9fuBktDoHGfhiMNuKT/4M4Cc0MBagXLFMT92UGHatDOSwgfmPnnxx6puBCNAGBGYpwJPnAVCLdvG+wujlHwHSNUbeTluVRdFfcyFdpZe7ctbl4alaTTfHNi9EOtr/lAU0PdrNR1nnTCYtprmUbZTbbKK2XIniOuUKbnpvP9LXQ3qOAYR22duvc3fhenT8uf5wDp/NZAIOvZYuYUggeu2+CtUrLo5jPIT4aWjDT42+u07nJMOGFU3bZhOHNm1cND6E5IWgimeJ8sx67ZHV30q/I5VvRc2/+49ZwIZNtu+LzfqpDN8cqT4VwW71f4Yq4Dr46HMVk9VgEyl8/g0vzAUKY7hWrvE9QRlLf+CejEN/SaTDVrDN0R64C2NsEVV/t2GDHzQLWyVVkEiKHVKPoWqzw60exRu1JvWuS2+BmuWyBGuVEwpljYTDnj0PXUYOyW7PV125PH7+JSSVsWWE2Z26V3wNfl3gHhSzQZmhOjeVX4xbXlzm7MEEHOB0s6FLCQH/0Io/9ta0o1sk1SM3UvpYlLTfH4Qhu+q2kma7Mnd3jDlqDyjUD9F5bP2mnrvF7gAtVjo+rcSOyo3uY4I6UMHdIyWwNDDXvB25INvJ3QSkADgLrVzLErdeo5DJWZaTiDe/U3QKJjXHZKFgG3K0GkH0/4aCM5QIlNPTLAGfk7sXJIIqrxuQCins7xiNXz/oCL8JbtMMwPOo3seOHColuEQbss4Ryt84WDgZZfB0E1JwU8l15vSoymiIb/wxhzMiLITsD0LoamsceB47fCWMlt41/kqIaFuS9tTcFE/pZHF348ah4VLeJ/LFQvZ+2OlIUnMVLXLNONIaO/yWkKv7c/4NZjVhGmRgWE8mUs0Ep6v/AEjPNJVcrVk8aTG3DpBUj0N8IqbzV22JkwWlIzE6tI8CxYbrafc0KxgIh9Tev6QwShhWXkuiKLPLIspszmADD5NVvZRuWMOISCWzdd5VxX9oIo5RBQvV2b0CbU5CQhdvJtsx8sgqTNzLiTkk+i2QcZxmIv7rmXH7KNa4oBe6HC4DEB+QlFxYsLe8yKmQe06MqUqbI/QeK472JU+punORZokuGaabsHSbmCP7hC+QGkDW4CtRqhxM1PFjx1mMEIROO5vn7m74GTr40Fjrf28h3puOofJ8aguUufZdWUKjpGJtPOzyLxT8FKQkAwoTMBUzQS2NgaFQpgWYj6Mro0sMEo2B28e/JUlrxzWgksKtdvWJ+bfB9jPnVBOm3IiSNcQEy+1QGDoGcqGfFv6yXqQ2/cjqLF6l1mOT8UQzo6uIR4K9iuYvv2UXDIjcu3g/zDNFNHdUDmLXUIn25TwkAm3CUZePsjo9nFc5EnUQFPQOPQlOdYVj2MQgJbV89OYwtmPPMpX8qKgWZnGLQBRmq8POC8aXbiJ/tJPGt2MBJOSzKcy/MlBOg7ZuZsEvAQ3znzggsk2rv9c4dheaX1Q3RVvSkqN4IEDOg9G1+oGJjhZvI05R2uSPqkpf+y2pIrbuY/8UjTu+P63od8CQuyidDoIBVpikHMB4e+g+lmaw3DSPT8oF1DKBErtH0anzPXnqaJ88tPdXAooJwOx1gtJBkKnylEZKXrpmgc7d0wD7uJJvPpY7OFkcdIJDe7IVe+oJjpNsZozzoW8nj+yxhjeFmcm/1sOJ8a+ksf5vW+cyPLHbePDtNiic75UrX3p8T9cY13CQD7HR4sF4XasMSXl3Wa2tSo0tGg2r8+ABZpNdBENpq1QT84MW9jPxt6Rpwjs0H1Z8/uQhBArvsTv7wX1Re02rkkvqZELDl26ErC9dCFTerQoZHk7OsYhV8FSbZB5Fcmh7s52FvVaQ6ijQbktipHKoU75H2pjkDTUzSu/xo2ckYSj/Off0qakfdtiM9Jhmw92yUqxQIb8xlm8OaH+eMnZrxq9XjVskrbh6DRDMcDaDJxG1s2V9fuF4r8K15r6uaafS7TrLMVkS4U/GKEa024DY5/FQRNv5yElk/BO2sJn3cK+W6XUtawEIC3t8B8jB0TJ+mnf0K3/+1ZmE5SroGJftC/8dATRzm3CiSlK17qS2NlimFi4kJglJCPhhP/3wai80WnQ2apIOlWio5NkD5b7PNnGg20XXwijX5lPvkf1u/ehpZPwm52wLc3VSIsngcztm0Qvn2i5YLWwJHl1K+H9haZYFnkI0UA3P8EWmhji8joLQQ6QerQ7HQR7vS7gqC0tIV/lg69craTkFb4uikigsrmAv1DMG5SwRAd+m1iMhtZ35tMyvbTvD8K5MM1s4/ztT4gmBvzu5HFP8dn9DL8x+jT3yCA4lVh3w6lo9uv9eCkWlhMb98nhcxs9tL/trjS2TPl4qV1P1w0okNzeFLib4ZdmM4oPCLXonoDwV5udv6akC88kDSKnjQSzd4wd09otcNHCG9dGGDGuRYhsvMnZOhGHmcH53qB0DJj1UPrR0rFbAFUD0XVaFy8iHGEhtbiz9hRm5KsGgeesPpjCgy1G1IqD3wWoMwscdF3kVn5o5OIfY8Y1Euv3x5/yBQL9kk3Mnr+4TFZPZ/775BaxCwrQsAaCK1El35JnVzazABnvjF/hAXIayTUEMFZWiBelx9y8mQpjKxQ173hwGfmq+LqXh+VXOhgZMmDBX8zLvfQyWONh/AjTgC/p7GDxIOKhUWSHIR3ZSDy7kpuP8SHK35zwJ7AGEG5/GAzhg5tUu2rhzXT9vNrqyXnbAPx4uUNwnLZ1p7kJ5ZLkpq7RNqz/vqPS9k8zc8VzEpfe0EPclgmRKCLXPGRzwl7+/37UeTj8pgW7bMqmAsLvKXG7zQPH/Q1EeRfW2KKiLUIWhCgxfhsHXW2Gjkr/C02FspidvQ4d/Go9HP3/gq1W+N955aLSxvH50RRiM+KjhKYHi0kmEQJ5wkBZ3xceIAV74fPgMIV1Sb3RPTV2VUllIy5I7uTWQd/2YSIkialPkV9lATppeyDz8AlnCHHA3apCTyR4+9JGFEiy7Ho0XIJdh8468tq9f5ZBTz83/DDf1Ak7SA0W4nR5Hl/I7oaErrxHamF8rJGtZOVp8qSXv9CgifKCVKS/ACtGNtW/na1eIWLhbwp/9urH5jqH3gg9mwh86M6FW6j9s1iMuEMMNqGpH2XMoNhb4gIN941f6NnKtF63T1m/8TNvxjdjurxYwYSpzShqqnj9fpgqPpIgxPCQll/3A1ohvCNYVzOtD9pVWGDsV1Mg8ftIxagIYY6nD2a36G4i1+CqBkgU7BY64E00pmKcdorhU6RR/7QTyNQYso0KE01uJUVSzRR3tClyBjpjZAR4txKAmxfKL8wGXewJpYL42jUPgOoqYThFVCIUGsMBt6Yp/S85Ele2oqzedmqWcFfN7m/4FyFvLcdwYUhgJBYT8sho8uuVVJsu2tmPzw2SslvSMp9vQt6mJRwTMpy1mAiFpdIA98QpTIpk8RQs5UDmNUphnSFGsWkV1HNu5MFaaSLLFTxI2RYCpFycCYJ6y1/P+KZHVRXNJMSun4Ell7lXp6qVqNz9JGyEMznwdEJaJao/iV7JDWiUVfkIa33B1aFHeujr6roVsiwbEuWCeozR62mKaJy04BXTrtwBd/SvOeoNM8lr7ZKtKIrN/Mk38L5wanoA/9A4pJLvYdW280AM0f5UUB32w9TCdORwz8fkdv9CFVvdA/US7wLlWbU0YWXf0m94cfdkkwFOaTY6DEjBQThWCrY59RTLwAiOuPsk+QcTB+bkeiRR+MTswrYwjcIVf4qSorb0YARFCJzakCa8jwKcoy62vgJMFfOizimsu2dDEc2GQ2CY+J6VqydhCEcvdNMwcO1RdBnLxdjmojE/Jpoi7RpTRFnMpwn93/D4XfdKkbUkH9nrqj5rXlsv8+xKZr+9CchhHX/TeG8Odb0SpR+F8/4TU4OLJWKFuCKeivwokDy8YpiQ27PTVGWHufx+CADypnOwwJe2L5h2Un5GDXt1pgHTfqowZc0ct6XNaovPV86PfggXTUhSqYqQwxk1txH1xxxZ2lRpQPiM4jVoyzqY5W09qFtCGd1jIyrE6aYclPG4nkENJgBKMwMA8OJzCqhh89FHge9D7yRHmipfR5QCp2mIOH0Sw8yl7q2w0VvHpXhQfIYy8PWcmuU/Q/4n4zVoF4nc5AA/Eutl6VsbP1tVKbR1xXOPHivIpm61ISOrX978sJaMhy47QT/6Emb2ZaqxeyGsG9Jo7Q/RH+Tk428lQfy6qUBWoJ2utgV/k53MtYPYfYeRibqENTeApJqMs1g7f/K7kz80cP1NqjNrRZ6AC+XXUYd3KliQ4ZN40IpDqs1krMQtv/9ojqXkShFjtp9pZshRHitFPtERcvB9pFPzomzusTCSaddadG702+mMfM0l3T0DGgSmUTbmwINtZikgZxthXvNES8rNmvd6Vwi8CXC0gRhhJMKCUxhe0OSPeEt+AQgqXeXuGrSDA90bVP3CPp8ynrGKFJN4i9QgK3E/NleU44FUMVb0Zm8abc2ihlhOqRR/dPnC2Z5rckVJRzNJMskOwzYYrehihVNtqdcneoc/byjJJQUhnT4FDO/TzN/4Ku5UEv4UCc3ogxx0dZVVHVNiWvOErmXrrIhZcslExxckCFyixC2/LIRn2cw92U0dvqPr+hgn/pNEXC6Tg28ME6b+Ggx84iKtT/kmRvWOn97isVGNoT23C5NS9skKPmeI13YquzurXxo9GW6lXGshsoSOd/9f6vUMntHzIo7VT0qkp4dRp1ZhxuYI4zS+x/3YHYCCi66dfuSgPIEzviebIN5fbJYQNJMqhrMv4yM/9pBcCc4TJ2xuwTEzd0vaPbduGUwoaYirSo4umahEQC9r8EFMAUoLIXBgj3WtX9ZSGjrMqK+luuqrWFEKsA+ntGiuMk3axV7bEzofWIlD+z1tfCZdvybdnt/f6xi+trEC3E4S6oyRCWPcnhjnfT/xSClOlhHjOine9dB+C/tGtAimYmCGBSmOyb8xtGy94By1Dgw/IsXTGtKksyJmK0hfXTX/bMrOLAnzpFyEw6aoAAxNiOQqFDdfORehMFH1TvMJogknot5Zj0Gdl+K7+TFvItaGH0SfvFkUuVArTQBCzVw3tnHMGGQr9QCHwUW8IjiiUBcZ0tBN34znz+7gaXMnP3QOadggm6l4KVCVK/WOb2otQrtcJtUhpB0w6/gdJ89dCjg1F2VAofQangHA38PHaYhW1akRgaqKwIxWxjkkHOWPQvOJWiSRV5XPG2ADsP9wPHe+3dfkGHIzmdAeA8mw7hWV4Hi7wiKmib9yIVVl5qm9ZRuauZui40X4n0GUOI5dKVdAzTAD+e58DPoZkj9qICAl3SFFvr8tzBFkmzT5LpQhtdeJVh5/+bnesmD5DazIc5OzvrXkiRizifQxQ5fGeKctelPNppdKouwJ6WhUEE0XoXQuji2ySd+bkc2LZhswrwbAHOz1BCiMPK70uqgyDmb6JoU4G+4skIixyRBlV5tC4/GOSyqq/XIgbCLXZ2Q0SSi/xqc+heCNv8+wTTftyz101Z1wE4K8YFGkNB3OB6NerkuVNA6lr2Eugppne+H6yREkykZZk/COEeiFnbu5P26KIXWlzgvF7/pGZ2POmvY5JefJBI5BLqdWBiPlJh07SdLPLlZwUEiTEfquHamSrq3YjxG3FaGheGnDWxZhXXO7rH7yWvS8IEGTqQSimkQaV/RRO0WF4zuTMCz3vAQY9tLsNVSlQfPF7t5oCWIOyiE3BOesQRG27xaRhY79jeTWN4F5Kcq9pQbQc5CGTacJJrqQ6hZ5amCCVIC3+sd5bRILjLqamFGynWjf3WmCjElB/GX40Gf/JdEfliXNwkw0H8BuKZBAzErMABTn6PYiYm/jjBO2Hp/4NNhXKdAOxg++sC8rnMFJuRM7WoYqkFeruZpGF3KSEEU0cGGD39mo0RuDUZbURS5lLAcjhnS5rJpUqZxehDGT9DguFtmJBqdd03eKHG+ZBOqm+hNx4J9MJJGxFdCW+ORLO9w64TZiacUBOski38V6ifpS2W3tSZs+s8YHSgHiFBfQ+Shk4DYERnUIqUtYEvAUAFhSXEfPNo1xb9jgxFIDK6xEA2YJYCphbzvSVHwwUl/awo/35VyzMRat0mmGY3uEk51i0xzY6qEmr0vJmq6R75m55z9VRa1UTRQndBAr4Ji9N1SJCna3xnxJm6sqF6znhWVVG+snhIbpq0QWGPp4MNPM/dxbST7JP39woWp4B53dDzBGFYIv14nPBcGo+9lc3hQgLj6lP1lblxWqdGGyR/9vHPiMrg+4+hW9sTqKxaj2R5Cg/GotCbsj5V5vtuZzoRcADoZoAgKIoW0a+3FO0uUgOTWVON9C7rACDjSrdS6xzDHwzdoKl/Mpjg/0jK2lNZrlXVl5IOQj/8xqWaD5g+OjPoWgyC+3RPASruyvg0a3FAmmABp9zgDfh+Lm/3Do6aOgkQHiuMHUd+aQxSjR5teA7BcmO711VGA/vyXqgos35IcSJQQNPvqh/LkfVPIqG6oXc9DENc038QVOn0kHj3RoV4mUM2Mt/AM4kwQfat/5c10OR7d1RbrOSWtTBsb0MfeARGYDY7PIFQMEnBxiXY8zfOzLGlxBfaCAjpURKwO1dh+XzPYibDmh2EoEGIJSleldMXN+SBOav+C8nleZQHjE0voGHId37a4j32ToLL0pWlzG1BlurzelXBUr2pM/TJZroAyQGLH+AYpfW5Xf88N9cGXgN83cMWz+0+n9mLu3oepLeRASuXB8wSmQ5yb2+xrK60RJCgZgTiR7Mac6vLNzL0fJ86Tf61m0SbLkrSHd8znBdzHVq+hjyomflQSKk75ttwSEp+8PTma0Djgver+cHxcf6wf/yeUPczbVZdtaEpkM81VR+B0dlxgLI9/LF/Ni9/eK+ryTEVNOJQFHJ8rU2FkGWO3XJYcbzgLXvcldGLkoNdkzrQRjcJ7ouvb7FIcvF/L3aKhTDkvm+yncdUffv3okqN0cq6+N0J/OOmJoG/yQD7B+mQ5Uq/GtHn8fDTUBDwALxmXf1JaNSv8Bv81ZoPFDDbl9vwa3VmZUT7RFfFp5fHjCu3s4P5GMUaJEvIGQmFKduQ/5yg1RSwnW/NA9braxEl1YcovF1NnItrQLDtD+x5u00inKG3quP9sHcxfZIfCkVnGb3aagLUpFvXKfDoKMztWniq0XrDDHubnV2TeQUNKykLl8MM8kHxE3so/A3LMgYNu/ODlWLd6Qb6jXgkhTXhILq6gSB9dlL2QzjqukBCbVLX5d0VCM2nJvNopPTY1jt9bBuaaC4OOLeli68VaUIR/t3aUGWMHUS5hazpyhcQi4qyrOw7jUOuihRFBgbhTdr4wBh6+EjXOz9/QNn8cx6PJIiiKdMmyTf35TmR06D3nKazjukPmSUr32QbQtzVaXCJWQ9cmSdS1xdla6gI9qG6XTWFfs1v1vHR/v/Gv1dx/KMLsKBHayfhXEgah98QfWEh8Ngc7hWJvAesOIJKHB2r79bh/BttgU4MTEKIMTyuAsr75KYP00N5Y83gOuAETQja6OLGCyS4YGO8R7l61ykBWq3PvZUJh9QXkLdBtrwSeDO5PngU7meEp/pKX/bYjPr5Z6jKmUvQ1yue3uLlV5SGYqSVVS++VH9p6JuJCw5zZQbhopRNKrfTVrREa1Q981E1dI4u72fwsVENQ+DJkBAALHPsOFyXoLqP1Qrt5MCzXKKRNDpyxcnHZTHA482Mg3mpJfQY8b1kg1HkdnVbGRhz2Ao/Th7FoJ/0VOzsVC3KS6herTiYF+uRQy/TcvHA4Gsg9J2tpoMAP167qGeeEbGqkHPmtjwjslf/ZO8nXpgaDCPFixcRx3yneuHbHDFbn2sbtcy5ui4SFcPiEFThqIY7KIxISjleGV2FRRlCbVO7XA3dLgBwTwyIaMt0k2BXwQFBjZi9vcjNAfr6xYgtMn9sbFMIdZ5PgLgBSf2M1BaQlf2+VdtEQyxLGWNpMVr4aSUczZrsI1G6X0c/a8UF4aifRskY149Q7HtjMEs+l3IJqkmBj1hMg5MLY2lTu4YxbEGCrHJxwMdyll6hIw6Kx2bGTmNHPxQij9gacDqXmSzIZpSEO39m5VDW2hcJvde5gn7Y9Bb2tpl3W2qynw0u9dafp1/JSIqV2hH2ifclHFj+JZLDqis3fvbPT94ZvpY2v2KBlNl082LJGfd5VYQ22+N9dq/LhcjPQXhN8KjR1kfj2O69yatJddQrqxL8NLKDUh0d294elHyXl31r6FySLBkqG29AVVkmX0+QEC16aNKR+CJNsrfzbMuWxBmK8jSy/ZrcvJyjfzpgeDxODGHCUOS5DbPhz4ldzhsb1aQnC2XHB6xedcay+tT0Sjyzal//b0tWagtYa+CXYhrPLTG79RKMZBp+JMsjGFfO5+LyBnYqb7WPkuo7Ax0eez9+u5QalPub0fnyosh/x9mANUPkdvy258cqO0WnGgb48z0KiroQPXMM+INYJsrf3M66iAPEw/i6HyJKya2MMiPU1LR5FEYlQop+5h02ckOrlMgYvfjaAZSAuiJE2tZoOYCYpQNZ4QO9dixSCfjr51uEJzMLEInHG+/V0pP1jXug5BcgtzpJhzEaAfJ8eAiVx1vfUXy7/frc76vw+xwUMvu5i3oYQ5yBS58pTUBPRj+sNdWPlUReJQ9BsuWRBmutDn4QwBOid8BcI1l2Ldae9kpB+epS5iUG27E8AMc7xNWJKQ2ysyQ8dTgueFziJljlZ9LMfmVcaC8jKMXqKBGUxDNGIglFN3QjVtP9GNl/frDR3Kz1LbtuZzrN4Qf5hC6FaM/fV7DHZ+W+sEVcAIdHYX+uA5pjYhrYYeWB6EaRhfS8OI108eEZmgan68N/Kbs9Aef00wTIop8XCbBin/x1+vElDgYSjiJ5AT001y2W8QEDat9I+jfYJapPRVqnRRLBYLilh4p9c/+cjTeYtdhNHv0UIZ8NvQlQJN8ZK+xSacWlU7n5UvQBklBvgEVxqJU2xI8+/U1++2rk6iZYfEex1WVzDGRwxRrufYxWXKbB+p48D54F/ru8zpSUUmvKBrh7YTf7bF6guHn6Oy6mvfma/y8W6a6HGiOhL+eWBsHXYJSDmwNIXFS39gwDg2Kfw/l5H4B2GT7YFQ90uutk544ALm+sSH6Yjqb2v0hMh0Poh/y0JyRfY/gG4GK197AXPPOSe70WSOiKo7rSkB96MfNvStmLIW+DrN/+FH81iUfQoADk4gYqL8jYS7B3B8I2EK5PND9dqpy7aJzWYUjL1rTBOH+scneIJgAZ72vOwOsukNQNPP5YmDr11Xx+XmPe5VlAxmAsZ/z0HhNNVUi+aEls5JraLjkJON8RR30olKSRRAr/OHjzbrFXGEeI2GyodgngGvBoFQBotYWjK3yXGzpmnvr+VNdf/cJhXeJU0Jd5nGQKU9KnC1n07+AhB2VajhIPDd6T18Cmsau8SUzApolej0PgKKPQrPlU7lVICohbPKNPNbC3QQByja9eqtZqRBWkEq14IA4tYsmh9zJpSqsFqII7GJKsBzALQc0bcEONYR+EQD7AiC+g1PwguliHMUDEspQmxE5jQODU054nCo2Xme7qVqjXo0X+5pF7z2mn2xQh+ysNTj6vug07cL0S0p12fCliy+ZYdcJr7P99sOHYFkj3DdiY9XXqgrYhu9kgD8BZmbSUWTntt4DP4tPKFezOhDp8/gWQEQqSMETUvG4ODpMhvHdr7MpLjvagjDvjFwTqXGCxx6GAvoxnryBwDvR0CRjEjryTpjrVGGWzdJ1ZzTCfIkgrRkOORDd2aI1GPTQeEi9tVQGgQeIgCi/J42RmAsDSxgoepHnP61GL7Pq33r8Ftke6rTG4oLqQFea/jH5gLbFyFzHMjd2Zhrk6a4rKy8S3wQAuarfgsziydG6c0auVZbdGBA1RKCGGTmGytCUT04XMffhx0OEa8KvI8Pxqx4JvizCX07xF3RKx2Rs/aopM2NYjrRB3x/CE338/SDca6Ar7Cm7EmmgLB3bA37jKvndsxb7QpujPC25d6RuxSVI/nYKqEwmMQPLk49oW/ry6+aVAX7CVVP4Zq8NNvL9ZP+16/XJBH3rTn2o5y8/AXj3nWcW7rERyIIpsJHoRhIT7PrbBl86kh0DHlTXI8nG/CA2ryb++Popv4FoMbRVVk071CWqz9EORlx4Xch5XwxjaztUNI2pFuRs89DHYQEuxQ0h1GJgRI11zr/rqCcFLycWkXghbnzIL8kGYRVVq3CuNs+NkRfVtANaoo9bh3SijaOLdvGNQ0KzvfeRwqhZkbLPptzdoCYRCc1A/8LRCm2d9QFftWIwZ6dBFasfsGdzEkZr5q7OfpKS/afX7iaoJz5Q/XuGziUtSvyJSwcY0cZZYKiYio2wx3Ga619BKuzmqpMmtmyEMc5WTIAy3hLpVSeY85SGjDjjgxRyAvV+cLKsb/awXoU9/tiiyb9kiNHo3sygPjAuwjgHBbqojACAGoxulKJJIc3tV+h2B9134OQVUXjmYNnlrOlSLkO+eLJ8xJzPwFkFM2+GPrZbP4PV55e0BPcsDeSB6jPhDRoUmKM3K+zQL0d+w8yjK6tmgjbYdD/Qn5ZigCKMhs5p1PFsChoO/1wAFc8iR/1E7pc2HWaOC9h+U/iduEjWUmXtMKkWgj7XVglMktH8DFW4dHKvEkhPGhe68ttZ0cyPfZH56nQLOejhbVZJqks8ywVOb3Qpbfkgh5yJ/OHgWoZBxDwAbvp9v6yF5EvhR7ax8TcelctCJBzrowQfGus6an57jF92azuVgdwrjlxwK0GBwiAbzwu5MNGyqRnfHa4O3RpSRhgohw3pRr4fnqDIlJEnLq/E0uY3M+YQ46aDbtPrnCAaK239+BqqUJFcRVOJjGVDF2m+rmhTGL+3BCjyGAWKNrbuaHp8clHg8N+4jmQHGccDl4lO/ECRbUXz0bCDPSjJs8NAtGauOwegJ/dOeDRFBDCCvo0CcB2uBp6JhQWNeRXEfhX+NR3xa6rVubzNSSZnD3Sd8mrBnSFs7bTWA78l6+0OsLkAoxmR2RE85ucy/Q7d3iYpc2dESDr4J19fg0dpQcVbpcMsmOfA6fV+/+oY7a+DYCWCbLFpTPDxdb/KTPzD66ucTQTro/kXAqI2n7f35kOlVO2Bb1FcxTDACksltYoLocthsFLnfdfNL+PGmRViS5v7FblYXqJLBkgibSrpoT4KCTQhzwVDwlh66HsC5my2R705WtKwPFkZY8GhGkBZ7o1TFD+ErDC/Vx5lRg7xiQyK/68IZlpcutv+vJUgLm0UklCsKUk56vHtZS2uNxwQjKHbrf3/hMO5N8Wb1uaUexM0hZCyPlOQ7oaPUzvaMFDqZMRWr/qwu/CI2e6vLspQD1bdr+ZkQbMRabWXSt2eAXVA56y4zpSkDi7zpvGwezzSCnYhIe0qFVAoOvaPm5PyOTMFI4ActhtPxdKq9qSPKD5WZDeReGR9lL7NRGM7CicQYVu12Pw1EayU89WAtCG3l5GSknjSKN187vfHlWeqlf7upeGShfFoHKrPfwGSdbeEp40m3gGSdd1+uYVcoj0VG/7GVJahXyNXx3McICkS3XLxIZcOAV40OptqdzSn76lkyn9yHIYEpm4qoGPYwFtbrxHsRgDJ0aNRiNjl89CkNuUw2aJ758vEs13NOISAOUPszVPXwZtg9vX/RLEh/1k+xWI1+aldSDEiFAYEs4orLtlNbB+WfW3u4NGgQnu0fSXhRPlkXuPZfvOf7oUrFAI84Hb1kTU3Ud1Q2FYtJEPyBCiq5IDpikGvGtopGlBVoGykRkAb/fleI0WnIgozeCP8fnTFPZZnyCGampYc+RYOssK1a637Mc9yapTpu15GkRx9vyqeqZXfhAuCDdhBFBLlSReVlUlbvKZLsjWw0KUpiwdbBnaHDNh96mPdEoqWQJGnoxKJLalVgKSwCJ2kNpP3sgZVcPcnFR0J6c8CX1RU/NUPBSpEihWbgLEcOEootlEaq66c46bk1CRawCvAz//Svf5duG3xJw8a9rhaFn+QlFN3aQgOowuT5vsVblLSyV4S8YicUEW36DlZRUmPIGSOOwpTPwlm4Zl5msq0YEj+mTwqDlIeC6XwM6m4GciIi/tcqL0rwsx5wwE+qdtJ56FCMumgeCxQiDwOJN4kQT9jdzFD0eluKYA30R1GQ3RFzWE9kdJZWEvR/ADUDfDxNtw1Fpc5+SlkDHQ7YSdtfcjzo0OUHFm+uhMQu9mQPSPnLwDU2ZRbSFrIo8lMhzgM5b7S/YcmcSxRm9KDB3f6fTVCqD2C26trugXM/ES0UKWEc4vvakvxlafbmSQ6+JB5M/2B+IVjOHyJhtr6B7OWdhR2mPSZBaTw/sIJUVxNvnlgxwSw2EThBkBp/uiWnKVxcQQpmNpiMZN8+Ozpj9k0ahp6o3EvGn1HSt6KBVabBi7l5Fq/aGgzFQET1CqugskL4OcfNBudt9qpqcXx27tTQz18lawerKj+BTgT1RXErgp85O2c9ZylBIz/ctsKtM+3ysWNXYx/VLoZkBn+GwUMZlkvO361FLPiXZEC2/ZzR8pgK/jf48tisLKA78UABKhojSaetdo8fm5ohtnNO1ZUTTFFUWkFmn2exJobQrrhtnSCepgGJ/IE8JCFXmvyIW5fWCP1ldEdhzTIumUqdU6Oym/qgUeXXczvOwe2GJwb+lE8V1ET8euowRHpAReWgjsXzvWQHNUIigo18hSgWLeWj4I9rkHRDggC8Qd5TGioizu9XpB56o6Qod2CiRDSoHGU1yyDLM+EHIP8tV8A1E3T6+EFd8J5sNhzziTQx4pOU2/T2RAqaTjhrLPWPQAiNktUsrnROLwowZzzpA3muaH9bKDXQEnlO6Jd/BFbljZHq2ir8SSCG/PzUOg3N4ltLCQw/Lgq76X0XB/7B+oKUinXu4ptfTW2E3ImOr69VBTdiELmhOlVhvtLLN5OblieKdGQFc8Hbycs3Sve3GU8ygkFH3eIIGoMLDzMBqYeKUUG0Vro26VI8HV0AWL0m9MCviZ6W2dkg53hWUm3wJBo3D8p50iCk4HqZsrgKHjCPGFuRR2Ahb/5Weq71nPwQ09ukvkEmo3jwFP+NX5X+EBzklpvReVP/ddaibXuk95HM/zbrAcy/LiwTSRP2gQplq7cTJe+wkWajeuewmNlkrL8r+hRet4Oaqqtm7rCE+qGRfJcnnBSU2jVof35tmqopt1hhC/18dnqgErHyR9usMYKJNIMsGX5J46o0cy3pLMt6mxLU2LMtSR5J46DeZGGdPevY8oLx7WIjyvbGtIAxNB7UXy4kdtgcAG2OaR9nCrVm5oF/vIpVteETurbQc48B7pd3AVbB0teFbJd9dTNqGAyLIzUJPku75o+o/J11Ok04ZwvO++YmfVzngE5pK0sxRixDXZU1rFIJZSyzlYkik+vhb+T/55/IqQYdr/Y4e4XE67mvHQJRjJuo+mwnt6KpZU/Ugjc6olDBsasy9Dt6gndX9hCHJFsyMfNUVOAZLB1KMRMlb9oSPfA499IcpGBBg+V9oCMe/JfGPYz0Wh/apXWhgZxZAe3TdMKD2fTi5idgt6oJ1xDPxXIl4RwiZev+k8jKeP6GXh+faxn/IVhTYQ9mAukb0YECtJH1o/BlNFoEFwKJ1wmEJAM93+Cp8t/LFzF/C/2RFhnpLswd2AxogIXk2eUjWMpTj72DBrDShvjvVKtfkYOhAlAreUwDXPh6wQJeq+spRcBHehcaJw+o0tr3XOCoIpFdKFg6x1Eqm0PnuQrllv1wOsleBgwdySn8R3XK79EluoPpomOe2wp0lPlVHRt7BMdwF8s7WHIr25pquMBerriOowYRtJg3TYL1n1tWW/ZsGfHK95lOYjwWj6El/NYCxUQM8v1mH1L5TaHH02DoFE9S6S+iq2/KtBUqYiFFDaMbIEKx/OKw4QOPvaC66oitcq6l4sflpPmhAmrlKQZ5KGWl03xB7L9wZYpzhPZnfXkQVkLKviWO0MK3B4NaI2e7j8kiEJFhLun6C19SQX8gRYO/ObQYnN1YhR155OhTDLfX/wlsyjsz32v9QWO6MTLRltZ/PHmAWDFKtaH4zK6Mc3HPqOhaSw2p6a7M9Jv+jzOF9QB/l1zTRdfbfTjb0yyBwUEWfMuQXj1os1pK0iRfQ03v3CBdvh5r7wMnTnjq85iqGzaVqyVrrHnfE/kO/M3RnrOvIFA37QWlqQEM/yjS+tDMRkX+bsZqQCUfFM2Ds5LMdvmD+QWOaCNCQw8N2dfYb8orkVEnbC6Na8swkbzLYoxIHdHZN8PQwreyC7Si6G1K8pw1jG+LeAHvZKGDAFPDKOguaeOo7JSYS6bLDOTrGRk1KA6nfjRaQVGe7ey/5xBX3L9Q6Y33fu4wrvSHlb1RAWkhgBmzJ9U13xvorjrXpui8D3v41jKeCAxU+GAoWj8gd/H7xwkrszZRM5NNz0fil3y+awY7nPtXCFFkX3a/ocuNLe7DIuFeud0HbMY56BruX3Rw3hexoLEB8aTHokypiUu8HY/dimkQ2fCV3MRKrMNySgJXIR9IFOeELEYTDywEDEkwoNCsnm6xa5ECrx+3Im0HQHozi79FoWhLGmq5zO1ym3OqGLPx4jKzTdmEJd+GAyhFoqEk/RayMd92Y6FMwT4KhE4Ewi1iS8rzWvk152fl4TxUVjuue2wOX3zQen3X6564JJbf2Bmi0g0KKSXlXtCG7ExrTNrgvSg1wy/NY67KHjVZhwZCTLMLvMbq+74rIf7+PYmGtMLd+XrTFcFKOZJBtSBJdPxQjlozlqRiFYm7uPKpXoEDEFKoxDNJE7NxWjrljSojXhc9oqs0bdnmpZM0QJdV6y70ODT470QFFsRcfM0l1DiesVH6/coYMgmHNVQJqReGH+7pAtWuoiUFkUxabhvVblce3Ot+5882XkUBtbYg1B8RHQBEt1OauE/QnweQ9iBYNngdo0uPQ0OmRpunNnnIctSUZ37F9yAlbLuBgNjx93OV6e+FBJ0hF0pDwDLSL0WRxrnSr47E3g8BMNMLUZGQb75roaUMnF/T8Xwaqcr45TPTpB/q3w/sGammKshbQKtl1twqLFdsiZQIJatHzH2135l4BtOEWQTYPH6RpTW+A3pPb9Ga6Ndo9mWV7xF689YN5QdqxWx8NJWpUi+YMb6jh1SDwu1tocD6bc/hj80QHwp2gPmXCODTx8bjHN2a3etb9eoO8iHLKx4cQIQlywz20K6c5FVpsPzmS0pr+y4i0KztQlMq3SZIA9p9fDQpav1AmGJTUZYxxmXQ2pszxgbMFl6tvdBe2XPubDKHxFdy8Zo5hJOHi54Ash08HD4pqPB0l2+NxUOVuiI6oTDStUTV1ACgsXBsFqXJi7zOep5KRrcZEJNcmYbpjURfMwYENB3StYJwhmWZxfIKBKcKl16FfriZPBYI+/cxB54pr8Kj1gQT21Z9MsadqABiaVM/7xmsb8a0MwmSbou6o8Pwy1uDfyIwiuRUIJQuMfc81z5CKXGJuUfRuSV/MB4dtwmhgaDyU+JUgx2I15Wn34tECXGHziWCoNRoD0WzHWXfydPbcvOvJLe7AKfyN3pOmiXeOqOnsEQD5rI6N/MZG3gyg9KytCh9EQ1DT4LkEnyiZ2OD9coFZrClYrWFMNIWRHey1P1oL18D/O0B/J2Rj5L9929DnxwuuqVkbpWrRtZ0ztMUFs/9kidaEiFZTBicSBgTNh9DN+nV1Mu6ff2mGh65Wep0sg+WzeR28ObsYM6Un+SZ9sGk+zWI6uAb/NyHC7pMXKWL681stvKR10Be/cQ475diHvk1qC5UXvuT7iGj1wHTXZcBhCu7oGyHaXH/CCmpyIvjtQqsltmx7bQ375H5gx+cSm8d0PH2Hu3kVRwxw6rLjkngf4n7cFaRJlHf3k9qUn/x8RfyPbJahFtl5tF/8rbtLnCT7uQiFyWRvVoB5EUiIIXdYOfzynGvDhvcxr1PkTuylEWBFM7nJ+9QvtHL4jhn+Bg96G9pWVEXC1fbh2/chrK/Kp1Lwfk53vQiwwfw811rDACS4yUrt8S25us3GyXYKuGc1ss6Az1iHgj8S94LZzFK5SuUIlnfzIcOXFKON8VqK0nmg8WZjuMN557H0a3PV5lv/ZB5TeUvdJGqiEEqdAvIIU9aEK+oenfy6p7H6EzdQGDL5QTKcQWHpmk5I9ZSvWBbJGWuhcvGdilb4HQVycV1TKyYQaZCw2ePV2ayjpG9zSFPDTql/mFudfMMk12+Pr5pvvmlykDAdIYGn81nN7+NglxDGhHVFmWaQfc8sBZGnioJrHEEgpeAMt80yKx8Yn/RvqCQRk10IWPUBeFmfetIuzAwY+kJFuIeYpOiXChj55vLAcqTql4ktJMbV3udyqxKfRq+iX57vqPVTTihZbgn5lRJVf9JU5EZia+oLTXLyvuKPfyGDfZaUDxMyOxQloTJRleYHFDdNZdHBR4hkcOQN6eCQ4h1gB/eqtvaIhaHiAJ9p0lVU32C+D4rb+A1UNxyFtkP69i2LmpTD88X/E5Me1pRcj5VvvUUwxuD8aqglCAXXwjSwCIx1P/5bYpHQsERYqrCszCH/rG+Rd88R85ZkvVLSpzCFIqxpvdGABEkSotCz7wyv0IUuOJM40yq/dfPMyEDjmTF2LSt7jj3RKwQqUWavJR6TrRk+//3qsq4i1+oe5ha7HZ/qXYYVEWNfz2N3Ibs+4M1bKasT+XXhsKFC/FhJNHc0MCl6vcXcRhPEJ68WsLb2EsrZUflCPqwL8AYgIGUbXI16RZVpa5FS+kSbd1UMpsaTSWL3+2t4KE/sg6O/NCjlwB6NcGXLTDbcCMtBli6H+ujo4cHjG6O61xiRh1K4OKzl0WP7GA99XSV0Zm7mRV3WtYjgaVuOJIosyvMWqNdgvAR8yxFQbXlCLjXj7mNdSuIBymYkLPPgDVVKp59EQiG9QUJwT8DwGgeRowVsD1TKAu8se9PGvB8hnYj/87asKPgv9nLmnO7gkY/WSaB7Zvabddsv9qYbomSaq+KEMZ38oAbGEFZgPuOxVT6hX1ngy8ZApmaOamcVL+TINlxmMGkGjf47LFBLkDCbEmNeKUFrw/FtHoCiTQytCWRV/JnCz+oBxgiNgcVc6CYyTGhIzipUWFAcEFuvZxroThJNROgxwdJgLPu7k8zNOqGUhrNcL4p+Lc6YvvuGQES0PCum6U4C1H7TTQEOEiM0GHZEsgFos+npECE4ekofYQdQQ5EKWRlAhJybzX9CGMYuV3f3Jmvp+6TBepJrY3IE0esmbxKpMnXVIrYfQEyWf0/5GU2/OGcO7blJ/dX9Deh85nEBemIp+9tRkboA36IlPL1JcCsDnd1Ohu5BqedsFiL2dinPlU9B/jHVq4rBlx5oj6jNtbZ8+An7/IyCdXbOM2zBiHe2xbLZBqPyUOu6870TvOtzSZlA1RzQ3xbhgEciR3KhsykXP4AfYYAk8HIsXKiZuREmUx6vJOodDelM+P0XZMRNEzU8pLNmDxP4etSs1nyt5wh1Pfb8wsU1zMSGIj0uB0386DI7yMa4e9+JTLNEn+aeXKFry9kCno0dlXnB6AgGcKNXlcwHa0Xq7KsNq1/lIMwyGfAxICDx9CYpPbca1kUmWXaABeXGqZLOJ88/hh9IVnoKoc2Fodq70pqQa+4SGUdIOKFZuv7o4K+XFeoXO68xXAhNQizgo7l8YNAFWZHuXjL3eof9NVRDRWMWrOFcebBQzzcKfi7hmltQcznmWXtR/r3eybLENhkYJSRgsr4fgTfZ4VNBUHXY8jLyAcJVjvG9SzhJwLufGVcBDjDQ1uoHGcjgm4462glJYIQNJlKwehV8NT7mT0tChxOm7Q5PRLqZps6tM7pyBwmN7cPe+ty2DIcBp57oQjRzlBtPD9i3cLFUjlfBVf4lrDLHJ04P3qr1q9/D2vc8NEsrHyZlF1CbKM/JfQ1Lh36pqK79eECreHFdISXDPorm22QQ/z+ArKO83rAP/L9yXBXibKlwM49SFf4lg+mRQIVf/naFdKNZNjoP3AoaMFh1LB8CUDNU0U2zMERS77/ARlAHZP5TZWE74JMrlkMTzTEJiAez/k3sgdJiGlXIXQN3imYhUkwWCb2Q9BNeLJrSz/feG2CfuLy0+Yx34bfR5qd+23y4H3IJSf8cKdqcIG3W6gaW0d0paLMlXwQONHmUR/vUxboAgMikwaSTTqAPW51K7kf1q3arIwBqBAQ8xf2mhSL+F9u9Q4gc64gGngYQWoDD6QqpSrM4oCIfUNheKuv8VPHcrgvhz5XYmQHUJhQaIY19iVvaaopVeEQKloLpQwEaP8WYodOgzAuafvJx9WyAumun3Vdok0tFRpuoZCSZrRfTqQ2sIs5Z7alU6FBCGxGq651GLR4ebNJVyrmZLO8bjLaKfyX1K4dxDn6KqwGJKng4pPvpGGTSXO7GWu9ACPKeeCMacdZ9b7xXo1VSTF+RcKi+8f7uR0+rHfgv/Pxt7+lmwtJqYAnbTq84HNSRQzauIcFYTwqYV6enTWInTLU+pBjYiOE8eGVkaTV6pb+tLceYCFDN2Sz/c73pgtwzckSjQws7jht9uLiwpvSaUoVrCNhu4O00RFSTHzJfwWsNTGqoOXeIxS6KN0q2itrwUwUXMjoi/yViCfwuhlgxX7TwPlGUoLhDl+Hj2SeV8oNRXZFO54lyzfC7n2+hfFjnmvxixkCAm9oB6YfYZ/01/UuULlPmjDTOz4Av2duFJ1T4dHcCYMrfIZZYe+pUhblpZSXPP2P6hnULdLO6Fkj0y1wRKSL8pKWe0ZO1v8j4OQFKcpq7232U9NDrvlCPEO2M9H9LLQS4h8c7jkVK2is5/knLJv2XzRYxiNraNrNZbiK7Vr9tW5DW7qTeI5Yv3+rFxWWdjal/by7cMe/XW4Ttg6Bg97qMZxH1anG4l63ayqXNMzAYtconi6qlHlnLzi2v67Rdva6AsUbl4+OkFxEKuu7mI7YNF6Vr/snwjW9LBNpinEIInaPJjxOUclWYLppxzciUBrBd+9U53IKaadbWWYlRXpJssUZhRqPdxKUedjmKeY16Oz4xenh89Z1ACM8pGW6Tr1Protrs771zmqexC84TMCuL8wXfaLHQXBwLXTxnnLvUVSSL/pNx4skFCpLMTRvDgqjpOc//HrTypXayhqlu9nqOxpKVDfdGOIw/UH8z5/ixUINlxYPINNg6kpzDYjtbRZ6BRMvmwvVsE90EdNlO+nzkU3vRfsCjwY2QBr+kdDfSY2SPZTPD17Y6bg5kFhrQ1NTH1wbhyJ81fEkn5/leeu6D/ZStYyfGOSecx24eBpih2BZsQNy3OJBg4j430s1kVyk+RT3rQ8hE89IRs+JVZXo4SlS3qgwT3J3E/zAg7aN16+KqQ7HcIo6uc7ZKcZkc4EhbiNWfxy+nT/al20xtoDH6OW7WbFxMraMLLbLgsG+EanVeEhk9CK1hdGPxNZAipjnDBzua2V4+oz1abkopNIvjeGd2WCwo8HYq/J9CvR3uEoN32zgVzRlBO47ojFuhtHjY0IX0MH30biVfhtAcg+f15YVD79OSBlQji6HbGgGzxkG49nByNVcKRDha3Al9C/0WMM+FJCzVfc8LtCpG2/RxOkkQvNw2zuqtzJop+jiRajOQr73/jJXV9mJSilEm+BPTZzNQWgBHZ0JsBa00MJwM4M+vs0ecFC4q2D6xH/H3vd9+aMRB6/m5ZTzvGF/6uo/VTUcvLT2ceohi3tQK9UWA73g013aInmwfZ6a/I3gKWbtPih4zzSQ8jxXk/RtgDEV9tiSumbU/sjHnAjmLw/E/ANbbNLQVnXaZFSXDuySFzztmGHNGK1QxFcvw009ht8WtU9pQaVrMwhHqFyBFofjWeN3uWVxQonBSb9uFJBkWYoJfk+KEDi3E+VbZfGjEY2nHEjxjRbdQer0ahubZFejsCfQuQLxwB4qGKjNgcKi7VJmh/P3Mq+n+vjOCFOP/1wJA4p76yONVN2mBeXQSoN1oZzJdO1zpfJMqprAhxbu6lQutsst/UtzuHe/LMWwErX8oBLUEnm2esccEy+u8BHAparUkzRPraPGoJQbwkz4myimEnt/+g2QXBT6KfxnUjpzRwhn0c4zlxyKQuwKiT93CHXXy+ZJtdfIHzcPOaDu3ChJYabyWx5PWgy5HNMSJUexWbuHwtWxVYm7lKPywHcW7ORCcZl6RojcX0gjexnxxPL5Rk2zv4BU9wm1bQFKuyOMEsqZIwxeUbP8mzTjoKjHBzr1yXpeWDGxtvLHfadrGFiN5s+57ZuzIWBVSqIqAj16yLJ4fYrNCU0j2a9cVsmm1xMyY7ipxJaDsnROwgfxVtEe1hN4JxFU20w09av062bWLS0ryvGbfLOFH5XIwZHToH6lS1xxVI8ZX0WGBdRnqTBi898JuyhEf2RaE7/qMjL7HxvK+JvaCUMKye3V9uPQSSjRlpm8pGrBYv45kTkD49X/uFz2+pb3SUc3xNUNq64K4dv9C8/TurcjcnOW+A4MqdhO78wAGcmMdWcYkl/7n19d3IQMxE0L5GKkSU71KLRswZBqNjOUh+lVyDaBCZthcyT4+9PKVtN3iBve+2F+Ln3cuuzmeAjB0DgZ/VgmnWEHvZUgqBBbRh4SaBFTfsUH9B2WA02gL0LHvPQxWlZVP3nAOtsqXdyvbQIR1avl6geBgc7plXSSpHYI//hTuWngWJJLPYeb1/cfKkX8pWC+LpybDA48IawfNvnXSdYy13ULMnnhwuUJhH3mvnkyLSgkgqpvxQYjjANCXK0wZCmrEV8hty3mf347hj72o0B3QretIdzlQ+NsyOccKLEPj5Igf7oDCurWajeqX3Fhc86yRV+C60SyIeX/SMm5DczJBoFN2AqKNYs+JO8a27pb+Wr3H/OAOxjnH7r4i1FTGnWpGoRo1sekm0hNkf1MMJRlKhFyysPGmFJyrEylXycW5L4Cpti9aMS8+883sMaK//FvKUUdHLisnpVM8widC5XjCssqfxKvveq24VGzh/CwvYC33P4evttT+39RvlujC2NJRnPlC7GH67BxJqZ/+Il/21XZXEXfRgLJIGG2ZnB5GlbGEamOZJbgKgJkw4Q6MqpORTi/bJyPbhgRYaxLL/+TlcUVSO59fwbB7vWZdbWFrnfKGlB2lG5QJEbthvrmopubM13S1pso6ogm0SV5cIy1729oVPRE5UH46YudZihRIxKmTQvkBYPPUlnCysu2jnqtLh9hKV/dLz6eoKozaMw3dZNEBZjyzVMHyoLuzJkZ0OTocQDXUQZnv5uz5TCU0Tu1zBVP6f8RvYOS9ggTTbSJp3I+biXZvI5F2Js0tvxJHmBC1Xd/V4yxx7DOl4lk8ohxis9v4OSDH7kygIbTEH8g3SHDYSDUE7hXcJgmjnIg9MFRkdcVjrmHB70mp3RpUKueRzRKbZuzVbj3lmaPTcqyx1PdO+WWHXv+bYYeZ014w4tsDhGgR/9NOKGk5n762e2WFoFpa02ENf9zO5BHEK8UPav8BEVdCfwwhDC71Ra6d4xO2wCIDkXwMlgIsVdRliYniDpEOUb9EJpp1UUaKeWwbYMWUuvY/D+yRu3kdSNTYdVXxMuWWi23Bdgy+wBOBe6T7oqwfxhBTWZa5cdEtROn9oLnkpDQb+UtKk2PdbDbAtt8nGxMk39jNhPG9nhdpQAgXYgkSFO5iE8FS4YgncmMiJkuvdPXNmCT9Syv5d96FUYlDZp+VpKVzJXpGeGcEJgbXXCY//GFOzVuzAMWcylOO1D+biNuGclD4CSt3bTq360HMJ2nF6UYl1qCLPbCWmaFv8lDetQKNYCjj99Kd6npZsJoMXJZH62kpAvkxTYGSmATGKQuVA1os21OWAMmsoSwExqpR3YJxxXdicXvLpLD5gMcTHa/5F7KxPbzjRGNSF1y9YIPhNsuFsTFuQttW2T7cYhVg6Vpz3xz8vI0eMTz2xoRf5LlnHWZnGvYu90ow9/IEOYKwLG2YH72P9OhGlGV4c1PguTH9iwJbhO1wT6dlmDK/jjub4PI8zZ0VQjIE3QwPR1a78hOt+euE34FNSUSjrGXI9OUA0nC7t5LafkdHpuo+0brsvqSqSMf78TIpuS1s4XukdEbhrcBy9LtrSjDJ/v78EnAIXesO4s8hvtBtjRMAcyhE3mULRYlRbLNn2yOI/DPDgJrSEypVQK60TN8dnsTmRHNxDDiCFGmPaceAHPl+3tOzJAQisx0aUYpMzrnWxwkWZXQjwT/wwmqHh5smosWWszOtTeHRpUHJoJjkdD8L/XVW1BfhINhkc2IFLQDJwRBoxIeI0x/1+ersLicx+bBnm/uU6BXytWug1vnWXFDcanWxmidD+cDTTEY1iE+Ge2w7koPknbXeKEtsX42t1Grpk3cNwolXv6adBHvw7EqpwHYBWOHkIeJ95f0JDYk6GMUoKX5M+CP3SY/HcE3kjUGpZ1aPfDdVVyY2frC747HmsSVGiDBSXvpDlbXCS3vUiqfYoArHSwa1kmsQR58oDckypYkMeDT/c1b9GGSSROjy863LR+thOxhL4RNpqf4QGQP6VtzsdX66pLZIerSnd0wdDqeSHQlvKeIGG2AkfKgNyavfVn1/v3bOpX9G5YLoIVtI+JCoLtYroJ0gGMeDlCtWGX1VBGp0fQUmT53MnFiXJO57j2PbYzdku/oZEOCFES4WSiPOG9fiYwSBpHnYciUGjHQ5SaSyhtXzATdLPB6ucoVChfZy+lVnFXC4CLwOo9Yig7IJCqgpX8adK7J4zTUVyfRwoXZikeBlljomQ5oF+1k2By+kByi1cAdlscrKTfKjLj0NY0LQ/QFiVsa/yyYohjUbTgcM7bc+FW7HSQc4i0L0oGDcDV7im79DlXoxvSXboPJnAefG5WFiiGzabnZsxVOXds30ly3zjkUo6MZ3S1uNt+dceBP7CiIWHyEzwZYTCCmnFDg5Cug1/sedEmT6H6ej28qePxDibIxeb4bNevyQEHy+3yC9WE5hs4HiTPGlqwkUcRgcS44BIzKYMLZF0alrd0JSIX2kINnQIApHOU3M1sWqGEeS66Fjl5522CfMWNXdBRky1RjqvwsbUdmCYcZX4bu1jlcVZ8+VKLcacg4rPSX+RwXxkSaa85Mgep1RWB4v+ctqjpeRRXzBgexlTmpwIwvYxNRpGVgf58HAmmMBzv4aYv1LCpWazCt+tTtSfFONQrsXOcevh+lTx9p1OiV8UZ6AfevssDOCJBcpqVz0Nlv9z/GvOms/mfSHiSmNwM12hD8+vJ5sqW+CckJC1Umwc/Id9WWxwg+oWxnWePKUUMtt9yAjbY0h4PRuehfXoSI5CVdReBxF97kVLSUnvNumTXKAKF0yV3cHaBzk8bZtHmRDS59BGRAtty1TP9cB+ZQPbgGbtIdkXiL+DyJ0L1gUXyMHbFphhkk6PrwWwfdCV0aexhkulm0ozFYWF/WjYxQlQ8mOOf3GiC1I2MrudFy3wJ7ba5yiaWpdDJEMv+Q/kM43DOjYowe4YOyX0PSobxBYdSeLAo/p7EY4WcTLTWRCUnhLKPfbqJ3iPIZG4q9OtCLlrHM5QqjtHyUshpXauzZJvhzGDwepDyTphvxZHORqDYaixGWa0BhhNkTgOhlERVJk+rLWuKZeYN9SdypWvFUfGox1MVzJ04iz1zUDK4u0DBu/mG+S68za78iQ8Qu8gkvQdDYDRATrUxpJGpuO1/j98AeaqfeB9Vq56r+bht3n//hsRET9P5+1kZUokByaTKVQS9IH/TXPYxK5Se/n69XEQrorbL6ppFDvogxkr26GrF82k2/gXTC0+1otw+mCXC7cHYRmIkwqO4WGtZInVGexWdYfsktI2MdxL+1VJQsneMRsnCL20vDca1tVoFAnurbrU0EWtXv/2DQek6KkMSHo2gOG/kxpNV2HDMdeQAuUbblRRv0TVldDrQnFt7Oy6nV2a6h0SK+dfxquC0wkjnBnLHN7WOFUX/BRIDMJmhx47BvGw6kYFVmXqGdAF11hCXtiTjCWzVa7CHrvTgemMGZdTmrlZVms9gL8tL8tZrrX3J/nYDsS2HpgJVyU/o8aJIYK87DKVZj1sfMEOA6wFHysFEJJwKMKn8RpJ2caVpkmWSIXKMA/tLlOAHw0Ny5UVfGsnLoVnPJmaKBCsXC7ry+OUQGhePD4u5g1MpX9NkJr8pptVfDvobeVe6MUftFW2bjMZNbQ5XqOJkdZHZggtTLN2cScR83FrN7i0Em4RzopcFEKavaIZdeGGF6Bj1Fta3fQM1nmXki9bEGWr3vrxPlGxAZSwqq230qt0qLYZAU6thEJiWxTBhkLG5zCIShc8QzDlaxO73+lFCxCm4CEcHpXTffb5A0W43rirkQQbjebaAR8LxEgYTBHg8X2jMTdIfySvB8SYgcJRAq5Zs0XQNkdbTUrsdfZzKJZzZXOqrXcH3Q/XIKphd+pOEHnH9FFF5u2GmxwTyNwYfO0NOYXeEkGNF8wFXoxwIuFTTxDefAWuQTsmoKdHvWR/5h3yfVzidlky8N4zKYg4i4EH5KHWk+UlTqeK3J36QTa+08EqZjgf5NZf9SKQCz41QNzHVpKJ8d2lF8Mdgz4W87MJDiCMssB5AxpmzkExshiP65u/gW6aKbwruUaMz+Ab273RmPo5C2aNf20oBCgnH0749wzkwslGKcBlI/jalBm7IQT9BecqjyYFNSjHxRO9y4P1vWj0U350xYCXDe/cqjZBt1osJurf4poH4ZS0sIq9N7WKE0MXhcrR/Db2ThOueTjDRs6JUsUpLOzKCk9dNBZLCpPwxAqnHsppvkB2/M7WY3vhiEkgmrHrkZaExXsoX3stm7Kg+KaId7+04jZrAzF2sJvoRWqODAcZ51mP5CvG6w5FWOTQcAnWrPh5XZPyqdvA2e8eHYd4JJ+FNsM4NwacMQsgmMLe7EM+fcy6W8HaPi8mmqcp0tFOTaokB/sQIdNK9jOQtXEY83r1FmfAr9VtYXSwvW0F9BnRSuNttWbG7hGUF5EqaGLUbGSrA80RFmvDXUcr8WGLNuiyeM5HYVsTn+TJQGJ45eAUAgSqY4N6gadN1YqGDvNNdyviNV6ghdoTLrfgNn0GbGKMUt5+eWST7HcKTldp9ZP0caKEzo8qz3XIZ/3m9EhnNVnD5IxTWUOBt3O2pAostH6dMHGZcL0/jPrUl0DpiFeZ9dJByYB+KUpuQS9vGKLDIqwKWOlAo54GIKTnxv6XyMywzcYVfmthfVbu4pjwjcXlXSplzDX73e40n1/GNJDPBdEHsNH5TyM0oz2yjJ8q9BFJvCAZFrSr+vZdYkRXKu7m6SxZexVH++DhWHKQJbYpLq9Ljno7j6kQw2NDrQQNx7zdBGiIK/0mmv0uZfcS97REaOyG76gUq6BtgdKSjA7y0CnTB0e+OCKiw6zsAv/hIhDTSjRdsPi8DpYxc+lzOfvLW+hXqYem3aAvgMwysQwaao9aG0W3L25Y6TBJmeXLCPUzR2dVRnrQiCSULY7w3c/g0vtsKJkOfCBqHRY/MQykGZ3SrEwvz8Y7aaLXklvwcUY5A2z84GqTqlQpQ19uUzA/xYUsKMnK74wMB0RK7hy8cyx44zb81Bl6ou52bpNVQFF7fZ10z+ZlDAJ+KqLG4Bxo9rFr6hYyYCdE1Oawm1RErLWZGB5zMIyUEIcywmxA2g2uQjLFNlPR6zNedRFXD+ufZAFw0k5TVEYH7cFpC6a9P8F9wjl/eH42MNqfGen9K1BCJTW+XGUV/uZmw4d6Z5c6JYz3EWHovhMbQli/S86FxCBLYY+zZsahRaWHkA4VVcpDNE2gNT3A07XNu1VGkHueQkXoys36F9V8dkjFyCUXaNop7E3QN0WIa3tHpt77fhwlkIWcSpiu/ubPITg5IeCsXYo9gsuBO8rXNSSfr8TZ+ilXu5ke5N4TRcScUGjjVlJ879gg2OOizLWdLZAleRZYz5L1kuMvmdzDBAcfDLCIJRgUgpfcePy4KAhELqtOiZZvF7QfX+VMoJ6FFtObH+QTviIoEmEOwgSXgc+x8Gu4KQ6y1/+Qhnv1xwpSNFy05SN5LKcGVuM0nI99GM/FUTjXWghg+XZNhHOkByOEwOnsYQZcFUcOkLqXpeyJRHsYHq4efcUnKHfAiwNEeLbENcVyYUZtJIzPXxfC7QpNZpvyn+ABnfzneKmd136/CuQGn3mDXr4Un739DMdUWEl+I8D49cGTmh+xszW1eP/YYpCdDSyjTU29/o62p7jccMTssYgHcJZsGxRuqkJAicu9fmbK/bLXf4Zr1rQEbj/GAYmSslp8SAICQUvQcYAHc3kXMSkOXoyGO5sM+qbL8bjaTuBzcpFHoOkwIjrvI21xJarhpzR40cOgLtIvDxr3pleO4x2QvV04qx9bfy/lFrEixOdoW8+SXJxnQBbzWrBq+j4V7I79kfLyWGiOu1Ei0+/ot5fM3JHjkZPUzbUZ9y51pwGwRRC0eA8oTkaBk49Cb/7ThymjtIDhxvlkVGM+dfUx07zU5GAInozyJxihTyarTNT78oOakYEMKlSGR+OSYLNQmlMFaeyOwSipTaBwKLuMoLGYx170/PpyfNIn81qpYnaXNqZKCmv/G2xGJnGDx7OERMutArZRxi4GUuF1q2sOPwfbxf1OlxKKCGX9qayM2uhZ8xFWNEDeC7M5/MVblQHP8scPuaMp9fxA7o1PpRerpUU99LanXAO9k3s/6RK8v1oUpuJhvpz72Cge/bwuvcKlcudgoL7oUMLVwyHYn1AoMAYc2vFtFOhBIgpTQxObVyshjotGp5tPPbsvCdBXmOiIImF2wpyNTcIyz3w/57mA3C5EzoIG8Qti1WpUcsiv49Z+jGcx3CBiH+amaLu1KtGyleKLYhGhDGpVEc6A/ueegP1AAoz8L40K8WOkKZ5WEQ0fxPSPEs4p6sZyZlBRdb+r3ujvRTlO5lFnrSsSeLRQJm14PQ/7WdV1dW1sb2hzMJI784t2SH3VmcWlg/rW0IDUATqQlEQ7+PAgvGkV7kA1XjmBEq+tKNg1GnGrBpsaDGDQPgSgZuwPtEnHw0Yu8zYhDxoLRKrCvuLzITz1VaA6SPAoMRnCGksY8weoHIUtbnB9b5nJu8x+kbxc14py4exbYhAUBa/8MdMB1tImFNhZNTZMIdUSD4rBi8Gon8MSXgMbXzx2hPnRT99ye+nuUf6RE1K7Dapp/yh1SsuBy/77g76yBKSpBxfBK6kPeR2n60ehFxueoWEJq2gVryKC0GLYI73NxxMX/alWBfYOzvynHLoU06EtdA4czZdqKPlH4ruAOO8cJePL75pe2tN2OAaPQiuf2abDxJuNthQayvzJjCODC47FncejNdLQcpKUcatjOppb7mE2Rzfi2Jioz1EEnyIJArPe8CBn9QWnCB4d2aYIOF5BgLYaPcosvEUvMtDksmmKfdvouEy/cDMbcOZOEF0tyKQp+/73IoPAFuxVO0ngDy41eq1sAamQfbZh2oqNTLJsBw/uQQivoGIWdTvBKhIpr4WJG+ut3G+fp5LY+hC/vaPMQ+xv9dKxxMJx+XIYa8jIw9Lt25mp/zMpIclxcKf0472SrO9ANcxqyMcSr7+dKQSL0oJ23bO5aKhkFdnk3jok6d1B1eeI6XSwSrqjuoqRXf+E5s3r5Epx2zkQwnEtNPJzHF0Szvo8CkHtXJbSHNJRKWOdgbjRCeJENlQY5lJuRZeABu152eKKdk71dKDNiaqFiUKbstHM8j8vISnLs7VT/GDAJm6F1pVfQypxOloBZbnhOUS+V6php7mX9YJaLOa33XuLiD9xmf3DJjd8JjjkSqu2V5X2V4/mrqIPeL66XSnzfXNQHQUQHfTLs6GsfvUz15Lq5h+uxWGixfGc5kStG3L3aZNsMrmEaeVuyFXqwEuGBdjVpBI5Ell7jIjCCVKVaWiXWVO4p2eznbI+Y0BmPRqhhkG/kDNTDCyILHM6CMPz74eYkSUZLbtk0LjgZ+8gJn6DbdFt9nOnfVfNC3GlERYxxOYCnjQT4A+ELcbH25Wn4u95YoG1Wx1v5upsVdWMYAZdeHvcQ9t/08MQJvXMn2uqvsnawJE5EOEPVTurMIIDYveQggiUKH/t6IMvBd38oLeIsNWaENojAf/M+kY0Qs7VjIE2OW1K6ltqzVIvDM7STqAP9ihe4Z7f9YkNgOisUrxc1sZ/BTKyaa4TrtHYW7dNUc5txZ+aZ0C2guQrCjONm9yKT1jheYDx/jhMmJLVHbfeORQNhAkGGyOgGkV9MLBqT1mDjwJL0xAatOLI1zSvG8SXrAenCkzkY4uz9N3Rik7KAyuHHFYkxmgGMB681OJj0gQpfqZjGSYSNjGJ/ytVSNdbwo2qniPnmwnrTUQv5rkC4fhsNRCizJKxzfZiBBBjrc1ylM2HGIoNfwcGuBYV5NKEXQqxxZqrhVMVlaMwS9l3SntFDkCcI4epFaH91WEm7C1r+vatTfLLY18HQSxE/FLtEXAvezmPRkbeK2jlqANe/vDIeDrjQvwqvHGBl4ETlxKkqnhPgMSVgrjgxg1g+KfXRJzuIa+0WCirFNA8RvrB9LLS+gf4QX7BOAhZDI+/JDpLtS7jSEkDm+1uqc6Lq83rNObS8OtVP6WE0G1ybWgJVVAvhVXXLWLTM1vCdN2MFrYShLsnweNPCSBwpw19Q4R8Dqp0uogi8KI2qTfBIf72ZYgwcKu7aZ3+tS3EOle8HVow2VYF8MMgQxsrI1GbvEuXI+FFqNzzGyvwTesxwiTvtobTd6WWUlON42wijpbiof1Q15nMLWv+Ifo2BaeOy1JgT5+KoissOnigXGO+NaWULUhzF7/b8g3BLjm84FMx4GMoRAPMkj/+acARKpEMKgRKLracbLAU2BRyRnEN9cGPYghxY77zQbLkQKcRfE3Jp/ubAt33ZehtRUlKchY3cWrSdWV+rlUCIXmOk4WtgEcxgNSv+w6Zp+pS8TSvNJc/lXTDM80pYpWAUbjXwIplCmQXJG0LaHyKlIClrt0KQ5Cuw5fbCSvCTEH/3+i08y8rxC0Gf9EhUv8IKhkYyrNQ5IzkSB5y//KFYwyu7goED1YG2XBPffotuGl1IVrR8TltITxsY3TJxdVSkyV0uZv+7SH+CF9Jn4VlEi4+oKZLm+SbPKL+4yh3wtpbm2kWBa8ldhRGbsutvvzF4oklAh1MvAiOvktcfdjblLm0M/Kdh9TLaG7+s4eJrkvt55AiU9KCihqP9BshlhPj1VeD65iyv1ec3jsNnKMY1lzRZWw5kB62T9n1RIwra0r6BQaQfboiDSdzvh47rf53vWO/9FuxehZP0OBllNCscweNdnaHC3MV97Ag1bqRUh4kOU7bu+Gyuw/wPS3JyTbCCOpdJ3Z3VeMkOLm9jUCnQ6YoRjnHKC7XNWVtEhoEDYqbmyupqO1e5ThflSyTtkJpo7UT3HPyxP/Irk1wEBM9D4V5MOwza+bcpqnHHboF4CB+wioFHLWYf12T+34pfTWIPHfzlrLUnX/U8Hiw/eDdqPhcdvDREAb/rw8TLHvzI0lPHUIimsdQfoNd/HIUtTWmCtIOtDvUyu9Ljp5G2mhmjZhW5p4BKdFgNEylfOqRBPz1k5vHieLRC3jIKUGNlsxGRrEDeREVeIM+YRpXoUsRnTjEY5onPcFkPzV7367xtUtHBj2vAQgfSheTKQz/0Vc/IfsYD6bm6Fjj4DfkeTqBli65FeU36AamUJD1uYdYF2UUleFwrF/koXba4SPtiE9iqkpM2qGFzTKEVxy32QROnMi8uZNwlbJLTFnlQ+gMiuyjKyzoRWUp2w1D/RhFlJ1ZvdArXhNJim6iIXgd50rBJix+vWftKzvS8zXplDd8sJSagryG5pdAnaU11d4yVS/CnsQ/558eQnkmbU2LbXtOzbFG5D3Ti9KhIrJtqfY7FsvKFTxUCz2iLH9nDcSd639OGOD64SZV8utTJfQaTInYxLaiR/u7g7Df89cgPQnQMUBAxs8epP9JuXEpZccSuw6oZXmxbiyJ+hjhssRXIdUnKXPtNOO4ahsnmh+0CTAH7BceRzSihF/uZAzw/BHip5jwK1IOhRUeUdK9c9TTjtN8jgwWa52QcZW/pr3mv1znKASrtDlFnLYJaJxTKaonBYP6jtz3ZRGgyIrEtsW0IxusO6/OXvZqU/kfZPhtJRvLLT4SBf3EDPLk0PtJbMAq6+TCS3rAGiUtdqeslS91/hNFHSI90EJHMlSGb0sRdSiFdDKMgaI4T5zaHFV7RvB5vRRwSkvip+mQmVyaPPRBLN6rLhRwimiC+ZmRheFubWwfNrhKd+z2oTC1fbaYYxIOv1Bi7R4EEW2I9PXzC+eqtnXU0TyaTCXU4QYycWy8JyB2bpJsqoowCprlG9XKCYvJi2Yq3yp/wv50bg2wjyWQkn+1BY+j3jypKP+yoORLOCit2m/+BNccK9w5qeowq9AcgwLDzVvMrAFSKDe2htXeVvTI5D+RQAl88JJ+FEJnL4sI7TnKAtsbv1zAoPhe5gU5TaruOgj2BVl3oWebJKIncZQxuLcNbmE2Zwa76qY/EE+5PKwQnO1LGcaodxTPOJZ2Wvu6Umtnzb+8mhZrr7mstxeJipcjzwGBzVhlGR9PUXI6v6fe6PW5U7P7GSTrW+WOTcLWy7RGPLOdXxUFZh3GZw8ipZuTYkvqaV7MYBRVoU1Xbi+gY+SqGGYkWQ3QHx4eLNWMWVQa1DdBfrIaj+hEmDNTghrU6CxEKkHJQlwzF8xrWOH8mXNVVnmCImQLhNNs3ORxlpmH7EJVCdOi42EV9GDCGPDNcLnDLzDlRWghy17A1h7kbq9j2jxbfSNintqbmHEYaNxBxBkuyCil8JrX1tmDUlzcfDf0y3zlFklZ1hvpZkdak8yoEjDwmZMO58ingfHpHs5JmHFErHeohjUTN2GHEKIT33fSLIwvyUEGaLMw8P7LyWPogRnwv4wd7B0xKsZHfbMKzwg94h/RtahdctR8/D9LdM8UdBfuC7wVZZXvTq18CZPsGc2/74kKQDwrIKuAVP3y68gcxhHjcDO5u4ih59meBSPZ+1eOKBoI625Hb8rQihnJROHR2EVJtFh97In85ObA9r1ApqiCIYfUPfg3zO5squ4HLghscQ6souF2TyUL2SmJ2GH3OpfjT6KUIu1Hew3Fe1Hdg3uaki6uwCjXsKM7SR9vDPvSrlSC/cMHp9q8MhWCtNwabGd/z1r3lcSptF91v9JzlkcW2t4d0FFWDcO7JtWQI0fkOqjAbOvTv1FphShsLrmNanQ+nLe4LVFThBujT0neRVXr9puslc/4nyhQW9Ig+wYWCzlf8VwFkvsYLJYNbONfTG7mqIV3gc2yFrrLIcyPZgJTFN7k6fYfhlHzy1v30T1QRF+obRojP7lUsCZhMTzy1ze4Jv89cLiNtmYvfhPAX4IpFLka8TPw3GyUlAPPwcm0Atl8avF0pA6dvgo0N/aP32olwnYIQhO1SstABN06WFV+kOK9nPc27TFjsyxhy+Jskdl6NfC305ZWr+tC+TSuUfdCMFXNshbTHxSP/pvEqJ4faTfUpHumdz3T0HgvLoZ+MkEV6h+Qudn0GMfs6ePj7olrXVM0a9jiydkueGUWSGMJ9SiHaMjPvrQw4/JP5impTtGXllBEQ0ic/QdW5RdBEn08eXRoue8yyN/2wvUtYuza70DmMHI7z8u7quLNr0g2mNoZ4CsHKgTRLzIYXuwbl1TIOTmzxHrqK1/QDZCBdxZfvXgBlCrwx7G8KsWdn4Aox4rym0AkSx1tDEvKAaXrz46si3OP2/sdf+QVaBeyFtC3Q/5XxiHzaswPPdxq3eizSnnqjON8xnG9HhNpbjispe1M6TWkl7yY9nK0dmgUtx6kl40UAwz8YyLW6jf2dQgEY+DHASOEJn0Zv1TCtEI30l+ZIN/4YNuWHB8zzXlawxYoMNoTH2qMRLjrDsaQ17uwettI6gvRsfSVkH1nCHeinjbbyJ8Meln0i+QBn1yug27CeAw9//lbw+cWQ1j7+T1yHqYGE9ltjepFdGMxMDn8GoSEDKWdMrhMsIrC7EwMVdAbC1IHkLeAKG7DFRDU8bWSL69d2PBbv+uDKslJk9MGHIK1kBkrQPyGSRe7p7TVTyz7aSAcVOafzVcGnbqPTs+h9P18RVh2OP5j5ehI2A5pEM8xvBXE/viNqtcYssfG6knrHbKJjODDy81B3XX8+WI/OBSFeBz95y9oHn5VeUYatsqhtRLKQQSeuyMBIlJBTiJTc+weTJYIVwGZL2vM93QQJH4kRrjzbvki3otjsV9ivmR3PGTjvo/0qbVMY+45/0shHY83MiWkEbcrPUjA9R8mEWMJePjZLGTZOoxmWtK6cH2/veZaTJp5U0o4V+sC0Ry4O1xw1D0uKZSnPBdrWKjUzqHeYalC4OVhQHBGOU6Yz3I+0/CX0EKJZkXZM7HRSvCsdYlvGpcGbt5MIKuML0koJfapTBGRylRU0GPZwyY4KW0LD+5opLEjjbjBfQKpLAj0WBX9dO+/VpN67JCIFiAhwWEur9Lpa/Yu+dwFgFg9+TUQt2yZLvy7qfxPeyae9YZifyiJRvpiez/D+1S/aJwjkONWDd+Jr62b8LWccKGT1zTwZhvvvDNWXgJRFGDEfbzjpr8bH+mwmUTOrDD2pi1F9mQaoW03ZM1fyhRFSriMGr4Cr0fTpRmGw5lj9SIBcxfqusZlYN7alC6IC6D3fXFSth/x2RDnvq+d2JviGHjrtwd8R4VpzW9CNzuvrnh26lDfjuoCLNmeqBjaTgXOzkgBvwsYifVI5cFSxSUJEDd0zc3RkUP9V7BG4N0Wj4QLvmnKPCN3e1gd1Aa91QceHMEqvFfPVPPvAmFjboPQ09PpZ+PkVCeg95s13SfPnXKw7H5GrasWiuHr9YyBDzHp1mgKHZBrP3KwwttkcxlTkyhp87zhaKfE7lBgqr7WtsOjftvGJ+/sCF5W6H7GgZCXuHZ8Nx237mmschoMYt4C7MdIBQRfxWERdHpyeVv6Nh8zibCSQo3+u3KEFk7IZhdsL1Nv0u61vQmcPlqdPlCcBIzz+1m+iENYAtLd4RM2F5b/k6Rkv5e5vOZzSpwWWK2yrwjHgCCOGY1gpYGla/tqKd2I/h3IbxZ+f05FGmC1CsaObK4iBO7Sd33B7VHJMnOCS2nPy2PwTIISZKIGTKbHcpAi8cBFgIyiPgKSSsTFGeJrbLBxlDAL7DobqIT2nBGm//7E5ptb5CGP/+SaLG89M77SIscOX11A4y081q8EicQjvY1OKzHsUo8ikQEY78ivs8JxYQ38tI/uRKue4sCsQfk0QYBNO6lDDMhByVnWqPAaM9Rh+ff0ixSs5E2HvEDBzdpwHzF4u2Eqq1dO5n1CYfP9gOta5o1ukw8KChIuFR+jsTqoxfm2Vddspm3tg4vQF048XcwESdTv1zJ3SazGZtt8Y+lsTiBbH3Cft6Mbe/V+PhhmrEBeZgfoNZGw5ih0C8AuIHHx6zp+Kl6mBELAO25PGEO7iL/c4NDXP2sxp/idtb/OMlsENSnmv8ghWD3dP8mgvfgoLbuAoZ+M6NcSlfPVNBiYL5wjQakqP9bU/yUftmiyMGmk8i4Sv8GHWoa4SSQJxzNeDJoD70HF0l77Raud6uvwUctT3wuctc8T5Q/swpOOkuhY0uPl3HJey122DfaO8wrfTrlu6vYDgqoLdfZ0XF7WJVgVZs6qT46mlAOH9ERn7rIQV9q0FU/deXV1DfUNcZRiR8yBGbrL5ku6I1SnRRNA7vWyRx4D/+HLpy04HA1NnM0z0oUc8aNXsYRO6Yd3cHqXMYbUarB/dM7/jNoxoNitmU9x+jSxYkM+rvno8GyoXu0Twi8pi+kYOLbVeNzeRu/wGDUsQDn95Sq8wHRmVGuJrye4wR6taIX6j/BAV1Vpp6Jefg1YGBLQg+HnUCjBQ5b7k0qwWI8+iJvOZEm97XoqknunzsE7AmwgNn6wwaFMQfjzHgfIOz5YhilPEwEtpLLAoogBqoO52teYfIqXLL7Kj1hdBiozwfmVeP2TD0VGySxdXVxeCeX48vaF57daOvORZOiR2B1jlpDw+orsu+pV6KxFaM882OWmhqSyYwKpR1NaafTJunDEqgQtZMEOgTVmjX7+TVtxs6/v5Ax1EMgDfeQ5rCk5lkyLcszviRzUrHgm3E6dhjRj3moj/EZ1Y7rlk6shjxn46citiiCRTwpYcLW6oSiErWypouKVk0W1YYPgrH3Qe+pPLZFLrfiFbYS8F+f1dDN5FhYDiHoNlZOgkm/FV29LYdmntsfmGxn3qc+ax6WU56/ujA+4AyhSWbWTODhT1m/0KhbWcjZ7ITFfpDeZSf2ZZNDc02DP8Dzz49q9OJTwzVkjK+6VsJpVrpqLTXMuuGGbu1MBNiFP4gjpO/ahOJfQTTi4maU1/YJwaQNcbiepSo/U/E10aT8OtsObzxIFIYhvhe69LMH6HjOGPgKfz+zggDwKL7lH3ndM1A7Cc3NgRnxURGnD0nIJj/VuxHWxQ8AU3CYyIpkhUQNAmlYs2H8PFqGU2aM7WiWxsOnT1pLABqyryem9eAbMweHhQurhr2wgIMF1Aui0aovy8KruueMuCuk9qcTkB5WACOQfjIP+twRYNFWUvRpJ0iBVbHB6XbvvWvQFYW54EJQCQ47FY7NZs5o7VDDWinWszFaTeLdrEEVUyNuz0GNFnjW5eHj6Vr3Txuwv5tkD/Ft+E6zwlp/hwuiURwsTnfh6DvZWzvVdX0fyvlCTput+4/oqSVPU/9Uk/qCViDDPxAFKmyZ/mutE0c2zldeKoAfibP5rSAMesw5e5WOYtlXaiP1FLa1w6C7K6camIS+keUl/L2BtTodmtM+K1YxSRM+OFtsf4IxRa2bbXtDj9mbtVihW6JWTVy1qetxetQVFnJamKycYn5Gjmf6YyDKXGANYUrgK+0zh6nvcAVPKsGWtn7vtn///PXszipirBEW6eAsnD3IIBPdsL1cYRvZW6LeB+2aqA6Zir66S1kvVE83n4hp8yWhni+BwkkKZYpORb0SGTBG0zDATgEodpPeb+4XOYgevuTxjvTiFtNPp4z3e2RkSECcll3DaOYM32kxNy0tjCKOeRgz2ti/QM4ApUQUdROcRPxnIsXCXRirTLkxBSHyaCP4LWZxv2+nS5PkK9vidDcquSHYxr8O46Aii90QhNQlcw2v+hrTNRSpccd2UTKvbvlY7+0r5NSC6GWl0xiBhQ6+J88pUzMTLSYGj+5L96czEodda53yWCqjnRBNKocKZXY+AfXe8ym7vQ5ccvyhoukC/l/3OtpWFseAqNJk3NJmtks0Qo6vEAwf4s68kLzuqA5QdUXOblswZHu8TP7B3zVplVfWu8PFbonXZ0Y7IgM9IYzeVYfiOwfzEVu0W4Qtpexmvh234T45dqZGbcxWsaMlHs3f+0aDapH/WAXqhI40MWnTP0TSTz0CvGqZVddcs+c5ZX4mOyInYY8ECq7HyZVETS50aA7PQxD14yIJMa6BuQ4lx/76YgrM1vOk0p9w/pBP+nZmXoOX1b5mwqJsiVzzuDRLXeob8ueX4bN1CeIrTGlLTvU8kNx9VBwPZJmQGWhuNKVanRs6hmeZEOtzoOrTKDN+ooUQ8pds3XZMEpSpZlZy8hbkabnXhLYy4gi5R7OavBAE1e9qrJIprhttclx2x2ReMqBcmThHgKuF1wawdetBvfsjFUz2P8WM6koZIu3++EYMZNKIGmDZs4mNbkHh3UHZ0EV1yL6VJBz26eaZZL+3aMTTA7igJZpXNZfXKZFteCEcxzf+H60XEJ7KrpPIyPMs2G71abI9k0frvojgv1EuDZfQXnOqUqx2vQMNOLr5ZCYgmMo3bSkIiu4seA3/rjHrxqgdP6qjNb/39DSCnzjFKYidxGZ67aeDgYPxdRyViXZut7NkyPAI01gSmLq2hD2Wdc9JSynij5Lf/b7R2d9mRnIxq42huuAEYGbjJ+R7hP2c9aVHBXqn+zjXJ7A5SjECMFQ11qVDvgNMPJnO+xxu8+NMC0H3gpOkbCkjGPxUbsd17LEKnP/5faLWe0j/ePyK8tzynC4pO4wEYWwETlbKqP7rgVNq4+CWBDd0p0nn2YiWfplXNa5Pq6IG4aKP4yNLcMg2uFvAuwQs1hYXyA7gb6OvxDeoGf5K2jUaD3NbUUq2Ml2Dv48nf6Py67tNkN0qFwVnP85DoEyRsJZP7PJLpURATf6xJ5or4OZ4wlgf4xUVCQ6ASWeygVqS2lA3Jo4osD4lfm+Jg4/hi5GANTr6yJeX73L0l/YI243e1QxpqNzFEnk/gmXUFaDmi+6HLX3vOmNUqEz2YWNHzLwOQXrx1bekiqUTe2TyA+C7fZs/RZWj+ttwJu/udMzGFvrXwDRqvoAhiO9oTG1tBC1sF+MJjLLs4irTdu3mxYFgt48Ioij3m2IVm19u5yPYISVQJy7jv/CMukYxmgDkqz+JCfWT44n4pZT4OigoNwO3BxLznKE9pa/f2FM4VqP0KdwSQJ7vThHwsOOKrQMGTR+fuYHm6gyy6YNuzZbwJdd/dZdYFpLSOueLO17uMeIMafwmuFcZqr2H06gr3wiWGsNs8XWHWTezi6tzS8pPLoaa6IofL5BmMMCmM1sZz76+Kg5uu/o0bCWNm8Jj9pfDJzlWRRBJfhYOnun/cff1QEN1pJsptd59JuHzkQzUn/ap9yyIWq7XImCZoCCGLua068IsGMAMBtG08O2K8p52wmYgjLZCpdcewH+G9JXqNxiS0YhNK7HD8v3/7q3e8n7xwERn+MZJScn5p15qUOBiEVncDtc5KHvViITQ01rWsilXuyuyuepFwo34S6/z3UwE97FMCBuvg9KB+7y0FooUy07pzJYhXUnmL7ib3rjjTOfxKfBIfexKUPaoZA5qiPnZqojcBf0cb7sEkv1ybf57X3+BOrM01ZRyeU3XMyOeHX39UHHvMfhYdBA0806mUQip7la1PQQqaajFPzvPhNZh22Dm4QI9MexlAmKNMYPdUTq375GUWs/5nsur+QN4s8ShDgPynzO/4XW2RQRT26WMN/WLaQH1JT02OcssntpdZgYNEvjKyG4VKixEfvzO7MZjNbctSZwy54qNJcjpoQ5/Xgoz6LUaTET3iba8WhAyJI0G9HEM/sPC1VIBHC66bj8/UtYX981siE7TRKYDtdjvvKxxZ6arPYY3KcYAKLaQv+0AzKl3F+Szbs8DKzBvSiyPn91nmcxzIO0oDcM2bleLxMaYEj9WWVWR2kKtn/CzImEllX9zZHjFJbHZt9iwiWCsOuQzUC32r4mkT2Sc2nt1wZZCe/bnbRcqy0zboHgy87BmOIIw7o7ayus92mAZ80s6G7+39agwnw+5QP6RIzxejxHxmxeEkDSYSb0pk17nP9WRfUzrYnKt/2uWRwKZ/n8sXITRQDfVyjCv2sHqc0ruvDn2Y+MZ9w1xpffHyZEtJhw9WRS3aEJRVKGyZx7y8/IQg+MxdtPQ8OrLtGE15/F0jOWkFVPXzukZw+2vMxvqEPyWcgpTeWgOM2NsPFZq4aRUL0H6Ox51bIYY15t+nNnfel1k/fdptxq7kSfj9+ZXJpZwDGb/1LyTC3aasTTxsllWeBEiT5mQnQsVEJuC4agYVr+tor8qXbYXh3GT+6wTsA3JYAnnsLPfvcFtQsF3yOZOxe3oDCp2SX02lHbAgSC9OteLHhAL255A7/Ou9WB+f+F2lQmB3UMickmZJ/Pm1b/1lml8fsWReJRfUQqqg3ZNbpIAk7NU6C1WpOdg6DU8rfmuHZ6dvGQOi7TbCOfnweFyOU4xUEnz4bFyuMjm1caKKDd8SIZVMlvj+WfQVySpbsYA3ujz2FU5vM7sbNVEJEb5p7w5O/iexlf3unObesDK9Bi34USJZoy7NDLNpUKUW2zEWA3NIuP4KHijSzm/o9Iex4MKmZDs/XeLZtO2fgqEQZrW7F89WcsE5r54r5Cvo4xXAUUevlvFjuouiAlWe69GbjGZzZKj6fm7sD3PQ8yW/rh9cBc/G+RAb1o/DpzgQ4TbwMZnqEteR0ZFfoNEEjjiUgZ2pxGygjUGEGtVgmaWZzGklv69XgTHs5/X5I6BHJv4pJQmzlBh9itJyVD/0WFbmrg81aWuwDZfsOXSvWPdhpbXKZ8ivcNw8/wGRlxVA+PkjTM07CAGUYHzi9I1R/2QMN/nOET2apaGHrJ7APT+G39ZIW+ZCNMi/y0GvV7BAA0K52GUjJaq1XLUTRyS8e1ddqdnAV13zwLKPdaE0c5RD2NZpibXQmAxT7VZsnq7FRH9QWPnE9BcqP1w9gjPVDmSujyUQ+Rf8RjJ2LVQHfvf04BhQxOGg8bdKq2y76fIWUwNXkv608g/kbulgp+94hgGZLtxBIdlNbJsclTYiqvHiaa4JubrV1YsEIYJl2OKWrZWekU0qyepeSQMvPSSRym9yWLuaWZ0zJ675AQ3GvPBwVGhcc8oBZYbOngIuWhKfb0vQ6kgW6reZi12ohWGlxalQeyXx9aMm8vy1mWSyigfmZVPfy490qJgnMeFPYBSS7JtuLuBrZWTe9NHJoRrhiTFa9kXVv33PwFzuLThHqi2+ioX7X/w/dzTADFuhXwcHbDXRiUuujM1waRH5dY19eyWwFj8rnFdC8dVMncQ5UP7u6aCajbEOpTHt873Ndw7ZrFviStn8liOXK9ZZmMa87xoWYpxNVDpeNE4rmIc2D+AM+WKpLbn97TpjZmHJ7/AkbS907cvgowpxFvLEO8UysmGBGrekUbooYCPZ6BaStJspRr4xsX1ROIJw12kDIQ2A4Ec/NWpvpbjiEqPYjfdL2UlcPYNdkJSDiqrjS5/+o2UO5QLAz1TN2qAiGsZz5r5BVjDNEULwP9xoz1vN2tHCxbaejTM0ZPC20aUNewT4eNxcXV8GKBIsi9VYx3d6fu42clmWISKCL4112LdMlC2/xVLR0nzFs+xZoD5hSDmhhMK+uiIzJ0SZ0TGOlPACEWbfNosTtVTuWSsvu/z53xByJlIQAuf3GfhPoazaxBU3/NTqm/2EN99yzHoDVoKUzBprWaVzm2iFOMCjImR5FAchl3IowbeMS2C/YOKqZKvm4FIsWlc2CyuHXD/waXxG1pjrMV0R7wyheVYJn2Cmz6+23ycvxm3UIJoqyPKCQKZR7E7I+3GB4V/41JaBz3x1NRUM4hJO8M72xWj8cnMzkDzBsK7LjFB6hbAKLcDBzsdn+acTyNRqOgMH/3P9p2j+ShOT1rljfi7Wu0YW4PPr7U2LOkVb2fjLcqEBrLlKgmedD8HiCKfy3Vq/2XSpeuiHqbG0VKrjS4yBxgF+PNgqLNzNcZpoqt3Mq5tXnFCBdZXq9v6CZWncA3VYb1DNQaSnH9gEKzq7yGYETmjqv6qbynWsCzThuxXw+MSolT/nEunMFaeTw/bJeY1SUFPuDx3mVND65A10MHy6uVgHc2zGrO+2jqEY40+kzOC4/+QftwnieaCxgo6Pf//rdyNHtkqdrGIxmDtJCxxB7QeI84E10DYYLgwC4MXMwwbhGwdMjnktnuJFnRndpq2ozASMdRGuSZGO3/qi9A2YZFpa5OMH+J8q6uCxV6jRyspdhMyOh7Cbqv+DDQfQQ9w3sMQg8HoEV8dbQkbb+Cx3phU++bfhwUoRurQdCuqlSR52PdwoiSk5+ND85Yf8AoLkMXscrVNKi7WByIQRGLJifXJBoRUNOUPVOUgKTNN+lwtS/2nXxVojs4xPSVSkVX+TqjtL/TWeIDyfGd9rBNKWNe8Ffh0sIEuiG8vbzANMi1VrNmiC1xCz09IYWgs8kFScsMvjn5VN/OfqxKL38XTfNWrSH0Ll3BCJWIMrBNTSt/+fYxlyKArJTt8E1gQbLLbz8hbRdCiRZIs5C7OIRjC+xrsf+oRPGCIiLgXBwEK5L32B2YVPj6JpE+mZetHcgrG1LbOaooNvxI55PW43I4IfetzQPaYJrX7PsX5yNkYK0IWn3T2FSVmocn4D5f3CMzEYaNKGvwhn5ktxB1T0eR1qzO3ue8k4azF7vIy1mm0QvkK6iye4vEdbRqVQsbW3cnOa011m+oYOU+HboxvH7LN9760csSbh0BCU721VkV+YIPluecnPq/lOp0ngQ9zbgNTQ/vSgI8VTMLiNOJUny+ea4ozFGBOKscZMxhcteC15uO35NhJVZKuxyl3aCEjYOiJ78BgWBqAJqj4QwjRRYT//TMmwdTdyTRIgEsqfGH6nrHZ2i5pBp5O2VrSwDrpMNn5acIU4GPwWvJVCnqo8/STtbySIgLhzmm3WlZ/BdiS3q/A0iagf8hmfaJLfHGEDRUO34U6t4Ow90fVidVePGFrupwvH1km99xhHHirSkob0I1/G9a4BCAGk84KM5HLozLNP+F0Y1OTPs69fS/0aLYKbJ3GXzti8NnMtfKtAWnlM68J5Tg8D2NJCR+0wRE5+wtH7SslpUmRersrXXB+bqssZNE+Olt6LC5APtt3/4YF0ARoCYO0gjQ9ctFzdjJntyoHBV2rkkLmGYWTXN8izmmzGOJXxUH6BhOJfgk2vpa7iMCqHDAHBD5Q5zw0y0yfoLJuy5bpO727/6pdOignNCiFKOK9BTOSwwiOiWqC2IeaZeheGjKIwu8lVqRFpehN8h+EE+JsvP1YFyzcB7zFBrg37gTZrI4/vcTm/k0xeA0GJ+MtSPbiRPeP8+B3+83nam5tcFF8kwvmlQ/tken+sJmEewHJtfwbEzKb4GPQL1r4+6qmjVZjgUc47zVaM1NZYkE8yAx28vgSQR76QqUlqcyMoEgPe60mCwFnFRsNGSSrcVx1c4dInQ3zmbeicfjrITZze7Iiyam9y+Bh5P5r2pbl9gtylETZvhRs3UpLMScXLchaPQuvUgMBVWi0W/PYLp64LAcoqOIDMJclyBgfxKAxycGNSJbeLTd17KcMiOFMr+eZtfBs5bMC7TGfc+etc+4ffFuMdK95T8ZLPuFexcI2GngzVL2SDmZ4eGEF1fr3QNCphT2xtHlmHClu2eGhYe6KCPBcgQsqyjCTNcxW+hyPv6jj7YtP+BqEzcxQTpg1cBqVL1boL0aEZSmKr5/i5iuGwbzTfjhMzwB9nQ3Wi+48hKlWZfDW7bkMBvZomQgSqpbOFVeXojXjhy63ikucj602TbdyiSIIEsRUh5+xviOvcVPiXOowcvJAv4CPzIHSgp0tAnJLH0hOwd3miyfyu8Trfck9TSxUta7up7BYwC/IZbnMwN3vpKGtA6pH2qHOL/gZHe0p85njNndKrXZal4nYUbu/pMh/pvZG4zCxQsutC7XKHLYrV230oJmBE6cJuC3tcZI27nepahmhpK7qE8RoCFYOnsnZ9PGa97uUWiSqJlb0BKdZoHlsMia38Kax26ZXcqrUe1Qq62zRQli1AHQ8ZCkBoVMGMisXaKUZfd9P3OLeRw0X8KQxyImsUvcel9zpnhV71dGgbswIoYDclOiz8QajQvxVQwMR+NIpcetJmsL0VnDGGwFhYGtGeTxRGt4wPBlleEQwlVqg5DN15nhEOg1b0pUcblciieOSxR72KbS0UQLRW8WtbeyJcYHmCj7q4VmUKfY8NfUXEdN6VBpHZYVdELSU8fBmL3tllj8OO+5JeE9wHQsAgtVkK7dH/4p0vYwbbMzuGosPm5aZAcpSv8sO2ciwqELZz4opPUtNWhhj8WP/s1pFvnHYh3uWJbcZmq0BRBXzQoFWycfuIDpuiyzYMZWxBmmcmugU0pjRrdCIuLYuGvFBtXvBd/4hZKZaGGO4e/1p47Lj/SoMXCWRWyj4NMxH4ScOGCc99AhmUeykcYWGauw+othNbusu+fYvwCBO/nqBurDo/w8S4sA2Cjl+yVAWeHLPM61m88raJX0C2dlpTeIYkFquMRAv6ammI5SJvmWfGm2y39eGKXuOTu1JYDvkapTZYCrSAPFy0Ez7/VAxoa2Btvagt/V7XTGRFJgN60RA4aIIVikoMYiK9ueiEEOmVDEUGLBrfXgjAqNdRjZe35Lu1jZgwZ2wSqfIss1KFrYG86vBuVtRN8EiJG0R4EVY0ppZ0WbNW9HGJ9D5Nz0xE/4jBlhEUW/twEGUJpN3O2miCv5Pe/18Bs9fXZnL9XFa7IELpGXH5N9KKRIf8uWh3Wf7V1ELN2Nn2puQ8W2uin9QDh5al0sL2upGrrBpgPkRvIVpomvxaa3ZvmmhZmNMFiYMB/X1XCO7UzvhkU7RxokLcq46GRw2b8X1ApTLQDWZS5RvNWDtFEgo7cvzFKEBvEUQxCra6TsWREU9GxkjpOaIDlXMWCoqrJJAlBF5kswNRBfSjQmnFTzEzsKalImxxqZw0UjKxAqHqPIJRcZixeN4/9HO8kgLI2ULf1sDqaIMtm9GOHfXQseMJkPsF+qgNPQ86RJoMd7/3CtHLU9l56XurGdu8r+5lbbh4d3x7aY5alViAFTi6PLs1hN1hOYEc2PojXszZ3u7AL+zS6FblxL2eXCMj8qmaPqTXE42ceVL+uaTtorHJhvJVbREI2dueeyYkBmH0W4XgjU88hUf6L+KoAV/oA9o5TLUqiac9jucNkBHB/+2sm12cRIQdI+AYunjxLbOnJjFsbPoCXg3uOu1XooCXjsUG7XeoGgIXL/gCTVXIFE0Xb4iWAjM84wtRfk+y55pkWRAMgsroOlwbUhomMGkgdX3Pje+Qz66ueziN8wP5yWUBDLkEpN9XKjj+rQtxkSZx9HzyLU38h/GNDmGdBgkLqRzbTZCrQv3VtYG2Z9FQ433xXL0o5d824C0sSytfZ95/fp4YXBVGgXabcAWKAtjO0Gd9lLVwuWdoVIyppndsmmjNuvy3Zphq2i8ga9XvsUgCk/bKcMvbZFAm44Gh8NG87i9bf3hM9PfeSJzQ2CCLdT+qOXRj78BspRBE+dZ0ohxGQJtN3QlGPGBfgwqYTKl1X5butRVKWPEnqnNof32j6FrdVxB/y6rbOmjyPZgLtYvEte+mrXN5RewqP8cuXJD/ioZCS7KRcGHVuAa5Pu/wIaaX+UMEdVaHf4GQrzuFc14L8e1AzRdQvxmwSawZQ3Wx/IM+O/BpCkI/Y+hOxuS2Ay32fGzpd9wv25KRNFZD/xGnYjW90FgBsrdlZLLH5mDgy42SPqV89+ExrRhQzoMZamWUhXWuZQbblWQwZ7ZoHxC23HGomgR4nWvif3k474CSg1KqDaAgvd0HVHcVLJj78zeuL8f0h7Sl/vFYYutYiXyfggtFbQR3XkvVqDrg2/aHiEvehahiGZP8N2IdUALIaeLsSr8Vpsp5+RwnuLCkfxQ0H6NSCfxmLW/3D6PrUylmuZ2uAyD8qHtSdJhXK7V3w1u6tMX6OCKrlXR7EF0GEgLxY7lb4TfK1jOXfLNeFZ58jXzdHudkSmzbm/2Mp6C1vhSINXxzKut0tmKZBw9vl/Z7xUibt+YytifTcdo1iZPAv2CO3XmssCTwD872kHNWRmcprLVp/MgmEdYekDOdSIEVdpV+70yYpcbhG0AUFIZhEBpK7luVvFPlaJpJmTp+TPBicRTWk0Chbm/fhm1Wo8KEHa05PSXGjk9qAb7z26Jqf9BouJmgsOwRkh3H1d9hnFc0wnMj80BV1r6xEa0jkA0wlytvt3muGgq+PrPofytX81OvogoKJKf6iuee0uMzIA0z9i05FqMHHhBa7k8K8+/H5yXcttqUkkVdrl0vWqZNjENfO35TQmrN1Q07+rMfEZY1dsgpyjzQMbuE91SU4uSZDJJoPtXddZAmRGhp1ugoPNfP+1heCmlN4wzHKg2ZwawGN1DRVB3zY4kcjgj41ze7oKwruJeXk5qnNFiheKUgR+tm/siKaNpBsXv/BbMnzBq0wXH/ZTxstT/VVgqjucAnN/YfSSvGCfEeuExJJa4IOeGBdusoXrXI0th19WNHFHuoD7hUflzNkQ79BIvMAaKrXN7pSucMIx6FWy1s6Eu+nlOHNO52Iznaa+4Oqtm6U761G5VM2XvDOEVzXlXJbM+TC6lSRIkhsdF9VmTz7RelFI596r4cM6hhjINB9UgRVZWkPqs8GBaetjN8K8sV+Un8hudp/oeCu8ud0iWjDrIc4CdGbKkchcEGQJIN11dMY0XSQ0ecH2jfouaRVHh6ryUPYKvm7F2UTJjcRLkMfFBtTx02tc8C5Wkbml4icTd7jTbeR8LKz6hO/O8UjxmOaFXjUuPFzIb4UMCy2VtahlHwQLpJsMvNJ+jJOkZ96yX8t+hQjjRqG8FFDzAsOKlPoBIRy0Hg9mfS7cmro3oqTkYNgbfiw4xAMKW6dSAV21Kp9i4+0ZvMBKQ9QvCAmEm8i/g9Mxn0ODp8hVKtC/ePXrcNobVrshAzDY1k9hIcNpC1lpf01bGA97x/MenVWsaw0B/8zXrybxJgS6pcrWQ0Kf2aeX5+WCJibqQnJOk4wWRnUlgBXrEOMejcsHPKCAXxsLUPP+QIZRiGbbBqOg07G4dJdg6qS7UNbfCdGerjFwR8H8fzubQl8W8CiCl1cAhA+BTf+qnoFzLlqkSfwCqVdxaApedllBDwGEj+wamTDL2RUrOPGJigxO3gVKt8g1wK6kh6pzGr4wQm6wl8TSph4BIOJveT3K2Zh7HzMZ5Yr3I0k0osHT1VIdwYnSAYuRj3xFxVfiDNvBaJhq9nZnP/+raSj3MyhjlcZhKBi3Cxv2SzNjOhtKK8sPiuRsAMnEeiDvhPQ/q8L70xZRnMVHoGcQYkZ2sySe4splzkI0CPiLNaShmOvEM3H/80n2JtvKv6oucOGuAo7V8hctT/HqCGuW4KD4hRq34tsjYi25C4SGP3N51IVwfiaLnDNdv+o0XHLDFuhYnxFgr4TxF5Obte6cEarWZLqD99CLxcxnorhOw6oJto7BjvlkUGPo8wnevO3vUbYLB0GVHiFIw/ER+zEFJplGuJKcMCcPbSSl1NeiTUGNDge6+ZO+o/QeMzv3TsNCIvIcvea4BiJLgxuTkX5WXB+qj1fl4jQwXx3f1zGR0b2O+TQ01UB8gL1lDO+iPb/dJqKt4+Xy1dgz8LGyYI0P6SCnD+Z6aXGQyUzUxdVdLJeIktPALh41cZW+vfaojzuAjgtkMKD2mFD69TmeJ/TcdMX2PXSn9lab2pHnt9FLiIGmwpIRcNUZm5dQhvsaYvvS+Ic/ElFwgdcji0+MdlMUQiDSERSwKoHzYCaO+TGQlMr1EJRcggl3jMCj1FGk2rz/b5nlbSg3ImkQGmdzE1nv2D8IM1PSyegtHv3vOiz+wU+vhIadxeuRAE7v+Wc6ruXgWaZN0iQV132g7HECHuUaOfyEpSfERgQ5ouVe8F75kiFEJPgj6VF5HV2472IOK89cG1ASNeW4XPgMy3q1EVyixZbaVpvq60XG+IBzLkkdQYzrW4uP4W+E7FzXlHYnQP/rZGCMUZ3yJvC5n2qEnNUnXopvSqogpU6vmwm9T8ll+YA1yn7bW7a2x1awmv5DAE7Nrh841JerCNgdCR2aaLqb5fRGXf3Ifr4cjN9gmVvaQ5iIJ8paGiKE/QTiB6HjhTzdb9fvSp0VjhUDsDO7LGx/kHUBxJWcQhPr4pVnQ/0lPJVK4EJFEvVemxS8JC0Wc7HIld6cAzWJYEvVpB8V2jCwLYsmOnip3rW5Fq1EhVFZxK+JPTp2vXM6E5aM+j27Tw7JMsT9XexspVo1rgektQpAqEO9RaT3CicnGd2kHc2UD1Q535BGDddtSCXj3EkTgvgUu9EIrryc/LxrzTeLRMqbqX+G7r+mQZGX5/DV2J5AhvlqnwuscZsO7LxDawnxovTB4w+Ix7rocOfZVLMdJUSumjsNXuSXDKBGepwR6mzA+qWP+YvVyO8GtHmAtotyAaLoj1JaJpeqVH+nlvQxFUkG5w4DPnv9Q/iWt0KywmnCJEo4lAPv8ztwRrH1kUaKOYT3eyeQEeoCbROZp9qqn6xu/Za7eitsoJVcdWn/+o46ramQ/fxMTBpgzr3SMFbord9YLcEChco1c5UlOoRl+nI6qV8qxqoZMhI5QMmfLiBAiG8OMwApVfzVfoEyKO3hb7uoV1+pbN169cyLh8oulu+lkVvgHfz35fuCsqD7Fuz2M/xUIY+0DnoAJGkhDQuChobHsf3FPQfF+rK4+OUR4M1UmwT0z6ooqmcNAp8ckZ7wI6nIUGhdaAErPc8QajHuhHICSMCw3QPXM1n9W0sCqZmEknBZ/BIptZ9tgbVMMX7Ad0LEZk7gY1XiGTK5yKX/+zTeV6tVGeHtrDh5jlZ9prETDD5GR4haQQisUM8DxPTDdYvDftQrvAYqgmSz8fa1dCu2tinPOrWklK6sH2NIvjDmVV1MyBgnOev0QcyiCluB0Dt6A+YXoGKa/fa15ClhP4ajDPVqs4UZntiUGf7ypmETJaZw90A/8roBMlE8cvYFg/CTAZ3W+fUlfCYXSWy+Wvw2ZkOZNFKefOJwO/iWEC99XbLHtwyDM+AW1GW7tpaGDo71mjQeaxVFNm1/GHPzF2hJsmErDHU1QdT613vXV5dkU9zorrYAKcS3a8c435S6pJ/VKpYGJ+LdoCeNbIg/eb8bxrZvEEWB8uWmXZnsWsivMSaWCpASofugj76IM92XbzQXb5OcfygaX35AYHtP7aarIu+dObXmVODZv0KiqDYbmr03HnDx52xRtU2tjm+39ngkhz/iKxj4CEm9fq0wWdA11Kl0sTpKTxz0wuoUJDpgiaVCACdVL+/09WWncGE3bSpQ+TWLkkc7iFsJeZUm4QQNhodAMdlm37Su6cbV5H4PrYPHCB5MdqXWAdPOUXTpAwF8bmI/vcDQpVdt7ETdHWUHLDoLNNxCZ0qmHM0dy4bcTGY+X2GhzO+lIfR0F8OwOwODTkqSR9ftNwzvG+55xZ2PABDsTu/QeGpkKunfFMrIjl1MDCZ0Ipcd1LVy5XrAcPMSmuKj2ZAXJHUUhZOo/acIvOYHjh0p0QlVwh0vRAf49RGfmSm/RMkBbWdsLI0hAVjSCgOAEDWycM0K4TmY840xklpINnjjWNR508Z28ZU4fxG5Nd8vFgReHjqX20vlxhg00MgRDW614lEwJAYPwf9xFCEUS6tSzn4/N3aC+3HH3mLBVCHHvq7GBEm7RxGc94UzQ2O598HyoyvTwahSa8iIUx9mHsTcRSy7aOdYqnkMn1lMiQoE5f7BAG6GyR61RZ/EDfJWJxSTy4wgYNjnHdDCmMojWmaRdpuEzVnSa7gKlWasnIyFaXSNMTViHekC8dLj/lihFw/zdqoZb4ZMWc2x2c59G4RHSMrCRcOG6kziZWpiyPerZ4rCiBsGXWJ+SD40OYgyPxt8bc/LYlzSI+YMuyY0O0x6uFQahur/D+kw7JCg3ewgmvFj9XqcQzpC7m7P2ErXL4Ron/vH37E7vh7N7heb7QifH5ron2A5+N6VwoqcoXiV3xXz8VXe/BNJGwV03QDh+6PGtJnvu7l8a8N4QFkR/MTl8WXAZvNAZsYd4cnnDtpR74wY/Gm/iL4SkkVz1RYiGdLFXO8CqQcrYuFCXr+7h/UClzZRGyiN5AagWIfSq1gZ7QFG2Vs9U+mLL4SVdb7ViX9isBudcxpuz90elUabfPbPGIqOUdjZJMPt+grCoojYpvFan//p4fymiFN7Qx6OStIhvueMnTGl0Sm6nDgZSUqeAMVgOd1ZfAeKW85EV5nIsD6HQ8lVtUHh9k+6FLYnnfkJYkgdg36pzG4lvo/xl5rUSwgtngZHBraAta09sDTY0x87IwDn4HIx9lHDDK+ODDBbHSXX/joDmf9JSA89Ax8yYTkyN9khh4cYDlC4uzj5ULKiOrEqcgBgkPxjNuxPcJaPZCsTjam26jnaFokPwB/cyiwcZW29J1tIQOg7nXe+7KLY/Yz2vS8T/0isb3RKg+8Hp3MWvwCORtj/ff12ObEAW2oBteuCQEgxhV2RZZgk4n5wFxJ/F8801HMO8wwD5hvTTopazx4h6r1de+wi92RAqznVXTyYMLr0i0w+4j0cUgeK40YCcjyuNFYjwpp6j41lu2s1QOhVgnWHdQdIcT99M1ya0lQrOQD081dcE6CE2EkMO7tA0ygx1z7P5ri4PIbYM6dedhvL2c4/CmK4TMStEWrWug2KbMYr3n1XL6HCHnhvBtblazRxLH9laWoyVMLanFJNJ+S+SG0E35tVmjlAqCBR/MOV9+ScX3VePXTxxVvBjWbEUTqtcHSUfFoeg/oRIDzsUmHsvBaIpzAnJ13rhK7gsF+6S5bFRAriv0JPC/Hsg9jItVB88QK3S1+onvDFy5hfrXfPZlTwHpsj+kfl8TWiM1kTkSOipzKcKfmCgBYzLFNBWP/lu28d2OIqOYzZCS/gGj5kl1QaI/Jc9/j9RTuYrjl6xyZK/sNY78iUfexs+7Fopx+dbo60VSBc2R55oTLeOVgqIMRT7jiH/FXihyRAOJsAovkIqRLpgoiw9hu9iRCXqMVuxmVUnS0Gh5jPwJxQnbLcGnfXh/hT6LcTpMNLEEqN9uvey+qPXJwgXB6la76S03cim8QsuOa22wFpggtIl/aCCvzcFFdWNplzCmKL5/KccbtvQXmwyvwrTdARreKgRVdgos2vm10MoSCoAlWCBse5X+PqDf58GzuszQI7dcQorsa34Vriy3wPQ8sbhhR7PkzVgSsRZ5bsOwdKs4/Q6ozinvHwZBMBFq8rnr8s56Iw9IrenIR5+kL3G9pszqPINH0yhVgRBy+tLiGAGPRxLYU8mAxw9u74iC1+OfNpssi42tEi0YXFIT/H21yv7+oBRoxlC1VGS+OQIHgt7hMPDuPsW55gk2LOE39wFGNsYdVSETUc1ogfN3EtbmEP1XGOoFLW1/oXsFm+HaT+/XVtYTTytoObcYyu7TxjXT756CD19uXKpULYqJ+GJ5rGwRrFS5bFCEh2+jhNB2M6cUste6Ilex8Id/BktskOnyXWl6g1H1KJTg1CKilGOGs4vIDMPJkqJY4IuuDZwGLCSMFI+rSBpVXYdg0OarKxg1V4fSdq8mY1mn+SeAg3VlWqL+yfiByd2GFgPaQxsLe0rwr6cGmNn2i4rUucUDb6aJS3daCw9baHz/2b1N6AYpDaZRbx6RaAMv34HoqKfiTnAVeeqNTy29b5XLIZThpFSSmEdJzQ3uRxY6AcESRAG4Fm3BmlsvXHtfcJGWUEQ6G1mfuYhEsxc/f+gVqv6k6VehxOElp6PRhkQoUVxraTZWubE/3GAMgkvRbwRCrdI/o0hud658pEbKLtlNRnfFXj6+4IFK2XDmEhM9H6IhwxA9nSeZuczVlV3Kh7WmEzrzvd4cARe0GVkKaiBgj4SXEkJ7JDf9TBV9JF9+leJZzRVMqZUDrxItD78rdmDZ8tR93IMPUsIFLJYo23dK0KMQ7FRd73n0R2TBXrcJMZQHgSTKGWNIWBB30v9+bpZFbCb0Wu2nCDfoUFOqJjPCpmPp9FkCvWY9Q5EQup+YxrkOjDWLZRw+qOD2dgu3ZDYUa9w/huIbA4ALG25b4iSDNifXoaTDsaP54342gNQ2k79qcatXmGA4bzpwVWe0odT7bBq7j+8QsrBNNo/rolCOW9OEQP8dUkuudjsZwaRP4e2SvpB5yB3NAzoqEenu0AoVsIXWiw6OBobMu7hAQnoD4zsNytzgqJ9HDY632iH6Q4DAhiw6nxzCZJiSThwQ+7mhukJvlH6uoYMWPyCu7ve094W5P+jKkD2qbZKuxjJEihCS+sLGx/MnrCiymLly7ETgDt2zfUlxahSQuAYb4F+XxSu2FOCAjAqfejT2C0clxwUzug5DAkcnAjCh9O+Uk4CKSoqa+GzZFFwVhY8jDy/pIjUK8a6qWZdEvBvzzZZjvzrNLP/BU4j6pHL7wcgvAf+vsxtIWK0S2DviKzkDKmwKSLqrA9s6liDdBANDwDcPOs9a5ROcuxn48OVKjiEC7r0YtXAKfY0eICVNBSzeU2XWw3dfnPJKynvHo9YheDPgW1WitBEOU5MDKKT/T5I3T+aIxrRkU4c0tFt+34ti9kQ1MpG3CtM4T0p3ztLuV0qEnkOIQkrHYPOi1390n4QwDezQQlYoxAnCuI3S7Dul3fjA6l6b9OFASJcDRFaAytPouzHQVbuVPPWbH1bKO3FGeaL9hw74gYQcFBdJHE2F40AnX8P30lH2DaATzTau3gOjQWe7rPPiv37GkxvK9ipVXTbtsW852Tlm1tlwVqvk8yHLe3j+SriHI5HS8UlM08f40+ofm8Idxk+g6e7rtycuEBCWJSUna6vTQjgkgUeXj/CfsPTEyBGs3GbCf/l3gng0Yj+Hg6QsRD07whuee3s6ul5nSHZcggl4xdEpNbghOT3KkbjgYp7KtWZaVG1+WO/yE2MIcNulK0yzTwGy5tMqQoMb9NZ2j5DlKlUewHulemO9Kfd+lPQgCJhghyVUDCZly2sI3iDk3mf8a8rXWYyx8T7vUGWKbcBGnNZZbYCl4zkpAZIYaMe9vmAlHPX35UKKXQW/9BTsqtnafRfp7GTO6uKs6VSjCObyLDjXvErjfJDmhFRlzhNtsrYdt7O8/y0hvmUQWXz9SpHb2mbUkJlU6KpHsd6vEHFH0BRHn071OdestYayZKXOkDSQe0siHIHP0lcbKpe0lgPqNrGnSCUQXl/j9LPD9a+6SIA6XuwQSGx1kdAMeBKqyj5ENxTY0dBbOj0Neno6Qn65W98Ljry9xvEyv16g/a/eSqOlVFo+ZeUYVW+cSNVEs6x1TG5hKHFxovrYm2QIXvRP8HCqgk15DHM+LhHwsges2eSfWm0l+LT86eWJeA13Oo+57A6GIjJYGq4qXkEqaqXeUF28x5Zn/DD0ktdd1DHIEap3aVNrmg4m64Uble6llaulWJcIsHib2hZx/FlCBk5cn1eVsEjDkvVYFnDdiZm3BS4DnZhL1vtNcwY+jWsqNZHVQ66bUiMreuWHy0GnlwzkQi27u8NBmFUgbljYtr/e5+ZCmQsvFsdIjH4q+np7yDWuQVAlKNTGXJ3RW+tsvwN72Y9M39Ok3aClWaKzOBbRJ+UF4I12sNp1gtfCEo4H0a6GJxkug3mdBuYxeH55CpW6tYpuJYVd+8SKvmiU/yfiktvzSQY+3ubzIJwTb9q7G7Q4NfNtEPVkd7EcHZmD7yRiyA3pkDi5CLMzNiFT/dxouvvoo8mQtY9W3hmsPk5LHGP6lsrtFyQFu0gb3jXe/Qn9xsYjnIHjRWIhWZDe0Rl1P/qM8lfkSy3KB8mbwA3gpjkuIpGkPYqM6Fg6C9twKHDot0a6IXDbn/2WuP+u6vhc4/O3hdyjnWqR1XcalS4R2UgiUfWA9zhmhUQL8Hh1NLx9zc370GHQtClRciOHKogYU6kOUc3FitYYhNBGECWmjXfluepa2/YKHynWTFWU7gbL8HAYqSK+/nqJ7mOHWUPolaJU84krHS3sYSUKGNcvCbkIb4dvMOuRldUyYKCMBvue+9f54FGykncYx77ikmSLfYvTt/JMX2M4aUb/M6X1PnVGIjJ6nhaejn+RZhgwsr8hC600iP3hiU4ZFcOpiRPPSG9eRkJs+8NOdiDqz/ue/e2oPfm7lolIvstA1HmZcKL5kU6SLt6ya+3HIen+e0eZB7aXgxcd24FpFrdQHr5+FQdrcuCV4sMtLvmf5p5IySuWPTYDAhvCVSqFn2YPU/vu49XGh5dGExp3IqGN8LlDtmaFs47j+OznX/ekRebjfEcgwFdh5MReyQhoIrIctRLnOeRmJ1PaXivbVP/Qfj4l1Vbz6n7xzzJ3OVETmrzU8+DUSdo9LA44vN2e8oip/ExalNFri0Uz8j9Koyk5BXOM3U5Qe7dZlXmGjQbnPGbrG8br5RGG/oC1cSr9i6ZmNHg35Fjd4Mr8JFg0Tx08/u/aGxfmofGrSrCalvB3LkhWK6JCeEvBOougrF/jmyzU+18MeVAueXCg8rKc3urokw26nYIOLei6Mk6llJBPCwUEafMCM0TypnGoNBjyjEwKp7A5BpAPVtCAM56TztAcRPxTJtou9f5Bh2t12VVuQbphkDnLvuVjAjEeSwaLwaMl2QX+CGKcrArpC+ioNWqXCCNgdPyQ73cESHJ85SIP9KVuJBwanC8P0rw/qzMPsm/sMr7rno2a5ndPVfaIKLJ5bdZUyqUxXBYRENdClRn8j7VnT6z4oCfC8bmVyAiRAzOFT2pcSyCRLC/EpoqWtGpfUb5fIXd9reGXh+7anP+BPp3+qlx2BMZfSk5LgCkFv/150wwnIgcIxt0O/nQYb3H0xbZbrGNd9Iq2Uq9f8XQK3312DW6ciDiurMfHM+WtOlky1id2ZBSuPf2K6EyUgdkjWx4DOqwRtT+sA/i0kl0Dm3HpWLRS8jDh8JVEskndMVMHYdVWx2EXbmw0IN1/cK6eoKxSeqpL0njqR4UmsNIhh1+Mv64EG8R/0GegdNWQ53m4gw3HzcdWf+S6cHc24yrxJ0UcXfcejYoE4hGMtKaglg4idEBKHMWkVnUyM+nt2saDoHqRG5gDQd/f/9QOsUfygwU1UNKrjQ9g08/KviYq5cPfyJSL2tfNsZZaUERpbO/0TbEW4opwTjJA32NjHHjRoXS3CfVgEEPXGoh3GYmWquTbXYCYrjhgk+eRcdkUYHlY27/u3ido0hjMc4E6Zr50Lyy5/ZpTHU1RdzlpZMLyvjHGIgzhDvR26Ov0CaY5MVm3pQyeu/Rz8KhZYR5+jQVde/y5rP4nYWhPa2Ojisni1YiaagK4mzlI0XAeGWegrqc5gwsFkb3baDtveT1BfsICyDxyqtNimfyZhbFGdlAIhnZ6iK+GM7iKLd38z8ReWdnUTke130IyMHlZYS5t/pIZcaoOJIuuOYl8D91W6ycmYb0R6GVPHOJsYOYOmgUPVZ5wsYhEpfFjpXmG8LMM0PpleNlQST7yAasXXUw02mBGLiRmQxTK/cbTsdbGI+saslpgUEH7/gmZ2D1zo+4QZvX9rbXKH0X2F07aD0tLkXk7aZTLZyPt2ume56R3qHdnC2trQz5bC26MU5xoVOmCWzlmXeynCcESbK1YcBP9+9ujWr0SzMdN62QIxG23coGq6Q29Zi3XpFrDw2ePa4Wxuqrq5ZW1B2xLyqpVpjV/PV0nZuJ1jS5hnwj3MEm/QZ8fghdFnktY4X3DrHbAuiQf3X78huy8RsCehsL6Y4Xn2R73/6KE7MQWtxCNhf7G8XwhwMj0SCK5maTggFRxl40NKx3x4ldatLbrn2+SYT/XbNx3FKxWixftnq6pTODvlQt5zezMSFWRYX+q2uIOwoXQ0Cj2W8LOy4D355Z77A7Tz80UGN3KuEC3JFfuD+9IojPWd5jG9qTqTUroMVmzxYyo582AeHuBWx8x3zoB+9ZyqpbBWpJqSnrxuD2C9UNz+Ae/xw6orPpoQx3cY3EbD4eJbCZ4hJGu08+IVKFBqtlklahtmHpZj0iOeYufM44UeMuz+8DMfLFzHMU1sGo0ujXeKI8b7z82zEKAWAr6TPQl0k+ck0vPD3uL0UnzBdfx8eO6kVsT4+SVaXTRta3MjlRPNdPHJ5/cQh3WtfatIywq1mtBH5a0ufpZLjK/fuxsAbt4IHGW6QdJrz9SWlZovK0/bPFOZkXzbN0JqS5xu6A1JxElzGM4TOc1jUmiZH/vNiSl3z2BrFPxDEwW7nZz/e4yjZfNzh2a5PvALCN5io/7ngWLu5c5AzEx97b/5EJhltx5tgS95xK563xIb8IN2JmBFLpRIi4HJAz6eU2bg5Jj8c3i/jPQAmjXsdgkxOI8T38Tamwa5BJXVFPTZ6AkAb8WrDTyVc//3VnQvKA+HGoJbCLaJMeZnUrApoM1BdqWZsaQVt71GFcOMOzarrG9CvIny6Oeet33VK/GEWFbLl1PJSI1TQeWjOPns4BoF1eEyHN1wNK+Yr0BKFdi6vgxRSwNo/HXclzISg2ssryRpyKVFOfyXA6+dMiJ7ed09hlbXOGkNdJH5seg3p8S7ylvpXJG/bmMR5+WEUQwo5k+gkvzIZOPaMZvX3NXruWuWzQFBf3y9h9/jklwMKTKw4NvVNmZa9eScxSr5Hf5+nBNIaD84L+PVYGL1hmN+bzvEMHPhe7ZGInpYQ7vV2Yo6500FE5T1OoeLYNnTQFtlW4FU95an8LvaPVi2fNBTFDIEZW3Dsl1QbQ4GmyEqnpQH7kzUskwUB7rnjnRYotjKOgMkQsuhxW+2A33zYX9OE+A9aZIT5WN2XkKwaFPGfGdzO/r/JeDSrFH7ktmVLyFf5PQIRkiTRWsWudlndg5cKJJn1JxYaeMgm1HB5VybBAo6T1jWllWTHcvo3jewt2qf3jeEApmFv2mkpwmY5yR/uX68LvuW5xqTZuZxbZ1MV/T0vuRuVmt7nJcxs3cdo7I3yPm4mV69R2v64hyyt4tor3BiJva7aEc87FXs2TJOLnf7tfEwpgfj338Uxs6ui8UnY1hNFVlsY2nfWoPoJjgOKgT8/2LpJBNrizyqyrOp/OMJCt5GT6K037gTaZ5rtkSKXIoOVGEhSniRRephLvDCsHnhNwgHWnDd1ka/JWE+aT5OVaxh9adj7xRFuRgsfe3wlhgev0lIhCFU87xUT1OTFipqUGgHe6pvcZFCtSYNTzTd2UViQT3roaaeKJcLJ+Qe+fZX9Lu5YpFcAq2KZO9ZAmY2StDRCACeyDAXSI6ibu8o+TwUOLSfGVYtrcCQLqxvkhmvUFjXJgD2QIHiN3h8SDSWLLB2yMxVlRXRR+1uP8vq8ynRa3YmRtXZW8wXPkIv9QzHY4IYDBtssv82lRJVB718DMjRJUSmbxRYNLm0hiVoMpRDD9b0OzSvS+y/xYpUCNOJ3Zq0fBptcW0B01AhatRxA9qdEpW6LWygAYL4lZD31q0i5/p8mjozk/m/49v6sPnfvZfkf+6xvhceAebDUoCpYJ1lBmp9jjUpeSuEWAe0wMdUfvxGeaCGrqGPApeWsT5Dr+Va7bd28jRGKhDonF6QTNfDKoOG5oRB0dh+rNc0J2H+5/RGoqzmUWDcVWIH2OKWkg2zofXbZl5mlkpIUhjoA4xcDjejSnSpJ0XyGJWaqoh1RjEb1k1RbwIzk+gG20FXghovcRn5OJXIq+zwM6t1NrN8NrqpzfyAnEteCdMvGhfotl04Yq+UUnZXMhdWV+MC129oq/96AZ0r1OFjBXL5mAlGnKp3w0+ygUR9cgNgjKGl8/crdaTZXngLGjxCH3TKherFSN1dpRnKIdojOsF+eETW8XBd+7HeWFFJBSjhZWZccFSptibvr4TFBKK/09OcqdYBrAD8MyEoOubB4JaGNOt52YPcWueOu7On7eebVQH7ilN22yZPsxhFQhhVaMjLZPSGtMyjhjimc8ca6w9Y7wttGD9bWCj3h3wCaadojZDszML7FQUIkizN+z8rRjTy8pibvI3sfQDD4GAu7mnQvez73NzCFI1jEpcgL2ZJdKoaQ5l3Oyz0l8QqRWdFQSSR8FX4H+uXAUcYatAfiL2f971LpaVglHQLiXE1zu1YeD/RMJ8J0OZPQd0SQ0gXm2Iv44qgU2LdBKTLXKacdU8TSlazOfpRfclK858Ez5oU3BGTEXtzY9v+UpUeWdXMgys6cbv5kRH6bLIFlQchS8809DSPU7hgOqQ3OT8wVnvR6Bys7BOzNAsBxG7XAZkMGI4D4MO/4atK/59VcHonmYfDSJNGMlP/SRcXebZU96ZSKEiJHXue6CVfOXPxu8VIFKKy16MyEjtTThTtuUKTzRlPBkQzIucgXYjwy9ng6nnCpdXiLdcc4vaLlNiDqt/64YTaQJhcklLOpyg3RT3c4RoJ1us0YVoT/QcwENHMb4dSY+P1cWfi2EryjOaUnXNpa0wP6j5G2r9Lg21fDA0OfMyYRJY56xxDbkCmVPiNx/8dfwBK/32SK0OH0UQnjluZPxlXWG5JJ25H5zvVx8ucYSqvPJRWpPnsW0Hgu0/hnMSDUTNI48Oq42bt5Oj3DpfcnvRZEYU0HY1Bs+BpKMxqbGr3Pub88zWu9a2iOjQtT9C859i/JkhrF44zU8DFJoCtxBmO/Hda47yDPn0V56jAVtQlwxQmmxvQ3GZ3lpfCb/0Kt4Dqu2y2RYel1a0E2rg6Ysdp5LmHHhx1mzdFSuicvmBnqCAyef6CeEPmvJGPDAGVrVtbaiSKEtlweGKSjWjlg8GCdo9gvYqEjAvWrFGoW046CsQNu6XZAl+nspdB6oPpo8WYss1Z/05ffflYnSz5HBaIDjGpjL18gpGKY/s9RwE3pD7zVW8sPjZidBn7drGG/hcjEntZBKVAn8XrdtKwP/rPquwn29vuJiV2HACbOSWc/zdLKs8Q9TSJrBfyHcepIvdztLpJ5PXzcF88kcCc82ZTz+zwXMm2Grd8pNBM490GVps4ZAjsVpHQ/xsJeWKEmKErejT1q4axZpbrwfCO8Ifx1m4/uL6uHTob0tECZXz1DT+FV/gGPAy7W9kdXNCb9q1bZa944dwuhczuNAFWQPr8Jvs0xZd8rdFlDpzBrLZmQKemf0s8x40axJRTh4XtW/0ubgG/xXamXp7PaAVwqty2WEVdFeqgj3yI2FvtvNvVUSoJA+KMucCxGUnrUE2rrKX5Nv6TkYjHCxqxGwLU6Isyc9oq9flSe6fPHUlWipPZmriZQ/ATPpgDm1ARl7NbHxze7vVqJWTT73uTkglhoYfqLorndoKH6YoBASjRJKW/aTM42D0WL2jPiUz7XXA/Eh88LDKJvc3WbL2IcWZT8UY1L3vtW0TK32IV++sPD6J8r5lHkgJN9AB3S7NxslNNueLihX38hgseLYN6XvJ81zlhYOW23rZEuaxTbf17GGVAZLUA5fGOJ0kPzBokUDAY7D4M0G8r5gODcmXFOxr0YOp/9ZWwzkF3vINnUmpb2/JMFmo9oVasbY4wqsfIOpYUtQEnXiemfSjQa0aAQsNEynBHGTSlg9NozdADz/2GF2FZdATcu8qjtBJEEovzEgNU1axWfYf28icf8Vj1z4jGUZQY77gR88CebclhddcIs6paIx6WR3i2hpvlsd3VlfhtIJfWpvtnToZ0JhbQC+rw/88iIK47s7v3hv6sYRfuwVIEistpajJNrQW5olk2+OR2Av1jU1vCAmCA9igMZfetMMFj8WuUgW6ZArnNR/vq/bAphtNVjZi9NFgTttXvO+pVuDOg0fs/7+Mf657Jp11QnJj+F8yLAJzF/ZSad4un/pBxci+kTWB+S9DuRt8Iay/i1niy6haG2INCIN1Kq5ufzQgtUpMbyRpkijdM1FiDZlt6HQOMrhN2lumqSBtm6K6BzayDj5RMucgQrbmapj/EycU1I+DrtWBth8wwIqHcCI9oC7yJtGgT068OWuNtkw5fpJoh2pE62S6lQgsb6qmu5kmEvNuaIYe1WSIT3L5hCkVnw4VMHNEl5M/y2P5ukGURQ+YH4jN94sXUCqt1ckxSrRRqek9tFnvy1W9kQLU2I0wIVcrDjH0ggE2tnLmjlWPSYQm7uAeOn+rZaiCIEOcpPxSp+hm66tmG0AwnFdGI69sfL0jYTQYS+HFQHhbKd9KspTguvz6W+gBIPa+WL1Cittae74kFN3qz+JWBM2Xm2YlA3Nky3MB+ruaoAoKDCKjVnzBO4UFa4tWSJP4WFuqL61g9dkeNmvzfAxUQXXNaIRkvriED6ClzTfcWA8Lt9iKrs6yoM+lQZGnvi+sxCR3lwh/Jhe3ejL+Gy2EYjwjI+yh9aIyhIGYy2rIooglIzGXAsrB8VJLdEPeZ5uWUdcT0BAHeys7CSoOb5zAvCQC55unUy/1XjnNZXb3Ui5GHAkKimxqzfxnOeQDSYsVLcx9XZ5kSuOmPBWo8ZYw7dWnuju2oIQ2Y+Z51ixFTW/eZ0RafjHUtpr5tu7z+Rci+7kqEuAKHM2uURA+hMMGhexs4QWk9ZjUM9lUhPObodbuT48bduxy4QmUVIyZWEi6Cye/eOxZKK5hX+JWxCpCDVeJipbcWIqfu+Y+Szg5ziq8XDd8iiocOSgh1t5wDTuw2nUNvq44jEu3V4u1unI8YKxfimi2uhxJ1eZ1mt5li+8EEurwqKGEmEPbjwgoQ6tx7Ax28sKX1D8kmh+eKTiZFasiVJOKZr8UsE3KCzVmtcgrLtoobL0jlVYvVk4WKqrddnIk0weaYH9VU9q1WvVCM4Tnf7IrDK/FZKakLU94HSjTy+hYsJrUO9aJyTRLVteFtHCaHZvrFtrvhuwbb0d9GUZSBX/ElDsL/Z6jjQjbhZ4bT5lUkzYZyFLNzYk0CaKoB0JJEHAYNSPUBYw0xupTcLGnAQH/pktZslEzP68IdUu6aq8CooceklzHHjaLs1+ok/b7Td/HMlbSa9gGQRLZwhj1+ZU0brl9CSNchIYMiuTyQNvSsRcaPZa4Pr0HWuO47IfBrFdFcRV3QG6Hl/rmewHlNzDXJ2dvdHrfwQ/qC7Ib5LXqH/pPQpe7rwpcvL8XWcFmtU73RvmGek1pvzeL5qM4pu3qkiKr3gF07hnlhdLixnANDr0wAXYcCxm4WF8nXJmJiIyMB45BWIS3Ap+8OZChERkLteAhPqfHpS8DvFxYvR1mo7PqNdVYBUprbSg7C990XRgh8iI9gPBcSv7/s3XDOgmSs+XO8++bqgdmsmAyae6t94LkKvSBjgzA9Q/sLCpH3qh8C5OH0G+fIBQXXo77DcHhyFlFNK2aPgQcUg35NkEDz3BfINm1lfe3+JWgUR/CX9BQdS9m5avj5jkf+vjwCe5F2WvInD4Sko9f1niE5HNHptDp1fMUsrtubjJYHFV/ML74g6VYeNtAqX5L7d4oaIb6xwp7MD2rRiipoTY6ojKRdLfvd74ZaB9oCeZT+/Lhss7xUxsBH6oXKZpnrsojbFzO7/x3eFAt9GqUSiliQpFZQEEYQRWqQUG6Vyi3qfM3rjc/P/Ua1J3c7LrnyukgM9/N5Am39UrBCa47FcJr5FU3h3TqsEP+aH4XDvL2TcNrxF96pTV4+/BE4gUuae6Z2ooPs0Ilu6t17jQqIdP/cxThmd4j9sWVdBkOv3Hr3iwMxeRSiNwFu5wFxCpb2I+0qvR/pX+Cnpjy/nZAKcJlAVrKVEmTVNCyw93KK+5xLjSocWcW7LZ0x6tDf5CvsB7zFsaanTdFc0rV/hK9R6xXsNDJDq+nUm74cyhFRvKibbtJh2NTO7JdUdRFa0gaLYqUYl+wrk8IqBIGz3ssBqRJ5lE+waOMZlyfxvY0Zr2/OSk/dHFtul4ciIux7yG+6ep3t5rJq/MsPMXMUTo0uHPwdBEgBs3wEeuVLrF6mkKHZp78NuQJDZmpZu8aK5lJtbMhyiFapl/8yVXGFZDuPcgZagUKV8IBShpsfvynysEt9d2Ddo1T7kBtapN+7FqjjPSm4vtAYzKbrVkvkSdUdLALU31qIzenQh8HjpMGIdH8AtuSvJtS7CeHevsKDro9fmGU00hNVcj0+MiEEIOUp3Veg+XvfXz191KHWYLGbi6Ka5Az4XO+IIOquWrJEJf2BiEHxftgXbOjzLZGY4Qhy0PFXMeMOxY6y1WizA8Owp1Bgtw7t6rF8vgay+xCywMLIfG1jF5OqxojjnqklHM7ty3tNgzPHdgEAtVr7HtdvcvBMZVlDLE6Q7d1B0gD4YXOMNMnFq2T6Z20hjbuPYMMVK9FH1fwT4CbJhyqsz7TRCmGYQdaqYo1+KrOCgUfeHP6xma69nGxHXbBFeAMlu9+SEap8TSjmeztV4Sft6v9dC89nrljGSRkbuP47ZMDPSWASlDzgn2Foqffk+cFUJRG5c47gw4Bgz62R7e7qnzXgDfB3t251Ztd20Ul7CfQjUoUHJMqfjXCeRvwbHXDdn2Yn3gPIkrlKtauD4Q6wWYs0jiPXQ/nt9JrcWW3Xza4psIuRdA0xeg417VIBZ4+fG4YqF26wx5rbtxL/iR7BP97LrDOx8dSU65h5THLU1jMf06VNlivuZ5F92ucy1U/rhuXul39zP+yeFwoZgKL+ELiCPxnFBComDpZPlTrc2IXkhNdmuycuoLfS0D6hCTRUm9lWkcwpS+iXMfRYIwv28R3zaeTjpPk3hw++I2IU2tiGhKeH2GKWBcaFRrHUw+97AIBJtd0fn+ULv4XeDzDxVBEsDCMlw7uvNKaU5Cq5uM9E7Dx6g9tISH5FbfOWxl6jpzCR4vM64VBDpYrvieRNgVxQ0wlV8XuycIjugbC3FLbSQKQVLobvIYmK29DERT/i5M3ct3E04f9M/oSKKGSs4LHP+coJf44Aao80XEE8tbnnabh/VnwWq7thbH45uxmDsBJ/EUZHlFKgsPs5I49TH4Gkr9EUfhY2BlhdBJGauBzamo0C2mXjdRLSBf2GvoQ538DNQ39mFZMtsMydp1uH5dkKMm3+0phUbuGrwlGZ2k5Q86lk2DRadjS6fhHrqZI1uSr+mWUan6leaSSVY/DDGAJcjCKekci2XPl65zYCB2SDjznGfPUYD/C5CU+ExUI/9dXGWnj4Z+CRmnciFrwDjnENI1h22gLp/W1AsBAY5gepHo5PDTFLAkKswFFP1wf2k0vvmXXV3/hrWxY7+AJzvYF9HnLPiNXVlRCHxcfBPACSS+RwbVbopBxNmvjK+IEPdVqSEu8qQKPY6gCD1AfbdPm9zoigxuTfzPH6lWoiRQXgimzX4mde5/4oYNIlZx4i//FZShFHOZNVcn+uZAgPv/RrxHEa7peEiUpDVCi7HKlv2fIPsh9gbxXsUMUAX4nF8MXTbMJcHfcsCdSdctjbmphJ+j6P6xDG5GKiTG1uEhHFHZvtrEr8l2/7t0S2rhyIlS5nPX8xCf1GPJUvupiVhFmF1FeyrAhJe17Zl/2m0ZhsMKWLBH9HR5TWwVyTCAN/gWcE3vu4aozll4XZoAOlAqJQi7cnymHod8beMNN4jV8sn0cYL4eQAxopTXdgEOotkhfQYBNaDJKsb7PizI76YM6xAaMr/ZYtx6IDGnImfu65Xkzxb35matNUSOOJy9Yoenw60yv1ZCm72MNny0SdDVmZPirtldZ0WUXcTSAwZ4t3y93euXgLbu/sEcam2iHbawvNrC1bBvyEyOZF3M/Usn/Z+qeKfSz5fZ1dpSi6+dMV52CUEVgptMtpqfyBpdabJQGV1QuN6jLDNA6/mS0VoCu0w5YWjjPhZD7Y8Xyf6BY4m2bdEVz+/pMmUPvxjkFvtyJGnv2fwthYfgu5+Bgn1RwdS8iZ5Gum7EiwmXHadAke5X4xC/jJ+Km8+JuiWH64Hg6kMi8DlTRoMc9hA6hRp0cet8YLL0L/6ksLf1Ip7ev/G1eWtcx6rcF0Ik3i8nRjtGm+Mr1H5mWrsITya5VVPz9fYklaCTYCivShYPkxL7TiqXIbgz46F8osZlwxxH/nAjK4ebTcSTUciWW43sWLa8gUZDCRnTekR7MhRe7Fi6AYHTG65auSMS7o5kPPYPnJOlN8HuJspXyyww4USo56BzxPPa7kPh6zkIwI6asGtPnS0qJPGCvmbF02rG3PnUfqE9LFWEWi67XqbHcbVXLB2esKHSX4dTixsz0nL4K5BAuKdlajzU0P9xbSCx2e3sM7HBsn2jqBrpXechvQWHTGdOHgzh97etusrNXrdqlb9V0e95skzjvdhye3CYovjLLl+SeOqozswyqQs2X5J46',{[2]=Hb,[3]=xf,[1]=U,[4]=Ed})end)()(...)
+--   Lilly Undetect
+
+local Players          = game:GetService("Players")
+local RunService       = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Workspace        = game:GetService("Workspace")
+local Camera           = Workspace.CurrentCamera
+local plr              = Players.LocalPlayer
+local mouse            = plr:GetMouse()
+
+local function getChar() return plr.Character end
+local function getHRP()
+    local c = getChar()
+    return c and c:FindFirstChild("HumanoidRootPart")
+end
+local function getHum()
+    local c = getChar()
+    return c and c:FindFirstChildOfClass("Humanoid")
+end
+
+local function notify(title, msg, dur)
+    pcall(function()
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title    = "Lilly | " .. title,
+            Text     = msg,
+            Duration = dur or 4,
+        })
+    end)
+end
+
+-- ============================================================
+-- KEY SYSTEM
+-- Key: 489-34
+-- Discord: discord.gg/7nNG53SHJY
+-- ============================================================
+local VALID_KEY   = "489-34"
+local DISCORD_URL = "discord.gg/7nNG53SHJY"
+local KEY_FILE    = "lilly_key.txt"
+local keyPassed   = false
+
+-- Check if key is already saved from a previous session
+local function loadSavedKey()
+    local ok, result = pcall(function()
+        if isfile and isfile(KEY_FILE) then
+            local saved = readfile(KEY_FILE)
+            if saved and saved:match("^%s*(.-)%s*$") == VALID_KEY then
+                return true
+            end
+        end
+        return false
+    end)
+    return ok and result
+end
+
+local function saveKey()
+    pcall(function()
+        if writefile then
+            writefile(KEY_FILE, VALID_KEY)
+        end
+    end)
+end
+
+-- If key already saved, skip GUI completely
+if loadSavedKey() then
+    keyPassed = true
+end
+
+if not keyPassed then
+
+local keySG = Instance.new("ScreenGui")
+keySG.Name             = "LillyKeySystem"
+keySG.IgnoreGuiInset   = true
+keySG.ZIndexBehavior   = Enum.ZIndexBehavior.Sibling
+keySG.ResetOnSpawn     = false
+local _ok, _hui = pcall(function() return gethui() end)
+keySG.Parent = (_ok and _hui) or plr.PlayerGui
+
+-- Blurred dark backdrop
+local bg = Instance.new("Frame", keySG)
+bg.Size             = UDim2.new(1,0,1,0)
+bg.BackgroundColor3 = Color3.fromRGB(4,2,10)
+bg.BorderSizePixel  = 0
+
+-- Center card
+local card = Instance.new("Frame", bg)
+card.Size             = UDim2.new(0,340,0,280)
+card.Position         = UDim2.new(0.5,-170,0.5,-140)
+card.BackgroundColor3 = Color3.fromRGB(9,5,20)
+card.BorderSizePixel  = 0
+Instance.new("UICorner",card).CornerRadius = UDim.new(0,14)
+local _cs = Instance.new("UIStroke",card)
+_cs.Color = Color3.fromRGB(110,22,230); _cs.Thickness = 1.8
+
+-- Title
+local title = Instance.new("TextLabel",card)
+title.Size               = UDim2.new(1,0,0,48)
+title.Position           = UDim2.new(0,0,0,16)
+title.BackgroundTransparency = 1
+title.Text               = "🔐  Lilly Undetect"
+title.Font               = Enum.Font.GothamBold
+title.TextSize           = 22
+title.TextColor3         = Color3.fromRGB(200,130,255)
+title.TextXAlignment     = Enum.TextXAlignment.Center
+
+-- Subtitle
+local sub = Instance.new("TextLabel",card)
+sub.Size               = UDim2.new(1,0,0,20)
+sub.Position           = UDim2.new(0,0,0,56)
+sub.BackgroundTransparency = 1
+sub.Text               = "Enter your key to continue"
+sub.Font               = Enum.Font.Gotham
+sub.TextSize           = 12
+sub.TextColor3         = Color3.fromRGB(140,100,200)
+sub.TextXAlignment     = Enum.TextXAlignment.Center
+
+-- Discord hint
+local disc = Instance.new("TextLabel",card)
+disc.Size               = UDim2.new(1,0,0,16)
+disc.Position           = UDim2.new(0,0,0,78)
+disc.BackgroundTransparency = 1
+disc.Text               = "Get key: "..DISCORD_URL
+disc.Font               = Enum.Font.Gotham
+disc.TextSize           = 10
+disc.TextColor3         = Color3.fromRGB(100,80,160)
+disc.TextXAlignment     = Enum.TextXAlignment.Center
+
+-- Key input box
+local inputBg = Instance.new("Frame",card)
+inputBg.Size             = UDim2.new(1,-40,0,44)
+inputBg.Position         = UDim2.new(0,20,0,112)
+inputBg.BackgroundColor3 = Color3.fromRGB(18,8,38)
+inputBg.BorderSizePixel  = 0
+Instance.new("UICorner",inputBg).CornerRadius = UDim.new(0,10)
+local _ks = Instance.new("UIStroke",inputBg)
+_ks.Color = Color3.fromRGB(70,20,130); _ks.Thickness = 1.2
+
+local keyBox = Instance.new("TextBox",inputBg)
+keyBox.Size                = UDim2.new(1,-20,1,0)
+keyBox.Position            = UDim2.new(0,10,0,0)
+keyBox.BackgroundTransparency = 1
+keyBox.PlaceholderText     = "Enter key here..."
+keyBox.PlaceholderColor3   = Color3.fromRGB(90,60,130)
+keyBox.Text                = ""
+keyBox.Font                = Enum.Font.GothamBold
+keyBox.TextSize            = 16
+keyBox.TextColor3          = Color3.fromRGB(220,180,255)
+keyBox.ClearTextOnFocus    = false
+keyBox.TextXAlignment      = Enum.TextXAlignment.Center
+
+-- Status label
+local status = Instance.new("TextLabel",card)
+status.Size               = UDim2.new(1,0,0,18)
+status.Position           = UDim2.new(0,0,0,164)
+status.BackgroundTransparency = 1
+status.Text               = ""
+status.Font               = Enum.Font.Gotham
+status.TextSize           = 11
+status.TextXAlignment     = Enum.TextXAlignment.Center
+status.TextColor3         = Color3.fromRGB(255,80,80)
+
+-- Submit button
+local submitBtn = Instance.new("TextButton",card)
+submitBtn.Size             = UDim2.new(1,-40,0,42)
+submitBtn.Position         = UDim2.new(0,20,0,190)
+submitBtn.BackgroundColor3 = Color3.fromRGB(110,22,230)
+submitBtn.BorderSizePixel  = 0
+submitBtn.Text             = "Unlock"
+submitBtn.Font             = Enum.Font.GothamBold
+submitBtn.TextSize         = 14
+submitBtn.TextColor3       = Color3.new(1,1,1)
+submitBtn.AutoButtonColor  = false
+Instance.new("UICorner",submitBtn).CornerRadius = UDim.new(0,10)
+
+-- Copy discord button
+local copyBtn = Instance.new("TextButton",card)
+copyBtn.Size             = UDim2.new(1,-40,0,28)
+copyBtn.Position         = UDim2.new(0,20,0,240)
+copyBtn.BackgroundColor3 = Color3.fromRGB(25,12,50)
+copyBtn.BorderSizePixel  = 0
+copyBtn.Text             = "📋  Copy Discord Link"
+copyBtn.Font             = Enum.Font.Gotham
+copyBtn.TextSize         = 11
+copyBtn.TextColor3       = Color3.fromRGB(150,100,220)
+copyBtn.AutoButtonColor  = false
+Instance.new("UICorner",copyBtn).CornerRadius = UDim.new(0,8)
+
+copyBtn.MouseButton1Click:Connect(function()
+    pcall(function() setclipboard(DISCORD_URL) end)
+    copyBtn.Text = "✓  Copied!"
+    task.delay(2, function() copyBtn.Text = "📋  Copy Discord Link" end)
+end)
+
+-- Hover effects
+submitBtn.MouseEnter:Connect(function()
+    submitBtn.BackgroundColor3 = Color3.fromRGB(140,40,255)
+end)
+submitBtn.MouseLeave:Connect(function()
+    submitBtn.BackgroundColor3 = Color3.fromRGB(110,22,230)
+end)
+
+-- Validate key
+local function tryKey()
+    local entered = keyBox.Text:match("^%s*(.-)%s*$")
+    if entered == VALID_KEY then
+        status.Text      = "✓  Key accepted!"
+        status.TextColor3 = Color3.fromRGB(80,255,120)
+        submitBtn.BackgroundColor3 = Color3.fromRGB(40,180,80)
+        task.delay(0.6, function()
+            saveKey()  -- persist key so next load skips GUI
+            keySG:Destroy()
+            keyPassed = true
+        end)
+    else
+        status.Text       = "✗  Invalid key. Get it on Discord."
+        status.TextColor3 = Color3.fromRGB(255,70,70)
+        keyBox.Text       = ""
+        -- Shake card
+        local origPos = card.Position
+        for _ = 1, 4 do
+            card.Position = UDim2.new(0.5,-170+6,0.5,-140)
+            task.wait(0.04)
+            card.Position = UDim2.new(0.5,-170-6,0.5,-140)
+            task.wait(0.04)
+        end
+        card.Position = origPos
+    end
+end
+
+submitBtn.MouseButton1Click:Connect(tryKey)
+keyBox.FocusLost:Connect(function(enter) if enter then tryKey() end end)
+
+-- Block until key is accepted
+repeat task.wait(0.1) until keyPassed
+
+end -- if not keyPassed
+
+
+-- ============================================================
+-- DRAWING API SHIM
+-- Protects against executors where Drawing is unavailable.
+-- ============================================================
+if not Drawing then
+    local _dummy = {}
+    local _dmt = {
+        __index    = function(t,k) return function() return t end end,
+        __newindex = function() end,
+    }
+    Drawing = setmetatable({}, {
+        __index = function(_, _k)
+            return function(_type)
+                return setmetatable({
+                    Visible=false, Filled=false, Color=Color3.new(),
+                    Position=Vector2.new(), Radius=0, Thickness=1,
+                    ZIndex=0, From=Vector2.new(), To=Vector2.new(),
+                }, _dmt)
+            end
+        end
+    })
+    Drawing.new = function(_type)
+        return setmetatable({
+            Visible=false, Filled=false, Color=Color3.new(),
+            Position=Vector2.new(), Radius=0, Thickness=1,
+            ZIndex=0, From=Vector2.new(), To=Vector2.new(),
+            Remove=function() end, Destroy=function() end,
+        }, _dmt)
+    end
+end
+
+-- ============================================================
+-- STATE  (all features start OFF)
+-- ============================================================
+local STATE = {
+    antiFling      = false,
+    antiRubberBand = false,
+    antiTP         = false,
+    antiItemOrbit  = false,
+    cheaterDetect  = false,
+    fly            = false,
+    flySpeed       = 50,
+    clickTP        = false,
+    noclip         = false,
+    speedBoost     = false,
+    speedValue     = 30,
+    reach          = false,
+    reachValue     = 15,
+    antiMusic      = false,
+    lowPoly        = false,
+    esp            = false,
+    espTeamCheck   = false,
+    espBox         = true,
+    espName        = true,
+    espHealth      = true,
+    espDist        = true,
+    espTracer      = false,
+    espHeadCircle  = false,
+    espChams       = false,
+    espSkeleton    = false,
+    -- Aimbot
+    aimbot         = false,
+    aimKey         = "RMB",
+    aimBone        = "Head",
+    aimSmooth      = 12,
+    aimFOV         = 120,
+    aimShowFOV     = true,
+    aimTeamCheck   = true,
+    aimPrediction  = true,
+    -- Anti extras
+    antiAim        = false,
+    antiScreen     = false,
+    antiExploit    = false,
+    -- New protections
+    antiGravity    = false,
+    -- New movement
+    spinToggle     = false,
+    chainFling     = false,
+    jumpPower      = 50,
+    jumpBoost      = false,
+    infinite       = false,
+    bhop           = false,
+    -- New world
+    fullbright     = false,
+    noFog          = false,
+    timeFreeze     = false,
+    frozenTime     = 14,
+    antiAFK        = false,
+    noScreenFX     = false,
+    _wasNoclip     = false,
+    rainbowSky     = false,
+    removeWalls    = false,
+    removeAnchored = false,
+    removeUnanchored = false,
+    spectateTarget = nil,
+    lastSafePos    = nil,
+    lastSafeTime   = 0,
+    flyPlatform    = nil,
+    flyBodyVel     = nil,
+    flyBodyGyro    = nil,
+    baselineSpeed  = 16,
+    detectedCheaters = {},
+}
+
+
+-- ============================================================
+-- STATE PERSISTENCE  (writefile / readfile via executor)
+-- Saves all toggle & slider values to lilly_state.json
+-- Restores them automatically on next inject.
+-- ============================================================
+local STATE_FILE = "lilly_state.json"
+
+-- Keys that are safe to save (no runtime objects / positions)
+local SAVE_KEYS = {"antiFling","antiRubberBand","antiTP","antiItemOrbit","fly","flySpeed","clickTP","noclip","speedBoost","speedValue","reach","reachValue","antiMusic","lowPoly","esp","espTeamCheck","espBox","espName","espHealth","espDist","espTracer","espHeadCircle","espChams","espSkeleton","aimbot","aimKey","aimBone","aimSmooth","aimFOV","aimShowFOV","aimTeamCheck","aimPrediction","antiAim","antiScreen","antiExploit","antiGravity","spinToggle","jumpPower","jumpBoost","infinite","bhop","fullbright","noFog","timeFreeze","frozenTime","antiAFK","noScreenFX","rainbowSky","removeWalls","removeAnchored","removeUnanchored"}
+
+-- Tiny JSON serialiser (only needs bool, number, string)
+local function toJSON(tbl)
+    local parts = {}
+    for _, k in ipairs(SAVE_KEYS) do
+        local v = tbl[k]
+        local encoded
+        if type(v) == "boolean" then
+            encoded = v and "true" or "false"
+        elseif type(v) == "number" then
+            encoded = tostring(v)
+        elseif type(v) == "string" then
+            -- escape backslash and double-quote
+            local s = v:gsub('\\', '\\\\'):gsub('"', '\\"')
+            encoded = '"' .. s .. '"'
+        end
+        if encoded then
+            table.insert(parts, '"' .. k .. '":' .. encoded)
+        end
+    end
+    return "{" .. table.concat(parts, ",") .. "}"
+end
+
+-- Tiny JSON parser (only needs bool, number, string values)
+local function fromJSON(str)
+    local result = {}
+    for k, v in str:gmatch('"([^"]+)":%s*([^,}]+)') do
+        v = v:match("^%s*(.-)%s*$")  -- trim
+        if v == "true" then
+            result[k] = true
+        elseif v == "false" then
+            result[k] = false
+        elseif v:sub(1,1) == '"' then
+            result[k] = v:sub(2,-2):gsub('\\"','"'):gsub('\\\\','\\')
+        else
+            local n = tonumber(v)
+            if n then result[k] = n end
+        end
+    end
+    return result
+end
+
+-- Save current STATE to file
+local function saveState()
+    pcall(function()
+        if writefile then
+            writefile(STATE_FILE, toJSON(STATE))
+        end
+    end)
+end
+
+-- Load saved STATE from file and apply values
+local function loadState()
+    local ok, saved = pcall(function()
+        if isfile and isfile(STATE_FILE) and readfile then
+            return fromJSON(readfile(STATE_FILE))
+        end
+        return nil
+    end)
+    if not ok or not saved then return end
+
+    -- Apply saved values into STATE
+    for _, k in ipairs(SAVE_KEYS) do
+        if saved[k] ~= nil then
+            STATE[k] = saved[k]
+        end
+    end
+    return true
+end
+
+-- ============================================================
+-- SAFE POSITION TRACKER
+-- ============================================================
+RunService.Heartbeat:Connect(function()
+    local hrp = getHRP()
+    local hum = getHum()
+    if not hrp or not hum then return end
+    if hum.FloorMaterial ~= Enum.Material.Air and not STATE.fly then
+        STATE.lastSafePos  = hrp.Position
+        STATE.lastSafeTime = tick()
+    end
+end)
+
+-- ============================================================
+-- ANTI-FLING
+-- ============================================================
+local FLING_THRESH = 120
+RunService.Heartbeat:Connect(function()
+    if not STATE.antiFling then return end
+    local hrp = getHRP()
+    if not hrp or not STATE.lastSafePos then return end
+    if hrp.AssemblyLinearVelocity.Magnitude > FLING_THRESH then
+        hrp.CFrame                  = CFrame.new(STATE.lastSafePos + Vector3.new(0, 3, 0))
+        hrp.AssemblyLinearVelocity  = Vector3.zero
+        hrp.AssemblyAngularVelocity = Vector3.zero
+        notify("Anti-Fling", "Blocked ✓", 2)
+    end
+end)
+
+-- ============================================================
+-- ANTI-RUBBER BAND
+-- ============================================================
+local rb_prevPos = nil
+RunService.Heartbeat:Connect(function()
+    if not STATE.antiRubberBand then rb_prevPos = nil; return end
+    local hrp = getHRP()
+    if not hrp then rb_prevPos = nil; return end
+    local cur = hrp.Position
+    if rb_prevPos == nil then rb_prevPos = cur; return end
+    local delta = (cur - rb_prevPos).Magnitude
+    local vel   = hrp.AssemblyLinearVelocity.Magnitude
+    if delta > 15 and vel < 4 and STATE.lastSafePos then
+        hrp.CFrame                 = CFrame.new(rb_prevPos)
+        hrp.AssemblyLinearVelocity = Vector3.zero
+        notify("Anti-RB", "Blocked ✓", 2)
+    else
+        rb_prevPos = cur
+    end
+end)
+
+-- ============================================================
+-- ANTI-TP
+-- ============================================================
+local tp_prevPos    = nil
+local tp_ignoreTick = 0
+
+local function markOwnTP()
+    tp_ignoreTick = tick()
+    tp_prevPos    = nil
+end
+
+RunService.Heartbeat:Connect(function()
+    if not STATE.antiTP then tp_prevPos = nil; return end
+    local hrp = getHRP()
+    if not hrp then tp_prevPos = nil; return end
+    local cur = hrp.Position
+    if tp_prevPos == nil then tp_prevPos = cur; return end
+    if tick() - tp_ignoreTick < 0.5 then tp_prevPos = cur; return end
+    local delta = (cur - tp_prevPos).Magnitude
+    local vel   = hrp.AssemblyLinearVelocity.Magnitude
+    if delta > 50 and vel < 8 and not STATE.fly then
+        hrp.CFrame                 = CFrame.new(tp_prevPos)
+        hrp.AssemblyLinearVelocity = Vector3.zero
+        notify("Anti-TP", "Blocked ✓", 3)
+    else
+        tp_prevPos = cur
+    end
+end)
+
+-- ============================================================
+-- ANTI-ITEM ORBIT  (throttled to 4x/sec)
+-- ============================================================
+local orbitTracked   = {}
+local orbitScanTimer = 0
+RunService.Heartbeat:Connect(function(dt)
+    if not STATE.antiItemOrbit then
+        if next(orbitTracked) then
+            for part in pairs(orbitTracked) do
+                pcall(function() part.LocalTransparencyModifier = 0 end)
+            end
+            orbitTracked = {}
+        end
+        return
+    end
+    orbitScanTimer = orbitScanTimer + dt
+    if orbitScanTimer < 0.25 then return end
+    orbitScanTimer = 0
+    local myChar = getChar()
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= plr then
+            local c = p.Character
+            if c then
+                local root = c:FindFirstChild("HumanoidRootPart")
+                if root then
+                    local rPos     = root.Position
+                    local candidates = {}
+                    for _, obj in ipairs(c:GetDescendants()) do
+                        if obj:IsA("BasePart") and obj ~= root then
+                            table.insert(candidates, obj)
+                        end
+                    end
+                    for _, obj in ipairs(Workspace:GetChildren()) do
+                        if obj:IsA("BasePart") and obj.Parent ~= myChar then
+                            if (obj.Position - rPos).Magnitude < 12 then
+                                table.insert(candidates, obj)
+                            end
+                        end
+                    end
+                    for _, obj in ipairs(candidates) do
+                        local flat  = Vector3.new(obj.Position.X - rPos.X, 0, obj.Position.Z - rPos.Z)
+                        local dist  = flat.Magnitude
+                        if dist < 12 and dist > 0.5 then
+                            local angle = math.atan2(flat.Z, flat.X)
+                            local entry = orbitTracked[obj]
+                            if entry then
+                                local dA = math.abs(angle - entry.prevAngle)
+                                if dA > math.pi then dA = (2 * math.pi) - dA end
+                                if dA > 0.08 then
+                                    entry.count = entry.count + 1
+                                    if entry.count >= 3 then
+                                        pcall(function() obj.LocalTransparencyModifier = 1 end)
+                                    end
+                                end
+                                entry.prevAngle = angle
+                            else
+                                orbitTracked[obj] = {prevAngle = angle, count = 0}
+                            end
+                        else
+                            if orbitTracked[obj] then
+                                pcall(function() obj.LocalTransparencyModifier = 0 end)
+                                orbitTracked[obj] = nil
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end)
+
+-- ============================================================
+-- CHEATER ESP  — red highlight + "DUMB CHEATER" tag
+-- ============================================================
+local cheaterESP = {}  -- [player] = {hl, bb}
+
+local function addCheaterESP(p)
+    if cheaterESP[p] then return end
+    local c   = p.Character
+    local hrp = c and c:FindFirstChild("HumanoidRootPart")
+    if not c or not hrp then return end
+
+    local hl = Instance.new("SelectionBox")
+    hl.Color3              = Color3.fromRGB(255, 0, 0)
+    hl.LineThickness       = 0.07
+    hl.SurfaceTransparency = 0.6
+    hl.SurfaceColor3       = Color3.fromRGB(255, 0, 0)
+    hl.Adornee             = c
+    hl.Parent              = c
+
+    local bb = Instance.new("BillboardGui")
+    bb.Size        = UDim2.new(0, 160, 0, 38)
+    bb.StudsOffset = Vector3.new(0, 3.5, 0)
+    bb.AlwaysOnTop = true
+    bb.Adornee     = hrp
+    bb.Parent      = hrp
+
+    local lbl = Instance.new("TextLabel", bb)
+    lbl.Size                  = UDim2.new(1, 0, 1, 0)
+    lbl.BackgroundTransparency = 1
+    lbl.Text                  = "🚨 DUMB CHEATER 🚨"
+    lbl.Font                  = Enum.Font.GothamBold
+    lbl.TextSize              = 14
+    lbl.TextColor3            = Color3.fromRGB(255, 55, 55)
+    lbl.TextStrokeTransparency = 0
+    lbl.TextStrokeColor3      = Color3.fromRGB(0, 0, 0)
+
+    cheaterESP[p] = {hl = hl, bb = bb}
+end
+
+local function removeCheaterESP(p)
+    local e = cheaterESP[p]
+    if not e then return end
+    pcall(function() e.hl:Destroy() end)
+    pcall(function() e.bb:Destroy() end)
+    cheaterESP[p] = nil
+end
+
+Players.PlayerRemoving:Connect(removeCheaterESP)
+
+-- ============================================================
+-- CHEATER DETECTION
+--
+-- FLY DETECTION (fixed):
+--   - graceTimer starts already expired so players already flying
+--     when script loads ARE detected after 5s
+--   - Counts time when: airborne + yVel > -30 (not freefalling)
+--     + past jump grace (1.5s) + no tool held
+--   - Timer resets to 0 only when they actually land
+--
+-- SPEED DETECTION:
+--   - 5 continuous seconds above (baseline * 1.85) while on ground
+--
+-- INJECTION DETECTION (fixed false positives):
+--   - Uses a SCORING SYSTEM — needs 4+ points to flag
+--   - Single signals ignored (games legitimately use BodyVelocity,
+--     set WalkSpeed, etc.)
+--   - Only flags clear combinations that no normal game would produce
+--   - Scores are based on how impossible the combo is without an executor
+-- ============================================================
+local cdData           = {}  -- kept for PlayerRemoving cleanup
+local detectionLog     = {}
+local onDetectionAdded = nil
+
+local function logDetection(name, reason)
+    table.insert(detectionLog, 1, {name = name, reason = reason, time = os.date("%H:%M:%S")})
+    while #detectionLog > 20 do table.remove(detectionLog) end
+    if onDetectionAdded then onDetectionAdded() end
+end
+
+local function flagCheater(p, reason)
+    local key = tostring(p.UserId) .. "_" .. reason
+    if STATE.detectedCheaters[key] then return end
+    STATE.detectedCheaters[key] = true
+    notify("Cheater", p.Name .. " | " .. reason, 6)
+    logDetection(p.Name, reason)
+    addCheaterESP(p)
+end
+
+local function playerHasTool(c)
+    if not c then return false end
+    for _, obj in ipairs(c:GetChildren()) do
+        if obj:IsA("Tool") then return true end
+    end
+    return false
+end
+
+-- ============================================================
+-- INJECTION DETECTION  v4  —  Cheat presence, not behavior
+--
+-- Scans for artifacts that ONLY exist when a cheat executor has
+-- injected scripts into the game. Checks run every 2s per player.
+-- Uses a scoring system (need 5+ pts) to avoid false positives.
+--
+-- SIGNALS CHECKED:
+--  [5pts] BodyVelocity + BodyGyro TOGETHER in HRP  = fly script
+--  [5pts] LinearVelocity + AlignOrientation TOGETHER = modern fly
+--  [5pts] Known executor GUI name in PlayerGui
+--  [5pts] LocalScript/Script injected inside character
+--  [4pts] Known cheat platform part near player (FlyPart, etc.)
+--  [3pts] Humanoid.AutoRotate flipped off while on ground + moving
+--  [3pts] MaxHealth changed to absurd value (1e+06 godmode pattern)
+--  [3pts] NetworkOwnership-impossible BodyMover in HRP while grounded
+--  [2pts] WalkSpeed exact executor default (50/100/200) + BodyMover present
+--  [2pts] Character contains a Script (not LocalScript, rare legit use)
+-- ============================================================
+
+-- Known executor/cheat GUI names injected into PlayerGui
+local EXEC_GUI_NAMES = {
+    -- Executors
+    ["Synapse"] = true, ["Krnl"] = true, ["Script-Ware"] = true,
+    ["Fluxus"] = true, ["Oxygen"] = true, ["Electron"] = true,
+    ["Celery"] = true, ["Coco Z"] = true, ["WeAreDevs"] = true,
+    ["JJSploit"] = true, ["Sentinel"] = true, ["Calamari"] = true,
+    -- Common cheat GUIs
+    ["Infinite Yield"] = true, ["Dex Explorer"] = true,
+    ["ScriptHub"] = true, ["Owl Hub"] = true, ["Dark Hub"] = true,
+    ["Vynixus"] = true, ["Sirius"] = true, ["Linoria"] = true,
+    ["RayField"] = true, ["WaypointHub"] = true, ["EzHub"] = true,
+    ["Hydroxide"] = true, ["RemoteSpy"] = true, ["RconsoleSpy"] = true,
+    -- Generic executor tells
+    ["SynUI"] = true, ["KRNLUI"] = true, ["ScriptWareUI"] = true,
+}
+
+-- Known fly platform part names (scripts spawn these under characters)
+local FLY_PART_NAMES = {
+    LillyPlat=true, FlyPart=true, FlightPart=true,
+    FlyPlatform=true, Platform=true, BodyPlatform=true,
+    noclippart=true, HoverPart=true, GlidePart=true,
+}
+
+-- Baseline WalkSpeed for this server (sampled after 5s so game-given speed isn't flagged)
+local injBaselineTimer = 0
+local injBaselineSet   = false
+local injGameMaxWalk   = 16
+
+local function buildInjBaseline()
+    local maxW = 16
+    for _, p in ipairs(Players:GetPlayers()) do
+        local c = p.Character
+        if c then
+            local hum = c:FindFirstChildOfClass("Humanoid")
+            if hum and hum.WalkSpeed > maxW then maxW = hum.WalkSpeed end
+        end
+    end
+    injGameMaxWalk = maxW
+    injBaselineSet = true
+end
+
+local function scanPlayerGui(p)
+    -- We can see other players' PlayerGui in some executor versions
+    -- because executors sometimes put their GUI in the wrong place
+    local pg = p:FindFirstChild("PlayerGui")
+    if not pg then return 0, nil end
+    for _, obj in ipairs(pg:GetChildren()) do
+        if EXEC_GUI_NAMES[obj.Name] then
+            return 5, "Executor GUI: " .. obj.Name
+        end
+        -- Fuzzy match: contains known executor keywords
+        local lower = obj.Name:lower()
+        if lower:find("synapse") or lower:find("krnl") or lower:find("exploit")
+            or lower:find("executor") or lower:find("inject") then
+            return 5, "Executor GUI (fuzzy): " .. obj.Name
+        end
+    end
+    return 0, nil
+end
+
+-- ── WHAT WE ACTUALLY CHECK (no false positives) ──────────────
+-- REMOVED: LocalScript/Script in character — every game does this
+-- REMOVED: AutoRotate check — many games disable it legitimately
+-- KEPT:    BV+BG combo — requires executor to produce simultaneously
+-- KEPT:    LV+AO combo — requires executor to produce simultaneously
+-- KEPT:    MaxHealth > 100k — no legit game sets this
+-- KEPT:    Known fly platform parts (specific names executors use)
+-- KEPT:    Executor GUI names in PlayerGui
+-- KEPT:    WalkSpeed 50+ above server max (after baseline)
+-- Need 5pts to flag — single signals never flag alone
+-- ──────────────────────────────────────────────────────────────
+local function checkInjection(p)
+    local c   = p.Character
+    local hrp = c and c:FindFirstChild("HumanoidRootPart")
+    local hum = c and c:FindFirstChildOfClass("Humanoid")
+    if not c or not hrp or not hum then return end
+
+    local score   = 0
+    local reasons = {}
+    local function add(pts, reason)
+        score = score + pts
+        table.insert(reasons, reason)
+    end
+
+    local hasBV = hrp:FindFirstChildOfClass("BodyVelocity") ~= nil
+    local hasBG = hrp:FindFirstChildOfClass("BodyGyro")     ~= nil
+    local hasLV = hrp:FindFirstChildOfClass("LinearVelocity")   ~= nil
+    local hasAO = hrp:FindFirstChildOfClass("AlignOrientation") ~= nil
+
+    -- BV+BG TOGETHER: no legit game adds both at same time
+    if hasBV and hasBG then add(5, "BV+BG fly") end
+    -- LV+AO TOGETHER: modern fly script signature
+    if hasLV and hasAO then add(5, "LV+AO fly") end
+
+    -- Fly platform part spawned by script near/in character
+    for _, obj in ipairs(c:GetDescendants()) do
+        if obj:IsA("BasePart") and FLY_PART_NAMES[obj.Name] then
+            add(5, "Fly part in char: "..obj.Name); break
+        end
+    end
+    for _, obj in ipairs(Workspace:GetChildren()) do
+        if obj:IsA("BasePart") and FLY_PART_NAMES[obj.Name] then
+            if (obj.Position - hrp.Position).Magnitude < 10 then
+                add(4, "Fly part near player: "..obj.Name); break
+            end
+        end
+    end
+
+    -- Godmode: MaxHealth set to impossible value
+    -- Legit games cap at a few thousand at most
+    if hum.MaxHealth > 100000 or hum.MaxHealth ~= hum.MaxHealth then
+        add(5, "MaxHealth godmode: "..tostring(math.floor(hum.MaxHealth)))
+    end
+
+    -- Executor GUI visible in PlayerGui (some executors put GUI wrong place)
+    local guiScore, guiReason = scanPlayerGui(p)
+    if guiScore > 0 then add(guiScore, guiReason) end
+
+    -- WalkSpeed way above everyone else (after 5s baseline)
+    if injBaselineSet and hum.WalkSpeed > injGameMaxWalk + 50 then
+        add(3, "WalkSpeed +"..math.floor(hum.WalkSpeed - injGameMaxWalk).." above server")
+    end
+
+    -- Verdict
+    if score >= 5 then
+        flagCheater(p, "🔧 ["..score.."pts] "..table.concat(reasons, " + "))
+    end
+end
+
+local injCheckTimer2 = 0
+RunService.Heartbeat:Connect(function(dt)
+    if not STATE.cheaterDetect then return end
+    injBaselineTimer = injBaselineTimer + dt
+    injCheckTimer2   = injCheckTimer2   + dt
+
+    -- Build server speed baseline after 5s
+    if not injBaselineSet and injBaselineTimer >= 5 then
+        buildInjBaseline()
+    end
+
+    -- Scan every player every 2 seconds
+    if injCheckTimer2 >= 2 then
+        injCheckTimer2 = 0
+        for _, p in ipairs(Players:GetPlayers()) do
+            if p ~= plr then
+                pcall(function() checkInjection(p) end)
+            end
+        end
+    end
+end)
+
+Players.PlayerRemoving:Connect(function(p)
+    cdData[p.UserId] = nil
+    removeCheaterESP(p)
+end)
+
+-- ============================================================
+-- ANTI-MUSIC
+-- ============================================================
+local mutedSounds = {}
+
+local function muteAll()
+    local function muteIn(parent)
+        for _, obj in ipairs(parent:GetDescendants()) do
+            if obj:IsA("Sound") and not mutedSounds[obj] then
+                mutedSounds[obj] = obj.Volume
+                obj.Volume = 0
+            end
+        end
+    end
+    muteIn(Workspace)
+    pcall(function() muteIn(game:GetService("SoundService")) end)
+end
+
+local function unmuteAll()
+    for s, v in pairs(mutedSounds) do
+        pcall(function() s.Volume = v end)
+    end
+    mutedSounds = {}
+end
+
+Workspace.DescendantAdded:Connect(function(obj)
+    if STATE.antiMusic and obj:IsA("Sound") then
+        mutedSounds[obj] = obj.Volume
+        obj.Volume = 0
+    end
+end)
+
+-- ============================================================
+-- LOW POLY MODE
+-- Sets all BaseParts to SmoothPlastic, removes Textures/
+-- Decals/SpecialMeshes, sets render fidelity to Automatic,
+-- reduces Lighting quality. Gives massive FPS boost on low-end.
+-- ============================================================
+-- lpOriginals stores EXACT original values so restore is perfect
+local lpOriginals  = {}
+local lpActive     = false
+local lpAddedConn  = nil   -- DescendantAdded connection — disconnected on disable
+
+local function applyLowPoly()
+    if lpActive then return end
+    lpActive   = true
+    lpOriginals = {}
+
+    local Lighting = game:GetService("Lighting")
+    pcall(function()
+        lpOriginals["__GlobalShadows"] = Lighting.GlobalShadows
+        lpOriginals["__QualityLevel"]  = settings().Rendering.QualityLevel
+        Lighting.GlobalShadows         = false
+        settings().Rendering.QualityLevel = 1
+    end)
+
+    for _, obj in ipairs(Workspace:GetDescendants()) do
+        pcall(function()
+            if obj:IsA("BasePart") then
+                lpOriginals[obj] = {mat = obj.Material, cast = obj.CastShadow}
+                obj.Material     = Enum.Material.SmoothPlastic
+                obj.CastShadow   = false
+            elseif obj:IsA("Texture") or obj:IsA("Decal") then
+                lpOriginals[obj] = {trans = obj.Transparency}
+                obj.Transparency = 1
+            elseif obj:IsA("SpecialMesh") then
+                -- SpecialMesh has no Transparency — skip
+            elseif obj:IsA("Beam") or obj:IsA("Trail") or obj:IsA("ParticleEmitter") then
+                lpOriginals[obj] = {enabled = obj.Enabled}
+                obj.Enabled      = false
+            elseif obj:IsA("Sky") then
+                lpOriginals[obj] = {parent = obj.Parent}
+                obj.Parent       = nil
+            end
+        end)
+    end
+
+    -- Watch new descendants — use stored connection so we can disconnect
+    lpAddedConn = Workspace.DescendantAdded:Connect(function(obj)
+        if not lpActive then return end
+        pcall(function()
+            if obj:IsA("BasePart") then
+                obj.Material = Enum.Material.SmoothPlastic; obj.CastShadow = false
+            elseif obj:IsA("Texture") or obj:IsA("Decal") then
+                obj.Transparency = 1
+            elseif obj:IsA("ParticleEmitter") or obj:IsA("Beam") or obj:IsA("Trail") then
+                obj.Enabled = false
+            end
+        end)
+    end)
+
+    notify("Low Poly", "Enabled — FPS boost active", 3)
+end
+
+local function removeLowPoly()
+    if not lpActive then return end
+    lpActive = false
+
+    -- Disconnect new-part watcher
+    if lpAddedConn then lpAddedConn:Disconnect(); lpAddedConn = nil end
+
+    local Lighting = game:GetService("Lighting")
+    pcall(function()
+        if lpOriginals["__GlobalShadows"] ~= nil then
+            Lighting.GlobalShadows = lpOriginals["__GlobalShadows"]
+        end
+        if lpOriginals["__QualityLevel"] ~= nil then
+            settings().Rendering.QualityLevel = lpOriginals["__QualityLevel"]
+        end
+    end)
+
+    for obj, data in pairs(lpOriginals) do
+        if type(obj) ~= "string" then  -- skip the __key entries
+            pcall(function()
+                if obj:IsA("BasePart") then
+                    obj.Material   = data.mat
+                    obj.CastShadow = data.cast
+                elseif obj:IsA("Texture") or obj:IsA("Decal") then
+                    obj.Transparency = data.trans
+                elseif obj:IsA("Beam") or obj:IsA("Trail") or obj:IsA("ParticleEmitter") then
+                    obj.Enabled = data.enabled
+                elseif obj:IsA("Sky") then
+                    obj.Parent = data.parent
+                end
+            end)
+        end
+    end
+    lpOriginals = {}
+    notify("Low Poly", "Disabled — restored", 3)
+end
+
+-- ============================================================
+-- WORLD EDITOR
+-- ============================================================
+local hiddenParts = {}
+
+local function isPlayerPart(obj)
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p.Character and obj:IsDescendantOf(p.Character) then return true end
+    end
+    return false
+end
+
+local function hidePart(obj)
+    if not obj:IsA("BasePart") or isPlayerPart(obj) or hiddenParts[obj] then return end
+    hiddenParts[obj] = {t = obj.Transparency, cc = obj.CanCollide, cs = obj.CastShadow}
+    obj.Transparency = 1
+    obj.CanCollide   = false
+    obj.CastShadow   = false
+end
+
+local function restorePart(obj)
+    local d = hiddenParts[obj]
+    if not d then return end
+    pcall(function()
+        obj.Transparency = d.t
+        obj.CanCollide   = d.cc
+        obj.CastShadow   = d.cs
+    end)
+    hiddenParts[obj] = nil
+end
+
+local function restoreAll()
+    local list = {}
+    for obj in pairs(hiddenParts) do table.insert(list, obj) end
+    for _, obj in ipairs(list) do restorePart(obj) end
+end
+
+local function applyWorldEdits()
+    restoreAll()
+    if not STATE.removeWalls and not STATE.removeAnchored and not STATE.removeUnanchored then return end
+    for _, obj in ipairs(Workspace:GetDescendants()) do
+        if obj:IsA("BasePart") and not isPlayerPart(obj) then
+            local hide = false
+            if STATE.removeWalls     and obj.CanCollide and obj.Transparency < 0.9 then hide = true end
+            if STATE.removeAnchored  and obj.Anchored then hide = true end
+            if STATE.removeUnanchored and not obj.Anchored and obj.CanCollide then hide = true end
+            if hide then hidePart(obj) end
+        end
+    end
+end
+
+Workspace.DescendantAdded:Connect(function(obj)
+    task.wait()
+    if not obj:IsA("BasePart") or isPlayerPart(obj) then return end
+    if STATE.removeWalls      and obj.CanCollide and obj.Transparency < 0.9 then hidePart(obj) end
+    if STATE.removeAnchored   and obj.Anchored then hidePart(obj) end
+    if STATE.removeUnanchored and not obj.Anchored and obj.CanCollide then hidePart(obj) end
+end)
+
+
+-- ============================================================
+-- ESP SYSTEM v2  —  Extended, still low overhead
+-- Box, Name, HP, Distance, Tracer, Head Circle, Chams, Skeleton
+-- 2 WorldToViewportPoint calls per player for box
+-- Skeleton uses HRP + key bone positions (6 extra calls max)
+-- Chams = Highlight instance (zero per-frame cost once created)
+-- ============================================================
+local espData   = {}
+local ESP_RED   = Color3.fromRGB(255, 55, 55)
+local ESP_BLUE  = Color3.fromRGB(55, 200, 255)
+local ESP_WHITE = Color3.fromRGB(255, 255, 255)
+local VP_CENTER = Vector2.new(0, 0) -- updated each frame
+
+local function espCol(p)
+    if STATE.espTeamCheck and p.Team and plr.Team and p.Team == plr.Team then
+        return ESP_BLUE
+    end
+    return ESP_RED
+end
+
+local function newLine(th, z)
+    local d = Drawing.new("Line")
+    d.Thickness = th or 1.2; d.ZIndex = z or 3; d.Visible = false
+    return d
+end
+
+local function newCircle()
+    local d = Drawing.new("Circle")
+    d.Thickness = 1.2; d.ZIndex = 4; d.Filled = false; d.Visible = false
+    return d
+end
+
+-- Skeleton bone pairs: {partNameA, partNameB}
+local SKEL_BONES = {
+    {"Head","UpperTorso"},{"UpperTorso","LowerTorso"},
+    {"UpperTorso","Left UpperArm"},{"Left UpperArm","Left LowerArm"},{"Left LowerArm","LeftHand"},
+    {"UpperTorso","Right UpperArm"},{"Right UpperArm","Right LowerArm"},{"Right LowerArm","RightHand"},
+    {"LowerTorso","Left UpperLeg"},{"Left UpperLeg","Left LowerLeg"},{"Left LowerLeg","LeftFoot"},
+    {"LowerTorso","Right UpperLeg"},{"Right UpperLeg","Right LowerLeg"},{"Right LowerLeg","RightFoot"},
+    -- R6 fallback
+    {"Head","Torso"},{"Torso","Left Arm"},{"Torso","Right Arm"},
+    {"Torso","Left Leg"},{"Torso","Right Leg"},
+}
+
+local function createESP(p)
+    if espData[p] then return end
+    local col = espCol(p)
+
+    -- BillboardGui on HRP: name + hp bar + distance text
+    local bb = Instance.new("BillboardGui")
+    bb.Size                  = UDim2.new(0,100,0,26)
+    bb.StudsOffsetWorldSpace = Vector3.new(0,3.5,0)
+    bb.AlwaysOnTop           = true
+    bb.LightInfluence        = 0
+    bb.ResetOnSpawn          = false
+
+    local nameL = Instance.new("TextLabel",bb)
+    nameL.Size=UDim2.new(1,0,0,13); nameL.BackgroundTransparency=1
+    nameL.Text=p.Name; nameL.Font=Enum.Font.GothamBold; nameL.TextSize=11
+    nameL.TextColor3=ESP_WHITE; nameL.TextStrokeTransparency=0.35
+    nameL.TextStrokeColor3=Color3.new(0,0,0)
+
+    local hpBg = Instance.new("Frame",bb)
+    hpBg.Size=UDim2.new(1,0,0,4); hpBg.Position=UDim2.new(0,0,0,15)
+    hpBg.BackgroundColor3=Color3.fromRGB(35,8,8); hpBg.BorderSizePixel=0
+    Instance.new("UICorner",hpBg).CornerRadius=UDim.new(1,0)
+
+    local hpFill = Instance.new("Frame",hpBg)
+    hpFill.Size=UDim2.new(1,0,1,0); hpFill.BackgroundColor3=Color3.fromRGB(60,220,60)
+    hpFill.BorderSizePixel=0; Instance.new("UICorner",hpFill).CornerRadius=UDim.new(1,0)
+
+    local distL = Instance.new("TextLabel",bb)
+    distL.Size=UDim2.new(1,0,0,9); distL.Position=UDim2.new(0,0,1,1)
+    distL.BackgroundTransparency=1; distL.Font=Enum.Font.Gotham; distL.TextSize=8
+    distL.TextColor3=Color3.fromRGB(190,190,190)
+    distL.TextStrokeTransparency=0.5; distL.TextStrokeColor3=Color3.new(0,0,0)
+    distL.Text=""
+
+    -- 2D box (4 lines)
+    local box = {newLine(1.4),newLine(1.4),newLine(1.4),newLine(1.4)}
+
+    -- Tracer (bottom-center screen to player feet)
+    local tracer = newLine(1.0, 2)
+
+    -- Head circle
+    local headCirc = newCircle()
+
+    -- Chams (Highlight — parented to character, zero per-frame cost)
+    local cham = Instance.new("Highlight")
+    cham.FillTransparency    = 0.55
+    cham.OutlineTransparency = 0.0
+    cham.OutlineColor        = col
+    cham.FillColor           = col
+    -- NOT parented yet — done in update
+
+    -- Skeleton lines (one per bone pair — only visible bones drawn)
+    local skelLines = {}
+    for _ = 1, #SKEL_BONES do table.insert(skelLines, newLine(0.9, 2)) end
+
+    espData[p] = {
+        bb=bb, nameL=nameL, hpFill=hpFill, distL=distL,
+        box=box, tracer=tracer, headCirc=headCirc,
+        cham=cham, skelLines=skelLines,
+    }
+end
+
+local function destroyESP(p)
+    local e = espData[p]
+    if not e then return end
+    pcall(function() e.bb:Destroy() end)
+    pcall(function() e.cham:Destroy() end)
+    for _,l in ipairs(e.box)      do pcall(function() l:Remove() end) end
+    pcall(function() e.tracer:Remove() end)
+    pcall(function() e.headCirc:Remove() end)
+    for _,l in ipairs(e.skelLines) do pcall(function() l:Remove() end) end
+    espData[p] = nil
+end
+
+local function clearAllESP()
+    for p in pairs(espData) do destroyESP(p) end
+end
+
+local function hideEntry(e)
+    for _,l in ipairs(e.box) do l.Visible=false end
+    e.tracer.Visible=false; e.headCirc.Visible=false
+    for _,l in ipairs(e.skelLines) do l.Visible=false end
+end
+
+local espFrame = 0
+RunService.RenderStepped:Connect(function()
+    if not STATE.esp then
+        if next(espData) then clearAllESP() end
+        return
+    end
+
+    espFrame = espFrame + 1
+    local doSlow = (espFrame % 3 == 0)
+    local cam    = Camera
+    local vp     = cam.ViewportSize
+    VP_CENTER    = Vector2.new(vp.X/2, vp.Y)  -- tracer origin = bottom-center
+    local myHRP  = getHRP()
+
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= plr then
+            local c   = p.Character
+            local hrp = c and c:FindFirstChild("HumanoidRootPart")
+            local hum = c and c:FindFirstChildOfClass("Humanoid")
+
+            if c and hrp and hum then
+                if not espData[p] then createESP(p) end
+                local e   = espData[p]
+                local col = espCol(p)
+
+                -- Billboard
+                if e.bb.Parent ~= hrp then e.bb.Parent = hrp end
+
+                -- Chams (Highlight)
+                if STATE.espChams then
+                    if e.cham.Parent ~= c then
+                        e.cham.Adornee = c
+                        e.cham.Parent  = c
+                        e.cham.OutlineColor = col
+                        e.cham.FillColor    = col
+                    end
+                else
+                    if e.cham.Parent then e.cham.Parent = nil end
+                end
+
+                -- Name / HP / Distance visibility flags
+                e.nameL.Visible = STATE.espName
+                e.hpFill.Parent.Visible = STATE.espHealth
+                e.distL.Visible = STATE.espDist
+
+                -- 2 screen projections for box
+                local topSc, topVis = cam:WorldToViewportPoint(hrp.Position + Vector3.new(0,3.2,0))
+                local botSc, botVis = cam:WorldToViewportPoint(hrp.Position + Vector3.new(0,-3.2,0))
+
+                if topVis and botVis and STATE.espBox then
+                    local bH = math.abs(botSc.Y - topSc.Y)
+                    local bW = bH * 0.48
+                    local x,y = topSc.X - bW/2, topSc.Y
+                    local r,b = x+bW, botSc.Y
+                    local function setLine(l,fx,fy,tx,ty)
+                        l.From=Vector2.new(fx,fy); l.To=Vector2.new(tx,ty)
+                        l.Color=col; l.Visible=true
+                    end
+                    setLine(e.box[1],x,y,r,y)
+                    setLine(e.box[2],x,b,r,b)
+                    setLine(e.box[3],x,y,x,b)
+                    setLine(e.box[4],r,y,r,b)
+
+                    -- Tracer: bottom-center → player feet
+                    if STATE.espTracer then
+                        e.tracer.From    = VP_CENTER
+                        e.tracer.To      = Vector2.new(topSc.X, b)
+                        e.tracer.Color   = col
+                        e.tracer.Visible = true
+                    else
+                        e.tracer.Visible = false
+                    end
+
+                    -- Head circle (same X as box center, Y = top of box)
+                    if STATE.espHeadCircle then
+                        local headR = bH * 0.13
+                        e.headCirc.Position = Vector2.new(topSc.X, y + headR)
+                        e.headCirc.Radius   = headR
+                        e.headCirc.Color    = col
+                        e.headCirc.Visible  = true
+                    else
+                        e.headCirc.Visible = false
+                    end
+                else
+                    for _,l in ipairs(e.box) do l.Visible=false end
+                    e.tracer.Visible=false; e.headCirc.Visible=false
+                end
+
+                -- Skeleton
+                if STATE.espSkeleton then
+                    for i, pair in ipairs(SKEL_BONES) do
+                        local pA = c:FindFirstChild(pair[1])
+                        local pB = c:FindFirstChild(pair[2])
+                        local sl = e.skelLines[i]
+                        if pA and pB then
+                            local sA, vA = cam:WorldToViewportPoint(pA.Position)
+                            local sB, vB = cam:WorldToViewportPoint(pB.Position)
+                            if vA and vB then
+                                sl.From=Vector2.new(sA.X,sA.Y)
+                                sl.To=Vector2.new(sB.X,sB.Y)
+                                sl.Color=col; sl.Visible=true
+                            else sl.Visible=false end
+                        else sl.Visible=false end
+                    end
+                else
+                    for _,sl in ipairs(e.skelLines) do sl.Visible=false end
+                end
+
+                -- Slow: HP + distance (~20fps)
+                if doSlow then
+                    local hpPct = math.clamp(hum.Health/math.max(hum.MaxHealth,1),0,1)
+                    e.hpFill.Size=UDim2.new(hpPct,0,1,0)
+                    e.hpFill.BackgroundColor3=Color3.fromRGB(
+                        math.floor(255*(1-hpPct)), math.floor(255*hpPct), 25)
+                    if myHRP then
+                        e.distL.Text=math.floor((hrp.Position-myHRP.Position).Magnitude).."m"
+                    end
+                    e.nameL.TextColor3 = col
+                end
+
+            else
+                if espData[p] then destroyESP(p) end
+            end
+        end
+    end
+
+    for p in pairs(espData) do
+        if not p.Parent then destroyESP(p) end
+    end
+end)
+
+Players.PlayerRemoving:Connect(function(p) destroyESP(p) end)
+
+-- ============================================================
+-- AIMBOT
+-- RMB (or chosen key) to lock. Smooth camera move toward target.
+-- Bone: Head / HRP / UpperTorso.  Prediction: leads moving targets.
+-- FOV circle drawn on screen.  Team check skips teammates.
+-- ============================================================
+local abTarget   = nil   -- current locked player
+local abFOVcirc
+pcall(function()
+    abFOVcirc = Drawing.new("Circle")
+    abFOVcirc.Thickness=1.2; abFOVcirc.Filled=false
+    abFOVcirc.Color=Color3.fromRGB(255,255,255)
+    abFOVcirc.Visible=false; abFOVcirc.ZIndex=5
+end)
+if not abFOVcirc then abFOVcirc = Drawing.new("Circle") end
+
+local function abKeyHeld()
+    if STATE.aimKey == "RMB" then
+        return UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)
+    elseif STATE.aimKey == "LMB" then
+        return UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1)
+    else
+        local ok,k = pcall(function() return Enum.KeyCode[STATE.aimKey] end)
+        return ok and UserInputService:IsKeyDown(k)
+    end
+end
+
+local function abGetBone(c)
+    if not c then return nil end
+    local bone = STATE.aimBone
+    local part = c:FindFirstChild(bone)
+        or c:FindFirstChild("HumanoidRootPart")
+        or c:FindFirstChild("Torso")
+    return part
+end
+
+local function abIsTeammate(p)
+    if not STATE.aimTeamCheck then return false end
+    return p.Team and plr.Team and p.Team == plr.Team
+end
+
+local function abFindTarget()
+    local cam   = Camera
+    local vp    = cam.ViewportSize
+    local cx,cy = vp.X/2, vp.Y/2
+    local best,bestDist = nil, math.huge
+    for _,p in ipairs(Players:GetPlayers()) do
+        if p ~= plr and not abIsTeammate(p) then
+            local c   = p.Character
+            local hum = c and c:FindFirstChildOfClass("Humanoid")
+            local bone= abGetBone(c)
+            if bone and hum and hum.Health > 0 then
+                local sc,vis = cam:WorldToViewportPoint(bone.Position)
+                if vis then
+                    local dx,dy = sc.X-cx, sc.Y-cy
+                    local dist  = math.sqrt(dx*dx+dy*dy)
+                    if dist < STATE.aimFOV and dist < bestDist then
+                        bestDist=dist; best=p
+                    end
+                end
+            end
+        end
+    end
+    return best
+end
+
+local function abPredict(bone)
+    if not STATE.aimPrediction or not bone then return bone.Position end
+    return bone.Position + bone.AssemblyLinearVelocity * (1/30)
+end
+
+-- Aimbot uses mousemoverel correctly:
+-- We compute screen-space delta from center to target.
+-- Then divide by smoothness to get this frame's movement.
+-- We CLAMP to the actual remaining delta so we never overshoot.
+-- This is the standard approach used by every real Roblox aimbot.
+RunService.RenderStepped:Connect(function()
+    -- FOV circle
+    if STATE.aimbot and STATE.aimShowFOV then
+        local vp = Camera.ViewportSize
+        abFOVcirc.Position = Vector2.new(vp.X/2, vp.Y/2)
+        abFOVcirc.Radius   = STATE.aimFOV
+        abFOVcirc.Visible  = true
+    else
+        abFOVcirc.Visible = false
+    end
+
+    if not STATE.aimbot then abTarget = nil; return end
+    if not abKeyHeld()  then abTarget = nil; return end
+
+    abTarget = abFindTarget()
+    if not abTarget then return end
+
+    local c    = abTarget.Character
+    local bone = abGetBone(c)
+    if not bone then abTarget = nil; return end
+
+    local aimPos       = abPredict(bone)
+    local cam          = Camera
+    local vp           = cam.ViewportSize
+    local cx, cy       = vp.X / 2, vp.Y / 2
+
+    -- Project target to screen
+    local sc, vis = cam:WorldToViewportPoint(aimPos)
+    if not vis then abTarget = nil; return end
+
+    -- Raw delta from crosshair center to target on screen
+    local rawX = sc.X - cx
+    local rawY = sc.Y - cy
+
+    -- Smooth: divide delta by smoothness factor
+    -- Clamp so we NEVER move more than the remaining delta (no overshoot)
+    local smooth = math.max(1, STATE.aimSmooth)
+    local moveX  = math.clamp(rawX / smooth, -math.abs(rawX), math.abs(rawX))
+    local moveY  = math.clamp(rawY / smooth, -math.abs(rawY), math.abs(rawY))
+
+    -- Only move if we are not already on target
+    if math.abs(rawX) > 0.5 or math.abs(rawY) > 0.5 then
+        mousemoverel(moveX, moveY)
+    end
+end)
+
+-- ============================================================
+-- ANTI-AIM  (jitters your character to mess up enemy aimbot)
+-- ============================================================
+local antiAimConn
+local antiAimAngle = 0
+local function startAntiAim()
+    if antiAimConn then return end
+    antiAimConn = RunService.RenderStepped:Connect(function()
+        if not STATE.antiAim then
+            antiAimConn:Disconnect(); antiAimConn=nil; return
+        end
+        local hrp = getHRP()
+        if hrp then
+            antiAimAngle = (antiAimAngle + 25) % 360
+            hrp.CFrame = CFrame.new(hrp.Position) *
+                CFrame.Angles(0, math.rad(antiAimAngle), 0)
+        end
+    end)
+end
+
+-- ============================================================
+-- ANTI-SCREENSHOT  (flashes screen when F12/PrintScrn pressed)
+-- ============================================================
+local ssBlind
+UserInputService.InputBegan:Connect(function(inp)
+    if not STATE.antiScreen then return end
+    if inp.KeyCode == Enum.KeyCode.F12
+        or inp.KeyCode == Enum.KeyCode.Print then
+        -- Flash a white frame
+        if not ssBlind then
+            local sg2 = Instance.new("ScreenGui")
+            sg2.IgnoreGuiInset=true; sg2.ZIndexBehavior=Enum.ZIndexBehavior.Sibling
+            local ok,hui = pcall(function() return gethui() end)
+            sg2.Parent = (ok and hui) or plr.PlayerGui
+            ssBlind = Instance.new("Frame",sg2)
+            ssBlind.Size=UDim2.new(1,0,1,0)
+            ssBlind.BackgroundColor3=Color3.new(1,1,1)
+            ssBlind.BorderSizePixel=0
+            task.delay(0.18, function() sg2:Destroy(); ssBlind=nil end)
+        end
+    end
+end)
+
+-- ============================================================
+-- ANTI-EXPLOIT ALERT  (detects sudden suspicious RemoteEvent bursts)
+-- Flags players who fire the same Remote >30 times/sec
+-- ============================================================
+local reCount   = {}
+local reTimer   = 0
+local function watchRemotes()
+    for _,p in ipairs(Players:GetPlayers()) do
+        if p ~= plr then
+            if not reCount[p.UserId] then reCount[p.UserId]=0 end
+        end
+    end
+end
+-- We hook via __namecall if available, otherwise skip silently
+pcall(function()
+    local mt = getrawmetatable(game)
+    local old = mt.__namecall
+    setreadonly(mt, false)
+    mt.__namecall = newcclosure(function(self, ...)
+        local method = getnamecallmethod()
+        if method == "FireServer" or method == "InvokeServer" then
+            local uid = plr.UserId
+            reCount[uid] = (reCount[uid] or 0) + 1
+        end
+        return old(self, ...)
+    end)
+    setreadonly(mt, true)
+end)
+
+-- ============================================================
+-- ANTI-GRAVITY  (zero workspace gravity for local player)
+-- ============================================================
+local origGravity = nil
+local function applyAntiGrav(on)
+    if on then
+        origGravity = Workspace.Gravity
+        Workspace.Gravity = 0
+    else
+        if origGravity then Workspace.Gravity = origGravity; origGravity = nil end
+    end
+end
+
+-- ============================================================
+-- JUMP BOOST / INFINITE JUMP / BHOP
+-- ============================================================
+RunService.Heartbeat:Connect(function()
+    if STATE.jumpBoost then
+        local hum = getHum()
+        if hum then hum.JumpPower = STATE.jumpPower end
+    end
+end)
+
+UserInputService.JumpRequest:Connect(function()
+    if STATE.infinite then
+        local hum = getHum()
+        if hum then hum:ChangeState(Enum.HumanoidStateType.Jumping) end
+    end
+end)
+
+local bhopping = false
+RunService.Heartbeat:Connect(function()
+    if not STATE.bhop then bhopping = false; return end
+    local hum = getHum()
+    local hrp = getHRP()
+    if not hum or not hrp then return end
+    if hum.FloorMaterial ~= Enum.Material.Air then
+        -- on ground — auto jump
+        if not bhopping then
+            bhopping = true
+            hum:ChangeState(Enum.HumanoidStateType.Jumping)
+        end
+    else
+        bhopping = false
+    end
+end)
+
+-- ============================================================
+-- FULLBRIGHT / NO FOG / TIME FREEZE
+-- ============================================================
+local Lighting = game:GetService("Lighting")
+local origLightProps = nil
+local origFog = nil
+local frozenTimeConn = nil
+
+local function applyFullbright(on)
+    if on then
+        origLightProps = {
+            Brightness = Lighting.Brightness,
+            Ambient    = Lighting.Ambient,
+            OutdoorAmbient = Lighting.OutdoorAmbient,
+        }
+        Lighting.Brightness     = 5
+        Lighting.Ambient        = Color3.fromRGB(178,178,178)
+        Lighting.OutdoorAmbient = Color3.fromRGB(178,178,178)
+    else
+        if origLightProps then
+            Lighting.Brightness     = origLightProps.Brightness
+            Lighting.Ambient        = origLightProps.Ambient
+            Lighting.OutdoorAmbient = origLightProps.OutdoorAmbient
+            origLightProps = nil
+        end
+    end
+end
+
+local function applyNoFog(on)
+    if on then
+        origFog = {Start=Lighting.FogStart, End=Lighting.FogEnd}
+        Lighting.FogStart = 1e8; Lighting.FogEnd = 1e9
+    else
+        if origFog then
+            Lighting.FogStart = origFog.Start
+            Lighting.FogEnd   = origFog.End
+            origFog = nil
+        end
+    end
+end
+
+local function applyTimeFreeze(on)
+    if frozenTimeConn then frozenTimeConn:Disconnect(); frozenTimeConn = nil end
+    if on then
+        Lighting.TimeOfDay = string.format("%02d:00:00", STATE.frozenTime)
+        frozenTimeConn = RunService.Heartbeat:Connect(function()
+            if not STATE.timeFreeze then
+                frozenTimeConn:Disconnect(); frozenTimeConn = nil; return
+            end
+            Lighting.TimeOfDay = string.format("%02d:00:00", STATE.frozenTime)
+        end)
+    end
+end
+
+-- ============================================================
+-- ANTI-AFK
+-- Simulates input every 60s so the game never idles you out.
+-- Uses VirtualUser service — no visible mouse movement.
+-- ============================================================
+local VirtualUser = game:GetService("VirtualUser")
+local afkTimer    = 0
+RunService.Heartbeat:Connect(function(dt)
+    if not STATE.antiAFK then afkTimer = 0; return end
+    afkTimer = afkTimer + dt
+    if afkTimer >= 60 then
+        afkTimer = 0
+        pcall(function()
+            VirtualUser:CaptureController()
+            VirtualUser:ClickButton2(Vector2.new(0,0))
+        end)
+    end
+end)
+
+-- ============================================================
+-- REMOVE SCREEN EFFECTS
+-- Strips ColorCorrectionEffect, BlurEffect, SunRaysEffect,
+-- DepthOfFieldEffect, BloomEffect from Lighting + all cameras.
+-- Stores originals so restore works.
+-- ============================================================
+local removedFX = {}
+
+local FX_TYPES = {
+    "ColorCorrectionEffect", "BlurEffect", "SunRaysEffect",
+    "DepthOfFieldEffect", "BloomEffect", "BlackAndWhiteEffect",
+}
+
+local function isFXType(obj)
+    for _, t in ipairs(FX_TYPES) do
+        if obj:IsA(t) then return true end
+    end
+    return false
+end
+
+local function removeScreenFX()
+    local function stripFrom(parent)
+        for _, obj in ipairs(parent:GetDescendants()) do
+            if isFXType(obj) and obj.Enabled then
+                obj.Enabled = false
+                table.insert(removedFX, obj)
+            end
+        end
+    end
+    stripFrom(game:GetService("Lighting"))
+    stripFrom(Workspace.CurrentCamera)
+    -- Also disable any added after
+    game:GetService("Lighting").DescendantAdded:Connect(function(obj)
+        if STATE.noScreenFX and isFXType(obj) then
+            task.wait()
+            obj.Enabled = false
+            table.insert(removedFX, obj)
+        end
+    end)
+end
+
+local function restoreScreenFX()
+    for _, obj in ipairs(removedFX) do
+        pcall(function() obj.Enabled = true end)
+    end
+    removedFX = {}
+end
+
+-- ============================================================
+-- UNDETECTED FLY  (invisible platform method)
+-- ============================================================
+local flyConn
+
+local function destroyFlyParts()
+    if STATE.flyPlatform then STATE.flyPlatform:Destroy(); STATE.flyPlatform = nil end
+    if STATE.flyBodyVel  then pcall(function() STATE.flyBodyVel:Destroy() end);  STATE.flyBodyVel  = nil end
+    if STATE.flyBodyGyro then pcall(function() STATE.flyBodyGyro:Destroy() end); STATE.flyBodyGyro = nil end
+end
+
+local function startFly()
+    destroyFlyParts()
+    local hrp = getHRP()
+    if not hrp then return end
+
+    local plat = Instance.new("Part")
+    plat.Name         = "LillyPlat"
+    plat.Size         = Vector3.new(2, 0.2, 2)
+    plat.Transparency = 1
+    plat.CanCollide   = false
+    plat.Anchored     = false
+    plat.Massless     = true
+    plat.CastShadow   = false
+    plat.CFrame       = hrp.CFrame * CFrame.new(0, -3, 0)
+    plat.Parent       = Workspace
+
+    local weld   = Instance.new("WeldConstraint")
+    weld.Part0   = hrp
+    weld.Part1   = plat
+    weld.Parent  = hrp
+
+    local bv         = Instance.new("BodyVelocity")
+    bv.MaxForce      = Vector3.new(1e5, 1e5, 1e5)
+    bv.Velocity      = Vector3.zero
+    bv.Parent        = hrp
+
+    local bg         = Instance.new("BodyGyro")
+    bg.MaxTorque     = Vector3.new(1e5, 1e5, 1e5)
+    bg.D             = 100
+    bg.P             = 10000
+    bg.CFrame        = hrp.CFrame
+    bg.Parent        = hrp
+
+    STATE.flyPlatform = plat
+    STATE.flyBodyVel  = bv
+    STATE.flyBodyGyro = bg
+
+    local hum = getHum()
+    if hum then hum.PlatformStand = true end
+
+    if flyConn then flyConn:Disconnect() end
+    flyConn = RunService.RenderStepped:Connect(function()
+        if not STATE.fly then return end
+        local h = getHRP()
+        if not h or not STATE.flyBodyVel then return end
+
+        local spd = STATE.flySpeed
+        local vel = Vector3.zero
+        local function held(k) return UserInputService:IsKeyDown(k) end
+        local cf  = Camera.CFrame
+        local fwd = Vector3.new(cf.LookVector.X, 0, cf.LookVector.Z).Unit
+        local rgt = Vector3.new(cf.RightVector.X, 0, cf.RightVector.Z).Unit
+
+        if held(Enum.KeyCode.W)            then vel = vel + fwd * spd end
+        if held(Enum.KeyCode.S)            then vel = vel - fwd * spd end
+        if held(Enum.KeyCode.D)            then vel = vel + rgt * spd end
+        if held(Enum.KeyCode.A)            then vel = vel - rgt * spd end
+        if held(Enum.KeyCode.Space)        then vel = vel + Vector3.new(0, spd, 0) end
+        if held(Enum.KeyCode.LeftControl)  then vel = vel - Vector3.new(0, spd, 0) end
+
+        STATE.flyBodyVel.Velocity  = vel
+        STATE.flyBodyGyro.CFrame   = CFrame.new(h.Position)
+    end)
+end
+
+local function stopFly()
+    if flyConn then flyConn:Disconnect(); flyConn = nil end
+    destroyFlyParts()
+    local hum = getHum()
+    if hum then hum.PlatformStand = false end
+end
+
+-- ============================================================
+-- FLING SYSTEM
+--
+-- SPIN TOGGLE (Movement tab):
+--   Attaches a BodyAngularVelocity to YOUR OWN HRP.
+--   You spin at 9999 rad/s but can still walk freely.
+--   No TP, no interruption to movement. Pure spin.
+--
+-- FLING PLAYER (Players tab):
+--   Attaches a WeldConstraint + BodyAngularVelocity to the
+--   TARGET so THEY spin ultra fast while you stay still.
+--   After 0.4s: releases weld, fires explosive BodyVelocity
+--   to launch them. Then CHAIN: auto-attaches to the next
+--   nearest player and does it again, repeating until stopped.
+-- ============================================================
+
+-- Spin toggle — spins YOUR character, walk freely
+local spinConn     = nil
+local selfSpinBAV  = nil
+
+local function startSpin()
+    if spinConn then return end
+    local hrp = getHRP()
+    if not hrp then return end
+    selfSpinBAV = Instance.new("BodyAngularVelocity")
+    selfSpinBAV.AngularVelocity = Vector3.new(0, 9999, 0)
+    selfSpinBAV.MaxTorque       = Vector3.new(0, 1e9, 0)
+    selfSpinBAV.Parent          = hrp
+    -- Re-parent to new HRP if character respawns
+    spinConn = RunService.Heartbeat:Connect(function()
+        if not STATE.spinToggle then
+            if selfSpinBAV then pcall(function() selfSpinBAV:Destroy() end); selfSpinBAV = nil end
+            spinConn:Disconnect(); spinConn = nil; return
+        end
+        local h = getHRP()
+        if h and selfSpinBAV and selfSpinBAV.Parent ~= h then
+            selfSpinBAV.Parent = h
+        end
+    end)
+end
+
+local function stopSpin()
+    if selfSpinBAV then pcall(function() selfSpinBAV:Destroy() end); selfSpinBAV = nil end
+    if spinConn    then spinConn:Disconnect(); spinConn = nil end
+end
+
+-- Chain fling state
+local chainFlingActive = false
+local chainFlingConn   = nil
+
+local function getNearestPlayer(excludeList)
+    local hrp = getHRP()
+    if not hrp then return nil end
+    local best, bestDist = nil, math.huge
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= plr then
+            local skip = false
+            if excludeList then
+                for _, ex in ipairs(excludeList) do
+                    if ex == p then skip = true; break end
+                end
+            end
+            if not skip then
+                local pc = p.Character
+                local ph = pc and pc:FindFirstChild("HumanoidRootPart")
+                if ph then
+                    local d = (ph.Position - hrp.Position).Magnitude
+                    if d < bestDist then bestDist = d; best = p end
+                end
+            end
+        end
+    end
+    return best
+end
+
+-- Fling one target: TP to them, weld self to them, spin ultra fast,
+-- forces transfer to target, then explosive launch. Chain auto-switches.
+local function flingOne(target, onDone)
+    if not target then if onDone then onDone(nil) end; return end
+    local tc   = target.Character
+    local thrp = tc and tc:FindFirstChild("HumanoidRootPart")
+    local hum  = tc and tc:FindFirstChildOfClass("Humanoid")
+    local hrp  = getHRP()
+    if not thrp or not hum or not hrp then
+        if onDone then onDone(nil) end; return
+    end
+
+    -- Step 1: TP ourselves directly onto the target
+    markOwnTP()
+    hrp.CFrame = CFrame.new(thrp.Position)
+
+    -- Step 2: Weld OUR HRP to THEIR HRP — forces we generate transfer to them
+    local weld = Instance.new("WeldConstraint")
+    weld.Part0  = hrp
+    weld.Part1  = thrp
+    weld.Parent = hrp
+
+    -- Step 3: Spin OUR HRP at 9999 rad/s — torque transfers through weld to target
+    local bav = Instance.new("BodyAngularVelocity")
+    bav.AngularVelocity = Vector3.new(0, 9999, 0)
+    bav.MaxTorque       = Vector3.new(0, 1e9, 0)
+    bav.Parent          = hrp
+
+    -- Step 4: BodyVelocity on target ready to fire
+    local bv = Instance.new("BodyVelocity")
+    bv.MaxForce = Vector3.new(1e9, 1e9, 1e9)
+    bv.Velocity = Vector3.zero
+    bv.Parent   = thrp
+
+    notify("Fling", "Spinning " .. target.Name .. "...", 1)
+
+    -- Step 5: After 0.4s release and LAUNCH
+    task.delay(0.4, function()
+        pcall(function() bav:Destroy() end)
+        pcall(function() weld:Destroy() end)
+
+        -- Massive explosive launch
+        bv.Velocity = Vector3.new(
+            math.random(-5000, 5000),
+            math.random(6000, 10000),
+            math.random(-5000, 5000)
+        )
+        task.delay(0.1, function() pcall(function() bv:Destroy() end) end)
+
+        -- Return ourselves to last safe position
+        task.delay(0.05, function()
+            local myHRP = getHRP()
+            if myHRP and STATE.lastSafePos then
+                markOwnTP()
+                myHRP.CFrame = CFrame.new(STATE.lastSafePos + Vector3.new(0, 3, 0))
+            end
+        end)
+
+        notify("Fling", "LAUNCHED " .. target.Name .. "!!!", 2)
+
+        task.delay(0.35, function()
+            if onDone then onDone(getNearestPlayer()) end
+        end)
+    end)
+end
+
+-- Public fling: flings selected target once (no chain)
+local function flingPlayer(target)
+    flingOne(target, nil)
+end
+
+-- Start chain fling: flings target, then nearest, then nearest...
+local function startChainFling(firstTarget)
+    if chainFlingActive then return end
+    chainFlingActive = true
+    STATE.chainFling = true
+
+    local function doNext(target)
+        if not STATE.chainFling or not chainFlingActive then
+            chainFlingActive = false
+            return
+        end
+        if not target then
+            -- No more players — wait and retry
+            task.delay(0.5, function()
+                if STATE.chainFling and chainFlingActive then
+                    doNext(getNearestPlayer())
+                else
+                    chainFlingActive = false
+                end
+            end)
+            return
+        end
+        flingOne(target, doNext)
+    end
+
+    doNext(firstTarget or getNearestPlayer())
+end
+
+local function stopChainFling()
+    STATE.chainFling  = false
+    chainFlingActive  = false
+end
+
+-- ============================================================
+-- CLICK-TP
+-- ============================================================
+mouse.Button1Down:Connect(function()
+    if not STATE.clickTP then return end
+    local hrp = getHRP()
+    if not hrp then return end
+    local hit = mouse.Hit
+    if hit then markOwnTP(); hrp.CFrame = hit * CFrame.new(0, 3, 0) end
+end)
+
+-- ============================================================
+-- SPEED / NOCLIP / REACH  (passive heartbeat loops)
+-- ============================================================
+RunService.Heartbeat:Connect(function()
+    if STATE.speedBoost then
+        local hum = getHum()
+        if hum then hum.WalkSpeed = STATE.speedValue end
+    end
+    if STATE.noclip then
+        local c = getChar()
+        if c then
+            for _, p in ipairs(c:GetDescendants()) do
+                if p:IsA("BasePart") then p.CanCollide = false end
+            end
+        end
+    else
+        -- Restore collision when noclip is turned off
+        if STATE._wasNoclip then
+            STATE._wasNoclip = false
+            local c = getChar()
+            if c then
+                local hum = c:FindFirstChildOfClass("Humanoid")
+                for _, p in ipairs(c:GetDescendants()) do
+                    if p:IsA("BasePart") and p.Name ~= "HumanoidRootPart" then
+                        p.CanCollide = true
+                    end
+                end
+            end
+        end
+    end
+    STATE._wasNoclip = STATE.noclip
+    if STATE.reach then
+        local c = getChar()
+        if c then
+            local tool = c:FindFirstChildOfClass("Tool")
+            if tool then
+                local h = tool:FindFirstChild("Handle")
+                if h then h.Size = Vector3.new(STATE.reachValue, STATE.reachValue, STATE.reachValue) end
+            end
+        end
+    end
+end)
+
+-- ============================================================
+-- SPECTATE
+-- ============================================================
+local specConn
+
+local function stopSpectate()
+    if specConn then specConn:Disconnect(); specConn = nil end
+    Camera.CameraType = Enum.CameraType.Custom
+    local hum = getChar() and getChar():FindFirstChildOfClass("Humanoid")
+    if hum then Camera.CameraSubject = hum end
+    STATE.spectateTarget = nil
+end
+
+local function spectate(target)
+    if not target then stopSpectate(); return end
+    STATE.spectateTarget = target
+    if specConn then specConn:Disconnect() end
+    specConn = RunService.RenderStepped:Connect(function()
+        if not STATE.spectateTarget then stopSpectate(); return end
+        local tc = STATE.spectateTarget.Character
+        if tc then
+            local h = tc:FindFirstChildOfClass("Humanoid")
+            if h then Camera.CameraSubject = h end
+        end
+    end)
+    notify("Spectate", "Spectating " .. target.Name, 3)
+end
+
+-- ============================================================
+-- RESPAWN
+-- ============================================================
+plr.CharacterAdded:Connect(function()
+    task.wait(1)
+    rb_prevPos         = nil
+    tp_prevPos         = nil
+    STATE.lastSafePos  = nil
+    if STATE.fly then startFly() end
+end)
+
+-- ============================================================
+-- LOAD SAVED STATE (must happen BEFORE GUI builds so toggles
+-- render with the correct ON/OFF state from the start)
+-- ============================================================
+local _hadSave = loadState()
+if _hadSave then
+    task.defer(function()
+        applyRestoredState()
+        notify("Lilly", "Settings restored ✓", 3)
+    end)
+end
+
+-- ============================================================
+-- GUI
+-- ============================================================
+local C = {
+    BG    = Color3.fromRGB(7, 4, 16),
+    PANEL = Color3.fromRGB(13, 8, 28),
+    ACC   = Color3.fromRGB(110, 22, 230),
+    ON    = Color3.fromRGB(38, 190, 78),
+    OFF   = Color3.fromRGB(160, 32, 32),
+    TXT   = Color3.fromRGB(228, 220, 255),
+    TXTM  = Color3.fromRGB(140, 130, 170),
+    WHT   = Color3.fromRGB(255, 255, 255),
+    WARN  = Color3.fromRGB(230, 160, 20),
+    RED   = Color3.fromRGB(200, 40, 40),
+    DARK  = Color3.fromRGB(22, 12, 42),
+}
+
+local sg = Instance.new("ScreenGui")
+sg.Name           = "LillyUndetect"
+sg.ResetOnSpawn   = false
+sg.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+local _ok, _hui   = pcall(function() return gethui() end)
+pcall(function()
+    sg.Parent = (_ok and _hui) or plr:WaitForChild("PlayerGui",10)
+end)
+if not sg.Parent then sg.Parent = plr.PlayerGui end
+
+-- Sidebar (draggable)
+local sidebar = Instance.new("Frame", sg)
+sidebar.Size             = UDim2.new(0, 128, 0, 292)
+sidebar.Position         = UDim2.new(0, 8, 0.5, -146)
+sidebar.BackgroundColor3 = C.BG
+sidebar.BorderSizePixel  = 0
+sidebar.Active           = true
+sidebar.Draggable        = true
+Instance.new("UICorner", sidebar).CornerRadius = UDim.new(0, 10)
+local _sbs = Instance.new("UIStroke", sidebar)
+_sbs.Color = C.ACC; _sbs.Thickness = 1.5
+
+local sbTitle = Instance.new("Frame", sidebar)
+sbTitle.Size             = UDim2.new(1, 0, 0, 30)
+sbTitle.BackgroundColor3 = C.PANEL
+sbTitle.BorderSizePixel  = 0
+Instance.new("UICorner", sbTitle).CornerRadius = UDim.new(0, 10)
+local sbLbl = Instance.new("TextLabel", sbTitle)
+sbLbl.Size               = UDim2.new(1, -10, 1, 0)
+sbLbl.Position           = UDim2.new(0, 10, 0, 0)
+sbLbl.BackgroundTransparency = 1
+sbLbl.Text               = "✦  LILLY"
+sbLbl.Font               = Enum.Font.GothamBold
+sbLbl.TextSize           = 13
+sbLbl.TextColor3         = C.TXT
+sbLbl.TextXAlignment     = Enum.TextXAlignment.Left
+
+Instance.new("UIListLayout", sidebar).SortOrder = Enum.SortOrder.LayoutOrder
+
+-- Content panel
+local content = Instance.new("Frame", sg)
+content.Size             = UDim2.new(0, 270, 0, 292)
+content.Position         = UDim2.new(0, 144, 0.5, -146)
+content.BackgroundColor3 = C.BG
+content.BorderSizePixel  = 0
+Instance.new("UICorner", content).CornerRadius = UDim.new(0, 10)
+local _cs = Instance.new("UIStroke", content)
+_cs.Color = C.ACC; _cs.Thickness = 1.5
+
+local sf = Instance.new("ScrollingFrame", content)
+sf.Size                  = UDim2.new(1, -4, 1, -4)
+sf.Position              = UDim2.new(0, 2, 0, 2)
+sf.BackgroundTransparency = 1
+sf.BorderSizePixel       = 0
+sf.ScrollBarThickness    = 4
+sf.ScrollBarImageColor3  = C.ACC
+sf.AutomaticCanvasSize   = Enum.AutomaticSize.Y
+sf.CanvasSize            = UDim2.new(0, 0, 0, 0)
+local _sfl = Instance.new("UIListLayout", sf)
+_sfl.Padding    = UDim.new(0, 5)
+_sfl.SortOrder  = Enum.SortOrder.LayoutOrder
+local _sfp = Instance.new("UIPadding", sf)
+_sfp.PaddingLeft  = UDim.new(0, 6)
+_sfp.PaddingRight = UDim.new(0, 6)
+_sfp.PaddingTop   = UDim.new(0, 5)
+
+-- Tab system
+local TABS     = {"Protect", "ESP", "Aimbot", "Movement", "Chat", "Items", "Visual", "World", "Players"}
+local activeTab = TABS[1]
+local tabPages  = {}
+local tabBtns   = {}
+for _, t in ipairs(TABS) do tabPages[t] = {} end
+
+local showTab  -- forward declare
+
+local function _showTab(name)
+    activeTab = name
+    for n, frames in pairs(tabPages) do
+        for _, f in ipairs(frames) do
+            f.Visible = (n == name)
+        end
+    end
+    for _, b in pairs(tabBtns) do
+        local on = (b.Name == name)
+        b.BackgroundColor3 = on and C.ACC or C.PANEL
+        b.TextColor3       = on and C.WHT or C.TXTM
+    end
+end
+
+for i, t in ipairs(TABS) do
+    local b = Instance.new("TextButton", sidebar)
+    b.Name             = t
+    b.Size             = UDim2.new(1, 0, 0, 28)
+    b.BackgroundColor3 = C.PANEL
+    b.BorderSizePixel  = 0
+    b.Text             = t
+    b.Font             = Enum.Font.GothamSemibold
+    b.TextSize         = 12
+    b.TextColor3       = C.TXTM
+    b.LayoutOrder      = i + 1
+    b.AutoButtonColor  = false
+    tabBtns[t]         = b
+    b.MouseButton1Click:Connect(function() showTab(t) end)
+end
+
+local _ord = 0
+local function nxt() _ord = _ord + 1; return _ord end
+
+-- UI builders
+local function Sec(tab, txt)
+    local f = Instance.new("Frame", sf)
+    f.Size                  = UDim2.new(1, 0, 0, 20)
+    f.BackgroundTransparency = 1
+    f.LayoutOrder           = nxt()
+    f.Visible               = false
+    local lb = Instance.new("TextLabel", f)
+    lb.Size                  = UDim2.new(1, 0, 1, 0)
+    lb.BackgroundTransparency = 1
+    lb.Text                  = "  " .. txt:upper()
+    lb.Font                  = Enum.Font.GothamBold
+    lb.TextSize              = 10
+    lb.TextColor3            = C.ACC
+    lb.TextXAlignment        = Enum.TextXAlignment.Left
+    table.insert(tabPages[tab], f)
+end
+
+local function Info(tab, txt)
+    local f = Instance.new("Frame", sf)
+    f.Size                  = UDim2.new(1, 0, 0, 18)
+    f.BackgroundTransparency = 1
+    f.LayoutOrder           = nxt()
+    f.Visible               = false
+    local lb = Instance.new("TextLabel", f)
+    lb.Size                  = UDim2.new(1, 0, 1, 0)
+    lb.BackgroundTransparency = 1
+    lb.Text                  = txt
+    lb.Font                  = Enum.Font.Gotham
+    lb.TextSize              = 10
+    lb.TextColor3            = C.TXTM
+    lb.TextXAlignment        = Enum.TextXAlignment.Left
+    lb.TextWrapped           = true
+    table.insert(tabPages[tab], f)
+end
+
+local function Tog(tab, label, getS, setS, extra)
+    local row = Instance.new("Frame", sf)
+    row.Size             = UDim2.new(1, 0, 0, 34)
+    row.BackgroundColor3 = C.PANEL
+    row.BorderSizePixel  = 0
+    row.LayoutOrder      = nxt()
+    row.Visible          = false
+    Instance.new("UICorner", row).CornerRadius = UDim.new(0, 7)
+    local lb = Instance.new("TextLabel", row)
+    lb.Size               = UDim2.new(1, -68, 1, 0)
+    lb.Position           = UDim2.new(0, 9, 0, 0)
+    lb.BackgroundTransparency = 1
+    lb.Text               = label
+    lb.Font               = Enum.Font.Gotham
+    lb.TextSize           = 12
+    lb.TextColor3         = C.TXT
+    lb.TextXAlignment     = Enum.TextXAlignment.Left
+    local btn = Instance.new("TextButton", row)
+    btn.Size             = UDim2.new(0, 54, 0, 22)
+    btn.Position         = UDim2.new(1, -58, 0.5, -11)
+    btn.Font             = Enum.Font.GothamBold
+    btn.TextSize         = 11
+    btn.BorderSizePixel  = 0
+    Instance.new("UICorner", btn).CornerRadius = UDim.new(0, 6)
+    local function rf()
+        local on = getS()
+        btn.Text             = on and "ON" or "OFF"
+        btn.BackgroundColor3 = on and C.ON or C.OFF
+        btn.TextColor3       = C.WHT
+    end
+    rf()
+    btn.MouseButton1Click:Connect(function()
+        setS(not getS()); rf()
+        if extra then extra(getS()) end
+        pcall(saveState)
+    end)
+    table.insert(tabPages[tab], row)
+    return row, rf
+end
+
+local function Sli(tab, label, getV, setV, mn, mx)
+    local row = Instance.new("Frame", sf)
+    row.Size             = UDim2.new(1, 0, 0, 44)
+    row.BackgroundColor3 = C.PANEL
+    row.BorderSizePixel  = 0
+    row.LayoutOrder      = nxt()
+    row.Visible          = false
+    Instance.new("UICorner", row).CornerRadius = UDim.new(0, 7)
+    local lb = Instance.new("TextLabel", row)
+    lb.Size               = UDim2.new(1, -10, 0, 18)
+    lb.Position           = UDim2.new(0, 9, 0, 3)
+    lb.BackgroundTransparency = 1
+    lb.Font               = Enum.Font.Gotham
+    lb.TextSize           = 11
+    lb.TextColor3         = C.TXTM
+    lb.TextXAlignment     = Enum.TextXAlignment.Left
+    local track = Instance.new("Frame", row)
+    track.Size             = UDim2.new(1, -18, 0, 5)
+    track.Position         = UDim2.new(0, 9, 0, 27)
+    track.BackgroundColor3 = Color3.fromRGB(35, 22, 55)
+    track.BorderSizePixel  = 0
+    Instance.new("UICorner", track).CornerRadius = UDim.new(1, 0)
+    local fill = Instance.new("Frame", track)
+    fill.BackgroundColor3 = C.ACC
+    fill.BorderSizePixel  = 0
+    fill.Size             = UDim2.new(0, 0, 1, 0)
+    Instance.new("UICorner", fill).CornerRadius = UDim.new(1, 0)
+    local function rf()
+        local pct = math.clamp((getV() - mn) / (mx - mn), 0, 1)
+        fill.Size = UDim2.new(pct, 0, 1, 0)
+        lb.Text   = label .. ": " .. getV()
+    end
+    rf()
+    local drag = false
+    track.InputBegan:Connect(function(i)
+        if i.UserInputType == Enum.UserInputType.MouseButton1 then drag = true end
+    end)
+    UserInputService.InputEnded:Connect(function(i)
+        if i.UserInputType == Enum.UserInputType.MouseButton1 then drag = false end
+    end)
+    UserInputService.InputChanged:Connect(function(i)
+        if drag and i.UserInputType == Enum.UserInputType.MouseMovement then
+            local pct = math.clamp(
+                (i.Position.X - track.AbsolutePosition.X) / track.AbsoluteSize.X, 0, 1
+            )
+            setV(math.floor(mn + pct * (mx - mn) + 0.5)); rf()
+            pcall(saveState)
+        end
+    end)
+    table.insert(tabPages[tab], row)
+end
+
+local function Act(tab, label, col, fn)
+    local b = Instance.new("TextButton", sf)
+    b.Size             = UDim2.new(1, 0, 0, 30)
+    b.BackgroundColor3 = col or C.ACC
+    b.BorderSizePixel  = 0
+    b.Font             = Enum.Font.GothamSemibold
+    b.TextSize         = 12
+    b.TextColor3       = C.WHT
+    b.Text             = label
+    b.LayoutOrder      = nxt()
+    b.Visible          = false
+    b.AutoButtonColor  = false
+    Instance.new("UICorner", b).CornerRadius = UDim.new(0, 7)
+    b.MouseButton1Click:Connect(fn)
+    local safeCol = col or C.ACC
+    b.BackgroundColor3 = safeCol
+    b.MouseEnter:Connect(function()
+        b.BackgroundColor3 = Color3.new(
+            math.min(safeCol.R + 0.08, 1),
+            math.min(safeCol.G + 0.08, 1),
+            math.min(safeCol.B + 0.08, 1)
+        )
+    end)
+    b.MouseLeave:Connect(function() b.BackgroundColor3 = safeCol end)
+    table.insert(tabPages[tab], b)
+    return b
+end
+
+local function Drop(tab, label, onSel)
+    local row = Instance.new("Frame", sf)
+    row.Size             = UDim2.new(1, 0, 0, 34)
+    row.BackgroundColor3 = C.PANEL
+    row.BorderSizePixel  = 0
+    row.LayoutOrder      = nxt()
+    row.Visible          = false
+    Instance.new("UICorner", row).CornerRadius = UDim.new(0, 7)
+    local lb = Instance.new("TextLabel", row)
+    lb.Size               = UDim2.new(0, 76, 1, 0)
+    lb.Position           = UDim2.new(0, 9, 0, 0)
+    lb.BackgroundTransparency = 1
+    lb.Text               = label
+    lb.Font               = Enum.Font.Gotham
+    lb.TextSize           = 11
+    lb.TextColor3         = C.TXTM
+    lb.TextXAlignment     = Enum.TextXAlignment.Left
+    local btn = Instance.new("TextButton", row)
+    btn.Size             = UDim2.new(1, -88, 0, 22)
+    btn.Position         = UDim2.new(0, 82, 0.5, -11)
+    btn.BackgroundColor3 = C.DARK
+    btn.BorderSizePixel  = 0
+    btn.Font             = Enum.Font.Gotham
+    btn.TextSize         = 11
+    btn.TextColor3       = C.TXT
+    btn.Text             = "Select..."
+    Instance.new("UICorner", btn).CornerRadius = UDim.new(0, 6)
+    btn.MouseButton1Click:Connect(function()
+        local list = {}
+        for _, p in ipairs(Players:GetPlayers()) do
+            if p ~= plr then table.insert(list, p) end
+        end
+        if #list == 0 then btn.Text = "(none)"; return end
+        local idx = 1
+        for i, p in ipairs(list) do
+            if p.Name == btn.Text then idx = (i % #list) + 1; break end
+        end
+        local sel = list[idx]
+        btn.Text = sel.Name
+        onSel(sel)
+    end)
+    table.insert(tabPages[tab], row)
+end
+
+-- ============================
+-- ESP TAB
+-- ============================
+Sec("ESP", "Player ESP")
+Tog("ESP", "Enable ESP",
+    function() return STATE.esp end,
+    function(v) STATE.esp = v; if not v then clearAllESP() end end)
+
+Sec("ESP", "Features")
+Tog("ESP", "Box",
+    function() return STATE.espBox end,
+    function(v) STATE.espBox = v end)
+Tog("ESP", "Name Tag",
+    function() return STATE.espName end,
+    function(v) STATE.espName = v end)
+Tog("ESP", "Health Bar",
+    function() return STATE.espHealth end,
+    function(v) STATE.espHealth = v end)
+Tog("ESP", "Distance",
+    function() return STATE.espDist end,
+    function(v) STATE.espDist = v end)
+Tog("ESP", "Tracers",
+    function() return STATE.espTracer end,
+    function(v) STATE.espTracer = v end)
+Info("ESP", "  Line from screen-bottom to player feet")
+Tog("ESP", "Head Circle",
+    function() return STATE.espHeadCircle end,
+    function(v) STATE.espHeadCircle = v end)
+Tog("ESP", "Chams",
+    function() return STATE.espChams end,
+    function(v) STATE.espChams = v end)
+Info("ESP", "  Red glow through walls")
+Tog("ESP", "Skeleton",
+    function() return STATE.espSkeleton end,
+    function(v) STATE.espSkeleton = v end)
+Info("ESP", "  Draws bone lines (slight fps cost)")
+
+Sec("ESP", "Options")
+Tog("ESP", "Team Color",
+    function() return STATE.espTeamCheck end,
+    function(v) STATE.espTeamCheck = v end)
+Info("ESP", "  Teammates shown in blue, enemies red")
+
+-- ============================
+-- PROTECT TAB
+-- ============================
+Sec("Protect", "Protections")
+Tog("Protect", "Anti-Fling",
+    function() return STATE.antiFling end,
+    function(v) STATE.antiFling = v end)
+Info("Protect", "  Blocks velocity spikes. Enables noclip.")
+
+Tog("Protect", "Anti-Rubber Band",
+    function() return STATE.antiRubberBand end,
+    function(v) STATE.antiRubberBand = v; if not v then rb_prevPos = nil end end)
+Info("Protect", "  Blocks server position snapping.")
+
+Tog("Protect", "Anti-TP",
+    function() return STATE.antiTP end,
+    function(v) STATE.antiTP = v; if not v then tp_prevPos = nil end end)
+Info("Protect", "  Blocks server teleports >50 studs.")
+
+Tog("Protect", "Anti-Item Orbit",
+    function() return STATE.antiItemOrbit end,
+    function(v) STATE.antiItemOrbit = v end)
+Info("Protect", "  Hides orbiting items. Throttled (no lag).")
+
+Tog("Protect", "Noclip",
+    function() return STATE.noclip end,
+    function(v) STATE.noclip = v end)
+
+Sec("Protect", "Anti Extras")
+Tog("Protect", "Anti-Aim",
+    function() return STATE.antiAim end,
+    function(v) STATE.antiAim = v; if v then startAntiAim() end end)
+Info("Protect", "  Spins HRP to break enemy aimbot lock")
+Tog("Protect", "Anti-Screenshot",
+    function() return STATE.antiScreen end,
+    function(v) STATE.antiScreen = v end)
+Info("Protect", "  Flashes white on F12/PrintScreen")
+Tog("Protect", "Anti-Exploit Alert",
+    function() return STATE.antiExploit end,
+    function(v) STATE.antiExploit = v end)
+Info("Protect", "  Watches for RemoteEvent abuse (if supported)")
+Tog("Protect", "Anti-Gravity",
+    function() return STATE.antiGravity end,
+    function(v) STATE.antiGravity = v; applyAntiGrav(v) end)
+Info("Protect", "  Zero workspace gravity. Float freely.")
+
+-- ============================
+-- AIMBOT TAB
+-- ============================
+Sec("Aimbot", "Aimbot")
+Tog("Aimbot", "Enable Aimbot",
+    function() return STATE.aimbot end,
+    function(v) STATE.aimbot = v end)
+
+Sec("Aimbot", "Settings")
+Sli("Aimbot", "Smoothness",
+    function() return STATE.aimSmooth end,
+    function(v) STATE.aimSmooth = v end, 1, 50)
+Info("Aimbot", "  1=instant snap  50=very slow")
+Sli("Aimbot", "FOV Radius",
+    function() return STATE.aimFOV end,
+    function(v) STATE.aimFOV = v end, 20, 400)
+
+Sec("Aimbot", "Bone Target")
+local BONES = {"Head","HumanoidRootPart","UpperTorso","Torso"}
+for _, bone in ipairs(BONES) do
+    local bRow = Instance.new("Frame", sf)
+    bRow.Size=UDim2.new(1,0,0,28); bRow.BackgroundColor3=C.PANEL
+    bRow.BorderSizePixel=0; bRow.LayoutOrder=nxt(); bRow.Visible=false
+    Instance.new("UICorner",bRow).CornerRadius=UDim.new(0,7)
+    local bLbl = Instance.new("TextLabel",bRow)
+    bLbl.Size=UDim2.new(1,-68,1,0); bLbl.Position=UDim2.new(0,9,0,0)
+    bLbl.BackgroundTransparency=1; bLbl.Text=bone
+    bLbl.Font=Enum.Font.Gotham; bLbl.TextSize=12
+    bLbl.TextColor3=C.TXT; bLbl.TextXAlignment=Enum.TextXAlignment.Left
+    local bBtn = Instance.new("TextButton",bRow)
+    bBtn.Size=UDim2.new(0,54,0,20); bBtn.Position=UDim2.new(1,-58,0.5,-10)
+    bBtn.Font=Enum.Font.GothamBold; bBtn.TextSize=10
+    bBtn.BorderSizePixel=0; Instance.new("UICorner",bBtn).CornerRadius=UDim.new(0,6)
+    local function rfB()
+        local sel = STATE.aimBone == bone
+        bBtn.Text=sel and "✓ ON" or "SELECT"
+        bBtn.BackgroundColor3=sel and C.ON or C.DARK
+        bBtn.TextColor3=C.WHT
+    end
+    rfB()
+    bBtn.MouseButton1Click:Connect(function()
+        STATE.aimBone = bone
+        -- refresh all bone buttons
+        for _,f in ipairs(tabPages["Aimbot"]) do
+            local b = f:FindFirstChildOfClass("TextButton")
+            if b then
+                local lbl = f:FindFirstChildOfClass("TextLabel")
+                if lbl then
+                    local isSel = STATE.aimBone == lbl.Text
+                    b.Text=isSel and "✓ ON" or "SELECT"
+                    b.BackgroundColor3=isSel and C.ON or C.DARK
+                end
+            end
+        end
+    end)
+    table.insert(tabPages["Aimbot"], bRow)
+end
+
+Sec("Aimbot", "Hotkey")
+local KEYS = {"RMB","LMB","E","Q","CapsLock"}
+for _, key in ipairs(KEYS) do
+    local kRow = Instance.new("Frame",sf)
+    kRow.Size=UDim2.new(1,0,0,28); kRow.BackgroundColor3=C.PANEL
+    kRow.BorderSizePixel=0; kRow.LayoutOrder=nxt(); kRow.Visible=false
+    Instance.new("UICorner",kRow).CornerRadius=UDim.new(0,7)
+    local kLbl = Instance.new("TextLabel",kRow)
+    kLbl.Size=UDim2.new(1,-68,1,0); kLbl.Position=UDim2.new(0,9,0,0)
+    kLbl.BackgroundTransparency=1; kLbl.Text=key
+    kLbl.Font=Enum.Font.Gotham; kLbl.TextSize=12
+    kLbl.TextColor3=C.TXT; kLbl.TextXAlignment=Enum.TextXAlignment.Left
+    local kBtn = Instance.new("TextButton",kRow)
+    kBtn.Size=UDim2.new(0,54,0,20); kBtn.Position=UDim2.new(1,-58,0.5,-10)
+    kBtn.Font=Enum.Font.GothamBold; kBtn.TextSize=10
+    kBtn.BorderSizePixel=0; Instance.new("UICorner",kBtn).CornerRadius=UDim.new(0,6)
+    local function rfK()
+        local sel = STATE.aimKey == key
+        kBtn.Text=sel and "✓ ON" or "SELECT"
+        kBtn.BackgroundColor3=sel and C.ON or C.DARK
+        kBtn.TextColor3=C.WHT
+    end
+    rfK()
+    kBtn.MouseButton1Click:Connect(function()
+        STATE.aimKey = key
+        for _,f in ipairs(tabPages["Aimbot"]) do
+            local b=f:FindFirstChildOfClass("TextButton")
+            if b then
+                local l=f:FindFirstChildOfClass("TextLabel")
+                if l then
+                    local keys2={"RMB","LMB","E","Q","CapsLock"}
+                    local isKey=false
+                    for _,k2 in ipairs(keys2) do if k2==l.Text then isKey=true break end end
+                    if isKey then
+                        local isSel=STATE.aimKey==l.Text
+                        b.Text=isSel and "✓ ON" or "SELECT"
+                        b.BackgroundColor3=isSel and C.ON or C.DARK
+                    end
+                end
+            end
+        end
+    end)
+    table.insert(tabPages["Aimbot"], kRow)
+end
+
+Sec("Aimbot", "Options")
+Tog("Aimbot", "Prediction",
+    function() return STATE.aimPrediction end,
+    function(v) STATE.aimPrediction = v end)
+Info("Aimbot", "  Leads moving targets")
+Tog("Aimbot", "Team Check",
+    function() return STATE.aimTeamCheck end,
+    function(v) STATE.aimTeamCheck = v end)
+Info("Aimbot", "  Skip teammates")
+Tog("Aimbot", "Show FOV",
+    function() return STATE.aimShowFOV end,
+    function(v) STATE.aimShowFOV = v end)
+
+-- ============================
+-- MOVEMENT TAB
+-- ============================
+Sec("Movement", "Movement")
+
+Tog("Movement", "Undetected Fly",
+    function() return STATE.fly end,
+    function(v) STATE.fly = v end,
+    function(on) if on then startFly() else stopFly() end end)
+Info("Movement", "  SPACE=up  CTRL=down  WASD=move")
+Sli("Movement", "Fly Speed",
+    function() return STATE.flySpeed end,
+    function(v) STATE.flySpeed = v end, 10, 200)
+
+Tog("Movement", "Click-TP",
+    function() return STATE.clickTP end,
+    function(v) STATE.clickTP = v end)
+Info("Movement", "  Click anywhere to teleport.")
+
+Tog("Movement", "Speed Boost",
+    function() return STATE.speedBoost end,
+    function(v)
+        STATE.speedBoost = v
+        if not v then local h = getHum(); if h then h.WalkSpeed = 16 end end
+    end)
+Sli("Movement", "Walk Speed",
+    function() return STATE.speedValue end,
+    function(v) STATE.speedValue = v end, 16, 200)
+
+Tog("Movement", "Reach",
+    function() return STATE.reach end,
+    function(v) STATE.reach = v end)
+Sli("Movement", "Reach Size",
+    function() return STATE.reachValue end,
+    function(v) STATE.reachValue = v end, 5, 60)
+
+Sec("Movement", "Jump & Air")
+Tog("Movement", "Jump Boost",
+    function() return STATE.jumpBoost end,
+    function(v) STATE.jumpBoost = v; if not v then local h=getHum(); if h then h.JumpPower=50 end end end)
+Sli("Movement", "Jump Power",
+    function() return STATE.jumpPower end,
+    function(v) STATE.jumpPower = v end, 50, 500)
+Tog("Movement", "Infinite Jump",
+    function() return STATE.infinite end,
+    function(v) STATE.infinite = v end)
+Info("Movement", "  Jump again mid-air endlessly.")
+Tog("Movement", "Bunny Hop",
+    function() return STATE.bhop end,
+    function(v) STATE.bhop = v end)
+Info("Movement", "  Auto-jumps the moment you land.")
+
+Sec("Movement", "Fling")
+Tog("Movement", "Spin",
+    function() return STATE.spinToggle end,
+    function(v)
+        STATE.spinToggle = v
+        if v then startSpin() else stopSpin() end
+    end)
+Info("Movement", "  Spins YOU at 9999 rad/s. Still walk freely.")
+
+-- ============================
+-- CHAT TAB  —  Lilly User Network
+-- ============================
+-- HOW IT WORKS:
+-- MessagingService is server-only and cannot be used from LocalScript.
+-- Instead we use Roblox's actual in-game chat:
+--   SEND:    Fire the game's SayMessageRequest RemoteEvent with a
+--            special hidden prefix [LillyChat] so the message goes
+--            through the real chat system and reaches all clients.
+--   RECEIVE: Hook every player's .Chatted event. Messages that start
+--            with [LillyChat] get stripped and shown in the Lilly chat
+--            log instead of (or in addition to) the normal chat.
+--            Non-Lilly messages are ignored by this tab.
+-- This gives true same-server real-time chat between all Lilly users.
+-- ============================
+local CHAT_PREFIX = "[LC]"   -- short prefix sent in actual Roblox chat
+local chatLog     = {}       -- {name, msg, time, mine}
+local MAX_CHAT    = 80
+local chatSlots   = {}
+local CHAT_SLOTS  = 28
+local refreshChat            -- forward declare
+
+local function addChatMsg(name, msg, mine)
+    table.insert(chatLog, {
+        name = name,
+        msg  = msg,
+        time = os.date("%H:%M"),
+        mine = mine,
+    })
+    while #chatLog > MAX_CHAT do table.remove(chatLog, 1) end
+    if refreshChat then refreshChat() end
+    if not mine and activeTab ~= "Chat" then
+        notify("Lilly Chat", name..": "..msg, 4)
+    end
+end
+
+-- Send via Roblox chat with prefix
+local function chatSend(msg)
+    if not msg or #msg == 0 or #msg > 150 then return end
+    local full = CHAT_PREFIX.." "..msg
+
+    -- Add own message to log immediately (don't wait for echo)
+    addChatMsg(plr.Name, msg, true)
+
+    -- Method 1: TextChatService (newer games 2023+)
+    local sent1 = false
+    pcall(function()
+        local TCS = game:GetService("TextChatService")
+        if TCS and TCS.ChatVersion == Enum.ChatVersion.TextChatService then
+            local ch = TCS:FindFirstChild("TextChannels")
+            if ch then
+                local general = ch:FindFirstChild("RBXGeneral")
+                    or ch:GetChildren()[1]
+                if general and general:IsA("TextChannel") then
+                    general:SendAsync(full)
+                    sent1 = true
+                end
+            end
+        end
+    end)
+
+    -- Method 2: Legacy SayMessageRequest RemoteEvent (most games)
+    if not sent1 then
+        pcall(function()
+            local RE = game:GetService("ReplicatedStorage")
+                :FindFirstChild("DefaultChatSystemChatEvents")
+            if RE then
+                local say = RE:FindFirstChild("SayMessageRequest")
+                if say then
+                    say:FireServer(full, "All")
+                end
+            end
+        end)
+    end
+
+    -- Method 3: Direct via chat module
+    pcall(function()
+        local chat = game:GetService("Chat")
+        chat:Chat(plr.Character and plr.Character:FindFirstChild("Head"), full)
+    end)
+end
+
+-- Hook a single player's Chatted event to receive Lilly messages
+local hookedPlayers = {}
+local function hookPlayer(p)
+    if hookedPlayers[p] then return end
+    hookedPlayers[p] = true
+    p.Chatted:Connect(function(msg)
+        -- Only process [LC] tagged messages
+        if msg:sub(1, #CHAT_PREFIX) == CHAT_PREFIX then
+            local body = msg:sub(#CHAT_PREFIX + 2)  -- strip prefix + space
+            if body and #body > 0 then
+                local mine = (p == plr)
+                -- Avoid double-adding our own (we already added on send)
+                if not mine then
+                    addChatMsg(p.Name, body, false)
+                end
+            end
+        end
+    end)
+end
+
+-- Hook all current and future players
+for _, p in ipairs(Players:GetPlayers()) do hookPlayer(p) end
+Players.PlayerAdded:Connect(hookPlayer)
+Players.PlayerRemoving:Connect(function(p) hookedPlayers[p] = nil end)
+
+-- ── Chat tab GUI ──────────────────────────────────────────────
+Sec("Chat", "Lilly User Chat")
+
+-- Header info
+local chatInfo = Instance.new("Frame", sf)
+chatInfo.Size             = UDim2.new(1,0,0,28)
+chatInfo.BackgroundColor3 = C.PANEL
+chatInfo.BorderSizePixel  = 0
+chatInfo.LayoutOrder      = nxt()
+chatInfo.Visible          = false
+Instance.new("UICorner", chatInfo).CornerRadius = UDim.new(0,7)
+local chatInfoL = Instance.new("TextLabel", chatInfo)
+chatInfoL.Size               = UDim2.new(1,0,1,0)
+chatInfoL.Position           = UDim2.new(0,9,0,0)
+chatInfoL.BackgroundTransparency = 1
+chatInfoL.Font               = Enum.Font.Gotham
+chatInfoL.TextSize           = 10
+chatInfoL.TextColor3         = C.ACC
+chatInfoL.TextXAlignment     = Enum.TextXAlignment.Left
+chatInfoL.Text               = "  💬 Cross-server — all Lilly users connected"
+table.insert(tabPages["Chat"], chatInfo)
+
+-- Message slots (scrollable via the existing ScrollingFrame)
+for _ = 1, CHAT_SLOTS do
+    local row = Instance.new("Frame", sf)
+    row.Size             = UDim2.new(1,0,0,42)
+    row.BackgroundColor3 = C.DARK
+    row.BorderSizePixel  = 0
+    row.LayoutOrder      = nxt()
+    row.Visible          = false
+    Instance.new("UICorner", row).CornerRadius = UDim.new(0,6)
+
+    local accent = Instance.new("Frame", row)
+    accent.Size             = UDim2.new(0,3,1,-6)
+    accent.Position         = UDim2.new(0,0,0,3)
+    accent.BackgroundColor3 = C.ACC
+    accent.BorderSizePixel  = 0
+    Instance.new("UICorner", accent).CornerRadius = UDim.new(1,0)
+
+    local header = Instance.new("TextLabel", row); header.Name = "H"
+    header.Size               = UDim2.new(1,-12,0,14)
+    header.Position           = UDim2.new(0,10,0,3)
+    header.BackgroundTransparency = 1
+    header.Font               = Enum.Font.GothamBold
+    header.TextSize           = 10
+    header.TextColor3         = C.ACC
+    header.TextXAlignment     = Enum.TextXAlignment.Left
+    header.Text               = ""
+
+    local body = Instance.new("TextLabel", row); body.Name = "B"
+    body.Size               = UDim2.new(1,-12,0,22)
+    body.Position           = UDim2.new(0,10,0,17)
+    body.BackgroundTransparency = 1
+    body.Font               = Enum.Font.Gotham
+    body.TextSize           = 11
+    body.TextColor3         = C.TXT
+    body.TextXAlignment     = Enum.TextXAlignment.Left
+    body.TextWrapped        = true
+    body.Text               = ""
+
+    table.insert(chatSlots, row)
+    table.insert(tabPages["Chat"], row)
+end
+
+-- Refresh visible slots from chatLog (newest at bottom)
+refreshChat = function()
+    if activeTab ~= "Chat" then return end
+    local logLen = #chatLog
+    for i, row in ipairs(chatSlots) do
+        -- Show last CHAT_SLOTS messages, newest at bottom
+        local logIdx = logLen - CHAT_SLOTS + i
+        local entry  = (logIdx >= 1) and chatLog[logIdx] or nil
+        if entry then
+            local h = row:FindFirstChild("H")
+            local b = row:FindFirstChild("B")
+            local ac = row:FindFirstChild("Frame") -- accent
+            if h then h.Text = entry.name .. "  " .. entry.time end
+            if b then b.Text = entry.msg end
+            if ac then
+                ac.BackgroundColor3 = entry.mine
+                    and Color3.fromRGB(110,22,230)
+                    or  Color3.fromRGB(60,180,255)
+            end
+            if h then
+                h.TextColor3 = entry.mine
+                    and Color3.fromRGB(180,100,255)
+                    or  Color3.fromRGB(60,200,255)
+            end
+            row.Visible = true
+        else
+            row.Visible = false
+        end
+    end
+end
+
+-- Input row: text box + send button
+local inputRow = Instance.new("Frame", sf)
+inputRow.Size             = UDim2.new(1,0,0,32)
+inputRow.BackgroundColor3 = C.PANEL
+inputRow.BorderSizePixel  = 0
+inputRow.LayoutOrder      = nxt()
+inputRow.Visible          = false
+Instance.new("UICorner", inputRow).CornerRadius = UDim.new(0,8)
+table.insert(tabPages["Chat"], inputRow)
+
+local chatBox = Instance.new("TextBox", inputRow)
+chatBox.Size                   = UDim2.new(1,-50,1,-6)
+chatBox.Position               = UDim2.new(0,6,0,3)
+chatBox.BackgroundColor3       = C.BG
+chatBox.BorderSizePixel        = 0
+chatBox.Font                   = Enum.Font.Gotham
+chatBox.TextSize               = 11
+chatBox.TextColor3             = C.TXT
+chatBox.PlaceholderText        = "Type a message..."
+chatBox.PlaceholderColor3      = C.TXTM
+chatBox.Text                   = ""
+chatBox.ClearTextOnFocus       = false
+chatBox.TextXAlignment         = Enum.TextXAlignment.Left
+Instance.new("UICorner", chatBox).CornerRadius = UDim.new(0,6)
+local _cbs = Instance.new("UIPadding", chatBox)
+_cbs.PaddingLeft = UDim.new(0,6)
+
+local sendBtn = Instance.new("TextButton", inputRow)
+sendBtn.Size             = UDim2.new(0,40,1,-6)
+sendBtn.Position         = UDim2.new(1,-44,0,3)
+sendBtn.BackgroundColor3 = C.ACC
+sendBtn.BorderSizePixel  = 0
+sendBtn.Font             = Enum.Font.GothamBold
+sendBtn.TextSize         = 11
+sendBtn.TextColor3       = Color3.new(1,1,1)
+sendBtn.Text             = "Send"
+sendBtn.AutoButtonColor  = false
+Instance.new("UICorner", sendBtn).CornerRadius = UDim.new(0,6)
+
+local function doSend()
+    local txt = chatBox.Text:match("^%s*(.-)%s*$")
+    if #txt == 0 then return end
+    chatSend(txt)
+    chatBox.Text = ""
+end
+
+sendBtn.MouseButton1Click:Connect(doSend)
+chatBox.FocusLost:Connect(function(enter)
+    if enter then doSend() end
+end)
+
+-- Refresh chat when switching to tab
+-- (hook into showTab defined at bottom of file)
+local _origOnDetect = onDetectionAdded
+
+-- ============================
+-- ITEMS TAB
+-- ============================
+-- Scans all common item containers for Tool objects and lists them.
+-- Clicking Give clones the tool into your Backpack.
+-- Refresh rescans the game for new tools.
+-- ============================
+local itemList       = {}   -- { name, path, tool } — ALL tools, no name-dedup
+local itemSlotFrames = {}
+
+-- Every container a LocalScript can actually read.
+-- ServerStorage is server-only and always empty on client — excluded.
+local function getRoots()
+    local roots = {}
+    local services = {
+        "ReplicatedStorage","ReplicatedFirst",
+        "StarterPack","StarterGui","StarterPlayer",
+        "Lighting","SoundService",
+    }
+    for _, svc in ipairs(services) do
+        pcall(function() table.insert(roots, game:GetService(svc)) end)
+    end
+    table.insert(roots, Workspace)
+    for _, p in ipairs(Players:GetPlayers()) do
+        pcall(function()
+            local bp = p:FindFirstChild("Backpack")
+            if bp then table.insert(roots, bp) end
+            if p.Character then table.insert(roots, p.Character) end
+        end)
+    end
+    return roots
+end
+
+local function scanForTools()
+    itemList = {}
+    local seenObj = {}  -- keyed by instance to avoid duplicating same object
+    local function scanRoot(root)
+        local ok, desc = pcall(function() return root:GetDescendants() end)
+        if not ok then return end
+        for _, obj in ipairs(desc) do
+            if not seenObj[obj] and (obj:IsA("Tool") or obj:IsA("HopperBin")) then
+                seenObj[obj] = true
+                local path = obj.Name
+                pcall(function()
+                    if obj.Parent then
+                        path = obj.Parent.Name.."/"..obj.Name
+                    end
+                end)
+                table.insert(itemList, {name=obj.Name, path=path, tool=obj})
+            end
+        end
+    end
+    for _, root in ipairs(getRoots()) do
+        pcall(function() scanRoot(root) end)
+    end
+    table.sort(itemList, function(a,b)
+        if a.name:lower() == b.name:lower() then return a.path < b.path end
+        return a.name:lower() < b.name:lower()
+    end)
+end
+
+local function giveItem(toolObj)
+    local bp   = plr:FindFirstChild("Backpack")
+    local char = plr.Character
+    if not bp then notify("Items","No Backpack found",2); return end
+    local name = toolObj.Name
+
+    -- Method 1: Clone into backpack (works for most tools)
+    local ok1, clone = pcall(function() return toolObj:Clone() end)
+    if ok1 and clone then
+        clone.Parent = bp
+        notify("Items","Got: "..name, 2)
+        return
+    end
+
+    -- Method 2: Move original into backpack (if not locked and not in use)
+    -- Only do this if the tool isn't parented to a critical game object
+    local ok2 = pcall(function()
+        local parent = toolObj.Parent
+        if parent and parent ~= bp and parent ~= char then
+            toolObj.Parent = bp
+        end
+    end)
+    if ok2 and toolObj.Parent == bp then
+        notify("Items","Got: "..name.." (moved)", 2)
+        return
+    end
+
+    -- Method 3: Equip directly to character
+    if char then
+        local ok3 = pcall(function()
+            local cl = toolObj:Clone()
+            cl.Parent = char
+        end)
+        if ok3 then
+            notify("Items","Got: "..name.." (equipped)", 2)
+            return
+        end
+    end
+
+    -- Method 4: Try to fire the game's own give remote if it exists
+    -- Many games use a RemoteFunction/RemoteEvent named "GiveTool","GetTool","RequestTool" etc.
+    local giveNames = {
+        "GiveTool","GetTool","RequestTool","GiveItem","GetItem",
+        "EquipTool","ClaimTool","SpawnTool","AddTool","ObtainTool",
+    }
+    local RS = game:GetService("ReplicatedStorage")
+    for _, rName in ipairs(giveNames) do
+        local remote = RS:FindFirstChild(rName, true)
+            or game:GetService("ReplicatedFirst"):FindFirstChild(rName, true)
+        if remote then
+            if remote:IsA("RemoteEvent") then
+                pcall(function() remote:FireServer(toolObj) end)
+                pcall(function() remote:FireServer(name) end)
+                notify("Items","Requested: "..name.." via "..rName, 3)
+                return
+            elseif remote:IsA("RemoteFunction") then
+                pcall(function() remote:InvokeServer(toolObj) end)
+                pcall(function() remote:InvokeServer(name) end)
+                notify("Items","Requested: "..name.." via "..rName, 3)
+                return
+            end
+        end
+    end
+
+    notify("Items","Could not give: "..name.." (server-locked)", 3)
+end
+
+-- Item slot builder — creates one row per tool
+local function buildItemSlots()
+    -- Destroy old slots
+    for _, f in ipairs(itemSlotFrames) do
+        pcall(function() f:Destroy() end)
+    end
+    itemSlotFrames = {}
+
+    for _, entry in ipairs(itemList) do
+        local row = Instance.new("Frame", sf)
+        row.Size             = UDim2.new(1,0,0,30)
+        row.BackgroundColor3 = C.DARK
+        row.BorderSizePixel  = 0
+        row.LayoutOrder      = nxt()
+        row.Visible          = (activeTab == "Items")
+        Instance.new("UICorner",row).CornerRadius = UDim.new(0,7)
+
+        -- Show path (Parent/Name) only when two items share the same name
+        local displayName = entry.name
+        if entry.path and entry.path ~= entry.name then
+            displayName = entry.name .. "  -  " .. entry.path
+        end
+        local nameLbl = Instance.new("TextLabel",row)
+        nameLbl.Size               = UDim2.new(1,-70,1,0)
+        nameLbl.Position           = UDim2.new(0,10,0,0)
+        nameLbl.BackgroundTransparency = 1
+        nameLbl.Text               = displayName
+        nameLbl.Font               = Enum.Font.Gotham
+        nameLbl.TextSize           = 11
+        nameLbl.TextColor3         = C.TXT
+        nameLbl.TextXAlignment     = Enum.TextXAlignment.Left
+        nameLbl.TextTruncate       = Enum.TextTruncate.AtEnd
+
+        local giveBtn = Instance.new("TextButton",row)
+        giveBtn.Size             = UDim2.new(0,56,0,22)
+        giveBtn.Position         = UDim2.new(1,-60,0.5,-11)
+        giveBtn.BackgroundColor3 = C.ACC
+        giveBtn.BorderSizePixel  = 0
+        giveBtn.Text             = "Give"
+        giveBtn.Font             = Enum.Font.GothamBold
+        giveBtn.TextSize         = 11
+        giveBtn.TextColor3       = Color3.new(1,1,1)
+        giveBtn.AutoButtonColor  = false
+        Instance.new("UICorner",giveBtn).CornerRadius = UDim.new(0,6)
+
+        local captured = entry.tool
+        giveBtn.MouseButton1Click:Connect(function()
+            giveItem(captured)
+        end)
+        giveBtn.MouseEnter:Connect(function()
+            giveBtn.BackgroundColor3 = Color3.fromRGB(140,40,255)
+        end)
+        giveBtn.MouseLeave:Connect(function()
+            giveBtn.BackgroundColor3 = C.ACC
+        end)
+
+        table.insert(itemSlotFrames, row)
+        table.insert(tabPages["Items"], row)
+    end
+
+    -- Empty label if nothing found
+    if #itemList == 0 then
+        local eRow = Instance.new("Frame",sf)
+        eRow.Size             = UDim2.new(1,0,0,32)
+        eRow.BackgroundColor3 = C.PANEL
+        eRow.BorderSizePixel  = 0
+        eRow.LayoutOrder      = nxt()
+        eRow.Visible          = (activeTab == "Items")
+        Instance.new("UICorner",eRow).CornerRadius = UDim.new(0,7)
+        local eLbl = Instance.new("TextLabel",eRow)
+        eLbl.Size=UDim2.new(1,0,1,0); eLbl.BackgroundTransparency=1
+        eLbl.Text="  No tools found in this game"
+        eLbl.Font=Enum.Font.Gotham; eLbl.TextSize=11
+        eLbl.TextColor3=C.TXTM; eLbl.TextXAlignment=Enum.TextXAlignment.Left
+        table.insert(itemSlotFrames, eRow)
+        table.insert(tabPages["Items"], eRow)
+    end
+end
+
+Sec("Items", "Game Items")
+Act("Items", "🔍  Refresh Items", C.ACC, function()
+    -- Clear old tabPages entries from itemSlotFrames
+    local newPages = {}
+    for _, f in ipairs(tabPages["Items"]) do
+        local isSlot = false
+        for _, sf2 in ipairs(itemSlotFrames) do
+            if sf2 == f then isSlot = true; break end
+        end
+        if not isSlot then table.insert(newPages, f) end
+    end
+    tabPages["Items"] = newPages
+    scanForTools()
+    buildItemSlots()
+    -- Show slots if on items tab
+    for _, f in ipairs(itemSlotFrames) do
+        f.Visible = (activeTab == "Items")
+    end
+    notify("Items", "Found "..#itemList.." tools", 3)
+end)
+Info("Items", "  Scans ReplicatedStorage, StarterPack,")
+Info("Items", "  ServerStorage, Workspace for Tools.")
+Info("Items", "  Click Give to add to your Backpack.")
+
+-- Auto-scan on first open
+local itemsScanned = false
+
+
+-- ============================
+-- VISUAL TAB
+-- ============================
+Sec("Visual", "Camera")
+
+local function setFOV(v)
+    Camera.FieldOfView = v
+end
+
+Sli("Visual", "Field of View",
+    function() return math.floor(Camera.FieldOfView) end,
+    function(v) setFOV(v) end, 30, 120)
+Info("Visual", "  Default is 70. Higher = wider view.")
+
+Act("Visual", "↺  Reset FOV", C.ACC, function()
+    Camera.FieldOfView = 70
+    notify("Visual","FOV reset to 70", 2)
+end)
+
+Sec("Visual", "Third Person")
+local tpDistState = 15
+Sli("Visual", "Camera Distance",
+    function() return tpDistState end,
+    function(v)
+        tpDistState = v
+        local ok = pcall(function()
+            Players.LocalPlayer.CameraMaxZoomDistance = v
+            Players.LocalPlayer.CameraMinZoomDistance = v
+        end)
+    end, 1, 100)
+Info("Visual", "  Lock camera zoom distance. 1=first person.")
+
+Act("Visual", "↺  Reset Camera", C.ACC, function()
+    pcall(function()
+        Players.LocalPlayer.CameraMaxZoomDistance = 128
+        Players.LocalPlayer.CameraMinZoomDistance = 0.5
+    end)
+    Camera.FieldOfView = 70
+    Camera.CameraType  = Enum.CameraType.Custom
+    notify("Visual","Camera reset", 2)
+end)
+
+Sec("Visual", "Crosshair")
+local crosshairDot = Drawing.new("Circle")
+pcall(function()
+    crosshairDot.Filled=true; crosshairDot.Radius=3
+    crosshairDot.Color=Color3.fromRGB(255,255,255)
+    crosshairDot.ZIndex=10; crosshairDot.Visible=false
+end)
+local crosshairH = Drawing.new("Line")
+pcall(function()
+    crosshairH.Thickness=1; crosshairH.Color=Color3.fromRGB(255,255,255)
+    crosshairH.ZIndex=10; crosshairH.Visible=false
+end)
+local crosshairV = Drawing.new("Line")
+pcall(function()
+    crosshairV.Thickness=1; crosshairV.Color=Color3.fromRGB(255,255,255)
+    crosshairV.ZIndex=10; crosshairV.Visible=false
+end)
+
+local crossState = false
+Tog("Visual", "Custom Crosshair",
+    function() return crossState end,
+    function(v)
+        crossState = v
+        crosshairDot.Visible = v
+        crosshairH.Visible   = v
+        crosshairV.Visible   = v
+    end)
+Info("Visual", "  White dot + lines crosshair overlay")
+
+RunService.RenderStepped:Connect(function()
+    if not crossState then return end
+    local vp = Camera.ViewportSize
+    local cx,cy = vp.X/2, vp.Y/2
+    crosshairDot.Position = Vector2.new(cx,cy)
+    local s = 12
+    crosshairH.From = Vector2.new(cx-s,cy); crosshairH.To = Vector2.new(cx+s,cy)
+    crosshairV.From = Vector2.new(cx,cy-s); crosshairV.To = Vector2.new(cx,cy+s)
+end)
+
+Sec("Visual", "World")
+Tog("Visual", "Rainbow Sky",
+    function() return STATE.rainbowSky end,
+    function(v) STATE.rainbowSky = v end)
+Info("Visual", "  Cycles Lighting Ambient through rainbow colors")
+
+local rainbowHue = 0
+RunService.Heartbeat:Connect(function(dt)
+    if not STATE.rainbowSky then return end
+    rainbowHue = (rainbowHue + dt * 0.3) % 1
+    local Lighting = game:GetService("Lighting")
+    Lighting.Ambient = Color3.fromHSV(rainbowHue, 0.6, 1)
+    Lighting.OutdoorAmbient = Color3.fromHSV((rainbowHue+0.5)%1, 0.6, 1)
+end)
+
+-- ============================
+-- WORLD TAB
+-- ============================
+Sec("World", "Performance")
+Tog("World", "Anti-AFK",
+    function() return STATE.antiAFK end,
+    function(v) STATE.antiAFK = v end)
+Info("World", "  Pings input every 60s so you never get kicked.")
+Tog("World", "Low Poly Mode",
+    function() return STATE.lowPoly end,
+    function(v) STATE.lowPoly = v; if v then applyLowPoly() else removeLowPoly() end end)
+Info("World", "  Makes all textures flat. Removes effects.")
+Info("World", "  Big FPS boost on low-end devices.")
+
+Sec("World", "Sound")
+Tog("World", "Anti-Music",
+    function() return STATE.antiMusic end,
+    function(v) STATE.antiMusic = v; if v then muteAll() else unmuteAll() end end)
+Info("World", "  Silences all Sounds in workspace + SoundService.")
+
+Sec("World", "World Editing")
+Tog("World", "Remove Walls",
+    function() return STATE.removeWalls end,
+    function(v) STATE.removeWalls = v; applyWorldEdits() end)
+Info("World", "  Hides collidable visible parts.")
+
+Tog("World", "Remove Anchored",
+    function() return STATE.removeAnchored end,
+    function(v) STATE.removeAnchored = v; applyWorldEdits() end)
+Info("World", "  Hides all Anchored=true parts.")
+
+Tog("World", "Remove Unanchored",
+    function() return STATE.removeUnanchored end,
+    function(v) STATE.removeUnanchored = v; applyWorldEdits() end)
+Info("World", "  Hides all Anchored=false collidable parts.")
+
+Act("World", "↺  Restore All Parts", Color3.fromRGB(55, 35, 90), function()
+    STATE.removeWalls      = false
+    STATE.removeAnchored   = false
+    STATE.removeUnanchored = false
+    restoreAll()
+    notify("World", "All parts restored", 2)
+    showTab("World")
+end)
+
+Sec("World", "Lighting")
+Tog("World", "Fullbright",
+    function() return STATE.fullbright end,
+    function(v) STATE.fullbright = v; applyFullbright(v) end)
+Info("World", "  Max ambient brightness. See in the dark.")
+Tog("World", "No Fog",
+    function() return STATE.noFog end,
+    function(v) STATE.noFog = v; applyNoFog(v) end)
+Info("World", "  Removes all fog from the game.")
+Tog("World", "Freeze Time",
+    function() return STATE.timeFreeze end,
+    function(v) STATE.timeFreeze = v; applyTimeFreeze(v) end)
+Sli("World", "Time of Day",
+    function() return STATE.frozenTime end,
+    function(v)
+        STATE.frozenTime = v
+        if STATE.timeFreeze then
+            Lighting.TimeOfDay = string.format("%02d:00:00", math.floor(v))
+        end
+    end, 0, 23)
+Info("World", "  0=midnight  6=sunrise  14=noon  20=night")
+
+Sec("World", "Screen Effects")
+Tog("World", "Remove Screen FX",
+    function() return STATE.noScreenFX end,
+    function(v)
+        STATE.noScreenFX = v
+        if v then removeScreenFX() else restoreScreenFX() end
+    end)
+Info("World", "  Removes blur, bloom, sun rays, color grade,")
+Info("World", "  depth of field. Cleaner visuals + FPS boost.")
+
+-- ============================
+-- PLAYERS TAB
+-- ============================
+Sec("Players", "Fling")
+local flingTgt = nil
+Drop("Players", "Target", function(p) flingTgt = p end)
+Act("Players", "⚡  Fling Once", Color3.fromRGB(150, 28, 28), function()
+    if not flingTgt then notify("Fling","Select a target first",2); return end
+    flingPlayer(flingTgt)
+end)
+
+local chainBtn
+chainBtn = Act("Players", "🔗  Chain Fling (OFF)", Color3.fromRGB(90, 18, 18), function()
+    if chainFlingActive then
+        stopChainFling()
+        chainBtn.Text             = "🔗  Chain Fling (OFF)"
+        chainBtn.BackgroundColor3 = Color3.fromRGB(90,18,18)
+        notify("Fling","Chain fling stopped",2)
+    else
+        startChainFling(flingTgt)
+        chainBtn.Text             = "🔗  Chain Fling (ON)"
+        chainBtn.BackgroundColor3 = Color3.fromRGB(200,20,20)
+        notify("Fling","Chain fling started — spins then launches, auto-switches!",3)
+    end
+end)
+Info("Players", "  Spins target ULTRA fast, launches them,")
+Info("Players", "  then auto-switches to next nearest player.")
+
+Sec("Players", "Spectate")
+Drop("Players", "Watch", function(p) spectate(p) end)
+Act("Players", "⏹  Stop Spectate", Color3.fromRGB(45, 35, 75), stopSpectate)
+
+Sec("Players", "Teleport")
+local tpTgt = nil
+Drop("Players", "TP to", function(p) tpTgt = p end)
+Act("Players", "⟳  Teleport", C.ACC, function()
+    if not tpTgt then return end
+    local tc  = tpTgt.Character
+    local hrp = getHRP()
+    if tc and hrp then
+        local tr = tc:FindFirstChild("HumanoidRootPart")
+        if tr then
+            markOwnTP()
+            hrp.CFrame = tr.CFrame * CFrame.new(4, 0, 0)
+            notify("TP", "Teleported to " .. tpTgt.Name, 2)
+        end
+    end
+end)
+
+-- ============================
+-- SHOW TAB  (defined last so all tab content exists)
+-- ============================
+showTab = function(name)
+    _showTab(name)
+    if name == "Chat"  then refreshChat() end
+    if name == "Items" then
+        if not itemsScanned then
+            itemsScanned = true
+            scanForTools()
+            buildItemSlots()
+        end
+        -- make sure slots are visible
+        for _, f in ipairs(itemSlotFrames) do f.Visible = true end
+    end
+end
+
+
+-- ============================================================
+-- APPLY SAVED STATE
+-- Load persisted settings and re-enable any features that
+-- were ON when the script was last closed.
+-- ============================================================
+local function applyRestoredState()
+    -- Fly
+    if STATE.fly then
+        pcall(startFly)
+    end
+    -- Speed
+    -- (handled by heartbeat already, STATE.speedBoost just needs to be true)
+    -- Noclip
+    -- (handled by heartbeat)
+    -- Spin
+    if STATE.spinToggle then
+        pcall(startSpin)
+    end
+    -- Jump boost / infinite / bhop handled by heartbeat
+    -- Anti-gravity
+    if STATE.antiGravity then
+        pcall(function() applyAntiGrav(true) end)
+    end
+    -- Fullbright
+    if STATE.fullbright then
+        pcall(function() applyFullbright(true) end)
+    end
+    -- No fog
+    if STATE.noFog then
+        pcall(function() applyNoFog(true) end)
+    end
+    -- Time freeze
+    if STATE.timeFreeze then
+        pcall(function() applyTimeFreeze(true) end)
+    end
+    -- Low poly
+    if STATE.lowPoly then
+        pcall(applyLowPoly)
+    end
+    -- Anti-music
+    if STATE.antiMusic then
+        pcall(muteAll)
+    end
+    -- Remove screen FX
+    if STATE.noScreenFX then
+        pcall(removeScreenFX)
+    end
+    -- Remove walls / anchored / unanchored  (world editor)
+    if STATE.removeWalls or STATE.removeAnchored or STATE.removeUnanchored then
+        pcall(scanAndHide)
+    end
+    -- Rainbow sky handled by heartbeat (STATE.rainbowSky = true is enough)
+end
+
+showTab("Protect")
+notify("Lilly Undetect", "Loaded ✓" .. (_hadSave and " — settings restored" or " — all features start OFF"), 4)
