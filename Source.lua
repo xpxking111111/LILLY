@@ -1,4 +1,6 @@
+-- ============================================================
 --   Lilly Undetect
+-- ============================================================
 
 local Players          = game:GetService("Players")
 local RunService       = game:GetService("RunService")
@@ -2068,7 +2070,7 @@ sbTitle.BackgroundColor3 = C.PANEL
 sbTitle.BorderSizePixel  = 0
 Instance.new("UICorner", sbTitle).CornerRadius = UDim.new(0, 10)
 local sbLbl = Instance.new("TextLabel", sbTitle)
-sbLbl.Size               = UDim2.new(1, -10, 1, 0)
+sbLbl.Size               = UDim2.new(1, -42, 1, 0)
 sbLbl.Position           = UDim2.new(0, 10, 0, 0)
 sbLbl.BackgroundTransparency = 1
 sbLbl.Text               = "✦  LILLY"
@@ -2076,6 +2078,25 @@ sbLbl.Font               = Enum.Font.GothamBold
 sbLbl.TextSize           = 13
 sbLbl.TextColor3         = C.TXT
 sbLbl.TextXAlignment     = Enum.TextXAlignment.Left
+
+-- Minimise button inside the title bar
+local minBtn = Instance.new("TextButton", sbTitle)
+minBtn.Size             = UDim2.new(0, 28, 0, 20)
+minBtn.Position         = UDim2.new(1, -32, 0.5, -10)
+minBtn.BackgroundColor3 = Color3.fromRGB(40, 22, 80)
+minBtn.BorderSizePixel  = 0
+minBtn.Font             = Enum.Font.GothamBold
+minBtn.TextSize         = 14
+minBtn.TextColor3       = C.TXT
+minBtn.Text             = "—"
+minBtn.AutoButtonColor  = false
+Instance.new("UICorner", minBtn).CornerRadius = UDim.new(0, 5)
+minBtn.MouseEnter:Connect(function()
+    minBtn.BackgroundColor3 = Color3.fromRGB(110, 22, 230)
+end)
+minBtn.MouseLeave:Connect(function()
+    minBtn.BackgroundColor3 = Color3.fromRGB(40, 22, 80)
+end)
 
 Instance.new("UIListLayout", sidebar).SortOrder = Enum.SortOrder.LayoutOrder
 
@@ -2112,6 +2133,33 @@ local activeTab = TABS[1]
 local tabPages  = {}
 local tabBtns   = {}
 for _, t in ipairs(TABS) do tabPages[t] = {} end
+
+
+-- ============================================================
+-- MINIMISE / RESTORE
+-- ============================================================
+local guiMinimised  = false
+local SIDEBAR_FULL  = UDim2.new(0, 128, 0, 292)
+local SIDEBAR_MINI  = UDim2.new(0, 128, 0, 30)
+
+local function setMinimised(min)
+    guiMinimised    = min
+    content.Visible = not min
+    for _, child in ipairs(sidebar:GetChildren()) do
+        if child ~= sbTitle
+        and not child:IsA("UIListLayout")
+        and not child:IsA("UICorner")
+        and not child:IsA("UIStroke") then
+            child.Visible = not min
+        end
+    end
+    sidebar.Size = min and SIDEBAR_MINI or SIDEBAR_FULL
+    minBtn.Text  = min and "+" or "â"
+end
+
+minBtn.MouseButton1Click:Connect(function()
+    setMinimised(not guiMinimised)
+end)
 
 local showTab  -- forward declare
 
